@@ -1,0 +1,23 @@
+Lua programs for Introduction to Artificial Intelligence course (Fall 2011)
+by Marc Lepage
+
+
+OVERVIEW
+
+Online Introduction to Artificial Intelligence is based on Stanford CS221, Introduction to Artificial Intelligence. This class introduces students to the basics of Artificial Intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing.
+
+Instructors: Sebastian Thrun, Peter Norvig
+Web site: www.ai-class.com
+
+
+PROGRAMS
+
+These programs were written for fun and education.
+
+Lua 5.1.4 from www.lua.org was used.
+
+nlp-cipher decodes the ciphered text by trying each rotation and scoring it based upon English letter frequencies.
+
+nlp-shred decodes the shredded text by a greedy algorithm based upon English digraph frequencies. (It's not working 100% yet.)
+
+unit22-2 brute forces the grammar to generate all possible parse trees, counting the ones that match the target sentences.

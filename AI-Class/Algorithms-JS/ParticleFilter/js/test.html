@@ -1,0 +1,64 @@
+<html><head><title>Soemthing</title>
+<!-- include before jQuery to make sure it's not depending on it -->
+<script>
+//dummy console.log if necessary
+if(typeof console === "undefined") {
+    console = { log: function() { } };
+}
+</script>
+<script src="sample.js"></script>
+<script src="drawmap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="particlefilter.js"></script>
+<script src="map_filter.js"></script>
+<script>
+var map = "___o__X___\n"
+        + "_XX_X___X_\n"
+        + "______XXX_\n"
+        + "XXXXX_____";
+
+var mapfilter;
+
+function onKeyDown(evt) {
+    var newmap = [];
+
+    if ([37,38,39,40].indexOf(evt.keyCode) >= 0) {
+        if      (evt.keyCode == 37) { mapfilter.movebot("left"); }
+        else if (evt.keyCode == 38) { mapfilter.movebot("up"); }
+        else if (evt.keyCode == 39) { mapfilter.movebot("right"); }
+        else if (evt.keyCode == 40) { mapfilter.movebot("down"); }
+
+        drawmap(ctx, mapfilter.map, mapfilter.particles[0]);
+
+        evt.stopPropagation();
+        evt.preventDefault();
+    }
+}
+
+$(document).keydown(onKeyDown);
+
+//make sure to use window.load so we wait for image assets to load first
+$(window).load(function() {
+    //get a reference to the canvas
+    ctx = $('#themaze')[0].getContext("2d");
+
+    mapfilter = new MapFilter(map, 200);
+
+    drawmap(ctx, mapfilter.map, mapfilter.particles[0]);
+});
+</script>
+<style>
+#canvas {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 600px;
+    width: 900px;
+}
+</style>
+</head><body>
+<img id="robotimg" src="robot.png" style="display:none">
+<div id="canvas">
+    <canvas id="themaze" width="900" height="600"></canvas>
+</div>
+</body>
+</html>

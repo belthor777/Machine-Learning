@@ -1,0 +1,6 @@
+syntax: glob
+*~
+*.swp
+Thumbs.db
+*.pyc
+scratch.py
