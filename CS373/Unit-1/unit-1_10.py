@@ -11,7 +11,10 @@ def sense(p, Z)
 	q=[]
 	n=len(p)
 	for i in range(n):
-		hit = 
-print p
+		hit = Z == world[i])
+		q.append(p[i] * (hit * pHit + (1-hit) * pMiss) )
+	return q
+
+print sense(p, Z)
 
 
