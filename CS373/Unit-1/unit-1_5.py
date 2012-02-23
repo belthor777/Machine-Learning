@@ -6,6 +6,11 @@
 # Quiz from x1 to x5
 # -> What is the probability of any of those x's?
 p=[]
+n=5
+for i in range(n):
+	message= "some unique object %d" % ( i, )
+	p.append(1)
 
-for i in range(size):
+print p
+
 
