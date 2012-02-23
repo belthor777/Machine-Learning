@@ -3,11 +3,15 @@
 
 p=[0.2, 0.2, 0.2, 0.2, 0.2]
 world=['green', 'red', 'red', 'green', 'green']
+Z = 'red'
+pHit = 0.6
+pMiss = 0.2
 
-n=5
-for i in range(n):
-	p.append(1)
-
+def sense(p, Z)
+	q=[]
+	n=len(p)
+	for i in range(n):
+		hit = 
 print p
 
 
