@@ -6,4 +6,4 @@
 # Quiz from x1 to x5
 # -> What is the probability ofany of those x's?
 n=5
-p(xi) = [1./n]*n
+p_xi = [1/n]
