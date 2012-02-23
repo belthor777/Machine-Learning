@@ -8,7 +8,6 @@
 p=[]
 n=5
 for i in range(n):
-	message= "some unique object %d" % ( i, )
 	p.append(1)
 
 print p
