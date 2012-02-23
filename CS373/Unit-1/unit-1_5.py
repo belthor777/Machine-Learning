@@ -5,8 +5,6 @@
 # So probabilities add up to 1
 # Quiz from x1 to x5
 # -> What is the probability of any of those x's?
-import decimal
+p=[]
 
-n = decimal.Decimal(5)
-p_xi = 1/n
-print "-> The probability of any x's is %f" % p_xi
+
