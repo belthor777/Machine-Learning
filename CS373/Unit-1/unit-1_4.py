@@ -6,5 +6,5 @@
 # Quiz from x1 to x5
 # -> What is the probability ofany of those x's?
 n=5
-p_xi = [1/n]
+p_xi = 1/n
 print p_xi
