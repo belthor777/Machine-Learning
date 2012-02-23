@@ -7,6 +7,6 @@
 # -> What is the probability ofany of those x's?
 import decimal
 
-n=5
+n = decimal.Decimal(5)
 p_xi = 1/n
 print p_xi
