@@ -7,3 +7,4 @@
 # -> What is the probability ofany of those x's?
 n=5
 p_xi = [1/n]
+print p_xi
