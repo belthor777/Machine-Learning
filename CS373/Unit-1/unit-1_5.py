@@ -7,4 +7,5 @@
 # -> What is the probability of any of those x's?
 p=[]
 
+for i in range(size):
 
