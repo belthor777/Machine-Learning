@@ -9,4 +9,4 @@ import decimal
 
 n = decimal.Decimal(5)
 p_xi = 1/n
-print "The probability of any of x's is %f" % p_xi
+print "-> The probability of any of x's is %f" % p_xi
