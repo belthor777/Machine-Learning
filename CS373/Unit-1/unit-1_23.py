@@ -30,4 +30,9 @@ def move(p, U):
         q.append(s)
     return q
 
-print move(p,1)
+n=2
+q=[]
+for i in range(n):
+	q=move(p,1)
+
+
