@@ -33,6 +33,6 @@ def move(p, U):
 n=2
 q=[]
 for i in range(n):
-	q=move(p,1)
+	q.append( move(p,1) )
 
-
+print q
