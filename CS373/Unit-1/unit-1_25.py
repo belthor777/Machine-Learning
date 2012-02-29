@@ -5,7 +5,7 @@
 p=[0, 1, 0, 0, 0]
 world=['green', 'red', 'red', 'green', 'green']
 measurements = ['red', 'green']
-motions = [1,1]
+motions = [1,1]		# Right, Right
 pHit = 0.6
 pMiss = 0.2
 pExact = 0.8
