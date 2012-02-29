@@ -32,4 +32,6 @@ def move(p, U):
 
 n=2
 for i in range(n):
-    print move(p,1)
+    p = move(p,1)
+
+print p
