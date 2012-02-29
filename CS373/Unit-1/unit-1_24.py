@@ -30,8 +30,8 @@ def move(p, U):
         q.append(s)
     return q
 
-n=1000
-for i in range(n):
-    p = move(p,1)
+for i in range(len(measurements)):
+    p = sense(p, measurements[k])
+    p = move(p,motions[k])
 
 print p
