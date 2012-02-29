@@ -31,8 +31,5 @@ def move(p, U):
     return q
 
 n=2
-q=[]
 for i in range(n):
-	q.append( move(p,1) )
-
-print q
+    print move(p,1)
