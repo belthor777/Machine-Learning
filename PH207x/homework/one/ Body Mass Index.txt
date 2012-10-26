@@ -1,0 +1,18 @@
+Body Mass Index
+
+Again using the Framingham dataset, we examine the continuous variable, body mass index (BMI).
+1. To quickly examine the interquartile range for BMI at exam 1 in the study population, which graph would you use?
+-> Boxplot
+
+
+
+2. We say an individual has high BMI at exam 1 if his BMI is greater than 25. How many individuals in the dataset have high BMI at exam 1? 
+codebook bmi1
+generate bmihigh1 = .	
+replace bmihigh1 = 1 if bmi1 >25 & bmi1 <= 60
+tabulate bmihigh1
+drop bmihigh1
+
+3. What percent of the study population had high BMI at exam 1 (an individual has high BMI at exam 1 if his BMI is greater than 25). Express your answer as a proportion of the whole (e.g. 10% would be .10) 
+
+

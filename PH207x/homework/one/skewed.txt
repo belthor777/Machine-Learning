@@ -1,0 +1,2 @@
+mean < median < mode: skews left
+mean > median > mode: skews right

@@ -1,0 +1,50 @@
+Body Mass Index Continued
+
+In this question, we again use data from the Framingham dataset to examine the continuous variable, body mass index (BMI). Our study population is the subset of participants in the Framingham Heart Study attending the first examination in 1956 with a non-missing BMI measure (4,415 participants out of 4,434).
+1. What is the mean BMI at exam 1 in the study population?
+25.84616
+
+2. The median BMI at exam 1 is 25.0 in the study population. Comparing the mean and median, do these data suggest that the distribution of BMI at exam 1 is right skewed or left skewed?
+-> Right skewed 
+
+3. Is the mean BMI at exam 1 higher in males or females? 
+bysort sex1: summarize bmi1, detail
+-> Males 
+
+
+4. Should you compare the mode for BMI at exam 1 in males versus females?
+-> No
+
+5. Is the IQR for BMI at exam 1 larger in males or females?
+graph box bmi1, by(sex1)
+-> Females 
+
+6. What is the mean change in BMI from exam 1 to exam 2? (Note: Change in BMI is defined as BMI at exam 2 minus BMI at exam1. You need to generate this variable in Stata).
+generate bmidelta = .
+replace bmidelta= bmi2-bmi1
+codebook bmidelta
+
+7. What is the standard deviation of the change in BMI from exam 1 to exam 2?
+-> 1.801516
+
+8. What is the range of changes in BMI from exam 1 to exam 2?
+display 10.43-(-10.5)
+-> 20.93
+
+
+9. Assuming that the empirical rule applies in this situation, we expect that 95% of individuals will have a change in BMI between exams 1 and 2 that lies within the interval
+-> mean: .067831
+-> std. dev: 1.80152
+
+generate bmidelta = .
+replace bmidelta = bmi2-bmi1
+display 0.067831+2*1.80152
+display 0.067831-2*1.80152
+codebook bmidelta
+
+mean+ 2*sd and mean -2*sd
+
+
+10. Does it appear that the empirical rule can be used in the previous question, examining the change in BMI from exam 1 to exam 2? 
+-> Yes
+

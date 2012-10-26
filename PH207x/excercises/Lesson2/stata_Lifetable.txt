@@ -1,0 +1,29 @@
+# Lifedata with STATA
+* Tabelle auflisten lassen und interpoliert darstellen
+* Interval von 0-85 in 5er Schritten
+ltable age, interval(0(5)85)
+
+## Questions
+a.  What is the chance of surviving from birth until age 80?
+> OBS.: 1000
+> Birth until age 80: Beg. total is 41
+di 41/1000
+-> 0.041
+
+b.  What is the proportion of individuals alive on their 50th birthday who die before their 55th birthday?
+> Beg. Total at age 50-55: 346
+> Deaths at age 50-55: 54
+di 54/346
+-> 0.15606936 individuals are alive of their 50th birthday before they die in front of the 55th birthday
+
+c.  What is the chance that a 25-year-old will survive 10 years?
+> Beg. Total at age 25-30: 567
+> Beg. Total at age 35-40: 490
+di 490/567
+-> 0.86419753
+
+d.  What is the chance that a 10-year old will survive to age 60?
+Beg. Total at age 10-15: 661
+Beg. Total at age 60-65: 242
+di 242/661
+-> 0.36611195

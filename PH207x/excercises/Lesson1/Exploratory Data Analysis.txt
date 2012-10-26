@@ -1,0 +1,283 @@
+PROFESSOR: In this module, we're going to learn about exploratory data
+analysis in stata, focusing on some key commands, such as summarize and
+tabulate, which we'll use consistently throughout this course, as well as
+describe, code book, and list.
+Within Stata, open up the Framingham data set, and let's start exploring
+this data set.
+The first thing we're going to do is describe, and get a picture of all the
+variables that are contained in this data set.
+In order to be able to do that, there's a few commands that are
+typically used.
+First, in the command line, type describe, and you'll see that, for
+each variable in the data set, we get a bunch of information, as well as we
+get some information about the data set as a whole.
+For instance, the data set contains 4,434 observations, it contains 74
+variables, and it gives us an idea of the size of this data set.
+So if I want to scroll down and look at a bunch of the different variables
+in this data set, I can either click on More, or I can hit the space bar.
+And you'll see that I get a bunch of information for each covariant.
+So scrolling back up, we see that within the describe command, we get
+the variable name, we get the type of variable, the type that it's stored
+as, we get the display format, the value label, and the variable label.
+So for now, let's just focus on the variable name and the variable label,
+and what information that gives us.
+So for instance, we see that this hostmi variable, that's the name, but
+if I wanted to know what's contained in that variable, I could go over to
+variable label, and I see that it's instant hospitalized myocardial
+infarctions, or MIs.
+OK, so you can see the basic information that's provided in the
+describe command.
+If this just isn't quite enough information for you, go
+ahead and type in.
+So before I type anything else into the command line, I have to scroll
+through all the variables in the data set, hit the space bar.
+Or if I want to break the command, I can go up here and hit the red X,
+which is break.
+So I've ended the describe command.
+Now if I want to get more information about the variables in the data set, I
+can type in code book.
+You can see that for every variable in the data set, I now get a whole lot of
+information.
+So scrolling through let's look at the death indicator.
+So for death, you can see that the type of variable is numeric.
+It's stored as a number.
+The range of that number goes from zero to one, and it takes on two
+different unique values.
+I just marked over that, but you see.
+It actually gives us the tabulation.
+It tells us down here that 2,884 people were alive at the end of
+surveillance in this data set, and that 1,550 people
+were dead at the end.
+Another extremely useful piece of information is this over here, this
+missing information.
+So it tells us that zero out of the 4,434 observations in our data set
+were missing.
+So code book is a good way to get an idea of exactly what's contained in a
+variable, and also, very importantly, how much missing
+data is in that variable.
+So death was a binary variable.
+If we scroll down, we're going to run into some continuous
+covariants, such as timemi.
+So this is time to incident myocardial infarction.
+Scroll up a little bit, and see what's contained in that.
+So now this is a continuous variable.
+You'll see that the type of this variable now, it's stored as a
+numeric, or double is what it says.
+So it means that this is a continuous number in our data set.
+We can see now that the range goes from 0 to 24, representing that this
+data set goes from 0 to 24 years.
+It takes on a bunch of different unique values, and it gives you these
+summary statistics that we learned about in class this week.
+It gives you a mean, a standard deviation, and then you go down here,
+and you can see the percentiles for this data set.
+And again, the very important information, the number of missing
+data points for this covariant.
+OK, so this gives you a good idea of what code book and describe do.
+Now if I just typed in code book, you can see that I get information for all
+74 variables in my data set.
+That's usually too much, so I'm going to break that.
+Let's say I only wanted information about BMI in my data set.
+Then I could type code book, BMI 1, BMI 2, BMI 3, and that's going to give
+me the code book information for BMI at exams one, two, and three.
+So now I no longer get information for 74 variables.
+I only get the three that I asked for.
+The same thing could be done with the describe command, and you see that
+now, if I specify variables, I'm only now describing the
+variables that I specify.
+So this is usually a more concise way of describing the variables that
+you're particularly interested in.
+All right.
+So let's move on.
+Let's calculate some summary statistics.
+The first thing I want to do is look at the summarize command.
+So there are several ways to access the summarize command.
+I could just type in summarize into the command line, and specify a
+variable that I'm interested in.
+Alternatively, let's look at how to access the summarize command through
+the drop down menu.
+I would go statistics, summaries, tables, and tests, summary and
+descriptive statistics, and it's this first option, summary statistics.
+So I click on that, and this window pops up for the summarize command.
+Now I'm going to look at the properties of systolic blood pressure
+at baseline or at exam one in our study population.
+So that's this sysbp1 covariant.
+So I type that into my variables window, and I hit submit.
+Now the difference between hitting submit and OK within a window in
+stata, is that if I hit OK, the window goes away.
+If I hit submit, the window would stay there.
+So if I want to get the window back, I'm going to go db summarize, and you
+see that the window comes back.
+OK.
+So let's leave that window there for now.
+Let's look at what the summarize command provided for us.
+So you can see the summarize command, as it stands, it gives you the number
+of non missing observations versus solid blood pressure at exam one.
+It gives you the mean, standard deviation, the
+minimum, and the maximum.
+So if I wanted to know what is the mean systolic blood pressure, I would
+simply look at this mean column, and I would say that the mean is 132.9.
+If I wanted the standard deviation, again, just go over to the standard
+deviation column, and I see that it's 22.4.
+OK, so you see the basic information provided by the summarize command, but
+now we move on, and let's say we want to know more information.
+I want to know, what is the median or the 50th percentile of systolic blood
+pressure at exam one?
+If I just type in summarize systolic blood pressure 1, you see that the
+median does not appear there.
+So I want the median, I need to go back and look at
+this summarize window.
+So within the summarize window, I can say either--
+within the options, I can either use the standard display, or I can display
+additional statistics.
+Fortunately, I know that when I ask for additional statistics, the median
+is going to be provided.
+So go ahead, hit submit, and let's see what's provided when we use the
+display additional statistics option.
+First, let's look at the command that appears.
+Instead of just saying summarize systolic blood pressure at exam one, I
+now afterwards put , detail, telling stata I want some more information.
+Now what exactly do I get with this extra information?
+Let's look.
+So you can see that over here on the right hand side, I get a lot of the
+same information that was displayed in the standard summarize command.
+I get the number of non missing observations, get the mean, the
+standard deviation.
+And then I get some additional statistics down here, such as the
+variance, and a few other summary statistics that we
+don't know about yet.
+Anyway, what I'm specifically looking for here is the median.
+So to find the median, I'm going to go to the percentiles column, and I'm
+going to remember from class this week that the median is the 50th percentile
+of my data sets.
+So I go down to the 50th percentile, and I see that the median systolic
+blood pressure at exam one is 129.
+What if I wanted the range of systolic blood pressure?
+Now I could have actually gotten the range of systolic blood pressure from
+just using the plain old summarize command without the additional
+statistics.
+But I want to show you how to find that when I get those additional
+statistics as well.
+So to calculate the range, I'm going to take the smallest observation of my
+data set and the largest observation of my data set, and I'm going to take
+the difference between those two.
+So I go down to the command window, and I would say
+display 295 minus 83.5.
+And I would find that the range of my data set is 211.5.
+Alternatively, if I wanted the interquartile range, I'm going to have
+to go, and I'm going to take the 25th percentile and the 75th percentile,
+and take the difference of those.
+So I would say display 144 minus 117.5, and I find out the my
+inter-quartile range is 26.5.
+OK, so right now, we've just looked at the general systolic blood pressure in
+the entire population.
+Let's say I want to look at specific sub-populations.
+Let's say, specifically, I wanted to break it up by gender or by sex.
+So to use the summarize command within a specific sex, I could go back, call
+the summarize window.
+I can go to this by, if, in tab.
+I could repeat the command by groups, and I would say I want to repeat it by
+sex at exam one, hit submit, and now you see that I get a bunch of summary
+statistics for sex equals male, and for sex equals female.
+And if I look at the command that was actually run in Stata, what it says
+is, by sex, sort, and then summarize systolic blood pressure at exam 1.
+The display output's going to be a little more concise if you get rid of
+the details, so you can see specifically here that it's
+summarizing for both males and females.
+So if I get that window for summarize again--and let's say I really didn't
+want any information about females there.
+I just want to calculate some statistics for males--
+I could go down, and I could say, restrict observations, and I could
+say, if sex 1 == 1, because if sex 1 = 1, that means that it's a male.
+And then I hit submit.
+And now you see that I only get information for males in my data set.
+Alternatively, if I just wanted to use the command line to calculate
+sex-specific information, I could say by sort, sex 1 : summarize, sysbp1.
+And I'm going to get the same information that I saw before.
+Similarly, I could say summarize sysbp1 if sex 1 is = to 1, and get
+information only for males.
+So we've seen how to use the drop down menus, as well as the command line for
+summarizing within entire populations, as well as within sub-populations in
+our data set.
+But thusfar, we've really only looked at a continuous variable, namely
+systolic blood pressure at exam one.
+So let's move on now, and let's start talking about categorical covariants.
+We've been talking about sex, so let's continue with that.
+Let's say tabulate sex 1, and I can now obtain the number of males and
+females in the data set at exam one, or a baseline.
+So I see that at exam one, there were 1,944 males, 2,490 females, for a
+total of 4,434 study observations.
+If I wanted to do this calculation via the drop down menus, I would go
+statistics, summaries, tables, and test, tables, and then I would go down
+to one-way tables.
+The categorical variable that I'm interested in is sex 1.
+Hit submit, and you see that I get the exact same table as I saw before.
+Now, we talked a little bit about missing information before.
+If I just run the tabulate command as it is, missing observations are going
+to be deleted.
+If I were to say comma missing, then what would happen is, I would get a
+variable or another row in my table that displayed the number of missing
+observations for sex 1.
+Unfortunately, I chose a covariant that doesn't have any missing data,
+but there's going to be some covariants in our data set that do
+have missing data.
+Let's see if we can find one.
+All right.
+So we're going to look at a variable that does have some missing data,
+namely, sex 3, which is the sex at exam three.
+Now by exam three, some individuals in the data set have died.
+So for those individuals, they're going to have the missing value for
+the sex 3 indicator.
+So I can see that now, at exam three, there's 1,387 males, 1,876 females,
+and then we have 1,171 individuals who have missing data.
+So you can see what this missing option does.
+If I hadn't included the missing option--
+now I'm going to get a table where the total number of observations is no
+longer 4,434.
+Rather, it's 3,263.
+So this missing option is another way to characterize missing data
+in your data set.
+So we looked at how to create a one way table.
+That's a table for a binary indicator.
+Now we're going to look at what if we have two binary indicators that we're
+going to compare?
+For example, I want to know the answer to the question, how many women in our
+data set have prevalent hypertension at exam one?
+
+So again, I can use the tabulate command.
+I can say tabulate sex 1 prev hype 1, and hit enter.
+And now, rather than this one way table, I'm going to get a two by two
+table, where my rows contain the number of males and females, and in
+the column, I have prevalent hypertension at exam one.
+So if I know the number of women with prevalent hypertension, I go female,
+in the female row, and then I say yes with prevalent hypertension, and I see
+that the answer to this is then going to be that there are 799 women with
+prevalent hypertension at exam one.
+So this is a brief introduction to two by two tables, and we're going to
+delve way more into two by two tables later in the course.
+So I'm just going to leave it at that for right now, but you can see how
+useful this tabulate command would be in practice.
+The last command we're going to look at is list.
+So if I wanted to list every observation in my data set, I would
+just type list, hit enter, and I'm going to get way more information than
+I actually want.
+So let's break that.
+Now let's say I only wanted to list systolic blood pressure at exam one.
+Then I'm going to get the systolic blood pressure for every individual in
+my data set at exam one, by just typing list, systolic
+blood pressure 1.
+Last, let's say I only wanted to list systolic blood pressure for the first
+50 observations in my data set.
+I would say list systolic blood pressure in 1 through 50.
+So you can see now, I only get the first 50 observations in the data set.
+Alternatively, I could do this through the drop down menus by going data,
+describe data, list data.
+And within this, I could say, I want to list systolic blood pressure 1, and
+by, if, in--
+I only want to use observations 1 through 50.
+Hit OK, and I get the exact same command that I just ran.
+So that's the drop down menu versus command line.
+In this exercise, we've gone through how to use the summarize command,
+tabulate, describe, code book, list, and hopefully now, you have a good
+idea of how you can go about doing exploratory data
+analysis within Stata.
+Thank you.

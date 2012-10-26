@@ -1,0 +1,16 @@
+Generating more complex variables
+
+In the previous question, meanbmi was missing for anyone with a missing observation for BMI at any exam.
+
+Let's define a new variable, meanbmi2, that is also the mean of bmi1, bmi2, and bmi3, but that treats missing values differently. For a given individual, define meanbmi2 as the mean of the non-missing values (e.g. if BMI is missing for exam 2, then meanbmi2 is defined as the mean of bmi1 and bmi3).
+
+Generating this variable in the "brute force" way through the generate command is a bit tedious. So, to generate this variable, run the command:
+
+egen meanbmi2 = rowmean(bmi1 bmi2 bmi3)
+summarize meanbmi2, detail
+
+
+What is the mean of this variable? correct: 25.89842
+How many observations are non-missing? correct: 4420
+
+To learn more about the egen and rowmean commands, type in "help egen" in Stata. In the Stata tutorial, we examined how to make new variables using the generate command in Stata. Stata has many tools for sophisticated data management and variable generation, including egen! 

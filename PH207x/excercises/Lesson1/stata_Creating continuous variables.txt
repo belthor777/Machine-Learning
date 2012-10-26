@@ -1,0 +1,9 @@
+Creating continuous variables
+Imagine we need to know each person's average BMI across each of their three exams (not the population mean, but a mean for each person in our data set).
+Create a new variable called meanbmi. This new variable should be the average of bmi1, bmi2 and bmi3 for each respective person. Define this variable as missing if bmi1, bmi2 or bmi3 is missing. (Hint: generating meanbmi should only take one line of code).
+What is the mean of meanbmi across all people for whom this value is non-missing?
+
+generate meanbmi= .
+replace meanbmi= (bmi1+bmi2+bmi3)/3 if bmi1*bmi2*bmi3 >0
+summarize meanbmi
+drop meanbmi

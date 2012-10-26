@@ -1,0 +1,17 @@
+ Creating a catetorical variable
+
+Create a new variable, bmihigh1, defined as 0 if bmi1 is less than or equal to 25 and defined as 1 if bmi1 is greater than 25. How many individuals have bmihigh1 == 1? 
+
+codebook bmi1
+generate bmihigh1 = .	
+replace bmihigh1 = 0 if bmi1 <= 25
+replace bmihigh1 = 1 if bmi1 >25 & bmi1 <= 60
+replace bmihigh1 = 2 if bmi1 > 60
+label define bmihigh1_label 0 "0" 1 "1" 2 "missing"
+label values bmihigh1 bmihigh1_label
+tabulate bmihigh1
+drop bmihigh1
+drop bmihigh1_label
+
+Correct: 2422
+Solution is all individuals higher than 25 (2441) minus missing values (19)=2422

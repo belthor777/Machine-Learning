@@ -1,0 +1,21 @@
+# Variables
+generate agesq1 = age1*age1
+summarize agesq1
+drop agesq1
+
+# Split in Groups
+generate agecat1 = .	# Generate Missing Values
+replace agecat1 = 1 if age1 < 40
+replace agecat1 = 2 if age1 >= 40 & age1 < 50
+replace agecat1 = 3 if age1 >= 50 & age1 < 60
+replace agecat1 = 4 if age1 >= 60 & age1 <= 70
+tabulate agecat1
+
+# Label a Variable
+label variable agecat1 "Age categorical at exam1"
+tabulate agecat1
+
+# Labels for values
+label define agecatlabel 1 "30-39" 2 "40-49" 3 "50-59" 4 "60-70"
+label values agecat1 agecatlabel
+tabulate agecat1

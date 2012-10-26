@@ -1,0 +1,27 @@
+1.) Prevalence of CHD 1: What is the prevalence of CHD among participants who are on treatment for hypertension?
+Prevalence = #cases of disease / #examined
+Prevalence = 20/144= 0.13888889
+
+2.) Prevalence of CHD 2: What is the prevalence of CHD among participants who are not on treatment for hypertension?
+Prevalence = #cases of disease / #examined
+Prevalence = 166/4229= 0.03925278
+
+3.) Prevalence of CHD 3: Other reasons being equal, which of the following is the most likely explanation for the higher prevalence of CHD among participants on treatment for hypertension?
+--> Hypertension treatment increases the risk of developing CHD 
+- Hypertension treatment decreases the risk of developing CHD 
+
+4.) Prevalence of CHD 4: Other reasons being equal, which of the following is the most likely explanation for the higher prevalence of CHD among participants on treatment for hypertension?
+--> Hypertension treatment increases the survival time with CHD 
+- Hypertension treatment decreases the survival time with CHD  
+
+5.) Prevalence of CHD 5: Other reasons being equal, which of the following is the most likely explanation for the higher prevalence of CHD among participants on treatment for hypertension?
+--> Participants on Hypertension treatment have more other risk factors for developing CHD
+- Participants on Hypertension treatment have less other risk factors for developing CHD
+
+6.) Prevalence of CHD 6: Other reasons being equal, which of the following is the most likely explanation for the higher prevalence of CHD among participants on treatment for hypertension?
+--> Participants on Hypertension treatment are more likely to be tested for CHD 
+- Participants on Hypertension treatment are less likely to be tested for CHD 
+
+7.)  Prevalence of CHD 7: Other reasons being equal, which of the following is the most likely explanation for the higher prevalence of CHD among participants on treatment for hypertension?
+- Hypertension treatment increases the risk for developing CHD 
+--> CHD increases the risk of being treated for hypertension 

@@ -1,0 +1,27 @@
+Prevalent Hypertension
+
+We will use the Framingham dataset to explore data types, and graphs in this questions. We will examine the indicator of prevalent hypertension at exam 1(variable name: prevhyp1).
+1. Prevalent hypertension at exam 1 is an example of what type of data?
+-> Binary [0,1]
+
+2. How many individuals in the Framingham dataset had prevalent hypertension at exam 1?
+tabulate sex1 prevhyp1
+-> 1430
+
+3. What is the relative frequency of prevalent hypertension at exam 1? Express your answer as a proportion of the whole (e.g. 10% would be .10).
+-> 0.32250789355
+
+4. Among the individuals with prevalent hypertension at exam 1, how many are female?
+-> 799
+
+5. What proportion of individuals with prevalent hypertension at exam 1 are female? Express your answer as a proportion of the whole (e.g. 10% would be .10). 
+tab prevhyp1 sex1, cell
+by sex1, sort : summarize prevhyp1
+di (100*799)/1430
+-> 0.559
+
+6. Which graph would you use to summarize the distribution of the indicator for prevalent hypertension at exam 1 in the study population?
+-> Scatter plot 
+
+
+

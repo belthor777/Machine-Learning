@@ -1,0 +1,19 @@
+How many observations are missing for glucose at exam 1? correct: 397
+describe: obs=4434
+summarize glucose1: obs=4037
+di 4434-4037
+
+
+What is the mean glucose level in women at exam 1? correct: 82.0732
+by sex1, sort : summarize glucose1, detail, if sex1==2
+
+
+What is the median glucose level in women at exam 1? correct: 78
+by sex1, sort : summarize glucose1, detail, if sex1==2
+
+
+How many women have diabetes at exam 1? correct: 62
+tabulate diabetes1 if sex1==2
+
+
+

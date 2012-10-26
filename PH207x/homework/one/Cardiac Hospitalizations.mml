@@ -1,0 +1,424 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mtable rowspacing="4pt" columnspacing="1em" rowlines="solid none">
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">M</mi>
+          <mi mathvariant="bold">o</mi>
+          <mi mathvariant="bold">n</mi>
+          <mi mathvariant="bold">t</mi>
+          <mi mathvariant="bold">h</mi>
+          <mo mathvariant="bold" stretchy="false">(</mo>
+          <mn mathvariant="bold">1991</mn>
+          <mo mathvariant="bold" stretchy="false">)</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">N</mi>
+          <mi mathvariant="bold">u</mi>
+          <mi mathvariant="bold">m</mi>
+          <mi mathvariant="bold">b</mi>
+          <mi mathvariant="bold">e</mi>
+          <mi mathvariant="bold">r</mi>
+          <mo mathvariant="bold" stretchy="false">(</mo>
+          <mi mathvariant="bold">T</mi>
+          <mi mathvariant="bold">h</mi>
+          <mi mathvariant="bold">o</mi>
+          <mi mathvariant="bold">u</mi>
+          <mi mathvariant="bold">s</mi>
+          <mi mathvariant="bold">a</mi>
+          <mi mathvariant="bold">n</mi>
+          <mi mathvariant="bold">d</mi>
+          <mi mathvariant="bold">s</mi>
+          <mo mathvariant="bold" stretchy="false">)</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">M</mi>
+          <mi mathvariant="bold">o</mi>
+          <mi mathvariant="bold">n</mi>
+          <mi mathvariant="bold">t</mi>
+          <mi mathvariant="bold">h</mi>
+          <mo mathvariant="bold" stretchy="false">(</mo>
+          <mn mathvariant="bold">1992</mn>
+          <mo mathvariant="bold" stretchy="false">)</mo>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">N</mi>
+          <mi mathvariant="bold">u</mi>
+          <mi mathvariant="bold">m</mi>
+          <mi mathvariant="bold">b</mi>
+          <mi mathvariant="bold">e</mi>
+          <mi mathvariant="bold">r</mi>
+          <mo mathvariant="bold" stretchy="false">(</mo>
+          <mi mathvariant="bold">T</mi>
+          <mi mathvariant="bold">h</mi>
+          <mi mathvariant="bold">o</mi>
+          <mi mathvariant="bold">u</mi>
+          <mi mathvariant="bold">s</mi>
+          <mi mathvariant="bold">a</mi>
+          <mi mathvariant="bold">n</mi>
+          <mi mathvariant="bold">d</mi>
+          <mi mathvariant="bold">s</mi>
+          <mo mathvariant="bold" stretchy="false">)</mo>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>325</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>317</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">F</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>312</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">F</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>302</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">h</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>346</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">h</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>339</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">A</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">l</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>340</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">A</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">l</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>328</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>355</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>361</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">e</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>342</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">e</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>333</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>358</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">J</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>341</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">A</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">g</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">t</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>346</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">A</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">g</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">t</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>343</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">S</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>365</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">S</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>359</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">O</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>355</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">O</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>305</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">N</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">v</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>324</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">N</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">v</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>312</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">D</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>342</mn>
+      </mtd>
+      <mtd>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="normal">D</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+        </mrow>
+      </mtd>
+      <mtd>
+        <mn>321</mn>
+      </mtd>
+      <mtd />
+    </mtr>
+  </mtable>
+</math>

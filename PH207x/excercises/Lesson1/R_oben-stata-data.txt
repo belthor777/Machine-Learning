@@ -1,0 +1,43 @@
+How to open the data with R
+
+GraceLAX 6 days ago
+
+You can open, analyze and visualize the data with the open-source statistical package, R, which you can download for free from:
+
+http://www.r-project.org/
+
+Some people complained that it takes a long time to download the R install package. You don't have to live in a place to point to the mirror there. For instance, the California mirror site has very fast network speeds. So even if you can't enjoy our great weather, you can enjoy our bandwidth. ;-)
+
+To import data in proprietary formats from Stata, SAS and SPSS, download and install the "foreign" package for R. It's easy to install using the R "package installer".
+
+You can get more info at http://www.ats.ucla.edu/stat/r/faq/inputdata_R.htm
+
+Once you have installed R and the foreign package, start up R and then type:
+
+library(foreign)
+
+fhs &lt;- read.dta("fhs.dta", convert.dates = TRUE, convert.factors = TRUE, missing.type = F, convert.underscore = FALSE, warn.missing.labels = F)
+
+Use R functions str() and summary() to learn more about your data:
+
+str(fhs)
+'data.frame':   4434 obs. of  74 variables:
+ $ randid   : int  2448 6238 9428 10552 11252 11263 12629 12806 14367 16365 ...
+     $ death    : Factor w/ 2 levels "No","Yes": 1 1 1 2 1 1 1 1 1 1 ...
+ $ angina   : Factor w/ 2 levels "No","Yes": 1 1 1 1 1 1 2 1 1 1 ...
+     $ hospmi   : Factor w/ 2 levels "No","Yes": 2 1 1 1 1 1 1 1 1 1 ...
+...
+ $ sex1     : Factor w/ 2 levels "Male","Female": 1 2 1 2 2 2 2 2 1 1 ...
+...
+
+You can refer to fields within the data structure: data$field
+
+summary(fhs$death)
+  No  Yes 
+2884 1550 
+
+You can create subsets:
+
+alive &lt;- subset(fhs, death=="No")
+summary(alive)
+
