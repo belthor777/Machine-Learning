@@ -4,3 +4,7 @@ gen cursmokenotmiss=cursmoke1<. & cursmoke2<. & cursmoke3<.
 
 # Show all data with non missing values
 tab1 cursmoke1 cursmoke2 cursmoke3 if cursmokenotmiss==1
+
+# Calculate the change in smoking prevalence between the 1st and 2nd visit
+############################################################################
+tabulate cursmoke1 cursmoke2, cell column miss row
