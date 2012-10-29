@@ -9,5 +9,9 @@ replace packs1=0 if (cigpday1==0)
 # Wenn gleich weniger als 20 Zigaretten geraucht werden, brauchen wir eine Packung
 replace packs1=1 if (cigpday1 >=1 & cigpday1 <= 20)
 
+# Wenn gleich weniger als 20 Zigaretten geraucht werden, brauchen wir eine Packung
+replace packs1=2 if (cigpday1 >=21 & cigpday1 <= 40)
 
 
+# Wenn gleich weniger als 20 Zigaretten geraucht werden, brauchen wir eine Packung
+replace packs1=3 if (cigpday1 >=41 & cigpday1 <.)
