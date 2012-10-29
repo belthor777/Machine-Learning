@@ -11,3 +11,12 @@ BMI<18.5		57		0
 Total			4415		194
 
 1. What is the prevalence of obesity (BMI ≥ 30) among the 4415 participants at the 1956 exam?
+
+# Generate missing values
+gen myBMI=.
+replace myBMI=0 if (BMI<18.5)
+replace myBMI=1 if (BMI >=18.5 & BMI < 25)
+replace myBMI=2 if (BMI >=25 & BMI < 30)
+replace myBMI=3 if (BMI >=30 & BMI <.)
+
+
