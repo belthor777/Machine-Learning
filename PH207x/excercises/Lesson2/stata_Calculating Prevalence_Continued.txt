@@ -23,5 +23,12 @@ tabulate packs1 prevchd1, cell column row
 # Question: What could explain the higher prevalence of CHD among non-smokers compared to those who smoke 1 or more cigarettes per day?
 - High incidence, Long duration (eher nicht)
 - Cross-sectional data is susceptible to reverse causation (wahrscheinlich liegt es hier drann!)
-- Other common suspects
+- Other common suspects (e.g. Bias, Confounding, 
+
+
+## Conclusions
+- Stata can be used to create an ordinal variable based on continuous data
+- CHD prevalence was lower among people with higher levels of smoking
+- Prevalence is a function of incidence and duration
+- In addition to a causal effect of exposure on disease risk, there are several alternative explanations for observing an assosication between two factors of interest
 
