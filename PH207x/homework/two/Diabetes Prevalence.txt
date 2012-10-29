@@ -3,11 +3,12 @@ Use Stata and the NHLBI data set to report the prevalence of diabetes among only
 
 
 1. What is the prevalence of diabetes at the first exam (diabetes1=1)? 
-
+diabetes1 
 
 
 2. What is the prevalence of diabetes at the second exam (diabetes2=1)? 
-
+diabetes2
 
 
 3. What is the prevalence of diabetes at the third exam (diabetes3=1)? 
+diabetes3
