@@ -1,0 +1,13 @@
+#Diabetes Prevalence
+Use Stata and the NHLBI data set to report the prevalence of diabetes among only those participants who attended and had non-missing data for diabetes at all three examinations. (Hint: There were 3,206 such participants.)
+
+
+1. What is the prevalence of diabetes at the first exam (diabetes1=1)? 
+
+
+
+2. What is the prevalence of diabetes at the second exam (diabetes2=1)? 
+
+
+
+3. What is the prevalence of diabetes at the third exam (diabetes3=1)? 
