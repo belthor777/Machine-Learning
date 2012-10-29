@@ -21,5 +21,5 @@ tabulate packs1 prevchd1, cell column row
 
 ## CHD Prevalence by packs1
 # Question: What could explain the higher prevalence of CHD among non-smokers compared to those who smoke 1 or more cigarettes per day?
-- High incidence, Long duration
-- Cross-sectional data is susceptible to reverse causation
+- High incidence, Long duration (eher nicht)
+- Cross-sectional data is susceptible to reverse causation (wahrscheinlich liegt es hier drann!)
