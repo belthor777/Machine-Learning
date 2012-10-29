@@ -11,6 +11,7 @@ BMI<18.5		57		0
 Total			4415		194
 
 1. What is the prevalence of obesity (BMI ≥ 30) among the 4415 participants at the 1956 exam?
+german: Wie hoch ist die Verbreitung von Fettleibichkeit (BMI ≥ 30) unter den 4415 Teilnehmern
 
 # Generate missing values
 gen myBMI=.
