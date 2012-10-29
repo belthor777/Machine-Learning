@@ -1,0 +1,12 @@
+## BMI and CHD Prevalence
+The following table uses data from the NHLBI teaching data set and displays categories of body mass index for 4,415 participants in the Framingham Heart Study attending an examination in 1956 with non-missing values for body mass index. For each body mass index category, the table displays the number of subjects with existing Coronary Heart Disease (CHD) at that exam (PREVCHD1=1)
+
+
+#BMI and CHD Prevalence at the 1956 Exam
+BMI		Number of Subjects	Cases of CHD Diagnosed Prior to 1956
+BMI<18.5		57		0
+18.5≤BMI<25		1936		66
+25≤BMI<30		1848		90
+30≤BMI			574		38
+Total			4415		194
+
