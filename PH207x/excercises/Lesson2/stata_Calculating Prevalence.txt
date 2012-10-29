@@ -1,0 +1,6 @@
+# Missing values herausfiltern
+# . (NA) - Bedeutet unendlich, daher werden nur alle Zahlen verwendet die kleiner als unendlich sind
+gen cursmokenotmiss=cursmoke1<. & cursmoke2<. & cursmoke3<.
+
+# Show all data with non missing values
+tab1 cursmoke1 cursmoke2 cursmoke3 if cursmokenotmiss==1
