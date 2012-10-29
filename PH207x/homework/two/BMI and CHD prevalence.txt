@@ -13,8 +13,8 @@ Total			4415		194
 1. What is the prevalence of obesity (BMI ≥ 30) among the 4415 participants at the 1956 exam?
 german: Wie hoch ist die Verbreitung von Fettleibichkeit (BMI ≥ 30) unter den 4415 Teilnehmern
 -> prevalence in this case = the number of individuals with chd per category divided by the total number of subjects per category (not per the total number of cases), hope this helps
-di 38/574
-=0.06620209
+di 574/4415
+=0.13001133
 
 
 # Generate missing values
@@ -32,12 +32,16 @@ di 194/4415
 3. What is the prevalance of CHD at the 1956 exam for each of the body mass index classes?
 a.) Under Weight Participants 
 di 0/57
+=0
 
 b.) Normal Weight Participants (18.5 ≤ BMI < 25) 
 di 66/1936
+=0.03409091
 
 c.) Overweight Participants (25 ≤ BMI < 30) 
 di 90/1848
+=0.0487013
 
 d.) Obese Participants (30 ≤ BMI) 
-di 38/574		
+di 38/574	
+=0.06620209
