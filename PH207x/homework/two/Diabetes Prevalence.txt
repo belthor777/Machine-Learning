@@ -3,7 +3,8 @@ Use Stata and the NHLBI data set to report the prevalence of diabetes among only
 
 
 1. What is the prevalence of diabetes at the first exam (diabetes1=1)? 
-diabetes1 
+gen diabetesnotmiss=diabetes1<. & diabetes2<. & diabetes2<.
+tab1 diabetes1 diabetes2 diabetes3 if diabetesnotmiss==1
 
 
 2. What is the prevalence of diabetes at the second exam (diabetes2=1)? 
@@ -12,3 +13,15 @@ diabetes2
 
 3. What is the prevalence of diabetes at the third exam (diabetes3=1)? 
 diabetes3
+
+# Show all data with non missing values
+
+
+# Calculate the change in smoking prevalence between the 1st and 2nd visit
+############################################################################
+tabulate cursmoke1 cursmoke2, cell column miss row
+
+# Calculate the change in smoking prevalence between the 1st and 2nd visit
+# among those with data on smoking status
+############################################################################
+tabulate cursmoke1 cursmoke2, cell column row
