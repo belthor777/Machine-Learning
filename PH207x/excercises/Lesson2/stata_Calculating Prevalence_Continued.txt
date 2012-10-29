@@ -15,3 +15,9 @@ replace packs1=2 if (cigpday1 >=21 & cigpday1 <= 40)
 
 # Wenn gleich weniger als 20 Zigaretten geraucht werden, brauchen wir eine Packung
 replace packs1=3 if (cigpday1 >=41 & cigpday1 <.)
+
+# Auswertung
+tabulate packs1 prevchd1, cell column row
+
+## CHD Prevalence by packs1
+# Question: What could explain the higher prevalence of CHD among non-smokers compared to those who smoke 1 or more cigarettes per day?
