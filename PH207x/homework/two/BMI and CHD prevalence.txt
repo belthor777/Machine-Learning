@@ -14,9 +14,10 @@ Total			4415		194
 
 # Generate missing values
 gen myBMI=.
-replace myBMI=0 if (BMI<18.5)
-replace myBMI=1 if (BMI >=18.5 & BMI < 25)
-replace myBMI=2 if (BMI >=25 & BMI < 30)
-replace myBMI=3 if (BMI >=30 & BMI <.)
+replace myBMI=0 if (bmi1<18.5)
+replace myBMI=1 if (bmi1 >=18.5 & bmi1 < 25)
+replace myBMI=2 if (bmi1 >=25 & bmi1 < 30)
+replace myBMI=3 if (bmi1 >=30 & bmi1 <.)
+tabulate packs1 prevchd1, cell column row
 
 
