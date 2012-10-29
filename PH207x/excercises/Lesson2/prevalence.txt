@@ -1,3 +1,11 @@
+## Prevalence of CHD at 1956 Exam by Hyperstension Medication Use
+Hypertension Medication |	Pre-Existing CHD	|	Total
+			|	YES	|	NO	|
+Yes			|	20	|	124	|	144
+No			|	166	|	4063	|	4229
+Total			|	186	|	4187	|	4373
+
+
 1.) Prevalence of CHD 1: What is the prevalence of CHD among participants who are on treatment for hypertension?
 Prevalence = #cases of disease / #examined
 Prevalence = 20/144= 0.13888889
