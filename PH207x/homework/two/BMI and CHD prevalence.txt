@@ -10,3 +10,4 @@ BMI<18.5		57		0
 30≤BMI			574		38
 Total			4415		194
 
+1. What is the prevalence of obesity (BMI ≥ 30) among the 4415 participants at the 1956 exam?
