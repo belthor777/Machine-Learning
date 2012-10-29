@@ -12,4 +12,4 @@ tabulate cursmoke1 cursmoke2, cell column miss row
 # Calculate the change in smoking prevalence between the 1st and 2nd visit
 # among those with data on smoking status
 ############################################################################
-
+tabulate cursmoke1 cursmoke2, cell column row
