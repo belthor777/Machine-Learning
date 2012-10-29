@@ -1,3 +1,13 @@
 ## Calculating Prevalence in Stata Continued 
 
+# Generate missing values
+gen packs1=.
+
+# Wenn keine Zigaretten, dann auch keine Packs
+replace packs1=0 if (cigpday1==0)
+
+# Wenn gleich weniger als 20 Zigaretten geraucht werden, brauchen wir eine Packung
+replace packs1=1 if (cigpday1 >=1 & cigpday1 <= 20)
+
+
 
