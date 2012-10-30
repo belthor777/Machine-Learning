@@ -1,0 +1,53 @@
+# Hypothetical Life Table
+
+The table below lists the number of individuals at age "x" for a hypothetical population in 1950-1952 and 1990 - 1992 
+
+Age	1950−1952	1990−1992
+0	100,000		100,000
+20	73,412		96,902
+40	56,884		92,638
+70	31,744		79,873
+
+1. What is the chance of surviving from birth to age 20 in 1950-1952?
+> OBS.: 100,000
+> Birth until age 20: Beg. total is 73,412
+di 73412/100000
+-> 0.73412
+
+2. What is the chance of survivng from age 40 to age 70 in 1990-1992?
+> Beg. Total at age 40: 92,638
+> Beg. Total at age 70: 79,873
+di 79873/92638
+-> 0.86220557
+
+
+3. Define the absolute survival increase over the 40 year span as p1−p2, where p1 is the chance of surviving from age x to age x+n in 1990-1992 and p2 is the chance of surviving from age x to age x+n in 1950-1952. 
+Which age group has the greatest absolute survival increase? 
+
+Age	1950-1952		1990-1992	
+0-20 	di 73412/100000		di 96902/100000
+20-40 	di 56884/73412		di 92638/96902
+40-70 	di 31744/56884		di 79873/92638
+
+Age	1950-1952 (p2)		1990-1992 (p1)
+0-20 	0.73412			0.96902
+20-40 	0.7748597		0.95599678
+40-70 	0.55804796		0.86220557
+
+Age	absolute survival (p1-p2)
+0-20 	di 0.96902-0.73412= 0.2349
+20-40 	di 0.95599678-0.7748597= 0.18113708
+40-70 	di 0.86220557-0.55804796= 0.30415761
+
+-> 40-70 is the absolute survival increase
+
+4. Define the relative survival increase over the 40 year span as (p1−p2)/p2, where p1 is the chance of surviving from age x to age x+n in 1990-1992 and p2 is the chance of surviving from age x to age x+n in 1950-1952. Which age group has the greatest relative survival increase? 
+
+Age	absolute survival (p1-p2)/p2
+0-20 	di (0.96902-0.73412)/0.73412= 0.31997494
+20-40 	di (0.95599678-0.7748597)/0.7748597= 0.23376758
+40-70 	di (0.86220557-0.55804796)/0.55804796= 0.54503848
+
+-> 40-70 has the greatest relative survival increase
+
+

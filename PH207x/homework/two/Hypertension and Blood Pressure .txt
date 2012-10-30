@@ -1,0 +1,20 @@
+# Hypertension and Blood Pressure
+Use Stata to create a binary variable (highbp1) to represent the presence/absence of hypertension at the 1956 examination 
+
+generate highbp1=.
+replace highbp1=1 if (sysbp1>=140 | diabp1 >= 90)
+replace highbp1=0 if (sysbp1<140 & diabp1 < 90)
+tabulate prevchd1 highbp1, cell column miss row
+
+
+(Note: 
+-> There are no missing data on sysbp1 and diabp1. 
+-> If data were missing on both sysbp1 and diabp1 then it should also be missing for highbp1. 
+-> If data were mising on diabp1 only and sysbp1 >= 140 then highbp1 =1, otherwise highbp1 should be missing. 
+-> Similarly, if data were missing on sysbp1 only and diabp1 >= 90 then highbp1 =1, otherwise highbp1 should be missing.) 
+
+1.) What is the prevalence of CHD (prevchd1=1) at the 1956 exam for each class of highbp1? Participants with high blood pressure at the 1956 exam (highbp1=1)
+=0.0655
+
+2.) Participants without high blood pressure at the 1956 exam (highbp1=0) 
+=0.0313
