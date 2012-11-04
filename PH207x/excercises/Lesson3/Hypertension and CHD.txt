@@ -22,4 +22,5 @@ P(H or C)= P(H)+P(C)-P(H and C)=1430/4434+194/4434-113/4434= 0.3
 => P(H and C)= P(H)P(C)?
 P(H and C)= 113/4434= 0.025
 P(H)P(C)= 1430/4434 * 194/4434= 0.32250789 * 0.04375282= 0.01411063
+=> They are not equal: So they are not indepenedent
 
