@@ -24,3 +24,7 @@ P(H and C)= 113/4434= 0.025
 P(H)P(C)= 1430/4434 * 194/4434= 0.32250789 * 0.04375282= 0.01411063
 => They are not equal: So they are not indepenedent
 
+3.) a)What is the probability that a participant has CHD at baseline?
+b) What is the probability that a participant has CHD at baseline, given that he/she has hypertension?
+
+
