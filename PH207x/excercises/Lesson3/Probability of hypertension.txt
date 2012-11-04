@@ -21,8 +21,7 @@ P(all 3hyp)=P(H)*P(H)*P(H)= P(H)^3= 0.68^3= 0.31
 Recall P(hypertension)=0.3225
 A= both have hypertension
 B= one has hypertension
-
 P(A|B)= P(A and B) / P(B)= P(A) / P(B)
-= P(H)P(H) / P(H)+P(H) - P(H)*P(H)= 0.19
+= P(H)P(H) / ( P(H)+P(H) - P(H)*P(H) )= 0.19
 
 
