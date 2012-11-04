@@ -6,3 +6,5 @@
 1.) What is the probability that a randomly selected participant in the Framingham study had hypertension at baseline?
 Event H=individual had hypertension
 P(H)= # with hyptertension / # of population= 1430/4434= 0.32
+
+
