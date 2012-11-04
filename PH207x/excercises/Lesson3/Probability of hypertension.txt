@@ -24,4 +24,7 @@ B= one has hypertension
 P(A|B)= P(A and B) / P(B)= P(A) / P(B)
 = P(H)P(H) / ( P(H)+P(H) - P(H)*P(H) )= 0.19
 
+-> This is an "or" type event: P(H)+P(H)
+
+
 
