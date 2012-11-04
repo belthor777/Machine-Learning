@@ -14,3 +14,5 @@ P(H^c)= 1-P(H)= 1-0.32=0.68
 both
 
 4.) What is the probability that three randomly selected participants all do not have hypertension at baseline= Recall P(no hypertension)= 0.6775
+P(H)=0.68
+P(all 3hyp)=P(H)*P(H)*P(H)= P(H)^3= 0.68^3= 0.31
