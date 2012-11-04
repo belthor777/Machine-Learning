@@ -17,3 +17,6 @@ H=hypertension
 C=CAD
 
 P(H or C)= P(H)+P(C)-P(H and C)=1430/4434+194/4434-113/4434= 0.3
+
+2.) Are hypertension and CHD independent? Would you expect these events to be independent?
+
