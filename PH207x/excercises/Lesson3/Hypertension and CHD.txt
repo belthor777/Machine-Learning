@@ -14,4 +14,6 @@ on, exam 1 |        No        Yes |     Total
 
 1.) What is the probability that a participant has hypertension or prevalent CHD at baseline?
 H=hypertension
+C=CAD
 
+P(H or C)= P(H)+P(C)-P(H and C)=1430/4434+194/4434-113/4434= 0.3
