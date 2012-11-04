@@ -1,0 +1,15 @@
+# Hypertension and CHD 
+## Relationship between prevalent hypertension and CHD using probability laws
+
+-> tabulate prevhyp1 prevchd1
+
+ Prevalent |  Prevalent coronary
+hypertensi | heart disease, exam 1
+on, exam 1 |        No        Yes |     Total
+-----------+----------------------+----------
+        No |     2,923         81 |     3,004 
+       Yes |     1,317        113 |     1,430 
+-----------+----------------------+----------
+     Total |     4,240        194 |     4,434 
+
+
