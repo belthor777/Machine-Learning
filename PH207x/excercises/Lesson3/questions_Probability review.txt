@@ -1,5 +1,11 @@
 # Probability review
 
+=> Remember
+1)For A and B to be INDEPENDENT: P(AnB)= P(A)*P(B)
+2)For A and B to be MUTUALLY EXCLUSIVE: P(AuB)= P(A)+P(B)
+3)General Formula for the UNION of A and B: P = P(A)+P(B)-[P(A)*P(B)] 
+
+
 1.) Can events A and B be both mutually exclusive and independent with respect to each other?
 Yes 
 -> No
