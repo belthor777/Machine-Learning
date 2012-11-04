@@ -12,4 +12,6 @@ on, exam 1 |        No        Yes |     Total
 -----------+----------------------+----------
      Total |     4,240        194 |     4,434 
 
+1.) What is the probability that a participant has hypertension or prevalent CHD at baseline?
+H=hypertension
 
