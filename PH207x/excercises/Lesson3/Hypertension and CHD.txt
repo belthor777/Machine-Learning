@@ -15,8 +15,11 @@ on, exam 1 |        No        Yes |     Total
 1.) What is the probability that a participant has hypertension or prevalent CHD at baseline?
 H=hypertension
 C=CAD
-
 P(H or C)= P(H)+P(C)-P(H and C)=1430/4434+194/4434-113/4434= 0.3
 
 2.) Are hypertension and CHD independent? Would you expect these events to be independent?
+Hypertension is a risk factor for CHD
+=> P(H and C)= P(H)P(C)?
+P(H and C)= 113/4434= 0.025
+P(H)P(C)= 1430/4434 * 194/4434= 0.32250789 * 0.04375282= 0.01411063
 
