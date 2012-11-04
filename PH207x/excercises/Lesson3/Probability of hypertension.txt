@@ -7,4 +7,10 @@
 Event H=individual had hypertension
 P(H)= # with hyptertension / # of population= 1430/4434= 0.32
 
+2.) What is the probability that this participant did not have hypertension at baseline?
+P(H^c)= 1-P(H)= 1-0.32=0.68
 
+3.) Are these events mutually exclusive, exhaustive, neither, or both?
+both
+
+4.) What is the probability that three randomly selected participants all do not have hypertension at baseline= Recall P(no hypertension)= 0.6775
