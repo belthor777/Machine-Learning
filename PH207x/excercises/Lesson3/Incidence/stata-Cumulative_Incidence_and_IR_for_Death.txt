@@ -1,0 +1,28 @@
+# Stata Demo: Cumulative Incidence and IR for Death 
+
+## Cumulative Incidence
+=> cs death cursmoke1
+
+                 | Current smoker, exam 1 |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+           Cases |       788         762  |       1550
+        Noncases |      1393        1491  |       2884
+-----------------+------------------------+------------
+           Total |      2181        2253  |       4434
+                 |                        |
+            Risk |  .3613022    .3382157  |   .3495715
+
+
+## Incidence rate
+=> ir death cursmoke1 timedth
+
+                 | Current smoker, exam 1 |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+ Death indicator |       788         762  |       1550
+Time [years] to  |  44440.38     46675.2  |   91115.58
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0177316    .0163256  |   .0170114
+

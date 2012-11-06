@@ -1,0 +1,32 @@
+# Probability review
+
+=> Remember
+1)For A and B to be INDEPENDENT: P(AnB)= P(A)*P(B)
+2)For A and B to be MUTUALLY EXCLUSIVE: P(AuB)= P(A)+P(B)
+3)General Formula for the UNION of A and B: P = P(A)+P(B)-[P(A)*P(B)] 
+
+
+1.) Can events A and B be both mutually exclusive and independent with respect to each other?
+Yes 
+-> No
+
+2.) If B is the complement of A, A and B are:
+mutually exclusive 
+exhaustive 
+-> both mutually exclusive AND exhaustive
+
+3.) As the probability of disease decreases, the sensitivity of a test will decrease.
+True 
+-> False
+
+4.) As the probability of disease decreases, the specificity of a test will decrease.
+True 
+-> False
+
+5.) As the probability of disease decreases, the positive predictive value of a test will decrease.
+-> True 
+False
+
+6.) As the probability of disease decreases, the negative predictive value of a test will decrease.
+True 
+-> False 

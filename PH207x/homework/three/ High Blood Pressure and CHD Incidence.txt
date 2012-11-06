@@ -1,0 +1,44 @@
+#  High Blood Pressure and CHD Incidence
+
+Use Stata and the NHLBI data set to create the two categories of high blood pressure (highbp1)
+
+  generate highbp1=.
+  replace highbp1=1 if (sysbp1>=140 | diabp1 >= 90)
+  replace highbp1=0 if (sysbp1<140 & diabp1<90)
+  summarize highbp1
+  ir anychd highbp1 timechd
+  drop highbp1
+
+(Note: There are no missing data on sysbp1 and diabp1. If data were missing on both sysbp1 and diabp1 then it should also be missing for highbp1. If data were missing on diabp1 only and sysbp1 >= 140 then highbp1 =1, otherwise highbp1 should be missing. Similarly, if data were missing on sysbp1 only and diabp1 >= 90 then highbp1 =1, otherwise highbp1 should be missing.) 
+
+Q1. What is the incidence rate for developing CHD (anychd=1) during the 24-years of follow-up for participants in each of the blood pressure categories? (Express your answers as #deaths/(1000 person-years)) 
+
+-> a) Participants with high blood pressure at the 1956 exam (highbp1=1) 
+
+                 | highbp1                |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       605         635  |       1240
+Time [years] to  |  25540.74    55384.42  |   80925.16
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0236876    .0114653  |   .0153228
+
+
+
+-> b) Participants without high blood pressure at the 1956 exam (highbp1=0) 
+
+gen lowbp=. 
+replace lowbp=1 if sysbp1<140 & diabp1 <90 
+replace lowbp=0 if sysbp1>=140 & diabp1 >=90
+ir anychd lowbp timechd
+
+                 | lowbp                  |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       635         360  |        995
+Time [years] to  |  55384.42    13534.86  |   68919.28
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0114653     .026598  |   .0144372
+

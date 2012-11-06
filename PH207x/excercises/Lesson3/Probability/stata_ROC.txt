@@ -1,0 +1,4 @@
+# Show ROC diagramm
+twoway (line sens1 fpr1)
+
+

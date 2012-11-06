@@ -1,0 +1,92 @@
+# BMI and CHD Incidence
+Use Stata and the NHLBI data set to create a separate variable for each of the four categories of body mass index as defined in the previous question (for example, create a variable called “underwt” that equals 1 if a person’s BMI was less than 18.5 and 0 if a person’s BMI was ≥18.5). To create the separate variables for each of the four categories of body mass index, use the BMI1 variable in the NHLBI dataset. What is the incidence rate for developing CHD (anychd=1) during the 24-years of follow-up for participants in each of the body mass index categories? (Express your answers as #deaths/(1000 person-years)) Hint: Number of years a person was followed for CHD is recorded in the “timechd” variable in the NHLBI dataset.
+
+-> that equals 1 if a person’s BMI was less than 18.5 and 0 if a person’s BMI was ≥18.5)
+-> 0 < BMI < 18.5 = 1
+-> 18.5 <= BMI
+
+
+Q1.) Under weight participants
+gen underwt= .
+replace underwt=1 if(bmi1>0&bmi1<18.5)
+replace underwt=0 if(bmi1>18.5)
+ir anychd underwt timechd
+drop underwt 
+
+=>ir anychd underwt timechd
+ 
+                 | underwt                |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |         6        1234  |       1240
+Time [years] to  |   1119.57    79805.59  |   80925.16
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0053592    .0154626  |   .0153228
+                 |                        |
+                 |      Point estimate    |    [95% Conf. Interval]
+                 |------------------------+------------------------
+ Inc. rate diff. |        -.0101034       |   -.0144775   -.0057293 
+ Inc. rate ratio |         .3465916       |    .1269463    .7565436 (exact)
+ Prev. frac. ex. |         .6534084       |    .2434564    .8730537 (exact)
+ Prev. frac. pop |         .0090397       |
+                 +-------------------------------------------------
+                     (midp)   Pr(k<=6) =                     0.0012 (exact)
+                     (midp) 2*Pr(k<=6) =                     0.0023 (exact)
+
+Q2.) Normal weight participants
+gen normwt=.
+replace normwt=1 if(bmi1>=18.5&bmi1<25)
+replace normwt=0 if(bmi1>=25|bmi1<18.5)
+ir anychd normwt timechd
+drop normwt
+
+=> ir anychd normwt timechd
+                 | normwt                 |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       415         825  |       1240
+Time [years] to  |  37324.05     43601.1  |   80925.16
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0111188    .0189215  |   .0153228
+                 |                        |
+
+
+Q3.) Overweight participants
+gen overwt=.
+replace overwt=1 if(bmi1>=25&bmi1<30)
+replace overwt=0 if(bmi1<25|bmi1>=30)
+ir anychd overwt timechd
+drop overwt
+
+=> ir anychd overwt timechd
+
+                 | overwt                 |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       596         644  |       1240
+Time [years] to  |  32863.49    48061.67  |   80925.16
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0181356    .0133995  |   .0153228
+
+
+Q4.) Obese participants
+gen obese=.
+replace obese=1 if(bmi1>30&bmi1<.)
+replace obese=0 if (bmi1<30)
+ir anychd obese timechd
+drop obese
+
+=> ir anychd obese timechd
+
+                 | obese                  |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       216        1017  |       1233
+Time [years] to  |   9352.17    71307.11  |   80659.28
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0230962    .0142623  |   .0152865
+

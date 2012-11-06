@@ -1,0 +1,16 @@
+# Incidence Rate Calculation
+
+Incidence Rate at time "t"= IR(t)
+= (# of new cases occurring during interval around "t") / (amount of person-time observed during the interval)
+
+Question: Why divide by person-time?
+
+## Incidence Rate Calculation
+Suppose you have 100 people who are "at-risk" during the one-week period around "t" and 5 develop the disease.
+
+IR(t)= 5 cases of disease / (7*100) person-days= 71.428571 cases/person-days
+
+-> Two week period
+IR(t)= 10 / 14*100= 71.428571 cases/person-days
+
+-> General Case: IR(t)= Average IR(t)

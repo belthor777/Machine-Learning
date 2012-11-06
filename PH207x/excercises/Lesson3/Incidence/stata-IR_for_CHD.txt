@@ -1,0 +1,28 @@
+# Stata Demo: IR for CHD 
+=> In a scenario where you do not have complete follow-up on everyone, it's better to use the incidence rate instead of the cumulative incidence.
+
+=> IR for CHD in stata
+ir anychd cursmoke1 timedth
+
+Exposed= Smoker
+Unexposed= Non-Smoker
+
+                 | Current smoker, exam 1 |
+                 |   Exposed   Unexposed  |      Total
+-----------------+------------------------+------------
+Incident Hosp MI |       617         623  |       1240
+Time [years] to  |  44440.38     46675.2  |   91115.58
+-----------------+------------------------+------------
+                 |                        |
+  Incidence rate |  .0138838    .0133476  |   .0136091
+                 |                        |
+                 |      Point estimate    |    [95% Conf. Interval]
+                 |------------------------+------------------------
+ Inc. rate diff. |         .0005362       |   -.0009799    .0020523 
+ Inc. rate ratio |         1.040173       |    .9290795    1.164532 (exact)
+ Attr. frac. ex. |         .0386216       |   -.0763341    .1412862 (exact)
+ Attr. frac. pop |         .0192173       |
+                 +-------------------------------------------------
+                     (midp)   Pr(k>=617) =                   0.2440 (exact)
+                     (midp) 2*Pr(k>=617) =                   0.4881 (exact)
+

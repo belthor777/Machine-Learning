@@ -1,0 +1,23 @@
+# Risk and IR 
+
+## Example
+Suppose you followed 1000 people for 1 year and the Incidence Rate (IR) was 10/(100y)
+
+Q1) How much person-time would you observe?
+ca. 1000 person years
+
+Q2) How many cases of disease would you observe?
+100
+
+Q3) What is one-year Cumulative Incidence?
+100/1000=10%
+
+=> Approximation Formular: Risk= IR*dt
+
+Example: 
+- IR=10/100y
+- One year Risk= (10/100y)(1y)= 10%
+-> Problem: Formula doesn't take into account correct amount of person-time
+-> Approximation works well for small IR and short dt
+
+
