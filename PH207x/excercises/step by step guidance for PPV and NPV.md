@@ -1,6 +1,6 @@
 # Step by step guidance for PPV and NPV
 
-## Pre Test:
+## Pre Test
 Pretest: Prevalence is 16.1%. Which means out of 100 people, 16.1 people have disease. That means 100 - 16.1 do not have the disease.
 
 ## Post Test
