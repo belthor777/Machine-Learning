@@ -1,5 +1,5 @@
 # Pre Test:
-> Pretest: Prevalence is 16.1%. Which means out of 100 people, 16.1 people have disease. That means 100 - 16.1 do not have the disease.
+Pretest: Prevalence is 16.1%. Which means out of 100 people, 16.1 people have disease. That means 100 - 16.1 do not have the disease.
 
 # Post Test
 1. When the test is carried out, ideally all 16.1 should test positive, But the sensitivity being 0.721, out of 16.1, only (16.1 * 0.721) test positive. Remaining test -ve inspite of having disease. So 16.1 - (16.1 * 0.721) is the number of cases who have disease and yet have tested negative (False Negative).
