@@ -74,4 +74,4 @@ di ( (843/1944) - (707/249) )
 Q3.) What is the 24-year Odds Ratio for dying, comparing Males (exposed group) to Females (non-exposed group)?
 Odds Ratio= (843/1101) / (707/1783)
 di ( (843/1101) / (707/1783) )
-=>
+=> 1.930955143
