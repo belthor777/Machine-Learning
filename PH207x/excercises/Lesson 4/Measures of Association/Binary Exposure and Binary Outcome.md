@@ -35,7 +35,7 @@ Risk Difference = .20 - .10= .10
 Risk Ratio: RR= (10/302pd) / (5/343pd)= .20/.10= 2.27
 Risk Difference = (10/302pd) - (5/343pd)= 1.85/100pd
 
-
+# Odds
 ## Example Odds - Cumulative Incidence Data
 |        | Headache | No Headache | Total | Disease Odds
 ------------------------------------------------------------
