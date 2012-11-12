@@ -62,7 +62,13 @@ Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 | Females| 707  | 1783     | 2490   | 707/2490=
 
 Q1.) What is the 24 year Risk Ratio for dying comparing Males (exposed group) to Females (non-exposed group)?
+Risk Ratio: RR= (843/194) / (707/2490)= 
+di ( 843/194) / (707/2490) )
+=> 
 
 Q2.) What is the 24-year Risk Difference for dying, comparing Males (exposed group) to Females (non-exposed group)?
+Risk Difference = 843/1944 - 707/2490=
+di ( (843/1944) - (707/249) )
+=>
 
 Q3.) What is the 24-year Odds Ratio for dying, comparing Males (exposed group) to Females (non-exposed group)?
