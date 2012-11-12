@@ -58,8 +58,8 @@ Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 # Measures of Association Problem 1 
 |        | Died | Survived | Total  | Estimated Risk | Disease Odds
 ------------------------------------------------------------
-| Male   | 843  | 1101     | 1944   | 843/1944       | 843/1101
-| Females| 707  | 1783     | 2490   | 707/2490       | 707/1783
+| Male   | 843  | 1101     | 1944   | 843/1944       | 843/1101= 0.765667574932
+| Females| 707  | 1783     | 2490   | 707/2490       | 707/1783= 0.396522714526
 
 Q1.) What is the 24 year Risk Ratio for dying comparing Males (exposed group) to Females (non-exposed group)?
 Risk Ratio: RR= (843/194) / (707/2490)= 
