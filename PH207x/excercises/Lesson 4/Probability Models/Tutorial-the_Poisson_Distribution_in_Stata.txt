@@ -1,0 +1,43 @@
+# Tutorial: the Poisson Distribution in Stata 
+
+1.) What is the expected number of women with breast cancer in the census tract 1?
+Y~Pois( 1,962 )
+
+-> E(Y)= 1.962
+
+2.) What is the typical departure of the number of woman with breast cancer from this mean number?
+=> Standard Deviation
+
+sd(Y)= ?
+E(Y)= var(Y)
+var(Y)= 1.962
+sd(Y)= SQRT( 1.962 )= 1.4
+
+3.) Would the Poisson distribution provide an appropriate model?
+count probabily OK! But in practice we really use more rigorous model diagnostics assess
+
+4.) What is the probability that exactly zero women develop breast cancer in census tract 1.
+Y ~ Pois(1.962)
+P(Y=0)= (e^-u * u^y) / y!= (e^-1.962 * 1.962^0) / 0!= e^-1.962
+
+5.) In census tract 2, what is the probability that at least 5 or more incident breast cancer cases are observed?
+P(Y >= 5)= 1-P(<5)= SUM i=0 to 4 ( P(Y=i) ) )
+
+## Stata Commands for Poisson(m)
+poissonp(m,k) - returns the probability of observing floor(k) or fewer successes - P(X=k)
+poisson(m,k) - returns the probability of observing floor(k) or fewer successes - P(X<=k)
+poissontail(m,k) - returns the probability of observing floor(k) or more successes - P(X>=k)
+
+P(X=k) - Wie in unseren Beispiel... es müsste also 1,2,3,4,5 noch summiert werden
+di poissonp(1.781, 5)
+=> 0.2515706
+
+P(X>=k) - Wie in unseren Beispiel
+di poissontail(1.781, 5)
+=0.3504886
+
+P(X<=k) - Deshalb 4 anstatt 5 (wegen gleich)
+di 1-poisson(1.781, 4)
+=0.3504886
+
+

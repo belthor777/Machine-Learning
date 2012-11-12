@@ -1,0 +1,34 @@
+## Normal Distribution
+Suppose X follows a normal distribution with mean 1 and variance 2, i.e. X∼Normal(1,2).
+u= mean(X)= 1 
+variance= 2
+o= sqrt(np(1-p)= sd(X)= SQRT( variance )= SQRT(2)= 0.5
+
+1. Calculate P(X>2).
+z= (X-mean)/standard deviation= (2-1)/SQRT(2)= 0.7071067812
+di 1-normal(z)
+=> 0.23978324
+
+2. Calculate P(X≥2).
+- There is nothing called X>=2 (Normal(1,2))
+- It is same as x>2
+z= (X-mean)/standard deviation= (2-1)/SQRT(2)= 0.7071067812
+di 1-normal(z)
+=> 0.23978324
+
+3. Calculate P(X=2).
+P(X=2)= 0
+
+4. Calculate P(X<1).
+- normal(z) - return the cumulative standard normal distribution - P( Z<z )
+- Find the probability in standard normal distribution as di normal(X)
+z= (1-1)/SQRT(2)= 0
+di normal(0)
+=> 0.5
+
+5. Calculate P(1<X<2).
+X > 1: 1-P(X<1)
+X < 2: P(X)-P(X>2)
+P(1<X<2)= P(X≥2)-P(X=2)
+di normal((2 - 1)/sqrt(2)) - normal(0)
+=> 0.26024994

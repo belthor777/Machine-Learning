@@ -1,0 +1,32 @@
+# Applying the Normal Distribution
+If X denotes systolic blood pressure, then approximately normal. For 18-74-year-old men in US the mean is 129mm Hg and the stand. dev. is 19.8 mm Hg.
+
+-> General Normal
+Z= ( X-u ) / o
+
+-> Predictive Interval (95% of the time)
+-1.96o+u <= X <= 1.96o+u
+
+-> Calculation
+u= 129 mean
+o= 19.8 standard deviation
+
+So: Z= ( X-129 ) / 19.8
+=> is Standard Normal
+
+So if:
+
+1.96= ( X-129 ) / 19.8
+X_1= 1.96*19.8 + 129= 167.8
+X_2= -1.96*19.8 + 129= 90.2
+
+=> If we choose a person at random from this population, the probability is 0.975 that the person has systolic blood pressure less than 167.8
+
+
+Q1.) How many have blood pressure above 159mm Hg.?
+Z= (150-129) / 19.8= 1.06
+
+Stata (on the left of Normal Distribution): di normal(Z)
+di normal(1.06)
+=> 0.8554277
+=> So approxumately (100-85.5=) 14.5% of men in the US between the ages of 18 and 74 have systolic blood pressure above 150mm Hg.

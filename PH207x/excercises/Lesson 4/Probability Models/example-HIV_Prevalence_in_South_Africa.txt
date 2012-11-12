@@ -1,0 +1,59 @@
+# Example Problem: HIV prevalence in South Africa
+According to UN AIDS*, HIV prevalence in South Africa was 17.8% among adults 15 to 49 years
+old in 2009. Assume this prevalence estimate is accurate today, and we randomly sample 500
+individuals in South Africa. Suppose X is the number of HIV positive individuals in the sample.
+Model X using the binomial distribution.
+
+2009 - HIV+ from 14 to 49years: 17.8% 
+- X= # HIV+ individuals in the sample of 500 people
+- Binomial Distribution
+n= 500;	Sample Size
+p= 17.8; HIV+ inside the sample size
+
+Q1.) How many individuals do we expect to be HIV positive in the sample?
+E(x)= n*p= 500/100*17.8= 89 people
+
+Q2.) What is the standard deviation of the number of HIV+ individuals?
+sd(X)= SQRT(variance)= SQRT( n*p*(1-p) )= SQRT( 500*0.178*(1-0.178) )
+sd(X)= 8.553245
+
+Q3.) What is the probability of observing more than 100 HIV positive individuals?
+P(X>100)= 1 - P( X <= 100)
+P(X>100)= P(X>=100) - P(X=100)
+P(X>100)= binomialtail(500,100,0.178)-binomialp(500,100,0.178)
+P(X>100)= binomialtail(500,101,0.178)
+di binomialtail(500,100,0.178)-binomialp(500,100,0.178)
+=> 0.09089616
+
+Q4.) What is the probability of observing between 85 and 95 HIV positive individuals?
+P(85 <= X <= 95 )= ?
+
+P(85 <= X <= 95 )= P( X<=95 ) - P( X=84 )
+P(85 <= X <= 95 )= binomial(500,95,0.178) - binomial(500,84,0.178)
+di binomial(500,95,0.178) - binomial(500,84,0.178)
+=> 0.47533949
+
+P(85 <= X <= 95 )= P( X>=85 ) - P( X>=96)
+P(85 <= X <= 95 )= binomialtail(500,85,0.178) - binomialtail(500,96,0.178)
+di binomialtail(500,85,0.178) - binomialtail(500,96,0.178)
+=> 0.47533949
+
+
+Q5.) Let's say we decided to model X using the normal distribution instead. What is E(X) and sd(X)?
+sd(X)= sqrt(np(1-p)= SQRT( 500*0.178*(1-0.178) )= 8.553245
+E(X)= n*p= 89
+=> Instead of X~Bin(500,0.178) we are using now X~N(89,8.55^2)
+
+Q6.) What is the probability of observing more than 100 HIV+ individuals?
+P( X > 100 )= ?
+P( z > (100-89)/8.55 )= P( z > 1.286 )
+di 1-normal(z)
+=> 0.99221
+
+Q7.) What is the probability of observing between 85 and 95 HIV+ individuals?
+P( 85 < x < 95 )= ?
+P(X <= 95) - P( X <= 85 )= ?
+-> P( z <= (95-89)/8.55 ) - P( z <= (85-98)/8.55 )= P(z<=.702) - P(z<=-.468)
+di normal(0.702)-normal(-0.468)
+=> 0.438768
+

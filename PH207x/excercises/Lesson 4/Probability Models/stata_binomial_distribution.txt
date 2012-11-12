@@ -1,0 +1,28 @@
+# 10*p=0.5
+gen x=?		# number of successes
+gen n= 10	# number of trials
+gen P = 0.5	# probability of success
+gen p = binomialp(n,x,P)	# Probability
+list x p
+
+# Reverse Logic
+# P(X=60)=[ 100 60 ] * 0.6^60 * 0.4*(100-60)
+di comb(100,60)*(0.6^60)*(0.4^40)
+=> 0.08121914
+
+# OR
+# X ~ Binomial(n,p)
+# P(X=60) <- binomialp(n,k,p) - returns the probability of observing k successess
+# P(X<=60) <- binomial(n,k,p) - returns the probability of observing k or fewer successes
+# P(X>=60) <- binomialtail(n,k,p) - return the probability of observing floor(k) or more successes
+di binomialp( 100, 60, 0.6)
+di binomialtail( 100, 50, 0.6)	# 49 < 60
+di binomial( 100, 49, 0.6)	# 50 < 60
+
+# Proof
+di 1- binomial( 100, 49, 0.6)
+=> 0.98323831
+di binomialtail( 100, 50, 0.6)
+= 0.98323831
+
+

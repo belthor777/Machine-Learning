@@ -1,0 +1,24 @@
+# Smoking and the normal distribution
+
+Recall: According to data from the CDC in 2010, 19.3% of adults age eighteen and older smoke cigarettes. In the year 2008, the incidence rate of lung cancer was 65.1 cases per 100,000 people per year.
+
+Suppose you are conducting a lung cancer study in the United States, and you obtain a random sample of 2,000 adults (over 18 years of age) who do not have lung cancer. You plan to follow this study cohort over a period of 5 years and observe incident cases of lung cancer.
+
+Smoking and the normal distribution. In the previous question, we modeled the number of smokers in the study cohort using the binomial probability model. Now, assume that the number of smokers in the study cohort follows a normal distribution.
+
+sd(x)= 17.6494192539
+p= 389
+
+1. What is the probability that you observe exactly 386 smokers?
+P( z=386 )= ?
+P( z= (x-mean)/sd )= P( z= (386-386)/17.6494192539 )=  0
+
+
+2. What is the probability that less than 20% of the study population are smokers?
+P( z < 400 )= ?
+z= P( X <= 400 )= P( z <= (400-386)/17.6494192539 )= 0.79322723
+
+
+3. Does the normal model provide a reasonable approximation to the binomial model in this example?
+-> Yes 
+No 

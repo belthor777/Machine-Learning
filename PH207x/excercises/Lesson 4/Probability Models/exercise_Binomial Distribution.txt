@@ -1,0 +1,13 @@
+# Binomial Distribution
+Suppose X∼Binomial(10,0.25). 
+
+1.) P(X=2)
+di binomialp(10,2,0.25)
+
+2.) P(X>2)= P(X>=3)
+di binomialtail(10, 3, 0.25)
+
+3.) P(X<2)= P(X=<1)
+di binomial(10, 1, 0.25)
+di 1-binomialtail(10, 2, 0.25)
+

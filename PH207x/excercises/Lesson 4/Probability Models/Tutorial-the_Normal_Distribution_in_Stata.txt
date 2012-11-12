@@ -1,0 +1,46 @@
+# Example: Ozone Designation following the Clean Air Act Amendments of 1997
+From 2001-2003, the Environmental Protection Agency (EPA) monitored ozone levels at monitors across the United States. One criteria for ozone was that the ozone levels (defined as the average fourth highest daily maximum ozone over the three year period) could not exceed 80ppb. Regulatory actions were taken if the ozone levels exceeded this threshold. Among monitors in the Southeast, the average ozone level was 45.2 ppb, with standard deviation 6.3 ppb. Ozone levels are usually modeled using the normal distribution. We assume that this distribution is reasonable in our application.
+
+## Facts
+- ozone level not exceed 80ppb
+- average ozone level= 45.2ppb
+- sd ozone level= 6.3ppb
+- ozone level are usually modeled using normal distribution
+
+X ~ Normal(45.2,6.3^2)
+
+At a randomly sampled monitor....
+
+Q1) What is the expected ozone level? 
+E(X)= 45.2
+
+Q2) What is the typical departure ozone levels from this mean number?
+typical departure= Standard Abweichung
+sd(X)= 6.3
+
+Q3) What is the probability that ozone levels exceed the 80ppb threshold?
+P(X>80)=?
+
+Suppose Z ~ Normal(0,1)
+normal(z) - return the cumulative standard normal distribution - P( Z<z )
+normalden(z) - returns the standard normal density
+
+The reason for this is because normally distributed random variables are "continuous", we have a continuous probability distribution
+and therefore this normal p, the probability that x is exactly equal to 80.
+
+P(X=80)=0
+F(z)= F(80)
+F(0)= 0.39...
+
+Q4.) What is the probability that a randomly selected monitor has ozone levels exceeding 80ppb?
+P(X>80)?
+
+-> First standardize
+Z~N(0,1)
+P( Z > (80-45.2)/6.3 )= P( Z > 5.524 )= 1-P(Z<5.24)= 1-0.999998 ~ 0.000001
+
+-> Use Stata
+di normal(5.524)
+
+
+

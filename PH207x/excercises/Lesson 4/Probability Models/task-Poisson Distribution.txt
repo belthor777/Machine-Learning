@@ -1,0 +1,22 @@
+## Stata Commands for Poisson(m)
+poissonp(m,k) - returns the probability of observing floor(k) or fewer successes - P(X=k)
+poisson(m,k) - returns the probability of observing floor(k) or fewer successes - P(X<=k)
+poissontail(m,k) - returns the probability of observing floor(k) or more successes - P(X>=k)
+
+## Suppose X∼Poisson(2). 
+1.) Calculate P(X=2).
+u= 2; y=2;
+P(Y=2)= (e^-u * u^y) / y!= (e^-2 * 2^2) / 2!= 0.2706705665
+di poissonp(2,2)
+=> 0.27067057
+
+2.) Calculate P(X>2).
+P(Y > 2)= 1-P(<=2)= SUM i=0 to 2 ( P(Y=i) ) )
+P(Y > 2)= P(X>=2)-P(X=2)
+di poissontail(2,2) - poissonp(2,2)
+=> 0.32332358
+
+3.) Calculate P(X<2).
+P(X<2)= P(X<=k) - P(X=2)
+di poisson(2,2) - poissonp(2,2)
+=> 0.40600585
