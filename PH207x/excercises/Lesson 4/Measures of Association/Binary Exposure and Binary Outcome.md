@@ -43,6 +43,12 @@ Risk Difference = (10/302pd) - (5/343pd)= 1.85/100pd
 | Females| 5        | 45          | 50    | 5/45= 0.11   | 45/5= 9
 
 Odds Ratio= (10/40) / (5/45) = 2.25
-Odds Ratio for not developing outcome= 1/(Odds Ratio for developing outcome)
-Odds Ratio= (40/10)/(45/5)= .4444= 1/2.25
+Odds Ratio_2 for not developing outcome= 1/(Odds Ratio for developing outcome)
+Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 
+## Illness Odds Ratio= Exposure Odds Ratio
+|        | Headache | No Headache | Disease Odds
+------------------------------------------------------------
+| Male   | 10       | 40          | 10/40= 0.25
+| Females| 5        | 45          | 5/45= 0.11
+| Exposure Odds | 10/5 | 40/45 | EOR= (12/5) / (40/45)
