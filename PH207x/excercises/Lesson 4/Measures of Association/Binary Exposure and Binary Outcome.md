@@ -53,4 +53,4 @@ Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 | Females| 5        | 45          | 5/45= 0.11
 | Exposure Odds | 10/5 | 40/45 | EOR= (12/5) / (40/45)
 
-## For small risks OR > RR
+## For small risks OR ~ RR
