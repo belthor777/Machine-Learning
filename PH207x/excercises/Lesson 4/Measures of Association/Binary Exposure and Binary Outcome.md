@@ -56,5 +56,9 @@ Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 => For small risks OR ~ RR
 
 # Measures of Association Problem 1 
+|        | Died | Survived | Total
+------------------------------------------------------------
+| Male   | 843  | 1101     | 1944   | 843/1944= 
+| Females| 707  | 1783     | 2490   | 707/2490=
 
 
