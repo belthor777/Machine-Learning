@@ -54,3 +54,7 @@ Odds Ratio_2= (40/10)/(45/5)= .4444= 1/2.25
 | Exposure Odds | 10/5 | 40/45 | EOR= (12/5) / (40/45)
 
 ## For small risks OR ~ RR
+
+# Measures of Association Problem 1 
+
+
