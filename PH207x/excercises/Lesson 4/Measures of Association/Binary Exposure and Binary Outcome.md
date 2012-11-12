@@ -39,7 +39,9 @@ Risk Difference = (10/302pd) - (5/343pd)= 1.85/100pd
 ## Example Odds - Cumulative Incidence Data
 |        | Headache | No Headache | Total | Disease Odds
 ------------------------------------------------------------
-| Male   | 10       | 40          | 50    | 
-| Females| 5        | 45          | 50    | 
+| Male   | 10       | 40          | 50    | 10/40= 0.25
+| Females| 5        | 45          | 50    | 5/45= 0.11
+
+Odds Ratio= (10/40) / (5/45) = 2.25
 
 
