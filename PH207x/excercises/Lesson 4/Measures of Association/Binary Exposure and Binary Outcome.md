@@ -35,3 +35,12 @@ Risk Difference = .20 - .10= .10
 Risk Ratio: RR= (10/302pd) / (5/343pd)= .20/.10= 2.27
 Risk Difference = (10/302pd) - (5/343pd)= 1.85/100pd
 
+
+## Example Odds - Cumulative Incidence Data
+|        | Headache | No Headache | Total | Estimated Risk
+------------------------------------------------------------
+| Male   | 10       | 40          | 50    | 10/50= .20
+| Females| 5        | 45          | 50    | 5/50= .10
+
+Risk Ratio: RR= (10/50) / (5/50)= .20/.10= 2.0
+Risk Difference = .20 - .10= .10
