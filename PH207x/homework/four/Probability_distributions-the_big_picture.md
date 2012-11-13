@@ -12,3 +12,4 @@ Recap: In the last several questions about designing a study, we have learned ab
  * Poisson
  * **normal**
  * exponential 
+
