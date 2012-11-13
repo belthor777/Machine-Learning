@@ -12,28 +12,35 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
  * n= sample size= 2000
  * observation: 5 years
 
-1. How many smokers would you expect to see in the study cohort, on average?
-E(x)= n*p
-di 0.193*2000
-=> 386
+##### Q1. How many smokers would you expect to see in the study cohort, on average? #####
+	   
+>	E(x)= n*p  
 
-2. What is the standard deviation of the number of smokers in the study cohort?
--> Calculate sd = sqrt(number of people*prevalence*(1-prevalance))
+	di 0.193*2000  
+
+>	=> 386
+
+##### Q2. What is the standard deviation of the number of smokers in the study cohort? #####
+	   
+>	-> Calculate sd = sqrt(number of people*prevalence*(1-prevalance))
 sd(x)= SQRT( n*p*(1-p) )= SQRT( 2000*0.193*(1-0.193) )
 sd(x)= 17.6494192539
 
-3. What is the probability that you observe exactly 386 smokers?
-P(X=386)= binomialp(2000,386,0.193)
+##### Q3. What is the probability that you observe exactly 386 smokers? #####
+	   
+>	P(X=386)= binomialp(2000,386,0.193)
 di binomialp(2000,386,0.193)
 => 0.0225986
 
-4. What is the probability that greater than or equal to 25% of the study population are smokers? Please round your answer to 4 decimal places.
-P( X >= 500 )= binomialtail(2000,500,0.193)
+##### Q4. What is the probability that greater than or equal to 25% of the study population are smokers? Please round your answer to 4 decimal places. #####
+	   
+>	P( X >= 500 )= binomialtail(2000,500,0.193)
 di binomialtail(2000,500,0.193)
 => 0.0000000002403
 
-5. What is the probability that less than or equal to 20% of the study population are smokers?
-P( X <= 400 )= binomial(2000,400,0.193)
+##### Q5. What is the probability that less than or equal to 20% of the study population are smokers? #####
+	   
+>	P( X <= 400 )= binomial(2000,400,0.193)
 di binomial(2000,400,0.193)
 => 0.79487415
 
