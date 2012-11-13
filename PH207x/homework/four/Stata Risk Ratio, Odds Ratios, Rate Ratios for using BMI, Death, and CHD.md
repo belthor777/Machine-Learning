@@ -38,20 +38,23 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 
 ##### Q1. Calculate the 24-year Risk Ratio for death comparing obese subjects (exposed group, n=577) to normal weight subjects (non-exposed group, n=1936). #####
-Hint1 - Is the same procedure as shown in the video at 1:45-3:10
-=> Risk Ratio= 1.521925 
+*Hint1: Is the same procedure as shown in the video at 1:45-3:10*
+
+>	=> Risk Ratio= 1.521925 
 
 
 ##### Q2. Calculate the 24-year Odds Ratio for death comparing obese subjects (exposed group, n=577) to normal weight subjects (non-exposed group, n=1936). #####
-Hint1 - Is the same procedure as shown in the video at 1:45-3:10
-=> Odds Ratio= 1.947015
+*Hint1:Is the same procedure as shown in the video at 1:45-3:10*
+
+>	=> Odds Ratio= 1.947015
 
 
 ##### Q3. Calculate the 24-year Rate Ratio for death comparing obese subjects (exposed group, n=577) to normal weight subjects (non-exposed group, n=1936). #####
-Hint1 - Uses the same variables as Q1 and Q2 and the procedure is at 6:39-8:00 of the video.
-=> Rate Ratio= 1.632792
+*Hint1: Uses the same variables as Q1 and Q2 and the procedure is at 6:39-8:00 of the video.*
 
-ir death newbmi1 timedth
+>	=> Rate Ratio= 1.632792
+
+	ir death newbmi1 timedth
 
                  | newbmi1                |
                  |   Exposed   Unexposed  |      Total
@@ -74,7 +77,7 @@ Time [years] to  |   11308.9    40708.74  |   52017.64
 
 
 ##### Q4. Calculate the 24-year Rate Ratio for developing coronary heart disease comparing obese subjects (exposed group) to normal weight (non-exposed group), excluding subjects with prevalent CHD at the 1956 exam. Hint: Use the if/in tab options to restrict the sample to those without prevalent CHD at the 1956 exam (prevchd1 = = 0). #####
-Hint1 - Different variables from the previous 3 questions and the procedure is shown at 8:55-10:15 of the video.
+*Hint1: Different variables from the previous 3 questions and the procedure is shown at 8:55-10:15 of the video.*
 => Rate Ratio= 2.050572
 
 ir anychd newbmi1 timechd if (prevchd1 == 0) 
@@ -101,7 +104,7 @@ Time [years] to  |  9387.737    37324.05  |   46711.79
 
 
 ##### Q5. Calculate the 24-year Rate Ratio for developing coronary heart disease comparing (obese or overweight) subjects (exposed group) to normal weight (non-exposed group), excluding subjects with prevalent CHD at the 1956 exam. #####
-Hint1 - Different variables from the previous 3 questions and the procedure is shown at 8:55-10:15 of the video.
+*Hint1: Different variables from the previous 3 questions and the procedure is shown at 8:55-10:15 of the video.*
 => Rate Ratio= 1.736394
 
 
