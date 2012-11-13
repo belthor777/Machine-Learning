@@ -6,15 +6,15 @@ Suppose you are conducting a lung cancer study in the United States, and you obt
 Lung cancer and the Poisson distribution. Because lung cancer is a rare disease, we can model cases of lung cancer using the Poisson distribution, with incidence rate 65.1 cases per 100,000 person-years.
 
 1. Using the Poisson distribution, what is the probability that you observe more than 1 lung cancer case in the first year?   
-Please see that it is more than 1 lung cancer. 1 is not included.   
-> P(X>1)= ?  
-> k=1  
-> n=2000  
-> p=0.00065   
-> m= mean= n*P= 2000*0.000651= 1.302   
-> P(X>1)= P(X>=1)-P(X=1)= poissontail(m,k) - poissonp(m,k)   
+	Please see that it is more than 1 lung cancer. 1 is not included.   
+	P(X>1)= ?  
+	k=1  
+	n=2000  
+	p=0.00065   
+	m= mean= n*P= 2000*0.000651= 1.302   
+	P(X>1)= P(X>=1)-P(X=1)= poissontail(m,k) - poissonp(m,k)   
 
-`di poissontail(1.302,1) - poissonp(1.302,1)`
+	`di poissontail(1.302,1) - poissonp(1.302,1)`
 
 => 0.37388529
 
