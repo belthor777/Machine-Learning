@@ -18,7 +18,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 >
 >	p= prevalence = incidence * duration= 65.1/100000 * 1= 0.000651  
 >	n= 2000  
->	sd(X)= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731  
+>	sd(X)= standard deviation= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731  
 >
 >	proportion= prevalence / duration= 65.1/100000 / 1= **0.000651**
 
