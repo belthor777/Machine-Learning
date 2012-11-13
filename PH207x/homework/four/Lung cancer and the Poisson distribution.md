@@ -16,7 +16,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 	`di poissontail(1.302,1) - poissonp(1.302,1)`
 
-=> 0.37388529
+	=> 0.37388529
 
 
 2. What is the expected number of lung cancer cases observed over the five year study period?
