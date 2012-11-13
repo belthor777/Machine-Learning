@@ -2,11 +2,13 @@
 The following table displays categories of body mass index for the participants at the 1956 exam. (Note: 19 of the 4434 participants are excluded from this table because of missing data on bmi1)
 
 ## BMI and Number of People in Each BMI Category
-BMI Category	Range of BMI	Frequency
-Underweight	BMI<18.5	57
-Normalweight	18.5≤BMI<25	1936
-Overweight	25≤BMI<30	1845
-Obese		30≤BMI		577
+>  BMI Category  | Range of BMI  | Frequency
+>  ------------- | ------------- | -------------
+>  Underweight   | BMI<18.5      | 57
+>  Normalweight  | 18.5≤BMI<25   | 1936
+>  Overweight    | 25≤BMI<30     | 1845
+>  Obese         | 30≤BMI        | 577
+
 
 Use Stata to perform the following calculations. Hint: All of the following questions ask you to compare obese subjects to normal weight subjects. Create a new binary variable using bmi1 which equals 1 if the person is obese and 0 if the person is normal weight. Anyone who is underweight or overweight should be missing a value for the new binary variable you create.
 
