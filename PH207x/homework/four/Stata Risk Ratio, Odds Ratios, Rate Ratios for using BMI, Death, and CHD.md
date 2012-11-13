@@ -11,10 +11,10 @@ The following table displays categories of body mass index for the participants 
 
 Use Stata to perform the following calculations. Hint: All of the following questions ask you to compare obese subjects to normal weight subjects. Create a new binary variable using bmi1 which equals 1 if the person is obese and 0 if the person is normal weight. Anyone who is underweight or overweight should be missing a value for the new binary variable you create.
 
-gen newbmi1=.
-replace newbmi1=1 if bmi1>=30 & bmi1 <. 
-replace newbmi1=0 if bmi1>=18.5 & bmi1 <25
-cs death newbmi1, or
+	gen newbmi1=.
+	replace newbmi1=1 if bmi1>=30 & bmi1 <. 
+	replace newbmi1=0 if bmi1>=18.5 & bmi1 <25
+	cs death newbmi1, or
 
                  | newbmi1                |
                  |   Exposed   Unexposed  |      Total
