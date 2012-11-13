@@ -85,6 +85,16 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 	list x p`
 
 
+This is a regular paragraph.
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+This is another regular paragraph.
+
 	   +--------------+  
 	   | x          p |  
 	   |--------------|  
