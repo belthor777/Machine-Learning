@@ -16,6 +16,13 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 	replace newbmi1=0 if bmi1>=18.5 & bmi1 <25
 	cs death newbmi1, or
 
+| Header | Header | Right  |
+| ------ | ------ | -----: |
+|  Cell  |  Cell  |   $10  |
+|  Cell  |  Cell  |   $20  |
+
+
+
 >                 | newbmi1                |
 >                 |   Exposed   Unexposed  |      Total
 >  -------------- | ---------------------- | -------------
