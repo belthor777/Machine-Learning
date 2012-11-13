@@ -22,13 +22,12 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 |  Cell  |  Cell  |   $20  |
 
 
-
-|                |   Exposed   Unexposed  |      Total    |
-| -------------- | ---------------------- | ------------- |
-|          Cases |       259         571  |        830    |
-|       Noncases |       318        1365  |       1683    |
-|                |                        |               |
-|          Total |       577        1936  |       2513    |
+                |   Exposed   Unexposed  |      Total    |
+ -------------- | ---------------------- | ------------- |
+          Cases |       259         571  |        830    |
+       Noncases |       318        1365  |       1683    |
+                |                        |               |
+          Total |       577        1936  |       2513    |
 
 
                  |                        |
@@ -43,6 +42,7 @@ Use Stata to perform the following calculations. Hint: All of the following ques
       Odds ratio |         1.947015       |    1.608816     2.35632 (Cornfield)
                  +-------------------------------------------------
                                chi2(1) =    47.62  Pr>chi2 = 0.0000
+
 
 Q1.) Calculate the 24-year Risk Ratio for death comparing obese subjects (exposed group, n=577) to normal weight subjects (non-exposed group, n=1936).
 Hint1 - Is the same procedure as shown in the video at 1:45-3:10
