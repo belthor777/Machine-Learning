@@ -16,12 +16,12 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 	replace newbmi1=0 if bmi1>=18.5 & bmi1 <25
 	cs death newbmi1, or
 
-                | Exposed   | Unexposed | Total    
- -------------- | --------- | --------- | ------------- 
-          Cases |     259   |       571 | 830    
-       Noncases |     318   |      1365 | 1683    
-                |                       | 
-          Total |     577   |      1936 | 2513    
+>                | Exposed   | Unexposed | Total    
+> -------------- | --------- | --------- | ------------- 
+>          Cases |     259   |       571 | 830    
+>       Noncases |     318   |      1365 | 1683    
+>                |                       | 
+>          Total |     577   |      1936 | 2513    
 
 
                  |                        |
