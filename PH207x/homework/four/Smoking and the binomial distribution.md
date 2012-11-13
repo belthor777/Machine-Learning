@@ -18,7 +18,7 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di 0.193*2000  
 
->	=> 386
+>	=> E(x)= 386
 
 ##### Q2. What is the standard deviation of the number of smokers in the study cohort? #####
 	   
