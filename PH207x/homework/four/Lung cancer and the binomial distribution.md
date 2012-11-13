@@ -43,9 +43,9 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 >	P(X>1)= ?
 
->	k=1
->	n=2000
->	p=0.00065
+>	k=1  
+>	n=2000  
+>	p=0.00065  
 
 >	P(X>1)= P(X>=1)-P(X=1)
 >	P(X>1)= binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
