@@ -135,12 +135,13 @@ Time [years] to  |  42251.22    37324.05  |   79575.28
 
 
 ##### Q6. Calculate the 24-year Rate Ratio for developing coronary heart disease comparing underweight subjects (exposed group) to normal weight (non-exposed group), excluding subjects with prevalent CHD at the 1956 exam. #####
-=> Rate Ratio= 0.5731434
 
-gen newbmi2=.
-replace newbmi2=1 if bmi1<18.5 & bmi1 >0
-replace newbmi2=0 if bmi1>=18.5 & bmi1 <25
-ir anychd newbmi2 timechd if (prevchd1 == 0) 
+>	=> Rate Ratio= **0.5731434**
+
+	gen newbmi2=.
+	replace newbmi2=1 if bmi1<18.5 & bmi1 >0
+	replace newbmi2=0 if bmi1>=18.5 & bmi1 <25
+	ir anychd newbmi2 timechd if (prevchd1 == 0) 
 
                  | newbmi2                |
                  |   Exposed   Unexposed  |      Total
