@@ -32,6 +32,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 	di 65.1/100000*2000  
 
 >	=> **1.302**
+* * *
 
 ##### Q3. Why would you expect the mean and variance to be similar in this example? #####
 - **the event is rare**
