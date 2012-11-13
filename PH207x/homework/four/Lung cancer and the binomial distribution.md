@@ -23,12 +23,13 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 >	proportion= prevalence / duration= 65.1/100000 / 1= **0.000651**
 
 **Q2. How many cases of lung cancer would we expect to observe in the first year?**
-The expected value E(x) of a binomial distribution can be with decimals, but the actual number of alive people can only be a whole number (0, 1, 2, 3...).
-p= 65.1/100000
-n= 2000
-E(x)= n*p= 65.1/100000*2000
-di 65.1/100000*2000
-=> 1.302
+*Hint1: The expected value E(x) of a binomial distribution can be with decimals, but the actual number of alive people can only be a whole number (0, 1, 2, 3...).*   
+	   
+>	p= 65.1/100000  
+>	n= 2000  
+>	E(x)= n*p= 65.1/100000*2000  
+>	di 65.1/100000*2000  
+>	=> **1.302**
 
 **Q3. Why would you expect the mean and variance to be similar in this example?**
 - **the event is rare**
