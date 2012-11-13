@@ -28,7 +28,7 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 >                |                       | 
 
 
->                 |      Point estimate    |    [95% Conf. Interval] | 
+>                 |      Point estimate    |    [95% Conf. Interval]      
 > --------------- | ---------------------- | ------------- | -------------
 > Risk difference |         .1539355       |    .1085524   | .1993186 
 >      Risk ratio |         1.521925       |    1.358417   | 1.705113 
