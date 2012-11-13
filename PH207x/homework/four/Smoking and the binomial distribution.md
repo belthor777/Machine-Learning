@@ -14,7 +14,7 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 ##### Q1. How many smokers would you expect to see in the study cohort, on average? #####
 	   
->	E(x)= n*p  
+>	E(x)= n*p= ?  
 
 	di 0.193*2000  
 
