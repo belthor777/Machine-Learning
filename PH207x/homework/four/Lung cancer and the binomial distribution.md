@@ -84,13 +84,13 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 	gen p = binomialp(2000,x,0.00065)
 	list x p`
 
->  x  | p
+>  x             | p
 >  ------------- | -------------
->  0  | 0.2724166
->  1  | 0.354372
->  2  | 0.2303763
->  3  | 0.0997948
->  4  | 0.0324057
+>  0             | 0.2724166
+>  1             | 0.354372
+>  2             | 0.2303763
+>  3             | 0.0997948
+>  4             | 0.0324057
 
 
 > <table>
