@@ -65,10 +65,10 @@ m= mean= n*P= 2000*0.000651= 1.302
 P( X<5 )= P(X<=k)-P(X=k)
 P( X<5 )= poisson(m,k) - poissonp(m,k)
 
-`clear all
-set obs 11
-gen k=5
-gen m=_n*2000*65.1/100000
-gen p = poisson(m,k) - poissonp(m,k)
-list m p`
+	clear all
+	set obs 11
+	gen k=5
+	gen m=_n*2000*65.1/100000
+	gen p = poisson(m,k) - poissonp(m,k)
+	list m p
 => 0.2225557
