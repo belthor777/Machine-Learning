@@ -33,7 +33,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 	di 65.1/100000*2000  
 
->	=> **1.302**
+>	=> E(x)= **1.302**
 
 * * *
 
