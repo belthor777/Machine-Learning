@@ -20,8 +20,8 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 
 2. What is the expected number of lung cancer cases observed over the five year study period?   
-Hint1- It is 5 year study period. Same number of Cancer will be produced each year.   
-Hint2- In a year how many cancer cases will be observed among the 2000 randomly selected individuals?   
+*Hint1- It is 5 year study period. Same number of Cancer will be produced each year.*   
+*Hint2- In a year how many cancer cases will be observed among the 2000 randomly selected individuals?*   
 	incidence_rate= 0.000651   
 	   
 	duration= 5  
@@ -29,7 +29,7 @@ Hint2- In a year how many cancer cases will be observed among the 2000 randomly 
 	E(x)= n*p= 0.003255*2000= 6.51
 
 3. What is the variance of the number of lung cancer cases observed over the five year study period?...
-Hint1- In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. it was already indicated that lamda = mean = np.  
+*Hint1- In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. it was already indicated that lamda = mean = np.*  
 	   
 	n=2000   
 	p=0.00065   
@@ -37,7 +37,7 @@ Hint1- In the formula for variance which is np(1-p) if p is too tiny tiny tiny w
 
 
 4. What is the probability that you observe more than 10 lung cancer cases over the five year period?   
-Hint1- It is more than 10. 10 is not included. 5 years period. In stata, di poisson(mean,X) gives result inclusive of X.
+*Hint1- It is more than 10. 10 is not included. 5 years period. In stata, di poisson(mean,X) gives result inclusive of X.*   
 	   
 	k=10  
 	n=2000  
