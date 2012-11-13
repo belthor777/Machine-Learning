@@ -46,6 +46,8 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 ##### Q5. What is the probability that less than or equal to 20% of the study population are smokers? #####
 	   
 >	P( X <= 400 )= binomial(2000,400,0.193)
-di binomial(2000,400,0.193)
-=> 0.79487415
+
+	di binomial(2000,400,0.193)
+
+>	=> P( X <= 400 )= 0.79487415
 
