@@ -23,12 +23,12 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 
 
-                | Exposed  |  Unexposed | Total    
- -------------- | --------------------- | ------------- 
-          Cases |     259  |       571  | 830    
-       Noncases |     318  |      1365  | 1683    
+                | Exposed   | Unexposed | Total    
+ -------------- | --------- | --------- | ------------- 
+          Cases |     259   |       571 | 830    
+       Noncases |     318   |      1365 | 1683    
                 |                       | 
-          Total |     577  |      1936  | 2513    
+          Total |     577   |      1936 | 2513    
 
 
                  |                        |
