@@ -58,13 +58,17 @@ P(X>10)= P(X>=10)-P(X=10)= poissontail(1.302,10)-poissonp(1.302,10)
 
 
 5. What is the probability that you observe less than 5 lung cancer cases over the five year period?
+
 k=5
+
 n=2000
+
 p=0.00065
+
 m= mean= n*P= 2000*0.000651= 1.302
 
-P( X<5 )= P(X<=k)-P(X=k)
-P( X<5 )= poisson(m,k) - poissonp(m,k)
+
+P( X<5 )= P(X<=k)-P(X=k)= poisson(m,k) - poissonp(m,k)
 
 	clear all
 	set obs 11
