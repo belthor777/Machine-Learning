@@ -1,5 +1,4 @@
 # Smoking and the binomial distribution
-
 According to data from the CDC in 2010, 19.3% of adults age eighteen and older smoke cigarettes. In the year 2008, the incidence rate of lung cancer was 65.1 cases per 100,000 people per year.
 
 Suppose you are conducting a lung cancer study in the United States, and you obtain a random sample of 2,000 adults (over 18 years of age) who do not have lung cancer. You plan to follow this study cohort over a period of 5 years and observe incident cases of lung cancer.
@@ -7,12 +6,11 @@ Suppose you are conducting a lung cancer study in the United States, and you obt
 ## Smoking and the binomial distribution. 
 Smoking status is an important predictor of lung cancer incidence. Therefore, as the study designer, it is important to think about baseline smoking rates in your study cohort. We first model the number of smokers in the study cohort using the binomial distribution, and assume that this cohort is representative sample from the US population. Use the binomial distribution to answer the parts below. 
 
-- 2010: 19.3% of >18 years smoke cigarettes
-- p= 0.193
-
-- 2008: 65.1/100,000 people= 0.0000655
-- n= 2000 have no lung cancer
-- observation 5 years
+ * 2010: 19.3% of >18 years smoke cigarettes
+ * 2008: 65.1/100,000 people= 0.0000655
+ * p= prevalence= 0.193
+ * n= sample size= 2000
+ * observation: 5 years
 
 1. How many smokers would you expect to see in the study cohort, on average?
 E(x)= n*p
