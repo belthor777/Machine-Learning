@@ -85,7 +85,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 	list x p`
 
 >  x  | p
->  -- | --
+>  ------------- | -------------
 >  0  | 0.2724166
 >  1  | 0.354372
 >  2  | 0.2303763
