@@ -28,7 +28,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	prevalence = incidence_rate * duration= 0.000651 * 5= 0.003255  
 	E(x)= n*p= 0.003255*2000= 6.51
 
-3. What is the variance of the number of lung cancer cases observed over the five year study period?...
+3. What is the variance of the number of lung cancer cases observed over the five year study period?   
 *Hint1- In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. it was already indicated that lamda = mean = np.*  
 	   
 	n=2000   
