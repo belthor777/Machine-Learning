@@ -31,9 +31,9 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 **Q3: What is the variance of the number of lung cancer cases observed over the five year study period?**   
 *Hint1: In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. It was already indicated that lamda = mean = np.*  
 	   
-	n=2000   
-	p=0.00065   
-	variance= np(1-p)= 2000*0.00325*(1-0.00325)= **6.478875**
+>	n=2000   
+>	p=0.00065   
+>	variance= np(1-p)= 2000*0.00325*(1-0.00325)= **6.478875**
 
 
 **Q4: What is the probability that you observe more than 10 lung cancer cases over the five year period?**   
