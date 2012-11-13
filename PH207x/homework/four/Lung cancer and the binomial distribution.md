@@ -69,7 +69,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 >	=> **0.27241662**
 
-* **Table in Stata**
+ * **Table in Stata**
 
 	clear all
 	set obs 5
