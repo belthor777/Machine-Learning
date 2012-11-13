@@ -6,19 +6,19 @@ Suppose you are conducting a lung cancer study in the United States, and you obt
 
 Lung cancer and the binomial distribution. You also need to carefully consider how many cases of lung cancer you expect to observe in your study over time. We first model the number of lung cancer cases observed in the first year using the binomial distribution.
 
-
 - 2010: 19.3% of >18 years smoke cigarettes
 - p= 0.193
 - n= 2000 have no lung cancer
 - observation 5 years
 - 2008: incidence rate of lung cancer was 65.1 cases per 100,000 people per year -> = 0.0000655
 
-1. What proportion of the study population would you expect, on average, to be diagnosed with lung cancer in the first year?
-=> Prevalence Proportion is the total number of persons with lung cancer
-p= prevalence = incidence * duration= 65.1/100000 * 1= 0.000651
-n= 2000
-sd(X)= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731
-proportion= prevalence / duration= 65.1/100000 / 1= 0.000651
+**Q1. What proportion of the study population would you expect, on average, to be diagnosed with lung cancer in the first year?**
+	   
+>	=> Prevalence Proportion is the total number of persons with lung cancer
+>	p= prevalence = incidence * duration= 65.1/100000 * 1= 0.000651
+>	n= 2000
+>	sd(X)= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731
+>	proportion= prevalence / duration= 65.1/100000 / 1= **0.000651**
 
 2. How many cases of lung cancer would we expect to observe in the first year?
 The expected value E(x) of a binomial distribution can be with decimals, but the actual number of alive people can only be a whole number (0, 1, 2, 3...).
