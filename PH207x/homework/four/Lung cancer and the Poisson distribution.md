@@ -50,14 +50,14 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	di poissontail(1.302,10)-poissonp(1.302,10)
 >
 >	=> 1.392e-07
->
+
 	clear all
 	set obs 11
 	gen k=10
 	gen m=_n*2000*0.000651
 	gen p = poissontail(m,k)-poissonp(m,k)
 	list m p
->
+
 >	=> **0.0673981**
 
 
