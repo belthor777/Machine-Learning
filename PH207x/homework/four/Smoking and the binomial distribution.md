@@ -18,14 +18,14 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di 0.193*2000  
 
->	=> E(x)= 386
+>	=> E(x)= **386**
 
 ##### Q2. What is the standard deviation of the number of smokers in the study cohort? #####
 	   
 >	sd(x)= sqrt(number of people*prevalence*(1-prevalance))  
 >	sd(x)= SQRT( n*p*(1-p) )= SQRT( 2000*0.193*(1-0.193) )  
 
->	=> sd(x)= 17.6494192539
+>	=> sd(x)= **17.6494192539**
 
 ##### Q3. What is the probability that you observe exactly 386 smokers? #####
 	   
@@ -33,13 +33,15 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di binomialp(2000,386,0.193)
 
->	=> P(X=386)= 0.0225986
+>	=> P( X=386 )= **0.0225986**
 
 ##### Q4. What is the probability that greater than or equal to 25% of the study population are smokers? Please round your answer to 4 decimal places. #####
 	   
->	P( X >= 500 )= binomialtail(2000,500,0.193)
-di binomialtail(2000,500,0.193)
-=> 0.0000000002403
+>	P( X >= 500 )= binomialtail(2000,500,0.193)  
+
+	di binomialtail(2000,500,0.193)
+
+>	=> P( X >= 500 )= 0.0000000002403
 
 ##### Q5. What is the probability that less than or equal to 20% of the study population are smokers? #####
 	   
