@@ -22,9 +22,10 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 ##### Q2. What is the standard deviation of the number of smokers in the study cohort? #####
 	   
->	-> Calculate sd = sqrt(number of people*prevalence*(1-prevalance))
-sd(x)= SQRT( n*p*(1-p) )= SQRT( 2000*0.193*(1-0.193) )
-sd(x)= 17.6494192539
+>	-> Calculate sd = sqrt(number of people*prevalence*(1-prevalance))  
+>	sd(x)= SQRT( n*p*(1-p) )= SQRT( 2000*0.193*(1-0.193) )  
+
+>	=> sd(x)= 17.6494192539
 
 ##### Q3. What is the probability that you observe exactly 386 smokers? #####
 	   
