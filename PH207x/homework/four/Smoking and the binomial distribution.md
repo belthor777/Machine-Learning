@@ -41,7 +41,7 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di binomialtail(2000,500,0.193)
 
->	=> P( X >= 500 )= 0.0000000002403
+>	=> P( X >= 500 )= **0.0000000002403**
 
 ##### Q5. What is the probability that less than or equal to 20% of the study population are smokers? #####
 	   
