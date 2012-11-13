@@ -10,9 +10,15 @@ For each blood pressure category, the table displays the number of subjects with
 >  II            | 140<=SBP<160 or 90<=DBP<95 | 781           | 39                     | 214                               | 13191.79
 >  III           | 160<=SBP or 95<=DBP        | 838           | 67                     | 285                               | 12348.94
 
-##### Q5. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Groups II or III combined (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
+##### Q1. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Groups II or III combined (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
 
 => Rate Ratio= 1.9781878281
+
+>  Group         | Incidence Rate
+>  ------------- | -------------
+>  II or III     | (214+285)/(12348.94+13191.79)= 0.0195374212
+>  I             | 547/55384.42=0.00987642
+
 
 | Group       | Incidence Rate
 | II or III   | (214+285)/(12348.94+13191.79)= 0.0195374212
