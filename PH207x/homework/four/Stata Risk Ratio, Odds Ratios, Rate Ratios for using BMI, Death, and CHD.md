@@ -23,7 +23,6 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 
 
-|                | newbmi1                |               |
 |                |   Exposed   Unexposed  |      Total    |
 | -------------- | ---------------------- | ------------- |
 |          Cases |       259         571  |        830    |
