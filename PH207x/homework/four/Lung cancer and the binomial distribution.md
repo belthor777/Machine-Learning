@@ -28,7 +28,9 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 >	p= 65.1/100000  
 >	n= 2000  
 >	E(x)= n*p= 65.1/100000*2000  
->	di 65.1/100000*2000  
+
+	di 65.1/100000*2000  
+
 >	=> **1.302**
 
 **Q3. Why would you expect the mean and variance to be similar in this example?**
