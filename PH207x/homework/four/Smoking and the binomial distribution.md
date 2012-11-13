@@ -49,5 +49,5 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di binomial(2000,400,0.193)  
 
->	=> P( X <= 400 )= 0.79487415
+>	=> P( X <= 400 )= **0.79487415**
 
