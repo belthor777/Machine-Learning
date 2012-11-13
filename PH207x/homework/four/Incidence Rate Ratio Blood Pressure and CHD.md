@@ -12,30 +12,36 @@ For each blood pressure category, the table displays the number of subjects with
 
 ##### Q1. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Groups II or III combined (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
 
-=> Rate Ratio= 1.9781878281
+=> Rate Ratio= ?
 
 >  Group         | Incidence Rate
 >  ------------- | -------------
 >  II or III     | (214+285)/(12348.94+13191.79)= 0.0195374212
 >  I             | 547/55384.42=0.00987642
 
-Rate Ratio: RR=  0.0195374212 / 0.00987642
+Rate Ratio: RR=  0.0195374212 / 0.00987642= **1.978187828**
 
 
 ##### Q2. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Group III (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
 
-Incidence Rate Ratio= ?
+=> Incidence Rate Ratio= ?
 
-| Group | Incidence Rate
-| III   | 285/12348.94=0.0230789
-| I     | 547/55384.42=0.00987642
-Rate Ratio: RR= 0.0230789 / 0.00987642= 2.3367678
+>  Group         | Incidence Rate
+>  ------------- | -------------
+>  III           | 285/12348.94=0.0230789
+>  I             | 547/55384.42=0.00987642
+
+Rate Ratio: RR= 0.0230789 / 0.00987642= **2.3367678**
 
 
-Q3.) What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Group II (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)?
-Incidence Rate Ratio= ?
+##### Q3. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Group II (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
 
-| Group | Incidence Rate
-| II    | 214/13191.79=0.01622221
-| I     | 547/55384.42=0.00987642
-Rate Ratio: RR= 0.01622221 / 0.00987642= 1.6425193
+=> Incidence Rate Ratio= ?
+
+>  Group         | Incidence Rate
+>  ------------- | -------------
+>  II            | 214/13191.79=0.01622221
+>  I             | 547/55384.42=0.00987642
+
+Rate Ratio: RR= 0.01622221 / 0.00987642= **1.6425193**
+
