@@ -53,6 +53,7 @@ P(X>10)= P(X>=10)-P(X=10)= poissontail(1.302,10)-poissonp(1.302,10)
 	gen m=_n*2000*0.000651
 	gen p = poissontail(m,k)-poissonp(m,k)
 	list m p
+
 => 0.0673981
 
 
