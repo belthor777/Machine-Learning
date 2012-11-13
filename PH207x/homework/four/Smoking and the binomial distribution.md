@@ -33,7 +33,7 @@ Smoking status is an important predictor of lung cancer incidence. Therefore, as
 
 	di binomialp(2000,386,0.193)
 
->	=> P( X=386 )= **0.0225986**
+>	=> P( X = 386 )= **0.0225986**
 
 ##### Q4. What is the probability that greater than or equal to 25% of the study population are smokers? Please round your answer to 4 decimal places. #####
 	   
