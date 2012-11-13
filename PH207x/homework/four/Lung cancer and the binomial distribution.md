@@ -12,8 +12,6 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 - observation 5 years
 - 2008: incidence rate of lung cancer was 65.1 cases per 100,000 people per year -> = 0.0000655
 
-* * *
-
 ##### Q1. What proportion of the study population would you expect, on average, to be diagnosed with lung cancer in the first year? #####
 	   
 >	=> Prevalence Proportion is the total number of persons with lung cancer  
