@@ -5,7 +5,7 @@ Suppose you are conducting a lung cancer study in the United States, and you obt
 
 Lung cancer and the Poisson distribution. Because lung cancer is a rare disease, we can model cases of lung cancer using the Poisson distribution, with incidence rate 65.1 cases per 100,000 person-years.
 
-1. **Using the Poisson distribution, what is the probability that you observe more than 1 lung cancer case in the first year?**  *Hint1- Please see that it is more than 1 lung cancer. 1 is not included.*   
+1. **Using the Poisson distribution, what is the probability that you observe more than 1 lung cancer case in the first year?**  *Hint1: Please see that it is more than 1 lung cancer. 1 is not included.*   
 	P(X>1)= ?  
 	   
 	k=1  
@@ -20,8 +20,8 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 
 2. **What is the expected number of lung cancer cases observed over the five year study period?**   
-*Hint1- It is 5 year study period. Same number of Cancer will be produced each year.*   
-*Hint2- In a year how many cancer cases will be observed among the 2000 randomly selected individuals?*   
+*Hint1: It is 5 year study period. Same number of Cancer will be produced each year.*   
+*Hint2: In a year how many cancer cases will be observed among the 2000 randomly selected individuals?*   
 	incidence_rate= 0.000651   
 	   
 	duration= 5  
@@ -29,7 +29,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	E(x)= n*p= 0.003255*2000= 6.51
 
 3. **What is the variance of the number of lung cancer cases observed over the five year study period?**   
-*Hint1- In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. It was already indicated that lamda = mean = np.*  
+*Hint1: In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. It was already indicated that lamda = mean = np.*  
 	   
 	n=2000   
 	p=0.00065   
@@ -37,7 +37,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 
 4. **What is the probability that you observe more than 10 lung cancer cases over the five year period?**   
-*Hint1- It is more than 10. 10 is not included. 5 years period. In stata, di poisson(mean,X) gives result inclusive of X.*   
+*Hint1: It is more than 10. 10 is not included. 5 years period. In stata, di poisson(mean,X) gives result inclusive of X.*   
 	   
 	k=10  
 	n=2000  
