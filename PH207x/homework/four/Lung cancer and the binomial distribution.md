@@ -93,31 +93,4 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 >  4             | 0.0324057
 
 
-> <table>
->   <tr>
->        <td><b>x</b></td>
->        <td><b>p</b></td>
->   </tr>
->   <tr>
->        <td>0</td>
->        <td>0.2724166</td>
->    </tr>
->    <tr>
->        <td>1</td>
->        <td>0.354372</td>
->    </tr>
->    <tr>
->        <td>2</td>
->        <td>0.2303763</td>
->    </tr>
->    <tr>
->        <td>3</td>
->        <td>0.0997948</td>
->    </tr>
->    <tr>
->        <td>4</td>
->        <td>0.0324057</td>
->    </tr>
-> </table>
-
 
