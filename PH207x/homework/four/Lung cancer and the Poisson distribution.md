@@ -78,3 +78,8 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	`list m p`   
 
 	=> 0.2225557
+	
+> #### Headers in blockquotes
+> 
+> * You can quote a list.
+> * Etc.
