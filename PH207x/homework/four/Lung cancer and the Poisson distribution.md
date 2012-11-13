@@ -16,7 +16,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 	`di poissontail(1.302,1) - poissonp(1.302,1)`
 
-	=> 0.37388529
+	=> **0.37388529**
 
 
 2. **What is the expected number of lung cancer cases observed over the five year study period?**   
@@ -26,14 +26,14 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	   
 	duration= 5  
 	prevalence = incidence_rate * duration= 0.000651 * 5= 0.003255  
-	E(x)= n*p= 0.003255*2000= 6.51
+	E(x)= n*p= 0.003255*2000= **6.51**
 
 3. **What is the variance of the number of lung cancer cases observed over the five year study period?**   
 *Hint1: In the formula for variance which is np(1-p) if p is too tiny tiny tiny what will (1-p)equal to and ultimately np(1-p)=???. It was already indicated that lamda = mean = np.*  
 	   
 	n=2000   
 	p=0.00065   
-	variance= np(1-p)= 2000*0.00325*(1-0.00325)= 6.478875
+	variance= np(1-p)= 2000*0.00325*(1-0.00325)= **6.478875**
 
 
 4. **What is the probability that you observe more than 10 lung cancer cases over the five year period?**   
@@ -58,7 +58,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	`gen p = poissontail(m,k)-poissonp(m,k)`   
 	`list m p`
 
-	=> 0.0673981
+	=> **0.0673981**
 
 
 5. **What is the probability that you observe less than 5 lung cancer cases over the five year period?**   
@@ -77,7 +77,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 	`gen p = poisson(m,k) - poissonp(m,k)`   
 	`list m p`   
 
-	=> * **0.2225557** *
+	=> **0.2225557**
 
 
 
