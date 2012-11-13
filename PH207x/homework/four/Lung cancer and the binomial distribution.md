@@ -58,7 +58,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 	di binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
 
->	=> **0.37321143**
+>	=> P(X>1)= **0.37321143**
 
 * * *
 
