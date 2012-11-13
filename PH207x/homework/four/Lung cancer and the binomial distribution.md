@@ -56,21 +56,25 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 
 **Q5. What is the probability that you observe no lung cancer cases in the first year?**
-P(X=0)= ?
-k=0
-n=2000
-p=0.00065
 
-P(X=0)= binomialp(2000,0,0.00065)
-di binomialp(2000,0,0.00065)
-=> 0.27241662
+>	P(X=0)= ?
 
-Table in Stata
-`clear all
-set obs 5
-gen x=_n-1
-gen p = binomialp(2000,x,0.00065)
-list x p`
+>	k=0
+>	n=2000
+>	p=0.00065
+
+>	P(X=0)= binomialp(2000,0,0.00065)
+
+	di binomialp(2000,0,0.00065)
+
+>	=> **0.27241662**
+
+>	**Table in Stata**
+	clear all
+	set obs 5
+	gen x=_n-1
+	gen p = binomialp(2000,x,0.00065)
+	list x p`
 
      +--------------+
      | x          p |
