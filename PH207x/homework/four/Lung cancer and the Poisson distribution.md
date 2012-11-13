@@ -10,11 +10,11 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 Please see that it is more than 1 lung cancer. 1 is not included.
 
 > P(X>1)= ?  
-k=1  
-n=2000  
-p=0.00065   
-m= mean= n*P= 2000*0.000651= 1.302...
-P(X>1)= P(X>=1)-P(X=1)= poissontail(m,k) - poissonp(m,k)
+> k=1  
+> n=2000  
+> p=0.00065   
+> m= mean= n*P= 2000*0.000651= 1.302...
+> P(X>1)= P(X>=1)-P(X=1)= poissontail(m,k) - poissonp(m,k)
 
 `di poissontail(1.302,1) - poissonp(1.302,1)`
 
