@@ -78,6 +78,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 ###### Table in Stata ######
 
+	:::stata
 	clear all
 	set obs 5
 	gen x=_n-1
