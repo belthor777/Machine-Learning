@@ -23,6 +23,7 @@ Use Stata to perform the following calculations. Hint: All of the following ques
         Noncases |       318        1365  |       1683
  --------------- | ---------------------- | -------------
            Total |       577        1936  |       2513
+
                  |                        |
             Risk |  .4488735     .294938  |   .3302825
                  |                        |
