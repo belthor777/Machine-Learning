@@ -86,8 +86,8 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 > <table>
 >   <tr>
->        <td>**x**</td>
->        <td>**p**</td>
+>        <td><b>x</b></td>
+>        <td><b>p</b></td>
 >   </tr>
 >   <tr>
 >        <td>0</td>
