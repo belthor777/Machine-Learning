@@ -35,7 +35,6 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 > Attr. frac. ex. |         .3429373       |    .2638491   | .4135287 
 > Attr. frac. pop |          .107013       |
 >      Odds ratio |         1.947015       |    1.608816   | 2.35632 (Cornfield)
-
 >                               chi2(1) =    47.62  Pr>chi2 = 0.0000
 
 
