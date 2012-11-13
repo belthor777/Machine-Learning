@@ -56,24 +56,21 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 	ir death newbmi1 timedth
 
-                 | newbmi1                |
-                 |   Exposed   Unexposed  |      Total
------------------+------------------------+------------
- Death indicator |       259         571  |        830
-Time [years] to  |   11308.9    40708.74  |   52017.64
------------------+------------------------+------------
-                 |                        |
-  Incidence rate |  .0229023    .0140265  |   .0159561
-                 |                        |
-                 |      Point estimate    |    [95% Conf. Interval]
-                 |------------------------+------------------------
- Inc. rate diff. |         .0088758       |    .0058587     .011893 
- Inc. rate ratio |         1.632792       |    1.404331    1.894337 (exact)
- Attr. frac. ex. |         .3875522       |    .2879172    .4721108 (exact)
- Attr. frac. pop |          .120935       |
-                 +-------------------------------------------------
-                     (midp)   Pr(k>=259) =                   0.0000 (exact)
-                     (midp) 2*Pr(k>=259) =                   0.0000 (exact)
+>        newbmi1  | Exposed   | Unexposed | Total
+> --------------- | --------- | --------- | ------------- 
+> Death indicator |       259         571  |        830
+> Time [years] to |   11308.9    40708.74  |   52017.64
+>                 |                       | 
+>  Incidence rate |  .0229023    .0140265  |   .0159561
+
+>                 |      Point estimate    | [95% Conf. Interval]      
+> --------------- | ---------------------- | ------------- | -------------
+> Inc. rate diff. |         .0088758       |    .0058587   | .011893 
+> Inc. rate ratio |         1.632792       |    1.404331   | 1.894337 (exact)
+> Attr. frac. ex. |         .3875522       |    .2879172   | .4721108 (exact)
+> Attr. frac. pop |          .120935       |               |
+>                     (midp)   Pr(k>=259) =                   0.0000 (exact)
+>                     (midp) 2*Pr(k>=259) =                   0.0000 (exact)
 
 
 ##### Q4. Calculate the 24-year Rate Ratio for developing coronary heart disease comparing obese subjects (exposed group) to normal weight (non-exposed group), excluding subjects with prevalent CHD at the 1956 exam. Hint: Use the if/in tab options to restrict the sample to those without prevalent CHD at the 1956 exam (prevchd1 = = 0). #####
