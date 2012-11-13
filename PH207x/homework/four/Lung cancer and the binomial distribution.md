@@ -30,7 +30,7 @@ di 65.1/100000*2000
 => 1.302
 
 **Q3. Why would you expect the mean and variance to be similar in this example?**
-- the event is rare 
+- **the event is rare**
 - the mean is close to 1 
 - we are dealing with incidence rates 
 - both (a) and (b)
