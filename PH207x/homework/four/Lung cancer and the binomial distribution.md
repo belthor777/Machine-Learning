@@ -40,15 +40,19 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 - both (a) and (b)
 
 **Q4. What is the probability that you observe more than 1 lung cancer case in the first year?**
-P(X>1)= ?
-k=1
-n=2000
-p=0.00065
+	   
+>	P(X>1)= ?
+	   
+>	k=1
+>	n=2000
+>	p=0.00065
+	   
+>	P(X>1)= P(X>=1)-P(X=1)
+>	P(X>1)= binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
 
-P(X>1)= P(X>=1)-P(X=1)
-P(X>1)= binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
-di binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
-=> 0.37321143
+	di binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
+
+>	=> **0.37321143**
 
 
 **Q5. What is the probability that you observe no lung cancer cases in the first year?**
