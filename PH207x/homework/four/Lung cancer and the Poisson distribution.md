@@ -8,6 +8,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 1. Using the Poisson distribution, what is the probability that you observe more than 1 lung cancer case in the first year?   
 	Please see that it is more than 1 lung cancer. 1 is not included.   
 	P(X>1)= ?  
+	   
 	k=1  
 	n=2000  
 	p=0.00065   
