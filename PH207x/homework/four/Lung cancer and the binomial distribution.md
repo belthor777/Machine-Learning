@@ -84,9 +84,6 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 	gen p = binomialp(2000,x,0.00065)
 	list x p`
 
-
-This is a regular paragraph.
-
 <table>
     <tr>
         <td>x</td>
@@ -113,18 +110,5 @@ This is a regular paragraph.
         <td>0.0324057</td>
     </tr>
 </table>
-
-This is another regular paragraph.
-
-	   +--------------+  
-	   | x          p |  
-	   |--------------|  
-	1. | 0   .2724166 |  
-	2. | 1    .354372 |  
-	3. | 2   .2303763 |  
-	4. | 3   .0997948 |  
-	5. | 4   .0324057 |  
-	   +--------------+
-
 
 
