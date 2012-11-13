@@ -14,7 +14,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 >	m= mean= n*P= 2000*0.000651= 1.302   
 >	P(X>1)= P(X>=1)-P(X=1)= poissontail(m,k) - poissonp(m,k)   
 >
->	`di poissontail(1.302,1) - poissonp(1.302,1)`
+	di poissontail(1.302,1) - poissonp(1.302,1)
 >
 >	=> **0.37388529**
 
@@ -47,7 +47,7 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 >	P(X>10)= ?   
 >	P(X>10)= P(X>=10)-P(X=10)= poissontail(1.302,10)-poissonp(1.302,10)   
 >
->	`di poissontail(1.302,10)-poissonp(1.302,10)`
+	di poissontail(1.302,10)-poissonp(1.302,10)
 >
 >	=> 1.392e-07
 >
@@ -63,21 +63,21 @@ Lung cancer and the Poisson distribution. Because lung cancer is a rare disease,
 
 **Q5: What is the probability that you observe less than 5 lung cancer cases over the five year period?**   
 	   
-	k=5  
-	n=2000  
-	p=0.00065  
-	m= mean= n*P= 2000*0.000651= 1.302  
-	   
-	P( X<5 )= P(X<=k)-P(X=k)= poisson(m,k) - poissonp(m,k)   
-
-	`clear all`   
-	`set obs 11`   
-	`gen k=5`   
-	`gen m=_n*2000*65.1/100000`   
-	`gen p = poisson(m,k) - poissonp(m,k)`   
-	`list m p`   
-
-	=> **0.2225557**
+>	k=5  
+>	n=2000  
+>	p=0.00065  
+>	m= mean= n*P= 2000*0.000651= 1.302  
+>	   
+>	P( X<5 )= P(X<=k)-P(X=k)= poisson(m,k) - poissonp(m,k)   
+>
+	clear all
+	set obs 11
+	gen k=5
+	gen m=_n*2000*65.1/100000
+	gen p = poisson(m,k) - poissonp(m,k)
+	list m p
+>
+>	=> **0.2225557**
 
 
 
