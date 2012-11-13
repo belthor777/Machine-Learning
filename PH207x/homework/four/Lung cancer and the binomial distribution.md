@@ -21,7 +21,7 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 >	  
 >	proportion= prevalence / duration= 65.1/100000 / 1= **0.000651**
 
-2. How many cases of lung cancer would we expect to observe in the first year?
+**Q2. How many cases of lung cancer would we expect to observe in the first year?**
 The expected value E(x) of a binomial distribution can be with decimals, but the actual number of alive people can only be a whole number (0, 1, 2, 3...).
 p= 65.1/100000
 n= 2000
@@ -29,13 +29,13 @@ E(x)= n*p= 65.1/100000*2000
 di 65.1/100000*2000
 => 1.302
 
-3. Why would you expect the mean and variance to be similar in this example?
+**Q3. Why would you expect the mean and variance to be similar in this example?**
 - the event is rare 
 - the mean is close to 1 
 - we are dealing with incidence rates 
 - both (a) and (b)
 
-4. What is the probability that you observe more than 1 lung cancer case in the first year?
+**Q4. What is the probability that you observe more than 1 lung cancer case in the first year?**
 P(X>1)= ?
 k=1
 n=2000
@@ -47,7 +47,7 @@ di binomialtail(2000,1,0.00065)-binomialp(2000,1,0.00065)
 => 0.37321143
 
 
-5. What is the probability that you observe no lung cancer cases in the first year?
+**Q5. What is the probability that you observe no lung cancer cases in the first year?**
 P(X=0)= ?
 k=0
 n=2000
