@@ -19,14 +19,11 @@ For each blood pressure category, the table displays the number of subjects with
 >  II or III     | (214+285)/(12348.94+13191.79)= 0.0195374212
 >  I             | 547/55384.42=0.00987642
 
-
-| Group       | Incidence Rate
-| II or III   | (214+285)/(12348.94+13191.79)= 0.0195374212
-| I           | 547/55384.42=0.00987642
 Rate Ratio: RR=  0.0195374212 / 0.00987642
 
 
-Q2.) What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Group III (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)?
+##### Q2. What is the Incidence Rate Ratio for developing CHD for participants in Blood Pressure Group III (exposed group) compared to participants in the Blood Pressure Group I (non-exposed group)? #####
+
 Incidence Rate Ratio= ?
 
 | Group | Incidence Rate
