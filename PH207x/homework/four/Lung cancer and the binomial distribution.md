@@ -14,10 +14,11 @@ Lung cancer and the binomial distribution. You also need to carefully consider h
 
 **Q1. What proportion of the study population would you expect, on average, to be diagnosed with lung cancer in the first year?**
 	   
->	=> Prevalence Proportion is the total number of persons with lung cancer
->	p= prevalence = incidence * duration= 65.1/100000 * 1= 0.000651
->	n= 2000
->	sd(X)= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731
+>	=> Prevalence Proportion is the total number of persons with lung cancer  
+>	p= prevalence = incidence * duration= 65.1/100000 * 1= 0.000651  
+>	n= 2000  
+>	sd(X)= SQRT( n*p*(1-p) )= SQRT( 2000*65.1/100000*(1-65.1/100000) )= 1.1406806731  
+>	  
 >	proportion= prevalence / duration= 65.1/100000 / 1= **0.000651**
 
 2. How many cases of lung cancer would we expect to observe in the first year?
