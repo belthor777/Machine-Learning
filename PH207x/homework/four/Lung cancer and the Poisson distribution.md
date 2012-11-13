@@ -71,4 +71,5 @@ P( X<5 )= poisson(m,k) - poissonp(m,k)
 	gen m=_n*2000*65.1/100000
 	gen p = poisson(m,k) - poissonp(m,k)
 	list m p
+
 => 0.2225557
