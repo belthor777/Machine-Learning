@@ -22,7 +22,7 @@ Third | Woman | Did not survive | 89
 Third | Man | Survived | 75
 Third | Man | Did not survive | 387
 
-Q1.) Use these data to calculate the Risk Ratio for surviving comparing “women or children” as the exposed group and “all other passengers” as the non-exposed group. 
+##### Q1. Use these data to calculate the Risk Ratio for surviving comparing “women or children” as the exposed group and “all other passengers” as the non-exposed group. #####
 => Surviving Risk Ratio= 3.808876
 
 |                   | Died | Surviving | Total | Estimated Risk
@@ -34,15 +34,15 @@ Risk Ratio: RR= 0.69080235 / 0.18136646= 3.808876
 
 
 
-Q2.) Use these data to calculate the Risk Ratio for surviving comparing “women or children” as the exposed group and “all other passengers” as the non-exposed group for each passenger class.
+##### Q2. Use these data to calculate the Risk Ratio for surviving comparing “women or children” as the exposed group and “all other passengers” as the non-exposed group for each passenger class. #####
 
-a) First Class
-Surviving Risk Ratio=  | 2,9883040936
+###### a) First Class ######
+Surviving Risk Ratio= **2,9883040936**
 
-b) Second Class
-Surviving Risk Ratio=  | 10,6666666667
+###### b) Second Class ######
+Surviving Risk Ratio= **10,6666666667**
 
-c) Third Class
-Surviving Risk Ratio=  | 2,6003278689
+###### c) Third Class ######
+Surviving Risk Ratio= **2,6003278689**
 
 
