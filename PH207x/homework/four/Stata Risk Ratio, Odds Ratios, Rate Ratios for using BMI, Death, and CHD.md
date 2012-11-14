@@ -142,11 +142,11 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 > Incidence rate   |  .0053592 |  .0093505  |   .0092343
 
 >                 |      Point estimate    | [95% Conf. Interval]      
-> --------------- | ---------------------- | ------------- | -------------
-> Inc. rate diff. |        -.0039913       |   -.0083903   | .0004076 
-> Inc. rate ratio |         .5731434       |    .2089001   | 1.260145 (exact)
-> Prev. frac. ex. |         .4268566       |   -.2601451   | .7910999 (exact)
-> Prev. frac. pop |         .0124311       |               |
+> --------------- | ---------------------- | ----------------------------
+> Inc. rate diff. |        -.0039913       |   -.0083903    .0004076 
+> Inc. rate ratio |         .5731434       |    .2089001    1.260145 (exact)
+> Prev. frac. ex. |         .4268566       |   -.2601451    .7910999 (exact)
+> Prev. frac. pop |         .0124311       |               
 >                     (midp)   Pr(k<=6) =                     0.0798 (exact)
 >                     (midp) 2*Pr(k<=6) =                     0.1596 (exact)
 
