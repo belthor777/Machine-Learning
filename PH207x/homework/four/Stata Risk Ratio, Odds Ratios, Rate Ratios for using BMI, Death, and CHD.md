@@ -134,23 +134,21 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 	replace newbmi2=0 if bmi1>=18.5 & bmi1 <25
 	ir anychd newbmi2 timechd if (prevchd1 == 0) 
 
->        newbmi1  | Exposed   | Unexposed  | Total
-> --------------- | --------- | ---------- | ------------- 
-Incident Hosp MI |         6         349  |        355
-Time [years] to  |   1119.57    37324.05  |   38443.62
------------------+------------------------+------------
-                 |                        |
-  Incidence rate |  .0053592    .0093505  |   .0092343
+>        newbmi1   | Exposed   | Unexposed  | Total
+> ---------------- | --------- | ---------- | ------------- 
+> Incident Hosp MI |         6 |       349  |        355
+> Time [years] to  |   1119.57 |  37324.05  |   38443.62
+>                  |           |            | 
+> Incidence rate   |  .0053592 |  .0093505  |   .0092343
 
 >                 |      Point estimate    | [95% Conf. Interval]      
 > --------------- | ---------------------- | ------------- | -------------
- Inc. rate diff. |        -.0039913       |   -.0083903    .0004076 
- Inc. rate ratio |         .5731434       |    .2089001    1.260145 (exact)
- Prev. frac. ex. |         .4268566       |   -.2601451    .7910999 (exact)
- Prev. frac. pop |         .0124311       |
-                 +-------------------------------------------------
-                     (midp)   Pr(k<=6) =                     0.0798 (exact)
-                     (midp) 2*Pr(k<=6) =                     0.1596 (exact)
+> Inc. rate diff. |        -.0039913       |   -.0083903   | .0004076 
+> Inc. rate ratio |         .5731434       |    .2089001   | 1.260145 (exact)
+> Prev. frac. ex. |         .4268566       |   -.2601451   | .7910999 (exact)
+> Prev. frac. pop |         .0124311       |               |
+>                     (midp)   Pr(k<=6) =                     0.0798 (exact)
+>                     (midp) 2*Pr(k<=6) =                     0.1596 (exact)
 
 
 
