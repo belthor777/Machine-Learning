@@ -28,12 +28,12 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 >                |                       | 
 
 >                 |      Point estimate    | [95% Conf. Interval]      
-> --------------- | ---------------------- | ------------- | -------------
-> Risk difference |         .1539355       |    .1085524   | .1993186 
->      Risk ratio |         1.521925       |    1.358417   | 1.705113 
-> Attr. frac. ex. |         .3429373       |    .2638491   | .4135287 
+> --------------- | ---------------------- | --------------------------
+> Risk difference |         .1539355       |    .1085524   .1993186 
+>      Risk ratio |         1.521925       |    1.358417   1.705113 
+> Attr. frac. ex. |         .3429373       |    .2638491   .4135287 
 > Attr. frac. pop |          .107013       |
->      Odds ratio |         1.947015       |    1.608816   | 2.35632 (Cornfield)
+>      Odds ratio |         1.947015       |    1.608816   2.35632 (Cornfield)
 >                               chi2(1) =    47.62  Pr>chi2 = 0.0000
 
 
@@ -64,11 +64,11 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 >  Incidence rate |  .0229023 |  .0140265  |   .0159561
 
 >                 |      Point estimate    | [95% Conf. Interval]      
-> --------------- | ---------------------- | ------------- | -------------
-> Inc. rate diff. |         .0088758       |    .0058587   | .011893 
-> Inc. rate ratio |         1.632792       |    1.404331   | 1.894337 (exact)
-> Attr. frac. ex. |         .3875522       |    .2879172   | .4721108 (exact)
-> Attr. frac. pop |          .120935       |               |
+> --------------- | ---------------------- | --------------------------
+> Inc. rate diff. |         .0088758       |    .0058587   .011893 
+> Inc. rate ratio |         1.632792       |    1.404331   1.894337 (exact)
+> Attr. frac. ex. |         .3875522       |    .2879172   .4721108 (exact)
+> Attr. frac. pop |          .120935       |              
 >                     (midp)   Pr(k>=259) =                   0.0000 (exact)
 >                     (midp) 2*Pr(k>=259) =                   0.0000 (exact)
 
@@ -88,11 +88,11 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 >  Incidence rate |  .0191739 |  .0093505  |   .0113248
 
 >                 |      Point estimate    | [95% Conf. Interval]      
-> --------------- | ---------------------- | ------------- | -------------
-> Inc. rate diff. |         .0098234       |    .0068555   | .0127913 
-> Inc. rate ratio |         2.050572       |    1.703396   |  2.46163 (exact)
-> Attr. frac. ex. |         .5123311       |    .4129373   |  .593765 (exact)
-> Attr. frac. pop |         .1743282       |               |
+> --------------- | ---------------------- | ---------------------------
+> Inc. rate diff. |         .0098234       |    .0068555   .0127913 
+> Inc. rate ratio |         2.050572       |    1.703396    2.46163 (exact)
+> Attr. frac. ex. |         .5123311       |    .4129373    .593765 (exact)
+> Attr. frac. pop |         .1743282       |
 >                     (midp)   Pr(k>=180) =                   0.0000 (exact)
 >                     (midp) 2*Pr(k>=180) =                   0.0000 (exact)
 
@@ -116,11 +116,11 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 > Incidence rate  |  .0162362 | .0093505   |   .0130066
 
 >                 |      Point estimate    | [95% Conf. Interval]      
-> --------------- | ---------------------- | ------------- | -------------
-> Inc. rate diff. |         .0068857       |    .0053241   | .0084473 
-> Inc. rate ratio |         1.736394       |    1.524219   | 1.980922 (exact)
-> Attr. frac. ex. |         .4240938       |    .3439265   | .4951846 (exact)
-> Attr. frac. pop |         .2810902       |               |
+> --------------- | ---------------------- | --------------------------
+> Inc. rate diff. |         .0068857       |    .0053241  .0084473 
+> Inc. rate ratio |         1.736394       |    1.524219  1.980922 (exact)
+> Attr. frac. ex. |         .4240938       |    .3439265  .4951846 (exact)
+> Attr. frac. pop |         .2810902       |             
 >                     (midp)   Pr(k>=686) =                   0.0000 (exact)
 >                     (midp) 2*Pr(k>=686) =                   0.0000 (exact)
 
