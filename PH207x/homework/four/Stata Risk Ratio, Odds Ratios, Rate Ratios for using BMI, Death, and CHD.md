@@ -58,10 +58,10 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 >        newbmi1  | Exposed   | Unexposed  | Total
 > --------------- | --------- | ---------- | ------------- 
-> Death indicator |       259         571  |        830
-> Time [years] to |   11308.9    40708.74  |   52017.64
->                 |                        | 
->  Incidence rate |  .0229023    .0140265  |   .0159561
+> Death indicator |       259 |       571  |        830
+> Time [years] to |   11308.9 |  40708.74  |   52017.64
+>                 |           |            | 
+>  Incidence rate |  .0229023 |  .0140265  |   .0159561
 
 >                 |      Point estimate    | [95% Conf. Interval]      
 > --------------- | ---------------------- | ------------- | -------------
