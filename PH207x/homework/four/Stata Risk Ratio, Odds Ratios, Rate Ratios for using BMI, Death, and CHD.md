@@ -80,24 +80,21 @@ Use Stata to perform the following calculations. Hint: All of the following ques
 
 	ir anychd newbmi1 timechd if (prevchd1 == 0) 
 
-                 | newbmi1                |
-                 |   Exposed   Unexposed  |      Total
------------------+------------------------+------------
-Incident Hosp MI |       180         349  |        529
-Time [years] to  |  9387.737    37324.05  |   46711.79
------------------+------------------------+------------
-                 |                        |
-  Incidence rate |  .0191739    .0093505  |   .0113248
-                 |                        |
-                 |      Point estimate    |    [95% Conf. Interval]
-                 |------------------------+------------------------
- Inc. rate diff. |         .0098234       |    .0068555    .0127913 
- Inc. rate ratio |         2.050572       |    1.703396     2.46163 (exact)
- Attr. frac. ex. |         .5123311       |    .4129373     .593765 (exact)
- Attr. frac. pop |         .1743282       |
-                 +-------------------------------------------------
-                     (midp)   Pr(k>=180) =                   0.0000 (exact)
-                     (midp) 2*Pr(k>=180) =                   0.0000 (exact)
+>        newbmi1  | Exposed   | Unexposed  | Total
+> --------------- | --------- | ---------- | ------------- 
+> Incident Hosp MI|       180 |       349  |        529
+> Time [years] to |  9387.737 |  37324.05  |   46711.79
+>                 |           |            | 
+>  Incidence rate |  .0191739 |  .0093505  |   .0113248
+
+>                 |      Point estimate    | [95% Conf. Interval]      
+> --------------- | ---------------------- | ------------- | -------------
+> Inc. rate diff. |         .0098234       |    .0068555   | .0127913 
+> Inc. rate ratio |         2.050572       |    1.703396   |  2.46163 (exact)
+> Attr. frac. ex. |         .5123311       |    .4129373   |  .593765 (exact)
+> Attr. frac. pop |         .1743282       |               |
+>                     (midp)   Pr(k>=180) =                   0.0000 (exact)
+>                     (midp) 2*Pr(k>=180) =                   0.0000 (exact)
 
 
 
@@ -111,24 +108,21 @@ Time [years] to  |  9387.737    37324.05  |   46711.79
 	replace newbmi3=0 if bmi1>=18.5 & bmi1 <25
 	ir anychd newbmi3 timechd if (prevchd1 == 0) 
 
-                 | newbmi3                |
-                 |   Exposed   Unexposed  |      Total
------------------+------------------------+------------
-Incident Hosp MI |       686         349  |       1035
-Time [years] to  |  42251.22    37324.05  |   79575.28
------------------+------------------------+------------
-                 |                        |
-  Incidence rate |  .0162362    .0093505  |   .0130066
-                 |                        |
-                 |      Point estimate    |    [95% Conf. Interval]
-                 |------------------------+------------------------
- Inc. rate diff. |         .0068857       |    .0053241    .0084473 
- Inc. rate ratio |         1.736394       |    1.524219    1.980922 (exact)
- Attr. frac. ex. |         .4240938       |    .3439265    .4951846 (exact)
- Attr. frac. pop |         .2810902       |
-                 +-------------------------------------------------
-                     (midp)   Pr(k>=686) =                   0.0000 (exact)
-                     (midp) 2*Pr(k>=686) =                   0.0000 (exact)
+>        newbmi1  | Exposed   | Unexposed  | Total
+> --------------- | --------- | ---------- | ------------- 
+> Incident Hosp MI|       686 |        349 |       1035
+> Time [years] to |  42251.22 |   37324.05 |   79575.28
+>                 |           |            | 
+> Incidence rate  |  .0162362 | .0093505   |   .0130066
+
+>                 |      Point estimate    | [95% Conf. Interval]      
+> --------------- | ---------------------- | ------------- | -------------
+> Inc. rate diff. |         .0068857       |    .0053241   | .0084473 
+> Inc. rate ratio |         1.736394       |    1.524219   | 1.980922 (exact)
+> Attr. frac. ex. |         .4240938       |    .3439265   | .4951846 (exact)
+> Attr. frac. pop |         .2810902       |               |
+>                     (midp)   Pr(k>=686) =                   0.0000 (exact)
+>                     (midp) 2*Pr(k>=686) =                   0.0000 (exact)
 
 
 ##### Q6. Calculate the 24-year Rate Ratio for developing coronary heart disease comparing underweight subjects (exposed group) to normal weight (non-exposed group), excluding subjects with prevalent CHD at the 1956 exam. #####
@@ -140,17 +134,16 @@ Time [years] to  |  42251.22    37324.05  |   79575.28
 	replace newbmi2=0 if bmi1>=18.5 & bmi1 <25
 	ir anychd newbmi2 timechd if (prevchd1 == 0) 
 
-                 | newbmi2                |
-                 |   Exposed   Unexposed  |      Total
------------------+------------------------+------------
+>        newbmi1  | Exposed   | Unexposed  | Total
+> --------------- | --------- | ---------- | ------------- 
 Incident Hosp MI |         6         349  |        355
 Time [years] to  |   1119.57    37324.05  |   38443.62
 -----------------+------------------------+------------
                  |                        |
   Incidence rate |  .0053592    .0093505  |   .0092343
-                 |                        |
-                 |      Point estimate    |    [95% Conf. Interval]
-                 |------------------------+------------------------
+
+>                 |      Point estimate    | [95% Conf. Interval]      
+> --------------- | ---------------------- | ------------- | -------------
  Inc. rate diff. |        -.0039913       |   -.0083903    .0004076 
  Inc. rate ratio |         .5731434       |    .2089001    1.260145 (exact)
  Prev. frac. ex. |         .4268566       |   -.2601451    .7910999 (exact)
