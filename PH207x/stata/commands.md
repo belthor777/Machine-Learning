@@ -34,7 +34,7 @@
  4 |  .0324057
 
 
-# Sampling Distribution
+## Sampling Distribution
 
 	set seed 7234234234
 	sample 49, count
@@ -42,8 +42,9 @@
 	use "framingham_dataset.dta"
 	summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
 
-## Central Limit Theorem
-> First Sample Set
+### Central Limit Theorem
+
+#### First Sample Set ####
 
 	sum bmi1
 	drop if bmi1 == .
@@ -52,28 +53,28 @@
 	sample 20, count
 	summarize
 
-> Second Sample Set
+#### Second Sample Set ####
 
 	. restore
 	. preserve
 	sample 20, count
 	sum bmi1
 
-> Third Sample Set
+#### Third Sample Set ####
 
 	. restore
 	. preserve
 	sample 100, count
 	sum bmi1
 
-> Fourth Sample Set - Check again
+#### Fourth Sample Set - Check again ####
 
 	. restore
 	. preserve
 	sample 100, count
 	sum bmi1
 
-> Compare Histograms (Continued vs. Binary)
+#### Compare Histograms (Continued vs. Binary) ####
 
 	use "framingham_dataset.dta"
 	. histogram bmi1
