@@ -15,11 +15,12 @@ normal(z) - return the cumulative standard normal distribution - P( Z<z )
 normalden(z) - returns the standard normal density
 
 ## Distribution Table in Stata
-`clear all
-set obs 5
-gen k=_n-1
-gen p = binomialp(2000,k,0.00065)
-list k p`
+
+	clear all
+	set obs 5
+	gen k=_n-1
+	gen p = binomialp(2000,k,0.00065)
+	list k p
 
 
  x | p 
