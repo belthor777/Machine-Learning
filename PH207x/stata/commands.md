@@ -7,14 +7,14 @@
 > binomial(n,k,p) - returns the probability of observing k or fewer successes - P(X<=k)  
 > binomialtail(n,k,p) - return the probability of observing floor(k) or more successes - P(X>=k)
 
-## Suppose X ∼ Poisson(m).
-poissonp(m,k) - returns the probability of observing floor(k) or fewer successes - P(X=k)
-poisson(m,k) - returns the probability of observing floor(k) or fewer successes - P(X<=k)
-poissontail(m,k) - returns the probability of observing floor(k) or more successes - P(X>=k)
+### Suppose X ∼ Poisson(m)  
+> poissonp(m,k) - returns the probability of observing floor(k) or fewer successes - P(X=k)  
+> poisson(m,k) - returns the probability of observing floor(k) or fewer successes - P(X<=k)  
+> poissontail(m,k) - returns the probability of observing floor(k) or more successes - P(X>=k)
 
-## Suppose Z ~ Normal(0,1)
-normal(z) - return the cumulative standard normal distribution - P( Z<z )
-normalden(z) - returns the standard normal density
+### Suppose Z ~ Normal(0,1)  
+> normal(z) - return the cumulative standard normal distribution - P( Z<z )  
+> normalden(z) - returns the standard normal density
 
 ## Distribution Table in Stata
 
