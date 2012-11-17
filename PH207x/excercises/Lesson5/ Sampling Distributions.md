@@ -19,4 +19,11 @@ How big a sample do we need to be 95% sure that the sample mean for total choles
 P_r{ -25 <= x⁻-μ <) 25 }= 0.95
 P_r{ -25/(44.7/SQRT(n)) <= (x⁻-μ)/(44.7/SQRT(n) <= 25/(44.7/SQRT(n)) }= 0.95
 
+> => 25/(44.7/SQRT(n))= 1.96
+> => n=12.3 => n= 13
+
+> So, in general if we want to be 95% sure that the sample mean will be within +- delta of the population mean, then we need a sample of size
+
+n= ( (1.96*σ) / delta )^2
+
 
