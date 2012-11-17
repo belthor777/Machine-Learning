@@ -1,4 +1,5 @@
-#  Sampling Distributions 
+#  Sampling Distributions  
+Central limit theorem
 
 > sd= σ/SQRT(n)
 > z= (x⁻ - μ) / sd
