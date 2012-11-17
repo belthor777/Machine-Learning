@@ -21,22 +21,23 @@ gen k=_n-1
 gen p = binomialp(2000,k,0.00065)
 list k p`
 
-+--------------+
-| x          p |
-|--------------|
-| 0   .2724166 |
-| 1    .354372 |
-| 2   .2303763 |
-| 3   .0997948 |
-| 4   .0324057 |
-+--------------+
+
+ x | p 
+---|-----------
+ 0 |  .2724166
+ 1 |   .354372
+ 2 |  .2303763
+ 3 |  .0997948
+ 4 |  .0324057
+
 
 # Sampling Distribution
-set seed 7234234234
-sample 49, count
 
-use "framingham_dataset.dta"
-summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
+	set seed 7234234234
+	sample 49, count
+
+	use "framingham_dataset.dta"
+	summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
 
 ## Central Limit Theorem
 > First Sample Set
