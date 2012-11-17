@@ -65,3 +65,11 @@ summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
 	sample 100, count
 	sum bmi1
 
+> Compare Histograms (Continued vs. Binary)
+	use "framingham_dataset.dta"
+	. histogram bmi1
+	. histogram prevmi1
+
+
+
+
