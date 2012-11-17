@@ -9,3 +9,6 @@
 > z= 0.00508483
 
 > So the probability of getting a sample mean of 260 or higher when taking a sample of 25 is about 0.5%
+
+
+
