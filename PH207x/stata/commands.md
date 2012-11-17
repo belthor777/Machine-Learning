@@ -16,7 +16,7 @@
 > normal(z) - return the cumulative standard normal distribution - P( Z<z )  
 > normalden(z) - returns the standard normal density
 
-## Distribution Table in Stata
+### Distribution Table in Stata
 
 	clear all
 	set obs 5
