@@ -26,4 +26,6 @@ P_r{ -25/(44.7/SQRT(n)) <= (x⁻-μ)/(44.7/SQRT(n) <= 25/(44.7/SQRT(n)) }= 0.95
 
 n= ( (1.96*σ) / delta )^2
 
+where σ is the population standard deviation
+
 
