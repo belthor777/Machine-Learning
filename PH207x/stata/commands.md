@@ -1,6 +1,8 @@
-# Distribution - Binomial, Poisson and Normal
+# Commands in Stata
 
-## Suppose X ~ Binomial(n,p)  
+## Distribution - Binomial, Poisson and Normal
+
+### Suppose X ~ Binomial(n,p)  
 > binomialp(n,k,p) - returns the probability of observing k successess - P(X=k)  
 > binomial(n,k,p) - returns the probability of observing k or fewer successes - P(X<=k)  
 > binomialtail(n,k,p) - return the probability of observing floor(k) or more successes - P(X>=k)
