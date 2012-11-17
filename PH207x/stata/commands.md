@@ -1,9 +1,9 @@
 # Distribution - Binomial, Poisson and Normal
 
-## Suppose X ~ Binomial(n,p)
-binomialp(n,k,p) - returns the probability of observing k successess - P(X=k)
-binomial(n,k,p) - returns the probability of observing k or fewer successes - P(X<=k)
-binomialtail(n,k,p) - return the probability of observing floor(k) or more successes - P(X>=k)
+## Suppose X ~ Binomial(n,p)  
+> binomialp(n,k,p) - returns the probability of observing k successess - P(X=k)
+> binomial(n,k,p) - returns the probability of observing k or fewer successes - P(X<=k)
+> binomialtail(n,k,p) - return the probability of observing floor(k) or more successes - P(X>=k)
 
 ## Suppose X ∼ Poisson(m).
 poissonp(m,k) - returns the probability of observing floor(k) or fewer successes - P(X=k)
