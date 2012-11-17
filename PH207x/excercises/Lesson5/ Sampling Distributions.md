@@ -1,8 +1,8 @@
 #  Sampling Distributions 
-> z= (x⁻ - u) / ( sigma/SQRT(n) )  
+> z= (x⁻ - μ) / ( σ/SQRT(n) )  
 
 > x⁻ >= 260  
-> z= 260-u / ( sigma/SQRT(25) )= 2.57
+> z= 260-μ / ( σ/SQRT(25) )= 2.57
 
 	di 1-normal(2.57)
 
