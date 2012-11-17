@@ -34,5 +34,9 @@ list k p`
 # Sampling Distribution
 set seed 7234234234
 sample 49, count
+
+use "framingham_dataset.dta"
 summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
+
+
 
