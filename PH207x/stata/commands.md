@@ -40,6 +40,7 @@ summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
 
 ## Central Limit Theorem
 > First Sample Set
+
 	sum bmi1
 	drop if bmi1 == .
 	keep bmi1
@@ -48,24 +49,28 @@ summ death angina totchol1 sysbp1 diabp1 bmi1 glucose1
 	summarize
 
 > Second Sample Set
+
 	. restore
 	. preserve
 	sample 20, count
 	sum bmi1
 
 > Third Sample Set
+
 	. restore
 	. preserve
 	sample 100, count
 	sum bmi1
 
 > Fourth Sample Set - Check again
+
 	. restore
 	. preserve
 	sample 100, count
 	sum bmi1
 
 > Compare Histograms (Continued vs. Binary)
+
 	use "framingham_dataset.dta"
 	. histogram bmi1
 	. histogram prevmi1
