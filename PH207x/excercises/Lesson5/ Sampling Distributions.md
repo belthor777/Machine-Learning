@@ -1,5 +1,5 @@
-#  Sampling Distributions  
-Central limit theorem
+# Sampling Distributions  
+## Central limit theorem
 
 > sd= σ/SQRT(n)
 > z= (x⁻ - μ) / sd
@@ -13,7 +13,7 @@ Central limit theorem
 
 > So the probability of getting a sample mean of 260 or higher when taking a sample of 25 is about 0.5%
 
-# Sample Size  
+## Sample Size  
 How big a sample do we need to be 95% sure that the sample mean for total cholesterol level is within +- 25mg/100ml of the population mean?
 
 > P_r{ -25 <= x⁻-μ <) 25 }= 0.95
@@ -27,5 +27,8 @@ How big a sample do we need to be 95% sure that the sample mean for total choles
 > n= ( (1.96*σ) / delta )^2
 
 > where σ is the population standard deviation
+
+##  Confidence Interval  
+is a 95% confidence interval for μ
 
 
