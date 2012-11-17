@@ -1,5 +1,7 @@
 #  Sampling Distributions 
-> z= (x⁻ - μ) / ( σ/SQRT(n) )  
+
+> sd= σ/SQRT(n)
+> z= (x⁻ - μ) / sd
 
 > x⁻ >= 260  
 > z= 260-μ / ( σ/SQRT(25) )= 2.57
