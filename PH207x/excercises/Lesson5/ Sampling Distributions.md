@@ -31,4 +31,10 @@ How big a sample do we need to be 95% sure that the sample mean for total choles
 ##  Confidence Interval  
 is a 95% confidence interval for μ
 
+> σ is known
+
+> [ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]
+
+
+
 
