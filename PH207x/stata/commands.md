@@ -123,7 +123,8 @@ X~Normal(μ, σ²)
 > CI= Confidence Interval
 
 > σ is known  
-> 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)= 0.975
+> 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)
+> Z= 0.975
 
 > σ is unknown  
 > 95% CI x⁻ +- t_n-1,0.975 * σ/sqrt(n)
