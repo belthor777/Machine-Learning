@@ -38,6 +38,17 @@ Is a 95% confidence interval for μ. In other words it is a rule that has a 95% 
 
 ## Predictive vs. Confidence Interval 
 
+> Z= (X-μ) / σ
+
+### Predictive Interval
+So, [ μ-1.96*σ, μ+1.96*σ ]  
+is a predictive interval for X, just as
+
+> [ μ-1.96*σ/SQRT(n), μ+1.96*σ/SQRT(n), ]
+
+is a predictive interval for x⁻
+
+
 
 
 
