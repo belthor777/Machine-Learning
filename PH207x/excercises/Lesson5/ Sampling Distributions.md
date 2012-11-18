@@ -131,4 +131,3 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 
 
 
-
