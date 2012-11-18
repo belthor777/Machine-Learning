@@ -78,3 +78,4 @@ What if is σ is unknown
 >		mean μ
 >		standard deviation σ
 
+
