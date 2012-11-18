@@ -62,3 +62,5 @@ n       | 95% CI for μ         | Interval width
  1000   | x⁻+-0.062*σ          | 0.124*σ
 
 > Smaller is σ, the tighter are the bounds - more homogeneous
+
+
