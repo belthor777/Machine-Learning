@@ -123,10 +123,11 @@ X~Normal(μ, σ²)
 > CI= Confidence Interval
 
 > σ is known  
-> Z_0.915= 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)
+> Z_0.975= 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)
 
 > σ is unknown  
-> 95% CI x⁻ +- Z_(1-2/2) * σ/sqrt(n)
+> 95% CI x⁻ +- t_n-1,0.975 * σ/sqrt(n)
+
 
 > Note that if "normal(z)=p", then "invnormal(p)=z"
 
