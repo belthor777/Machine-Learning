@@ -130,9 +130,9 @@ X~Normal(μ, σ²)
 
 > Note that if "normal(z)=p", then "invnormal(p)=z"
 
->	set seed 2  
->	sample 20, count  
->	sum bmi1
+	set seed 2  
+	sample 20, count  
+	sum bmi1
 
     Variable |       Obs   |     Mean  |  Std. Dev.  |     Min  |      Max
 -------------|-------------|-----------|-------------|----------|---------
