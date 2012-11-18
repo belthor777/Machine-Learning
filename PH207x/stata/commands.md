@@ -120,8 +120,13 @@ X~Normal(μ, σ²)
 
 ## Confidence intervals and t-distribution
 > X~Normal(μ, σ²)  
+> CI= Confidence Interval
+
 > σ is known  
 > Z_0.915= 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)
+
+> σ is unknown  
+> 95% CI x⁻ +- Z_(1-2/2) * σ/sqrt(n)
 
 > Note that if "normal(z)=p", then "invnormal(p)=z"
 
