@@ -86,8 +86,17 @@
 ### Example: BMI in Framingham
 X~Normal(μ, σ²)
 
+##### Q1. Construct a 95% predictive interval for X #####
+	   
 
 
+##### Q2. Suppose we now draw repeated samples of size 100 from the Framingham cohort. What is a 95% predictive interval for the sample mean? #####
+	   
+
+##### Q3. Take a sample of size 100. Construct a 95% configence interval for μ. #####
+	   
 
 
+##### Q1. Construct a 95% predictive interval for X #####
+	   
 
