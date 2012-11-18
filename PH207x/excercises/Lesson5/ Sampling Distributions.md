@@ -64,3 +64,17 @@ n       | 95% CI for μ         | Interval width
 > Smaller is σ, the tighter are the bounds - more homogeneous
 
 
+## Unknown variance: the t distribution
+What if is σ is unknown
+
+> t= (x⁻-μ) / (s/sqrt(n))  
+> has n-1 degrees of freedom
+
+> Sample:	size n
+>		sample mean x⁻
+>		sample standard deviation s
+
+> Population:	X is approx. normal
+>		mean μ
+>		standard deviation σ
+
