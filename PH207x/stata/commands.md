@@ -158,8 +158,8 @@ X~Normal(μ, σ²)
 
 ### 95% confidence interval for μ ###
 
-set seed 2
-sample 20, count
-sum bmi1
+	set seed 2
+	sample 20, count
+	sum bmi1
 
 
