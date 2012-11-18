@@ -118,4 +118,6 @@ X~Normal(μ, σ²)
 >	di 25.84616 - 1.96*4.101821/sqrt(100)
 > [ 25.042203, 26.650117 ]
 
+## Confidence intervals and t-distribution
+
 
