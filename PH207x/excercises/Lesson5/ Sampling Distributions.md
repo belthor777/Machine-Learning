@@ -70,11 +70,11 @@ What if is σ is unknown
 > t= (x⁻-μ) / (s/sqrt(n))  
 > has n-1 degrees of freedom
 
-> Sample:	size n
+> **Sample**:	size n
 >		sample mean x⁻
 >		sample standard deviation s
 
-> Population:	X is approx. normal
+> **Population**:	X is approx. normal
 >		mean μ
 >		standard deviation σ
 
