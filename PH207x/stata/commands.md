@@ -211,5 +211,13 @@ X~Normal(μ, σ²)
 
 #### Easy Stata command to calculate confidence intervals ####
 
+	ci bmi1
+
+>    Variable |        Obs  |      Mean |   Std. Err.  |     min [95% Conf. Interval] | max [95% Conf. Interval] 
+> ------------|-------------|-----------|--------------|------------------------------|--------------------------
+>        bmi1 |         20  |   25.0295 |   .712055    |    23.53915                  |  26.51985                
+
+
+
 
 
