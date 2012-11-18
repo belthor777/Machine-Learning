@@ -103,18 +103,13 @@ X~Normal(μ, σ²)
 >	di 25.84616 + 1.96*4.101821
 > [17.806591, 33.885729 ]
 
+##### Q2. Suppose we now draw repeated samples of size 100 from the Framingham cohort. What is a 95% predictive interval for the sample mean? #####
+	   
 >	di 25.84616 - 1.96*4.101821/sqrt(100)
 >	di 25.84616 + 1.96*4.101821/sqrt(100)
 > [ 25.042203, 26.650117 ]
 
-
-##### Q2. Suppose we now draw repeated samples of size 100 from the Framingham cohort. What is a 95% predictive interval for the sample mean? #####
-	   
-
 ##### Q3. Take a sample of size 100. Construct a 95% configence interval for μ. #####
 	   
 
-
-##### Q1. Construct a 95% predictive interval for X #####
-	   
 
