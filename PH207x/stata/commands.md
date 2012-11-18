@@ -89,6 +89,25 @@ X~Normal(μ, σ²)
 ##### Q1. Construct a 95% predictive interval for X #####
 	   
 
+>	sum bmi1
+
+    Variable |       Obs  |      Mean  |  Std. Dev.  |     Min   |     Max
+--------------------------|------------|-------------|-----------|---------
+        bmi1 |      4415  |  25.84616  |  4.101821   |   15.54   |    56.8
+
+> [ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]  
+>	di 25.84616  
+> 25.84616
+
+>	di 25.84616 - 1.96*4.101821  
+> 17.806591
+
+>	di 25.84616 + 1.96*4.101821
+> 33.885729
+
+
+
+
 
 ##### Q2. Suppose we now draw repeated samples of size 100 from the Framingham cohort. What is a 95% predictive interval for the sample mean? #####
 	   
