@@ -157,9 +157,16 @@ X~Normal(μ, σ²)
 
 
 ### 95% confidence interval for μ ###
+> σ is known and it is σ= 4.1 for the framingham cohort
 
 	set seed 2
 	sample 20, count
 	sum bmi1
+
+>     Variable |       Obs   |     Mean  |  Std. Dev.  |     Min  |      Max
+> -------------|-------------|-----------|-------------|----------|---------
+>         bmi1 |        20   |  25.0295  |  3.184407   |   20.19  |    32.29
+
+	di 25.029-1.96*4.1/sqrt(20)
 
 
