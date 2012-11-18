@@ -180,7 +180,8 @@ X~Normal(μ, σ²)
 > => **[23.232129, 26.825871]**
 
 
-> *95% for μ with invttail*:  
+### 95% for μ with invttail###
+> σ is unknown
 > x⁻ +- t_n-1 * σ/sqrt(n)  
 > t-tail= 0.025
 > n-1= 19
