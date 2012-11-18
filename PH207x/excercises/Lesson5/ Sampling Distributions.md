@@ -95,7 +95,7 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 
 >	di 25.84616 - 1.64*4.101821  
 >	di 25.84616 + 1.64*4.101821
-> [19.119174, 32.573146 ]
+> => **[19.119174, 32.573146 ]**
 
 
 #### Q2. For a random sample of size 10, calculate a 90% predictive interval for the sample mean of X. ####
@@ -111,11 +111,11 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 
 >	di 26.328 - 1.64*4.101821  
 >	di 26.328 + 1.64*4.101821
-> [19.601014, 33.054986 ]
+> => **[19.601014, 33.054986 ]**
 
 
 #### Q3. For normally distributed random variables with known variance, the width of the 90% predictive interval for the sample mean is equal to the width of a 90% confidence interval for the population mean. ####
-> True  
+> => **True**
 > False 
 
 
