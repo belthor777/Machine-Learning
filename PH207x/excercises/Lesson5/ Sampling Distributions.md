@@ -41,16 +41,16 @@ Is a 95% confidence interval for μ. In other words it is a rule that has a 95% 
 > Z= (X-μ) / σ
 
 > So, [ μ-1.96*σ, μ+1.96*σ ]  
-> is a predictive interval (95%) for X, just as
-
-> [ μ-1.96*σ/SQRT(n), μ+1.96*σ/SQRT(n), ]
-
-> is a predictive interval for x⁻, and
-
-
-## Width of Confidence Intervals 
-> [ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]
-
+> is a predictive interval (95%) for X, just as  
+> ´[ μ-1.96*σ/SQRT(n), μ+1.96*σ/SQRT(n), ]´  
+> is a predictive interval for x⁻, and  
+> ´[ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]´  
 > is a confidence interval for μ
 
 
+## Width of Confidence Intervals 
+
+Length  | Formular             | width
+------- | -------------------- | --------
+ 95%    | x⁻+-1.96*σ/SQRT(n)   | 3.92*σ/SQRT(n)
+ 99%    | x⁻+-2.58*σ/SQRT(n)   | 5.16*σ/SQRT(n)
