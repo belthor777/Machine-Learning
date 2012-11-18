@@ -64,7 +64,7 @@ n       | 95% CI for μ         | Interval width
 > Smaller is σ, the tighter are the bounds - more homogeneous
 
 
-## Unknown variance: the t distribution
+## Unknown variance: the t distribution - Student's T
 What if is σ is unknown
 
 > t= (x⁻-μ) / (s/sqrt(n))  
