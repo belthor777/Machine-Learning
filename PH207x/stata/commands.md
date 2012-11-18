@@ -189,7 +189,7 @@ X~Normal(μ, σ²)
 >	di 25.029+invttail(19,0.025)*3.184407/sqrt(20)  
 > => **[ 23.538652, 26.519348 ]**
 
-#### Easy Stata command for this ####
+#### Easy Stata command to calculate invttail where σ is unknown ####
 
 	set seed 2
 	sample 20, count
@@ -206,6 +206,9 @@ X~Normal(μ, σ²)
 >    Variable |        Obs  |      Mean |   Std. Err.  |     min [95% Conf. Interval] | max [95% Conf. Interval] 
 > ------------|-------------|-----------|--------------|------------------------------|--------------------------
 >             |         20  |   25.0295 |   .7120551   |     23.53915                 |  26.51985                
+
+
+#### Easy Stata command to calculate confidence intervals ####
 
 
 
