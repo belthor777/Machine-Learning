@@ -84,6 +84,18 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 
 
 #### Q1. Calculate a 90% predictive interval for X. ####
+90% is between -1.64 and +1.64
+
+> [ x⁻-1.64*σ/SQRT(n), x⁻+1.64*σ/SQRT(n), ]  
+>	sum bmi1
+
+    Variable |       Obs  |      Mean  |  Std. Dev.  |     Min   |     Max
+-------------|------------|------------|-------------|-----------|---------
+        bmi1 |      4415  |  25.84616  |  4.101821   |   15.54   |    56.8
+
+>	di 25.84616 - 1.64*4.101821  
+>	di 25.84616 + 1.64*4.101821
+> [19.119174, 32.573146 ]
 
 
 #### Q2. For a random sample of size 10, calculate a 90% predictive interval for the sample mean of X. ####
