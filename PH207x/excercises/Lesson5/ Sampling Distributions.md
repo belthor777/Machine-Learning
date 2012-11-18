@@ -79,3 +79,20 @@ What if is σ is unknown
 >		standard deviation σ
 
 
+## Questions to Confidence and Predictive Intervals ##
+Again, let X denote BMI at baseline for a Framingham study participant. Assume X is normally distributed.
+
+
+#### Q1. Calculate a 90% predictive interval for X. ####
+
+
+#### Q2. For a random sample of size 10, calculate a 90% predictive interval for the sample mean of X. ####
+
+
+#### Q3. For normally distributed random variables with known variance, the width of the 90% predictive interval for the sample mean is equal to the width of a 90% confidence interval for the population mean. ####
+> True  
+> False 
+
+
+
+
