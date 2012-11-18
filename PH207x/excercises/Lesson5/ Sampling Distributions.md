@@ -127,7 +127,7 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 
 >    Variable |        Obs  |      Mean |   Std. Err.  |     min [95% Conf. Interval] | max [95% Conf. Interval] 
 > ------------|-------------|-----------|--------------|------------------------------|--------------------------
-        bmi1  |         20  |   25.0295 |    .712055   |     23.79826                 |   26.26074               
+>       bmi1  |         20  |   25.0295 |    .712055   |     23.79826                 |   26.26074               
 
 
 
