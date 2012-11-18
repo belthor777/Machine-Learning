@@ -100,13 +100,12 @@ X~Normal(μ, σ²)
 > 25.84616
 
 >	di 25.84616 - 1.96*4.101821  
-> 17.806591
-
 >	di 25.84616 + 1.96*4.101821
-> 33.885729
+> [17.806591, 33.885729 ]
 
-
-
+>	di 25.84616 - 1.96*4.101821/sqrt(100)
+>	di 25.84616 + 1.96*4.101821/sqrt(100)
+> [ 25.042203, 26.650117 ]
 
 
 ##### Q2. Suppose we now draw repeated samples of size 100 from the Framingham cohort. What is a 95% predictive interval for the sample mean? #####
