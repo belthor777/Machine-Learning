@@ -156,7 +156,7 @@ X~Normal(μ, σ²)
 > => **[ 16.827011, 33.231989 ]**
 
 
-### 95% confidence interval for μ ###
+### 95% confidence interval for μ where σ is known###
 > σ is known and it is σ= 4.1 for the framingham cohort
 > invnormal(0.975) ~ 1.96
 
@@ -180,7 +180,7 @@ X~Normal(μ, σ²)
 > => **[23.232129, 26.825871]**
 
 
-### 95% for μ with invttail###
+### 95% for μ with invttail where σ is unknown ###
 > σ is unknown
 > x⁻ +- t_n-1 * σ/sqrt(n)  
 > t-tail= 0.025
@@ -189,4 +189,23 @@ X~Normal(μ, σ²)
 >	di 25.029+invttail(19,0.025)*3.184407/sqrt(20)  
 > => **[ 23.538652, 26.519348 ]**
 
+#### Easy Stata command for this ####
+
+	set seed 2
+	sample 20, count
+	sum bmi1
+
+>     Variable |       Obs   |     Mean  |  Std. Dev.  |     Min  |      Max
+> -------------|-------------|-----------|-------------|----------|---------
+>         bmi1 |        20   |  25.0295  |  3.184407   |   20.19  |    32.29
+
+
+	cii 20 25.0295 3.184407
+
+
+    Variable |        Obs  |      Mean |   Std. Err.  |     min [95% Conf. Interval] | max [95% Conf. Interval]
+-------------|-------------|-----------|--------------|------------------------------|---------------------------
+             |         20  |   25.0295 |   .7120551   |     23.53915                 |  26.51985
+
+. 
 
