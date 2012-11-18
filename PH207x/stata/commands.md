@@ -122,11 +122,11 @@ X~Normal(μ, σ²)
 > X~Normal(μ, σ²)  
 > CI= Confidence Interval
 
-> σ is known  
+### σ is known ###
 > 95% x⁻ +- Z_(1-2/2) * σ/sqrt(n)
 > Z= 0.975
 
-> σ is unknown  
+### σ is unknown ###
 > 95% CI x⁻ +- t_n-1,0.975 * σ/sqrt(n)
 
 > Note that if "normal(z)=p", then "invnormal(p)=z"
@@ -154,5 +154,12 @@ X~Normal(μ, σ²)
 >	di 25.0295 - invnormal(0.995)*3.184407  
 >	di 25.0295 + invnormal(0.995)*3.184407  
 > => **[ 16.827011, 33.231989 ]**
+
+
+### 95% confidence interval for μ ###
+
+set seed 2
+sample 20, count
+sum bmi1
 
 
