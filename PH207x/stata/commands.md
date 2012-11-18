@@ -111,5 +111,11 @@ X~Normal(μ, σ²)
 
 ##### Q3. Take a sample of size 100. Construct a 95% configence interval for μ. #####
 	   
+>	sample 100, count
+>	sum bmi1
+
+>	di 25.84616 + 1.96*4.101821/sqrt(100)
+>	di 25.84616 - 1.96*4.101821/sqrt(100)
+> [ 25.042203, 26.650117 ]
 
 
