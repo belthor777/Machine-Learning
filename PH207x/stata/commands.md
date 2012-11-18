@@ -158,6 +158,8 @@ X~Normal(μ, σ²)
 
 ### 95% confidence interval for μ ###
 > σ is known and it is σ= 4.1 for the framingham cohort
+> invnormal(0.975) ~ 1.96
+
 
 	set seed 2
 	sample 20, count
