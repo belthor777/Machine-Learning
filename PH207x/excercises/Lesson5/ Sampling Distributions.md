@@ -29,13 +29,14 @@ How big a sample do we need to be 95% sure that the sample mean for total choles
 > where σ is the population standard deviation
 
 ##  Confidence Interval  
-is a 95% confidence interval for μ. In other words it is a rule that has a 95% chance of success - success being measured
+Is a 95% confidence interval for μ. In other words it is a rule that has a 95% chance of success - success being measured
 
 > σ is known
 
 > [ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]
 
 
+## Predictive vs. Confidence Interval 
 
 
 
