@@ -83,6 +83,10 @@
 
 ## Confidence and Predictive Intervals
 
+### Example: BMI in Framingham
+X~Normal(μ, σ²)
+
+
 
 
 
