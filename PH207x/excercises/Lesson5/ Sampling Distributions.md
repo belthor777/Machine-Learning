@@ -52,6 +52,3 @@ Is a 95% confidence interval for μ. In other words it is a rule that has a 95% 
 > is a confidence interval for μ
 
 
-
-
-
