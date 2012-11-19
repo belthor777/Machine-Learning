@@ -256,7 +256,7 @@ X~Normal(μ, σ²)
 5. Conclusion reject the null or fail to reject the null
 6. Make a conclusion about your data
 
-
+	use healthyyoungadults.dta
 
 
 
