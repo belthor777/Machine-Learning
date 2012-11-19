@@ -218,13 +218,11 @@ X~Normal(μ, σ²)
 >        bmi1 |         20  |   25.0295 |   .712055    |    23.53915                  |  26.51985                
 
 ## P-values and examples  ##
-set seed 725764662
-drop if hyperten==1
-sample 49, count
-mean totchol1
 
-
-
+	set seed 725764662
+	drop if hyperten==1
+	sample 49, count
+	mean totchol1
 
              |       Mean   | Std. Err.  | min [95% Conf. Interval]  | max [95% Conf. Interval]
 -------------|------------- | ---------- | ------------------------- | -------------------------
