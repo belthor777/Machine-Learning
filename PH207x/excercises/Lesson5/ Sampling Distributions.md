@@ -280,8 +280,17 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 
 #### One-Sample t-test ####
+> s = sample standard deviation= 2.5
+> μ_0 = hypothesized mean= 11.3
+
 
 Hypotheses            | 
 --------------------- | 
 H_0: μ = μ_0 = 11.3   | 
 H_A: μ != μ_0 = 11.3  | 
+
+	db ttest
+	ttesti 17 8.2 2.5 11.3, level(99)
+
+
+
