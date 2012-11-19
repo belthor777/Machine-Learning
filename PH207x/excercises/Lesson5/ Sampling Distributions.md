@@ -224,6 +224,7 @@ H_A: μ != 237  |
 #### P-value  ####
 Some prefer to quote the p-value. The p-value answers the question: "What is the probability of getting as large, or larger, a discrepancy?" (μ- x⁻)
 
+> z= (x⁻ - μ_0) / (σ/SQRT(n))= (221.9 - 237) / (44.7/sqrt(49))= -2.3646532= -2.37
 > P_r( z>2.37 or z < -2.37 )= 2*P_r( z>2.37 )= 2*0.0222= 0.044
 
 	di normal( -2.37 )= 0.00889404
