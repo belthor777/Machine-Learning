@@ -173,3 +173,6 @@ i.e. the probability of **not** rejecting the null hypothesis when it is true
 Look at x⁻-μ_0 / σ and decide. One sided or two?
 
 
+
+
+
