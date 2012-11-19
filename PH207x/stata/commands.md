@@ -224,10 +224,10 @@ X~Normal(μ, σ²)
 	sample 49, count
 	mean totchol1
 
-             |       Mean   | Std. Err.  | min [95% Conf. Interval]  | max [95% Conf. Interval]
--------------|------------- | ---------- | ------------------------- | -------------------------
-    totchol1 |   221.8776   | 4.614348   |    212.5998               |   231.1553
-Mean estimation                     Number of obs    =      49
+>              |       Mean   | Std. Err.  | min [95% Conf. Interval]  | max [95% Conf. Interval]
+> -------------|------------- | ---------- | ------------------------- | -------------------------
+>     totchol1 |   221.8776   | 4.614348   |    212.5998               |   231.1553
+> Mean estimation                     Number of obs    =      49
 
 
 
