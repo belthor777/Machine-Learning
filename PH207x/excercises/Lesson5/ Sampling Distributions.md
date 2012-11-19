@@ -143,6 +143,12 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 >	di 237 - invnormal(0.975)47.7/sqrt(49)  
 >	di 237 + invnormal(0.975)47.7/sqrt(49)
 
+>	di 237 - invnormal(0.975)*47.7/sqrt(49)  
+>	di 237 + invnormal(0.975)*47.7/sqrt(49)  
+> => **[223.64425, 250.35575]**
+
+
+
 
 #### Q2. Is it reasonable to assume that this is a sample from our population? ####
 
