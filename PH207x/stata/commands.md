@@ -331,6 +331,10 @@ X~Normal(μ, σ²)
 3. For normally distributed random variables with known variance, the width of the 90% predictive interval for the sample mean is equal to the width of a 90% confidence interval for the population mean.
 
 > True 
-> False 
+> => **False** 
+
+
+4. For the test described in question 2 above, what is: the value of test statistic
+
 
 
