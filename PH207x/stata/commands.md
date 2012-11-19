@@ -259,7 +259,7 @@ X~Normal(μ, σ²)
 * One sample t-test
 * Normally distributed
 
-> Stata:
+> Stata commands:
 
 	use healthyyoungadults.dta
 	histogram heartrte2
