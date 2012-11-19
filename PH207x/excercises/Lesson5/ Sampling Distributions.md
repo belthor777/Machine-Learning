@@ -201,6 +201,7 @@ z= (x⁻ - μ_0) / (σ/SQRT(n))
 
 and reject H_0 if Z is too large, + or -.
 
+-------------- | 
 H_0: μ = μ_0   | 
 H_A: μ != μ_0  | 
 
