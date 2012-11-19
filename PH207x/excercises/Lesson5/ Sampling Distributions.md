@@ -204,6 +204,20 @@ H_A: μ != μ_0  |
 
 Example: Reject if Z is > 1.96 or < -1.96, then Pr(reject H_0 when true) = α = 0.05
 
+#### Example ####
+
+Hypotheses     | 
+-------------- | 
+H_0: μ = 237   | 
+H_A: μ != 237  | 
+
+> μ_0= 237 mg/ml  
+> σ= 47.7 mg/100ml  
+> n= 49 non-hypertensives  
+> x⁻= 221.9 mg/100ml
+
+> z= (x⁻ - μ_0) / (σ/SQRT(n))= (221.9 - 237) / (47.7/sqrt(49))= -2.2159329
+
 
 
 
