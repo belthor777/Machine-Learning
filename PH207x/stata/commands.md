@@ -265,6 +265,9 @@ X~Normal(μ, σ²)
 
 2. State null or alternative hypothesis
 3. Do the tests
+
+	db ttest
+
 4. Present your results - test statistic, p-valu...
 5. Conclusion reject the null or fail to reject the null
 6. Make a conclusion about your data
