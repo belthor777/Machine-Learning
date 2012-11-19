@@ -138,7 +138,7 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 #### Q1. We have a sample of 49 total cholesterol levels and their average is x⁻= 230 mg/100ml?
 
 >	[ x⁻-1.92*σ/SQRT(n), x⁻+1.92*σ/SQRT(n), ]  
->	σ/sqrt(n)= 49/7= 6.3857143  
+>	σ/sqrt(n)= 44.7/7= 6.3857143  
 
 >	di 237 - invnormal(0.975)47.7/sqrt(49)  
 >	di 237 + invnormal(0.975)47.7/sqrt(49)
