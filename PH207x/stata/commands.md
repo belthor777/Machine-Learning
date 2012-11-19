@@ -269,6 +269,8 @@ X~Normal(μ, σ²)
 2. State null or alternative hypothesis
 3. Do the tests
 
+> Stata commands:
+
 	db ttest
 
 4. Present your results - test statistic, p-valu...
