@@ -268,6 +268,11 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 >       x⁻ +- t_17-1,0.995 * s/SQRT(n)  
 >       s= sample standard deviation 
 
+	cii 17 8.2 2.5, level(99)
+
+    Variable |        Obs   |     Mean   |  Std. Err.   | min [99% Conf. Interval] | max [99% Conf. Interval]
+------------ | ------------ | ---------- | ------------ | ------------------------ | --------------------------
+             |         17   |      8.2   | .6063391     |   6.429016               |  9.970984
 
 
 
