@@ -277,7 +277,7 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 
 #### z-distribution ####
-> **Z_0.995 < t_17-1,0.995**
+> It's always: **Z_0.995 < t_17-1,0.995**
 
 
 
