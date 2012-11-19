@@ -259,6 +259,8 @@ X~Normal(μ, σ²)
 * One sample t-test
 * Normally distributed
 
+	use healthyyoungadults.dta
+	histogram heartrte1
 
 2. State null or alternative hypothesis
 3. Do the tests
@@ -269,7 +271,7 @@ X~Normal(μ, σ²)
 
 
 
-	use healthyyoungadults.dta
+
 
 
 
