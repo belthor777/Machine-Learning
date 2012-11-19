@@ -175,7 +175,7 @@ Look at (x⁻-μ_0)/σ and decide. One sided or two: Decide the difference betwe
 
 Need to set up 2 hypotheses to cover all possibilities for μ. Choose one of three possibilities:
 
-Possibility | Formular
+Hypotheses | Formular
 ----------- | ------------
  Two-side   | H_0: μ = μ_0
  Two-side   | H_A: μ != μ_0
