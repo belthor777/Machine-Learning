@@ -218,6 +218,10 @@ X~Normal(μ, σ²)
 >        bmi1 |         20  |   25.0295 |   .712055    |    23.53915                  |  26.51985                
 
 ## P-values and examples  ##
+> μ_0= 237 mg/ml  
+> σ= 47.7 mg/100ml  
+> n= 49 non-hypertensives
+> z= (x⁻ - μ_0) / (σ/SQRT(n))
 
 	set seed 725764662
 	drop if hyperten==1
