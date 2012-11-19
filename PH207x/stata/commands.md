@@ -260,7 +260,8 @@ X~Normal(μ, σ²)
 * Normally distributed
 
 	use healthyyoungadults.dta
-	histogram heartrte1
+	histogram heartrte2
+	histogram heartrte2 if heartrte2 < 200
 
 2. State null or alternative hypothesis
 3. Do the tests
