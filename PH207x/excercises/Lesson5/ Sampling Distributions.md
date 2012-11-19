@@ -229,7 +229,7 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 	di normal( -2.0106348 )
 > => **0.02218202**  
-> => 0.044 < 0.5, which means I would reject the null hypothesis
+> => 0.044 < 0.05, which means I would reject the null hypothesis
 
 > *Hint:* normal(z) returns the cumulative standard normal distribution, so you can **NOT** take di 1-normal(2.37). if you do that, you will get the probability to get a result smaller than 2.37 standard deviations above μ.
 
