@@ -304,9 +304,10 @@ X~Normal(μ, σ²)
 > => So we don't see any evidence for the alternative hypothesis in our data set
 
 
+### Hypothesis Testing ###
+> Click on the link above to obtain a subsample of the BMI at baseline among 20 Framingham participants in the dataset subset.dta. Assume that BMI at baseline is normally distributed, but the variance of BMI at baseline is unknown.
 
-
-
+1. Construct a 90% confidence interval for BMI at baseline among Framingham participants using the subsample.
 
 
 
