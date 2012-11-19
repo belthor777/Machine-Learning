@@ -170,7 +170,7 @@ i.e. the probability of **not** rejecting the null hypothesis when it is true
 1. Hypothesize a value (μ_0)
 2. Take a random sample (n)
 3. Is it *likely* that the sample came from a population with mean μ_0 (α=0.05)?  
-Look at x⁻-μ_0 / σ and decide. One sided or two?
+Look at (x⁻-μ_0)/σ and decide. One sided or two?
 
 
 
