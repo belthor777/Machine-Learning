@@ -147,11 +147,11 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 > has a 95% chance of including μ.
 
 
-if x⁻   | 95% Conf. Interval
------- | -------------------
-230    | [216.6, 243.4]
-223    | [209.6, 236.4]
-215    | [201.6, 228.4]
+if x⁻   | 95% Conf. Interval  | Include μ?
+------ | ------------------- | ----
+230    | [216.6, 243.4]      | yes, depends on 243.4 > 237
+223    | [209.6, 236.4]      | no, depends on 236.4 < 237
+215    | [201.6, 228.4]      | no, depends on 228.4 < 237
 
 
 
