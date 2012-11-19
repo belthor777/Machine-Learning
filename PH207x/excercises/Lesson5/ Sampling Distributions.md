@@ -228,6 +228,6 @@ P_r( z>2.37 or z < -2.37 )= 2*P_r( z>2.37 )= 2*0.0222= 0.044
 
 	di normal( -2.37 )= 0.00889404
 
-> *Hint:* normal(z) returns the cumulative standard normal distribution, so you can NOT take di 1-normal(2.37). if you do that, you will get the probability to get a result smaller than 2.37 standard deviations above mu.
+> *Hint:* normal(z) returns the cumulative standard normal distribution, so you can NOT take di 1-normal(2.37). if you do that, you will get the probability to get a result smaller than 2.37 standard deviations above μ.
 
 
