@@ -173,6 +173,16 @@ i.e. the probability of **not** rejecting the null hypothesis when it is true
 Look at (x⁻-μ_0)/σ and decide. One sided or two: Decide the difference between the sample mean and the hypothesized mean. Is it too large or not!
 
 
+Need to set up 2 hypotheses to cover all possibilities for μ. Choose one of three possibilities:
+
+Possibility | Formular
+----------- | ------------
+ Two-side   | H_0: μ = μ_0
+ Two-side   | H_A: μ != μ_0
+
+
+
+
 
 
 
