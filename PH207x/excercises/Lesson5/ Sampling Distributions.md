@@ -273,12 +273,15 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 ------------ | ------------ | ---------- | ------------ | ------------------------ | --------------------------
              |         17   |      8.2   | .6063391     |   6.429016               |  9.970984
 
-
 #### z-distribution ####
 > x⁻ +- z_0.995 * σ/SQRT(n) when σ is known  
 > It's always: **Z_0.995 < t_17-1,0.995**  
 > and: **σ < s**
 
 
+#### One-Sample t-test ####
 
-
+Hypotheses            | 
+--------------------- | 
+H_0: μ = μ_0 = 11.3   | 
+H_A: μ != μ_0 = 11.3  | 
