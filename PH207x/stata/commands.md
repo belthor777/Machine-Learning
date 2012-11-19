@@ -251,10 +251,10 @@ X~Normal(μ, σ²)
 
 1. Choose a test (e.g. one-sample t-test)
 
-Hypotheses     | 
--------------- | 
-H_0: μ = 80    | 
-H_A: μ != 80   | 
+> Hypotheses     | 
+> -------------- | 
+> H_0: μ = 80    | 
+> H_A: μ != 80   | 
 
 2. State null or alternative hypothesis
 3. Do the tests
