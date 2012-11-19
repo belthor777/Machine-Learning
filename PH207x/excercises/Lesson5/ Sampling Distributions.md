@@ -154,6 +154,15 @@ if x⁻   | 95% Conf. Interval  | Include μ?
 215    | [201.6, 228.4]      | no, depends on 228.4 < 237
 
 
+### Formalism of Hypothesis Testing ###
+
+	Propability of **Type I** error is α  
+	i.e. the probability of rejecting the null hypothesis when it is true
+
+	Propability of **Type II** error is β  
+	i.e. the probability of **not** rejecting the null hypothesis when it is true
+
+
 
 
 
