@@ -239,7 +239,7 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 ### Continuous data ###
 
-                                     |                    
+  population standard deviation      |  test type         
 ------------------------------------ | -------------------
 σ known, large n                     | One-sample Z-test
 σ known, normally distributed data   | One-sample Z-test
