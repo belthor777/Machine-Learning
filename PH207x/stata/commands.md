@@ -317,6 +317,15 @@ X~Normal(μ, σ²)
 => **[19.782143, 32.884857]**
 
 
+2. Using the confidence interval in question 1 above, would you reject the null hypothesis that BMI among participants with diabetes is equal to 27 (versus the alternative that BMI is not equal to 27) at the 90% confidence level? (Hint: does the confidence interval contain 27?)
+
+> Hypotheses     | 
+> -------------- | 
+> H_0: μ = 27    | 
+> H_A: μ != 27   | 
+
+> => **Yes**  
+> No 
 
 
 
