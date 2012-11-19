@@ -260,6 +260,7 @@ X~Normal(μ, σ²)
 * Normally distributed
 
 > Stata:
+
 	use healthyyoungadults.dta
 	histogram heartrte2
 	histogram heartrte2 if heartrte2 < 200
