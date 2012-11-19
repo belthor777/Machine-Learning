@@ -283,7 +283,7 @@ X~Normal(μ, σ²)
 > Ha: mean < 80               Ha: mean != 80                 Ha: mean > 80  
 > Pr(T < t) = 0.1118         Pr(|T| > |t|) = 0.2237          Pr(T > t) = 0.8882
 
-4. Present your results - test statistic, p-valu...
+4. Present your results - test statistic, p-valu..
   
 > => test statistic= t= -1.2295  
 > => degrees of freedom = 60  
