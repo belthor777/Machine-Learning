@@ -156,13 +156,13 @@ if x⁻   | 95% Conf. Interval  | Include μ?
 
 ### Formalism of Hypothesis Testing ###
 
-	Propability of **Type I** error is α  
+	* Propability of **Type I** error is α  
 	i.e. the probability of rejecting the null hypothesis when it is true
 
-	Propability of **Type II** error is β  
+	* Propability of **Type II** error is β  
 	i.e. the probability of **not** rejecting the null hypothesis when it is true
 
-	1-β is the power of the test
+	* 1-β is the power of the test
 
 
 ### Testing for the population mean: one vs. two-sided tests  ###
