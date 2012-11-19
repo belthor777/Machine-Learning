@@ -228,6 +228,8 @@ X~Normal(μ, σ²)
 	sample 49, count
 	mean totchol1
 
+> We could use the standard error (Std. Err.), if we are using t instead of z. Now we are using z!
+
 >              |       Mean   | Std. Err.  | min [95% Conf. Interval]  | max [95% Conf. Interval]
 > -------------|------------- | ---------- | ------------------------- | -------------------------
 >     totchol1 |   221.8776   | 4.614348   |    212.5998               |   231.1553
