@@ -142,7 +142,11 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 > => So 230 is one standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
 
 #### Q2. We have a sample of 49 total cholesterol levels and their average is x⁻= 223 mg/100ml?
-> => So 230 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
+> => So 223 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
+
+
+#### Q3. We have a sample of 49 total cholesterol levels and their average is x⁻= 223 mg/100ml?
+> => So 215 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
 
 
 
