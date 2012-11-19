@@ -284,13 +284,13 @@ X~Normal(μ, σ²)
 > Pr(T < t) = 0.1118         Pr(|T| > |t|) = 0.2237          Pr(T > t) = 0.8882
 
 4. Present your results - test statistic, p-valu...
-
+  
 > => test statistic= t= -1.2295  
-> => degrees of freedom = 60
-
+> => degrees of freedom = 60  
+  
 > Under the null hypothesis, this test statistic follows a t-distribution with 60 degrees of freedom. Given that null distribution we can say that my p-value is  
 > => Pr(|T| > |t|) = **0.2237**  
-
+  
 5. Conclusion reject the null or fail to reject the null
 
 > Given that my p-value is **0.2237** and  I know that p is greater than 0.05, I'm going to fail to reject.
