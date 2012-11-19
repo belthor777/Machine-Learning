@@ -220,7 +220,7 @@ X~Normal(μ, σ²)
 ## P-values and examples  ##
 > μ_0= 237 mg/ml  
 > σ= 47.7 mg/100ml  
-> n= 49 non-hypertensives
+> n= 49 non-hypertensives  
 > z= (x⁻ - μ_0) / (σ/SQRT(n))
 
 	set seed 725764662
