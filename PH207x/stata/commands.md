@@ -250,11 +250,20 @@ X~Normal(μ, σ²)
 > We are making the somewhat strong assumption that these Framingham participants are generalizable to the broader population of healthy young adults (this assumotion is necessary if we want to make inference about heart rate in healty young adults.)
 
 1. Choose a test (e.g. one-sample t-test)
+
+Hypotheses     | 
+-------------- | 
+H_0: μ = 80    | 
+H_A: μ != 80   | 
+
 2. State null or alternative hypothesis
 3. Do the tests
 4. Present your results - test statistic, p-valu...
 5. Conclusion reject the null or fail to reject the null
 6. Make a conclusion about your data
+
+
+
 
 	use healthyyoungadults.dta
 
