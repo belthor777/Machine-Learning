@@ -267,6 +267,8 @@ X~Normal(μ, σ²)
 
 
 2. State null or alternative hypothesis
+
+
 3. Do the tests
 
 > Stata commands for "One-sample t test":
@@ -297,6 +299,10 @@ X~Normal(μ, σ²)
 > => **fail to reject the null hypothesis**
 
 6. Make a conclusion about your data
+
+> => We do not have any evidence in data to sugeest that the heart rate is different from 80 in healthy
+
+
 
 
 
