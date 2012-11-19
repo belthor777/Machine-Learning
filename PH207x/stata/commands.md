@@ -252,7 +252,10 @@ X~Normal(μ, σ²)
 1. Choose a test (e.g. one-sample t-test)
 2. State null or alternative hypothesis
 3. Do the tests
-4. Present your results
+4. Present your results - test statistic, p-valu...
+5. Conclusion reject the null or fail to reject the null
+6. Make a conclusion about your data
+
 
 
 
