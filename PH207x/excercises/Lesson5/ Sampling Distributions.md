@@ -239,11 +239,11 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 ### Continuous data ###
 
-  population standard deviation      |  test type         
------------------------------------- | -------------------
-σ known, large n                     | One-sample Z-test
-σ known, normally distributed data   | One-sample Z-test
-σ unknown, normally distributed data | One-sample t-test
+  population standard deviation      |  test type         |
+------------------------------------ | ------------------ | -----------------
+σ known, large n                     | One-sample Z-test  | Central Limit Theorem (CLT) - Normal
+σ known, normally distributed data   | One-sample Z-test  | x⁻~N - Normal - Z-test based on the normal distribution - z= (x⁻ - μ_0) / (σ/SQRT(n))
+σ unknown, normally distributed data | One-sample t-test  | 
 
 
 
