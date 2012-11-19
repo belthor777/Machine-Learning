@@ -179,6 +179,9 @@ Hypotheses  | Formular
 ----------- | ------------
  Two-side   | H_0: μ = μ_0
  Two-side   | H_A: μ != μ_0
+ One-sided  | H_0: μ >= μ_0
+ One-sided  | H_A: μ < μ_0
+
 
 
 
