@@ -227,7 +227,9 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 > z= (x⁻ - μ_0) / (σ/SQRT(n))= (221.9 - 237) / (44.7/sqrt(49))= -2.3646532= -2.37
 > P_r( z>2.37 or z < -2.37 )= 2*P_r( z>2.37 )= 2*0.0222= 0.044
 
-	di normal( -2.37 )= 0.00889404
+	di normal( --2.0106348 )
+> => **0.02218202**  
+> => 0.02218202 < 0.5, which means I would reject the null hypothesis
 
 > *Hint:* normal(z) returns the cumulative standard normal distribution, so you can **NOT** take di 1-normal(2.37). if you do that, you will get the probability to get a result smaller than 2.37 standard deviations above μ.
 
