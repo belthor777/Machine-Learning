@@ -167,9 +167,9 @@ i.e. the probability of **not** rejecting the null hypothesis when it is true
 
 ### Testing for the population mean: one vs. two-sided tests  ###
 
-1 Hypothesize a value (μ_0)
+1. Hypothesize a value (μ_0)
 
-2 Take a random sample (n)
+2. Take a random sample (n)
 
-3 Is it likely that the sample came from a population with mean μ_0 (α=0.05)?
+3. Is it likely that the sample came from a population with mean μ_0 (α=0.05)?
 
