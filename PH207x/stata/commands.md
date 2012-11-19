@@ -295,12 +295,12 @@ X~Normal(μ, σ²)
   
 5. Conclusion reject the null or fail to reject the null
 
-> Given that my p-value is **0.2237** and  I know that p is greater than 0.05, I'm going to fail to reject.
+> Given that my p-value is **0.2237** and  I know that p is greater than 0.05, I'm going to fail to reject.  
 > => **fail to reject the null hypothesis**
 
 6. Make a conclusion about your data
 
-> => We do not have any evidence in data to sugeest that the heart rate is different from 80 in healthy young adults at follow-up.
+> => We do not have any evidence in data to sugeest that the heart rate is different from 80 in healthy young adults at follow-up.  
 > => So we don't see any evidence for the alternative hypothesis in our data set
 
 
