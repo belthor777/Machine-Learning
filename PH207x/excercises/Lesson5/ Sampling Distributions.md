@@ -195,16 +195,14 @@ Hypotheses  | Formular
 
 
 ### P-values and examples ###
-Look if the data are looking consonant. Look at 
-
-z= (x⁻ - μ_0) / (σ/SQRT(n))
-
-and reject H_0 if Z is too large, + or -.
+Look if the data are looking consonant. Look at z= (x⁻ - μ_0) / (σ/SQRT(n)) and reject H_0 if Z is too large, + or -.
 
 Hypotheses     |
 -------------- | 
 H_0: μ = μ_0   | 
 H_A: μ != μ_0  | 
+
+Example: Reject if Z is > 1.96 or < -1.96, then Pr(reject H_0 when true) = 0.05
 
 
 
