@@ -135,6 +135,6 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 ### Example ###
 We know that total cholesterol levels in *our* Framingham population are distributed with mean μ = 237 mg/100ml and standard deviation σ = 44.7 mg/100ml.
 
-
+#### Q1. We have a sample of 49 total cholesterol levels and their average is x⁻= 230 mg/100ml?
 
 
