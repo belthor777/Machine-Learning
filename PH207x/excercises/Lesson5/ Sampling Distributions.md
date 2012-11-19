@@ -143,7 +143,9 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 
 ### Is it reasonable to assume that this is a sample from our population? ###
 > Use of 95% confidence interval to infer value of mean μ (μ=237)  
-> [ x⁻ +- 1.96 σ/sqrt(n) -> x⁻ +- 1.96 47.7/sqrt(49) ->  x⁻ +- 13.356
+> [ x⁻ +- 1.96 σ/sqrt(n) -> x⁻ +- 1.96 47.7/sqrt(49) ->  **x⁻ +- 13.356**  
+> has a 95% chance of including μ.
+
 
 
 
