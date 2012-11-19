@@ -349,6 +349,7 @@ X~Normal(μ, σ²)
 > True  
 > => **False**
 
+
 6. If an outlier is disproportionately influencing your hypothesis test, you should always throw it out. 
 
 > True  
