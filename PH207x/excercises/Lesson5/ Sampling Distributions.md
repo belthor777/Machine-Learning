@@ -137,20 +137,14 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 
 #### Q1. We have a sample of 49 total cholesterol levels and their average is x⁻= 230 mg/100ml?
 
->	[ x⁻-1.92*σ/SQRT(n), x⁻+1.92*σ/SQRT(n), ]  
 >	sd= σ/sqrt(n)= 44.7/7= 6.3857143  
 > => So 230 is one standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
 
-#### Q2. We have a sample of 49 total cholesterol levels and their average is x⁻= 223 mg/100ml?
-> => So 223 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
 
+### Is it reasonable to assume that this is a sample from our population? ###
+> Use of 95% confidence interval to infer value of mean μ (μ=237)  
+> [ x⁻ +- 1.96 σ/sqrt(n) -> x⁻ +- 1.96 47.7/sqrt(49) ->  x⁻ +- 13.356
 
-#### Q3. We have a sample of 49 total cholesterol levels and their average is x⁻= 223 mg/100ml?
-> => So 215 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
-
-
-
-#### Q2. Is it reasonable to assume that this is a sample from our population? ####
 
 
 
