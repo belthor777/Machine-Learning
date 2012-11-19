@@ -343,5 +343,15 @@ X~Normal(μ, σ²)
 > => the p-value: **0.4647**
 
 
+5. Using the confidence interval above, we conclude that BMI at baseline in the Framingham cohort is not different from 27 at the α=0.1 level of significance. 
+> => Yes, we fail to reject the null hypothesis
+
+> True  
+> => **False**
+
+6. If an outlier is disproportionately influencing your hypothesis test, you should always throw it out. 
+
+> True  
+> => **False**
 
 
