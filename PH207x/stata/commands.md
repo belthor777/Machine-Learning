@@ -309,6 +309,8 @@ X~Normal(μ, σ²)
 
 1. Construct a 90% confidence interval for BMI at baseline among Framingham participants using the subsample.
 
+> 90% is 1.64 for a normal distribution
+
 	sum bmi1
 	di 26.3335 - 1.64*3.99473
 	di 26.3335 + 1.64*3.99473
