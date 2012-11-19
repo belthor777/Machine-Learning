@@ -256,6 +256,10 @@ X~Normal(μ, σ²)
 > H_0: μ = 80    | 
 > H_A: μ != 80   | 
 
+* One sample t-test
+* Normally distributed
+
+
 2. State null or alternative hypothesis
 3. Do the tests
 4. Present your results - test statistic, p-valu...
