@@ -147,6 +147,9 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 > has a 95% chance of including μ.
 
 
-
-
+if x⁻   | 95% Conf. Interval
+------ | -------------------
+230    | 
+223    | 
+215    | 
 
