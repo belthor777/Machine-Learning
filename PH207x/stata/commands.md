@@ -238,7 +238,16 @@ X~Normal(μ, σ²)
 	di (221.8776-237) / (44.7/7)
 > => -2.3681611
 
+## Hypothesis Testing ##
 
+### Example: Inference about heart rates in healthy young adults ###
+> In adults over 15 years of age, a resting heart rate around 80bpm is usually considered average. Using a subset of the Framingham cohort, we are going to attempt to make inference about heart rate among "healthy young" adults."
+
+> Specifically, we restrict our analysis to adults with the following characteristics at baseline: non-smoker, younger than 40, BMI less than 25 and systolic blood pressure less than 120. There are 61 participants who meet our criteria.
+
+> **We hypothesize that heart rate at follow up would be lower than 80bpm, the resting heart rate for adults with average health.**
+
+> We are making the somewhat strong assumption that these Framingham participants are generalizable to the broader population of healthy young adults (this assumotion is necessary if we want to make inference about heart rate in healty young adults.)
 
 
 
