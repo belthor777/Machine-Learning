@@ -179,10 +179,19 @@ Hypotheses  | Formular
 ----------- | ------------
  Two-side   | H_0: μ = μ_0
  Two-side   | H_A: μ != μ_0
+
+Hypotheses  | Formular
+----------- | ------------
  One-sided  | H_0: μ >= μ_0
  One-sided  | H_A: μ < μ_0
 
+Hypotheses  | Formular
+----------- | ------------
+ One-sided  | H_0: μ <= μ_0
+ One-sided  | H_A: μ > μ_0
 
+> H_0 - Alternative hypothesis  
+> H_A - Alternative hypothesis
 
 
 
