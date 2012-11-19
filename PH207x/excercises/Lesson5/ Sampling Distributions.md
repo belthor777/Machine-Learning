@@ -221,4 +221,11 @@ H_A: μ != 237  |
 > => **-2.2159329 is less than 1.96**  
 > => So we reject the null hypothesis
 
+#### P-value  ####
+Some prefer to quote the p-value. The p-value answers the question: "What is the probability of getting as large, or larger, a discrepancy?" (μ- x⁻)
+
+P_r( z>2.37 or z < -2.37 )= 2*P_r( z>2.37 )= 2*0.0222= 0.044
+
+	di normal( -2.0106348 )= 0.02218202
+
 
