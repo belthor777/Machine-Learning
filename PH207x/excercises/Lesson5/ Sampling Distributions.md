@@ -165,5 +165,6 @@ if x⁻   | 95% Conf. Interval  | Include μ?
 	1-β is the power of the test
 
 
+### Testing for the population mean: one vs. two-sided tests  ###
 
 
