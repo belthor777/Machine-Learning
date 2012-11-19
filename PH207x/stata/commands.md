@@ -259,9 +259,9 @@ X~Normal(μ, σ²)
 * One sample t-test
 * Normally distributed
 
-
-	use healthyyoungadults.dta  
-	histogram heartrte2  
+> Stata:
+	use healthyyoungadults.dta
+	histogram heartrte2
 	histogram heartrte2 if heartrte2 < 200
 
 
