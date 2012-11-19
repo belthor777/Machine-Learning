@@ -336,7 +336,7 @@ X~Normal(μ, σ²)
 
 4. For the test described in question 2 above, what is:
 
-	ttest bmi1 == 27
+	ttest bmi1 = 27, level(90)
 
 > => the value of test statistic: **-0.7462**  
 > => the distribution of the test statistic under the null hypothesis: t-distribution with 19 degrees of freedom  
