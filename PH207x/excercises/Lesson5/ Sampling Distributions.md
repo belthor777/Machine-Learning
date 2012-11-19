@@ -202,7 +202,7 @@ Hypotheses     |
 H_0: μ = μ_0   | 
 H_A: μ != μ_0  | 
 
-Example: Reject if Z is > 1.96 or < -1.96, then Pr(reject H_0 when true) = 0.05
+Example: Reject if Z is > 1.96 or < -1.96, then Pr(reject H_0 when true) = α = 0.05
 
 
 
