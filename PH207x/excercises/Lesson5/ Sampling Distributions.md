@@ -261,9 +261,12 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 	di 11.3+invnormal(0.995)*2.3/sqrt(17)
 > => [ 9.8631201, 12.73688 ]
 
-* Construct a 99% confidence interval for the mean oxidation rate in healthy young adults after completing the physical activity program, using the sample of 18 participants.
+* Construct a 99% confidence interval for the mean oxidation rate in healthy young adults after completing the physical activity program, using the sample of 17 participants.
 
+x⁻ +- z_0.995 * σ/SQRT(n) when σ is known
 
+x⁻ +- t_17-1,0.995 * s/SQRT(n) 
+s= sample standard deviation 
 
 
 
