@@ -274,7 +274,7 @@ X~Normal(μ, σ²)
 	db ttest
 	ttest heartrte2 == 80
 
-> One-sample t test
+> One-sample t test  
 > Variable |     Obs  |      Mean  |  Std. Err. |  Std. Dev. | min [95% Conf. Interval] | max [95% Conf. Interval] 
 > -------- | -------- | ---------- | ---------- | ---------- | ------------------------ | -------------------------
 > heartr~2 |      61  |  76.55738  |  2.800032  |  21.86895  |  70.95648                |  82.15827               
