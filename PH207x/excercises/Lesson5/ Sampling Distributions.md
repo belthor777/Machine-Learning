@@ -149,7 +149,7 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 
 if x⁻   | 95% Conf. Interval
 ------ | -------------------
-230    | 
-223    | 
-215    | 
+230    | (216.6, 243.4)
+223    | (209.6, 236.4)
+215    | (201.6, 228.4)
 
