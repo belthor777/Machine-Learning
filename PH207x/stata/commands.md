@@ -277,9 +277,7 @@ X~Normal(μ, σ²)
 > Variable |     Obs  |      Mean  |  Std. Err. |  Std. Dev. | min [95% Conf. Interval] | max [95% Conf. Interval] 
 > -------- | -------- | ---------- | ---------- | ---------- | ------------------------ | -------------------------
 > heartr~2 |      61  |  76.55738  |  2.800032  |  21.86895  |  70.95648                |  82.15827
-
-
-
+>  
 >     mean = mean(heartrte2)                                        t =  -1.2295  
 > Ho: mean = 80                                    degrees of freedom =       60  
 > Ha: mean < 80               Ha: mean != 80                 Ha: mean > 80  
