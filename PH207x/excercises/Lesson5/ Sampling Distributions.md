@@ -218,6 +218,7 @@ H_A: μ != 237  |
 
 > z= (x⁻ - μ_0) / (σ/SQRT(n))= (221.9 - 237) / (47.7/sqrt(49))= -2.2159329
 
-
+> => **-2.2159329 is less than 1.96**  
+> => So we reject the null hypothesis
 
 
