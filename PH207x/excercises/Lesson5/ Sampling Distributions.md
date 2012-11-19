@@ -162,7 +162,7 @@ if x⁻   | 95% Conf. Interval  | Include μ?
 	Propability of **Type II** error is β  
 	i.e. the probability of **not** rejecting the null hypothesis when it is true
 
-
+	1-β is the power of the test
 
 
 
