@@ -300,7 +300,8 @@ X~Normal(μ, σ²)
 
 6. Make a conclusion about your data
 
-> => We do not have any evidence in data to sugeest that the heart rate is different from 80 in healthy
+> => We do not have any evidence in data to sugeest that the heart rate is different from 80 in healthy young adults at follow-up.
+> => So we don't see any evidence for the alternative hypothesis in our data set
 
 
 
