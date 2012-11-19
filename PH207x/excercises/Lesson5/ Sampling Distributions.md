@@ -248,10 +248,14 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 * Suppose that the average maximum oxidation rate in the population of healthy young adults who did not complete the program was 11.3μmol/min/g, and the standard deviation was 2.3μmol/min/g.
 
-Y~N( 11.3, 2.3² )
-
 * Construct a 99% predictive interval for the sample mean maximum oxidation rate from a sample of size 17 (assuming normality).
 
+
+Y~N( 11.3, 2.3² )
+
+x⁻_0
+
+μ +- z_0.995 * σ/SQRT(n)
 
 
 
