@@ -130,4 +130,6 @@ Again, let X denote BMI at baseline for a Framingham study participant. Assume X
 >       bmi1  |         20  |   25.0295 |    .712055   |     23.79826                 |   26.26074               
 
 
+## Introduction to Hypothesis Testing ##
+
 
