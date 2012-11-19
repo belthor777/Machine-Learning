@@ -139,7 +139,11 @@ We know that total cholesterol levels in *our* Framingham population are distrib
 
 >	[ x⁻-1.92*σ/SQRT(n), x⁻+1.92*σ/SQRT(n), ]  
 >	sd= σ/sqrt(n)= 44.7/7= 6.3857143  
-> => So 230 is one standard deviation away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
+> => So 230 is one standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
+
+#### Q2. We have a sample of 49 total cholesterol levels and their average is x⁻= 223 mg/100ml?
+> => So 230 is two standard error away from 237, and so the central limit theorem tells us that what we're talking about is quite possible.
+
 
 
 #### Q2. Is it reasonable to assume that this is a sample from our population? ####
