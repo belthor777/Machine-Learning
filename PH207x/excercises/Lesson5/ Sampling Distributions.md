@@ -234,3 +234,7 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 > *Hint:* normal(z) returns the cumulative standard normal distribution, so you can **NOT** take di 1-normal(2.37). if you do that, you will get the probability to get a result smaller than 2.37 standard deviations above μ.
 
 
+## Example: Atherosclerosis and Physical Activity ##
+> Oxidation of components of LDL cholesterol (the bad cholesterol) can result in atherosclerosis, or hardening of the arteries. Elosua et. al (2002) examine the impact of a 16 week physical activity program on LDL resistance to oxidation in 17 healthy young adults. After completing the program, the average maximum oxidation rate in the study participants xˉ was 8.2 μmol/min/g, and the sample standard deviation of the maximum oxidation rate was s=2.5 μmol/min/g. Assume that the oxidation rate is normally distributed.
+
+
