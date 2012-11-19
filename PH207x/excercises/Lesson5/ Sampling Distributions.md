@@ -250,12 +250,18 @@ Some prefer to quote the p-value. The p-value answers the question: "What is the
 
 * Construct a 99% predictive interval for the sample mean maximum oxidation rate from a sample of size 17 (assuming normality).
 
+> σ= 2.3  
+> n= 17  
+> x⁻_0= 11.3  
+>  
+> Y~N( 11.3, 2.3² )  
+> => μ +- z_0.995 * σ/SQRT(n)
 
-Y~N( 11.3, 2.3² )
+	di 11.3-invnormal(0.995)*2.3/sqrt(17)  
+	di 11.3+invnormal(0.995)*2.3/sqrt(17)
+> => [ 9.8631201, 12.73688 ]
 
-x⁻_0
 
-μ +- z_0.995 * σ/SQRT(n)
 
 
 
