@@ -42,7 +42,26 @@ We will do this later
 > p-value= 0.384
 >  
 > Z= (^p - p) / sqrt(p*(1-p)/n)  
->  = 0.115 - 0.082 / sqrt(0.082*(1-0.082)/52)
+>  = 0.115 - 0.082 / sqrt(0.082*(1-0.082)/52)  
+  
+> 6= 6 successes  
+  
+	prtesti 52 6 0.082 , count
+
+### Exact test ###
+
+	bintesti 52 6 0.082
+
+
+##  Sample Size Estimation  ##
+> Suppose we wish to test the hypothesis H_0: p <= 0.082 at the alpha=0.01 level, and we want power of 0.95 at p=0.2. How big a sample do we need?
+
+> For alpha=0.01 the z=2.32. So since  
+> Z= (^p - p) / sqrt(p*(1-p)/n)  
+> a Z of 2.32 corresonds to a ^p of:
+> ^p = 0.082 + 2.32*sqrt(0.082*0.918/n)
+
+
 
 
 
