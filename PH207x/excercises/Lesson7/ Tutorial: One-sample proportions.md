@@ -8,4 +8,8 @@
 > *prtest* and *prtesti* **large sample one sample** proportion hypothesis test
 
 ### 1. We're going to do is estimate the proportion of California residents who visit the doctor at least once in the previous year. Lets denote this p. ###
+> For small samples use exact and for big samples use Wald methods.  
 
+	ci doctor, binomial
+	ci doctor, binomial wald
+	ci doctor, binomial wilson
