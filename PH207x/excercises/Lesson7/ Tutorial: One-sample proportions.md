@@ -24,5 +24,17 @@
 
 #### We'll look at these confidence intervals and decide whether there's evidence that at the 95% confidence level, do we think that at least 80% of the population visits the doctor once per year. ####
 
+> poverty level
+
+	by poverty, sort : ci doctor, binomial
+
+
+> H_0: P_1= 0.8
+> H_A: P_1 != 0.8
+> alpha= 0.05
+
+	bitesti 100 50 0.8
+	bitest doctor == 0.8 if poverty==1
+
 
 
