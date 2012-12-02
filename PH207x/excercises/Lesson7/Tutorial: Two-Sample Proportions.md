@@ -15,5 +15,8 @@
 > p= x_1 + x_2 / n_1 + n_2
 
 
-
-
+### Test in Stata ###
+H_0: p_1=p_0  
+H_A: p_1 != p_0  
+alpha=0.05
+95%
