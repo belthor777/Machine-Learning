@@ -36,5 +36,15 @@
 	bitesti 100 50 0.8
 	bitest doctor == 0.8 if poverty==1
 
+### Look at the large sample test ###
+> At first we test if the binomial distribution is appropriate.  
+>  
+> n_1*P_1 > 5  
+> 63*0.8= 50.5 > 5  
+>  
+> H_0: P_1= 0.8  
+> H_A: P_1 != 0.8  
+> alpha= 0.05  
+
 
 
