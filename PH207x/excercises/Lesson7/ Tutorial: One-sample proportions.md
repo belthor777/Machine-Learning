@@ -7,3 +7,5 @@
 > *bitest* and *bitesti* **exact binomial** one-sample proportion hypothesis test  
 > *prtest* and *prtesti* **large sample one sample** proportion hypothesis test
 
+
+
