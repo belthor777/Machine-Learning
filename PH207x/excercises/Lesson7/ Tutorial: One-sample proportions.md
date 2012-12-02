@@ -7,5 +7,5 @@
 > *bitest* and *bitesti* **exact binomial** one-sample proportion hypothesis test  
 > *prtest* and *prtesti* **large sample one sample** proportion hypothesis test
 
-
+### 1. We're going to do is estimate the proportion of California residents who visit the doctor at least once in the previous year. Lets denote this p. ###
 
