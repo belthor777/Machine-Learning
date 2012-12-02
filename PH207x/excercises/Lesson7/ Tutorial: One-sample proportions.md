@@ -49,5 +49,8 @@
 > H_A: P_1 != 0.8  
 > alpha= 0.05  
 
+	prtest doctor == 0.8 if poverty==1
+
+prtest doctor == 0.8 if race=Pacific Islander 
 
 
