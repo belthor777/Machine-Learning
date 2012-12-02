@@ -22,5 +22,7 @@
 > **It is the easted to calculate, so we see this in reality very often**
 
 
+#### We'll look at these confidence intervals and decide whether there's evidence that at the 95% confidence level, do we think that at least 80% of the population visits the doctor once per year. ####
+
 
 
