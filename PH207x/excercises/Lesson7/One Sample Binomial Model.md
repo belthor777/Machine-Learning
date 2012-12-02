@@ -9,9 +9,10 @@
 
 ## Estimator of p ##
 > n trials, x successes= SUM i=1 to n d_i
-> where d_i = 1 if i_th trial is a success,
->           = 0 if i_th trial is a failure
-
+> where d_i = 1 if i_th trial is a success,  
+>           = 0 if i_th trial is a failure  
+>  
+> p= x/n= 1/n * SUM i=1 to n d_i
 
 
 
