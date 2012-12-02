@@ -58,8 +58,12 @@ We will do this later
 
 > For alpha=0.01 the z=2.32. So since  
 > Z= (^p - p) / sqrt(p*(1-p)/n)  
-> a Z of 2.32 corresonds to a ^p of:
+> ^p= ? and n=?  
+  
+> a Z of 2.32 corresonds to a ^p of:  
 > ^p = 0.082 + 2.32*sqrt(0.082*0.918/n)
+
+	sampsi 0.082, alpha(0.01) power(0.95) onesamp oneside
 
 
 
