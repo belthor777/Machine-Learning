@@ -51,6 +51,6 @@
 
 	prtest doctor == 0.8 if poverty==1
 
-prtest doctor == 0.8 if race=Pacific Islander 
+
 
 
