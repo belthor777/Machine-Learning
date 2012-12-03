@@ -17,4 +17,15 @@ M.I. - Diabetes    | 9                  | 37                    | 46
 M.I. - No Diabetes | 16                 | 82                    | 98
 Total              | 25                 | 119                   | 144
 
+## Chi-squared ##
+> Discordant entries: 37 & 16  
+> x²= SUM of all cells [ ( |obs-exp|-0.5 )² / exp ]  
+>  
+> x²= ( |37-16|-1 )² / (37+16)  
+>   = 7.55  
+>  
+> x²_(1,0.010)=6.63  
+> x²_(1,0.001)=10.83  
+> => **0.001<p<0.010**
+
 
