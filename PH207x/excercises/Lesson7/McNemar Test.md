@@ -41,14 +41,16 @@ Total              | 25                 | 119                   | 144
 >  
 > Source: Dekkers OM, Timmermans JM, Smit JW, Romijn JA, Pereira AM. Comparison of the cortisol responses to testing with two doses of ACTH in patients with suspected adrenal insufficiency.Eur J Endocrinol 2011 Jan;164(1):83-7  
 
+              | 250 μg Abnormal | 250 μg Abnormal 
+------------- | --------------- | ------------- 
+1 μg Abnormal |                 |              
+1 μg Normal   |                 |                 
+
+
 ####1. Since this is paired data, we decide to use McNemar’s test. State the null and alternative hypothesis for McNemar’s test.####
 > **Null:** The proportion of patients classified as having adrenal insufficiency using the 1 μg test is the same as the proportion of patients classified as having adrenal insufficiency using the 250 μg test.  
 > **Alternative:** Those proportions are not equal.  
 >  
 > Is this the same as testing that the proportion of patients classified as not having adrenal insufficiency using the 1 μg test is the same as the proportion of patients classified as not having adrenal insufficiency using the 250 μg test?
 
-              | 250 μg Abnormal | 250 μg Abnormal 
-------------- | --------------- | ------------- 
-1 μg Abnormal |                 |              
-1 μg Normal   |                 |                 
 
