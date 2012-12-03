@@ -73,7 +73,11 @@ Total              | 25                 | 119                   | 144
 > doctor_1: below the line who goes to the doctor  
 >  
 > H_0: no assoc.  
-> H_1: there is a association
+> H_1: there is a association  
+>  
+> Dataset:  
+> => poverty= 1  
+> => Age gender location
 
 	mcc doctor_0 doctor_1
 
