@@ -26,3 +26,13 @@ Total      | a+c     | b+d       | n
 
 ## Berkson's Fallacy  ##
 He quantified the fallacy (sampling error)
+
+
+## Yule Effect ##
+> Woman who could be classified as smokers/non-smokers in a 20 year follow-up of a one-in-six survey of the electoral roll in 1972-1974 in Whickham, UK.
+
+           | Smokers | Non-Smokers | Total
+---------- | ------- | ----------- | ----- 
+Dead       |  139    | 230         | 369
+Alive      |  443    | 502         | 945
+Mortality  |  0.239  | 0.314       | 0.281
