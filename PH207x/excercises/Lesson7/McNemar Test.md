@@ -93,13 +93,13 @@ Total              | 25                 | 119                   | 144
 >  
 #### From the Pearson Chi-Square test, can we say that poverty causes individuals to go to the doctor less frequently over the past 12 months? (Please discuss why or why not on the discussion boards). ####
 > Yes  
-> No
+> => **No**
 
 #### From the matched analysis, can we say that poverty causes individuals to go to the doctor less frequently over the past 12 months? (Please discuss why or why not on the discussion boards). ####
 > Yes  
-> No
+> => **No**
 
 #### Could we get a better estimate of the effect of poverty on visiting the doctor in the past 12 months if we brought in more covariates/information about the individuals in the survey? (Please discuss why or why not on the discussion boards).#### 
 > Not likely   
-> Likely 
+> => **Likely**
 
