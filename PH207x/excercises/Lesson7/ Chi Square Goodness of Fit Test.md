@@ -29,5 +29,10 @@ Total    | 425             | 62                | 88                | 575
 
 	tab diabetes3 sex1, chi col miss
 
+> Now the null hypothesis is that it doesn't matter. The row classification is independent of the column classification.That means that take these 88, roughly a third of them should go up
+here and a third of them should come down here.
+
+	tabplot hospital status [iw=frequency],perc(status)
+
 
 
