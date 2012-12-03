@@ -13,8 +13,17 @@
 
 
 ##Pearson Chi-square test##
-> Step1:
+> **Step1:**
 
 	tabulate poverty doctor, row expected
 
 > Look if all expected cell counts (expected frequency command) are higher than 5
+
+	cs doctor poverty, or woolf
+	tabulate poverty doctor, row expected chi2
+
+## Presenting Results ##
+> *Cohort Study*: Use the **Risk difference**  
+> Never use the p-value to present the results.
+
+
