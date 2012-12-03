@@ -26,4 +26,6 @@
 > *Cohort Study*: Use the **Risk difference**  
 > Never use the p-value to present the results.
 
+# Install R by C table addon for stata#
 
+	ssc install tabplot
