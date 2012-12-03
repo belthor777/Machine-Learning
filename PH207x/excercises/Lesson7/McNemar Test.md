@@ -19,7 +19,8 @@ Total              | 25                 | 119                   | 144
 
 ## Chi-squared ##
 > Discordant entries: 37 & 16  
-> x²= SUM of all cells [ ( |obs-exp|-0.5 )² / exp ]  
+> x²= SUM of all cells [ ( |obs-exp|**-1** )² / exp ]  
+> **-1**: Stata ignores the correction factor, 1
 >  
 > x²= ( |37-16|-1 )² / (37+16)  
 >   = 7.55  
