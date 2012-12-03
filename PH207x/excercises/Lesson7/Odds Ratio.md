@@ -37,4 +37,5 @@ Dead       |  139    | 230         | 369
 Alive      |  443    | 502         | 945
 Mortality  |  0.239  | 0.314       | 0.281
 
-
+> Use Decomposition Rule / Proportion / Mean  
+> The composition is the story: You should not compare the means of two groups if the composition are different. Because you might just be confounding a lot of things together and blurring the issue at stake
