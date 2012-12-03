@@ -39,3 +39,20 @@ Mortality  |  0.239  | 0.314       | 0.281
 
 > Use Decomposition Rule / Proportion / Mean  
 > The composition is the story: You should not compare the means of two groups if the composition are different. Because you might just be confounding a lot of things together and blurring the issue at stake
+
+### Yule Effect Demonstration  ###
+> Imagine you are a researcher studying YSS and the drugs that might prevent it. You decide to perform an experiment to test whether or not the promising drug Twoohsevenex is effective at preventing YSS.  
+>  
+> You perform a study by taking 200 men and 200 women, all of whom are at risk but do not currently have YSS, and separating them randomly into two groups. The "treated" group receives Twoohsevenex, while the control group recieves a placebo.  
+>  
+> At a follow up exam 5 years later, you observe the following results (Patients with YSS/All Patients in Category):   
+>  
+> Your results:
+
+       | Treated | Control
+------ | ------- | -------- 
+Men    | 40/100  | 45/100
+Woman  | 25/100  | 30/100
+Total  | 65/200  | 75/200
+
+
