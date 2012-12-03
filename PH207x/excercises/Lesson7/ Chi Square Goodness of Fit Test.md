@@ -27,7 +27,7 @@ Comm.    | 157             | 18                | 54                | 229
 Teach.   | 268             | 44                | 34                | 346
 Total    | 425             | 62                | 88                | 575
 
-
+	tab diabetes3 sex1, chi col miss
 
 
 
