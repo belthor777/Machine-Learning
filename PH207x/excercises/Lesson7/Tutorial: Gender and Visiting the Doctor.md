@@ -29,7 +29,7 @@
 
 	gen female = gender - 1
 	cs doctor female, or woolf
-	tabulate female doctor, row expected chi2
+
 
 #### 3. Examine your estimated risk difference and estimated odds ratio, and their respective confidence intervals. Do you reach the same conclusion about the association between gender and visiting the doctor using these two measures of association?  ####
 > **Yes**  
