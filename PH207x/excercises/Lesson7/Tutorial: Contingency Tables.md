@@ -11,3 +11,10 @@
 	gen nopoverty = 1-poverty
 	cs doctor nopoverty, or woolf
 
+
+##Pearson Chi-square test##
+> Step1:
+
+	tabulate poverty doctor, row expected
+
+> Look if all expected cell counts (expected frequency command) are higher than 5
