@@ -35,3 +35,8 @@
 	tabplot racecat poverty
 	tabplot poverty racecat
 	tabulate racecat pov, row
+
+
+
+
+
