@@ -47,5 +47,8 @@ Total              | 25                 | 119                   | 144
 >  
 > Is this the same as testing that the proportion of patients classified as not having adrenal insufficiency using the 1 μg test is the same as the proportion of patients classified as not having adrenal insufficiency using the 250 μg test?
 
-
+              | 250 μg Abnormal | 1 μg Abnormal 
+------------- | --------------- | ------------- 
+1 μg Abnormal |                 |              
+1 μg Normal   |                 |                 
 
