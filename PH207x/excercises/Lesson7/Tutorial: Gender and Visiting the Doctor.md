@@ -23,7 +23,7 @@
 #### 2. Estimate the odds ratio for visiting the doctor in the past 12 months for self-reported female versus male study participants. ####
 > Estimate of odds ratio: **3.517964**  
 >  
-> 95% Confidence Interval: [, ]
+> 95% Confidence Interval: **[2.174543,5.691343]**
 
 > I used:
 
@@ -32,7 +32,7 @@
 	tabulate female doctor, row expected chi2
 
 #### 3. Examine your estimated risk difference and estimated odds ratio, and their respective confidence intervals. Do you reach the same conclusion about the association between gender and visiting the doctor using these two measures of association?  ####
-> Yes  
+> **Yes**  
 > No
 
 
