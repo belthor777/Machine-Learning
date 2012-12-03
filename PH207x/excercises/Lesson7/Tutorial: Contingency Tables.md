@@ -30,6 +30,7 @@
 
 	ssc install tabplot
 
+> Example:
 
 	tabplot racecat poverty
 	tabplot poverty racecat
