@@ -55,6 +55,6 @@ Total              | 25                 | 119                   | 144
 
 	use "AI.dta", replace
 	tabulate one two
-
+	mcc one two
 
 
