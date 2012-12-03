@@ -103,3 +103,6 @@ Total              | 25                 | 119                   | 144
 > Not likely   
 > => **Likely**
 
+# Some guidance #
+The moral of the story is that association is not causation in observational studies, because observational studies lack treament randomization (you can't randomize people to poverty). You can bring in more individual covariate information to improve your analysis, which we will learn to do via logistic regression. 
+
