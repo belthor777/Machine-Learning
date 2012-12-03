@@ -11,10 +11,10 @@ Total    | 144      | 144     | 288
 
 > So we have 144 pairs and we want to use McNemar's Test:
 
-M.I.        | No M.I. - Diabetes | No M.I. - No Diabetes | Total
------------ | ------------------ | --------------------- | ------
-Diabetes    | 9                  | 37                    | 46
-No Diabetes | 16                 | 82                    | 98
-Total       | 25                 | 119                   | 144
+                   | No M.I. - Diabetes | No M.I. - No Diabetes | Total
+------------------ | ------------------ | --------------------- | ------
+M.I. - Diabetes    | 9                  | 37                    | 46
+M.I. - No Diabetes | 16                 | 82                    | 98
+Total              | 25                 | 119                   | 144
 
 
