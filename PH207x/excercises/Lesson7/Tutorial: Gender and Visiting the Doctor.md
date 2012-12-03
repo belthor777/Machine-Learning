@@ -26,3 +26,5 @@
 > No
 
 
+## 4. If you were writing a paper, would you present the risk difference or the odds ratio (please discuss on the boards below)? ##
+> I would use the risk difference!
