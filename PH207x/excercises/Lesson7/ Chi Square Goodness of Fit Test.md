@@ -21,6 +21,8 @@
 > e.g. Accuracy of Death Certificates
 > CS= Certificate Status
 
+	tabi 157 18 54\268 44 34
+
 Hospital | CS Conf. Accur. | CS Inacc. No. Ch. | CS Incorr. Recode | Total
 -------- | --------------- | ----------------- | ----------------- | --------
 Comm.    | 157             | 18                | 54                | 229
@@ -33,6 +35,5 @@ Total    | 425             | 62                | 88                | 575
 here and a third of them should come down here.
 
 	tabplot hospital status [iw=frequency],perc(status)
-
 
 
