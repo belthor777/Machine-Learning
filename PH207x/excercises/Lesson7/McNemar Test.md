@@ -42,8 +42,8 @@ Total              | 25                 | 119                   | 144
 > Source: Dekkers OM, Timmermans JM, Smit JW, Romijn JA, Pereira AM. Comparison of the cortisol responses to testing with two doses of ACTH in patients with suspected adrenal insufficiency.Eur J Endocrinol 2011 Jan;164(1):83-7  
 
               | 250 μg Abnormal | 250 μg Abnormal 
-------------- | --------------- | ------------- 
-1 μg Abnormal |                 |              
+------------- | --------------- | --------------- 
+1 μg Abnormal |                 |                 
 1 μg Normal   |                 |                 
 
 
