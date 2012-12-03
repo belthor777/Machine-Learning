@@ -12,20 +12,24 @@
 #### 1. Estimate the risk difference for visiting the doctor in the past 12 months for self-reported female versus male study participants (using the female variable). Calculate risk difference using proportion in females minus proportion in males.####
 >  Estimate of risk difference: **0.1888948**  
 >  
-> 95% Confidence Interval: **[0.1198812,0.2579083]**  
+> 95% Confidence Interval: **[0.1198812,0.2579083]**
 
-> I would use:
+> I used:
+
+	gen female = gender - 1
+	cs doctor female, or woolf
+
+
+#### 2. Estimate the odds ratio for visiting the doctor in the past 12 months for self-reported female versus male study participants. ####
+> Estimate of odds ratio: **3.517964**  
+>  
+> 95% Confidence Interval: [, ]
+
+> I used:
 
 	gen female = gender - 1
 	cs doctor female, or woolf
 	tabulate female doctor, row expected chi2
-
-
-#### 2. Estimate the odds ratio for visiting the doctor in the past 12 months for self-reported female versus male study participants. ####
-> Estimate of odds ratio: ** **  
->  
-> 95% Confidence Interval: [, ]  
-
 
 #### 3. Examine your estimated risk difference and estimated odds ratio, and their respective confidence intervals. Do you reach the same conclusion about the association between gender and visiting the doctor using these two measures of association?  ####
 > Yes  
