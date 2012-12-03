@@ -40,6 +40,12 @@ Total              | 25                 | 119                   | 144
 > The goal of this study was to compare the cortisol response of the 1 μg and 250 μg ACTH test among patients with suspected adrenal insufficiency. Patients with cortisol concentrations of ≥550 nmol/l after ACTH stimulation (considered normal cortisol response) were classified as not having adrenal insufficiency. This was a retrospective cohort study whereby patients who received both the 1 μg and 250 μg ACTH test between January 2004 and December 2007 were included for analysis. The data can be found in the AI.dta dataset.  
 >  
 > Source: Dekkers OM, Timmermans JM, Smit JW, Romijn JA, Pereira AM. Comparison of the cortisol responses to testing with two doses of ACTH in patients with suspected adrenal insufficiency.Eur J Endocrinol 2011 Jan;164(1):83-7  
+
+####1. Since this is paired data, we decide to use McNemar’s test. State the null and alternative hypothesis for McNemar’s test.####
+> **Null:** The proportion of patients classified as having adrenal insufficiency using the 1 μg test is the same as the proportion of patients classified as having adrenal insufficiency using the 250 μg test.  
+> **Alternative:** Those proportions are not equal.  
 >  
+> Is this the same as testing that the proportion of patients classified as not having adrenal insufficiency using the 1 μg test is the same as the proportion of patients classified as not having adrenal insufficiency using the 250 μg test?
+
 
 
