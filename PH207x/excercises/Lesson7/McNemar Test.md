@@ -9,7 +9,7 @@ Yes      | 46       | 25      | 71
 No       | 98       | 119     | 217
 Total    | 144      | 144     | 288
 
-> So we have 144 pairs!
+> So we have 144 pairs and we want to use McNemar's Test:
 
 M.I.        | No M.I. - Diabetes | No M.I. - No Diabetes | Total
 ----------- | ------------------ | --------------------- | ------
