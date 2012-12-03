@@ -37,6 +37,3 @@
 	tabulate racecat pov, row
 
 
-
-
-
