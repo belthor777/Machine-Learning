@@ -21,10 +21,10 @@
 > 95% Confidence Interval: [, ]  
 
 
-## 3. Examine your estimated risk difference and estimated odds ratio, and their respective confidence intervals. Do you reach the same conclusion about the association between gender and visiting the doctor using these two measures of association?  ##
+#### 3. Examine your estimated risk difference and estimated odds ratio, and their respective confidence intervals. Do you reach the same conclusion about the association between gender and visiting the doctor using these two measures of association?  ####
 > Yes  
 > No
 
 
-## 4. If you were writing a paper, would you present the risk difference or the odds ratio (please discuss on the boards below)? ##
+#### 4. If you were writing a paper, would you present the risk difference or the odds ratio (please discuss on the boards below)? ####
 > I would use the risk difference!
