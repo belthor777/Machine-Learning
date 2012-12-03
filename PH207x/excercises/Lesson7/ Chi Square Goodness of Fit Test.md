@@ -37,7 +37,7 @@ here and a third of them should come down here.
 	tabplot hospital status [iw=frequency],perc(status)
 	tabplot hospital status [iw=frequency],perc(hospital)
 
-> When we submit this to Stata we get that the p-value is 0.001.That's telling us that when we compare this to that, 18 to the 24.7, 54 to the 35, to 268 and compare that to 255.7, when we compare what we actually observed to what we expect to see if there is no relationship between the row and column classifications, then the value we get is much bigger than we would expect purely by chance.  
+> When we submit this to Stata we get that the p-value is 0.001.That's telling us that when we compare this to that, 18 to the 24.7, 54 to the 35, to 268 and compare that to 255.7. When we compare what we actually observed to what we expect to see if **there is no relationship between the row and column classifications, then the value we get is much bigger than we would expect purely by chance.**  
 >  
 > And the p-value is there, less than 0.005. So we would reject this null hypothesis at the 0.05 level. And that is how we test an r by c. It's a simple extension of the two by two table except, remember, we don't do a continuity correction. We only do that with the two by two tables.
 
