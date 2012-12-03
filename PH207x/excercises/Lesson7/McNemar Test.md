@@ -57,4 +57,12 @@ Total              | 25                 | 119                   | 144
 	tabulate one two
 	mcc one two
 
+> This test is based on the binomial distribution  
+
+####Conclusion####
+Since our p-value is greater than 0.05 we fail to reject the null hypothesis. Thus, we have no evidence that the proportion of patients classified as having adrenal insufficiency using the 1 μg test is different from the proportion of patients classified as having adrenal insufficiency using the 250 μg test.
+
+
+## Part II ##
+
 
