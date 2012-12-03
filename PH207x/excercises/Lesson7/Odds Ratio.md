@@ -19,4 +19,8 @@ Total      | a+c     | b+d       | n
 
 > Relative odds (OR)= ( ^P(D|E)/(1-P^(D|E)) ) / ( ^P(D|E_c) / (1-^P(D|E_c)) )  
 > = (a/(a+c))/(c/(a+c)) / (b/(b+d))/(d/(b+d))  
+> = a*d / b*c
+
+> Approx. Normal:  
+> ^se[ln(^OR)]= sqrt( 1/a + 1/b + 1/c + 1/d )
 
