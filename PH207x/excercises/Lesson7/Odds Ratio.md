@@ -24,3 +24,5 @@ Total      | a+c     | b+d       | n
 > Approx. Normal:  
 > ^se[ln(^OR)]= sqrt( 1/a + 1/b + 1/c + 1/d )
 
+## Berkson's Fallacy  ##
+He quantified the fallacy (sampling error)
