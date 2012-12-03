@@ -29,3 +29,8 @@
 # Install R by C table addon for stata#
 
 	ssc install tabplot
+
+
+	tabplot racecat poverty
+	tabplot poverty racecat
+	tabulate racecat pov, row
