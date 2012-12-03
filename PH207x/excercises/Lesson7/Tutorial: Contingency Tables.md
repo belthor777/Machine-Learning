@@ -1,5 +1,5 @@
 # Tutorial: Contingency Tables #
-> *cs* - Cohort Study, estimate an OR, Pearson Chi-square  
+> *cs* - Cohort Study, estimate an Odds Ratio (OR), Pearson Chi-square  
 > *tabulate* - Conduct a Pearson Chi-square test, R x C  
 
 	use "chis_healthdisparities.dta", replace
@@ -8,4 +8,6 @@
 
 	cs doctor poverty, or woolf
 
+	gen nopoverty = 1-poverty
+	cs doctor nopoverty, or woolf
 
