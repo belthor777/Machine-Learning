@@ -1,5 +1,6 @@
 # McNemar Test #
 > Paired Dichotomies  
+> MI= Myocardial infarction  
 > e.g. Pairs matched on age & sex:
 
 Diabetes | M.I. Yes | M.I. No | Total
