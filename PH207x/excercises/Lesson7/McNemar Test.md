@@ -31,7 +31,7 @@ Total              | 25                 | 119                   | 144
 >  
 > p < 0.05
 
-# Inference for Paired Data using McNemar’s Test #
+# Tutorial: Inference for Paired Data using McNemar’s Test #
 ## Part 1 ##
 > Consider the following study from Dekkers et al. (2011) that compared two different screening tests for determining adrenal insufficiency. Adrenal insufficiency is a condition in which the adrenal glands do not produce adequate amounts of certain hormones. The screening test involves measuring a patient’s cortisol response after administration of an intravenous bolus of adrenocorticotropic hormone (ACTH).  
 >  
