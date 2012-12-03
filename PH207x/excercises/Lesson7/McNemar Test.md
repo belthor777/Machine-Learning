@@ -67,5 +67,9 @@ Total              | 25                 | 119                   | 144
 > Rather than analyzing the random sample of 500, we  match those below poverty to someone above poverty in the sample of 500.  
 > **mcc** - McNemar's test in Stata
 
+	use "chis_matched.dta", replace
 
+
+> doctor_0: above the line who goes to the doctor  
+> doctor_1: below the line who goes to the doctor
 
