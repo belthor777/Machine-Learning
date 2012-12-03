@@ -69,7 +69,12 @@ Total              | 25                 | 119                   | 144
 
 	use "chis_matched.dta", replace
 
-
 > doctor_0: above the line who goes to the doctor  
-> doctor_1: below the line who goes to the doctor
+> doctor_1: below the line who goes to the doctor  
+>  
+> H_0: no assoc.  
+> H_1: there is a association
+
+	mcc doctor_0 doctor_1
+
 
