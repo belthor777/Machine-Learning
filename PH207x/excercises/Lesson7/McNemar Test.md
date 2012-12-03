@@ -60,9 +60,12 @@ Total              | 25                 | 119                   | 144
 > This test is based on the binomial distribution  
 
 ####Conclusion####
-Since our p-value is greater than 0.05 we fail to reject the null hypothesis. Thus, we have no evidence that the proportion of patients classified as having adrenal insufficiency using the 1 μg test is different from the proportion of patients classified as having adrenal insufficiency using the 250 μg test.
+> Since our p-value is greater than 0.05 we fail to reject the null hypothesis. Thus, we have no evidence that the proportion of patients classified as having adrenal insufficiency using the 1 μg test is different from the proportion of patients classified as having adrenal insufficiency using the 250 μg test.
 
 
 ## Part II ##
+> Rather than analyzing the random sample of 500, we  match those below poverty to someone above poverty in the sample of 500.  
+> **mcc** - McNemar's test in Stata
+
 
 
