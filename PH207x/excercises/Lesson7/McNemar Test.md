@@ -81,4 +81,8 @@ Total              | 25                 | 119                   | 144
 
 	mcc doctor_0 doctor_1
 
+> The Unexposed is interessting!  
+> x²= ( |37-16|-1 )² / (37+16)  
+
+
 
