@@ -9,6 +9,11 @@
 	gen female = gender - 1
 
 
+> I would use:
+
+	cs doctor female, or woolf
+	tabulate female doctor, row expected chi2
+
 #### 1. Estimate the risk difference for visiting the doctor in the past 12 months for self-reported female versus male study participants (using the female variable). Calculate risk difference using proportion in females minus proportion in males.####
 >  Estimate of risk difference: **  **  
 >  
