@@ -35,5 +35,5 @@ Total    | 425             | 62                | 88                | 575
 here and a third of them should come down here.
 
 	tabplot hospital status [iw=frequency],perc(status)
-
+	tabplot hospital status [iw=frequency],perc(hospital)
 
