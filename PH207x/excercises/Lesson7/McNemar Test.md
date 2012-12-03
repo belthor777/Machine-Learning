@@ -88,3 +88,18 @@ Total              | 25                 | 119                   | 144
 > Gain power by matching!  
 
 
+#  Summarizing the Results #
+> In this example, we have assumed that we have obtained a random sample of 500 California residents. (With observational survey data, nonresponse is always an issue, so we don’t know how random the sample actually is).  
+>  
+#### From the Pearson Chi-Square test, can we say that poverty causes individuals to go to the doctor less frequently over the past 12 months? (Please discuss why or why not on the discussion boards). ####
+> Yes  
+> No
+
+#### From the matched analysis, can we say that poverty causes individuals to go to the doctor less frequently over the past 12 months? (Please discuss why or why not on the discussion boards). ####
+> Yes  
+> No
+
+#### Could we get a better estimate of the effect of poverty on visiting the doctor in the past 12 months if we brought in more covariates/information about the individuals in the survey? (Please discuss why or why not on the discussion boards).#### 
+> Not likely   
+> Likely 
+
