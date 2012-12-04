@@ -55,4 +55,10 @@ Men    | 40/100  | 45/100
 Woman  | 25/100  | 30/100
 Total  | 65/200  | 75/200
 
+> Your colleague, Doctor Drummond, insists that the results of his study of 2000 patients show that untreated patients do better on average than those recieving Twoohsevenex.  
+>  
+> Being a diligent statistician, you explore his results and find that within each sex/treatment group, his patients fared similarly to your own. Still, on the whole, his study showed that the untreated group did better.  
+>  
+> Use the sliders below to adjust the proportions of men and women in each group in a study of 2,000 people and find a case in which the aggregate performance of each treatment category makes it appear that Twoohsevenex is worse for patients than the placebo even though within each gender category, Twoohsevenex patients clearly fared better.  
+
 
