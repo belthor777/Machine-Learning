@@ -123,7 +123,8 @@ Total    | 1000
 #### What's the probability of a random individual, in say,province two being selected. ####
 > For province two, it's just going to be 250 divided by the population's size of province two.
 
-> weight=250/pop_size_of_province_2
+> sample_size=250  
+> weight=sample_size/pop_size_of_province_2  
 > fpc=final_pop_correction=n/N
 
 
@@ -143,6 +144,8 @@ Total    | 1000
      Strata 1: | <one>
          SU 1: | id
         FPC 1: | fpc_stratified
+
+
 
 
 
