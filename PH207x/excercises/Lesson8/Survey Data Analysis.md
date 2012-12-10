@@ -327,7 +327,7 @@ Total    | 2346     | 1000
 * Psychology/linguistics
 * Business/management/operations
 
-## Demographic Health Surveys ##
+## Demographic Health Surveys (AIS Survey)##
 Tanzania 2007-2008 Standard AIDS Indicator Survey (THMIS 2007-08)
 
 
