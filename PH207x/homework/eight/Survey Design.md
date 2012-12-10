@@ -48,3 +48,37 @@ Neighborhood            | Population - 2010
 * simple random sample 
 
 #### 5. Consider an alternate design (Design 3). In each neighborhood the number of individuals sampled is proportional to the population size of the neighborhood. Assuming that the sample size is fixed at 1,700, would you expect Design 2 or Design 3 to provide more precise estimates of the physical activity indicators among Boston residents? ####
+
+* Design 2
+* Design 3
+
+#### 6. For Design 3, consider the probability of a random individual in South Dorchester being sampled; and the probability of a random individual in Harbor Islands being sampled. These probabilities are approximately the same as the probabilities calculated using: ####
+
+* Design 1
+* Design 2
+
+#### 7. Why might you want to use Design 2 compared to Design 3? ####
+
+* to increase precision 
+* if you wanted neighborhood-specific estimates 
+* for both precision and neighborhood specific estimates 
+
+#### 8. Next, you decide you do not want to visit all 17 neighborhoods, so you randomly sample 10 neighborhoods. Within each sampled neighborhood selected, you randomly sample 170 people. Call this Design 4. What is the probability of a random individual in South Dorchester being included in the survey? What is the probability of a random individual in Harbor Islands being included in the survey? ####
+
+* South Dorchester:   
+* Harbor Islands: 
+
+#### 9. A "self-weighting" design is a survey design for which every individual in the population has an equal probability of inclusion. Which survey designs are self-weighting (or approximately self-weighting)? ####
+
+* Designs 1 and 2 
+* Designs 1 and 3 
+* Designs 2 and 3 
+* Designs 1 and 4 
+* Designs 2 and 4 
+
+#### 10. Consider yet another design (Design 5), in which you again select 10 neighborhoods. Now, the probability of a neighborhood being included in the survey is proportional to its population size. Within each sampled neighborhood, you randomly sample 170 people. Would you expect Design 4 or Design 5 to provide more precise estimates of the physical activity indicators among Boston residents? ####
+
+* Design 4
+* Design 5 
+
+
