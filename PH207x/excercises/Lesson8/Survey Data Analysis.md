@@ -238,4 +238,32 @@ Total    | 2346     | 1000
 	svy: proportion malaria
 	estat effects, deff
 
+## Other Aspects of Survey Design ##
+> A survey weight for a given individual is the inverse of the probability that this person is included in the survey. Survey weights are therefore a function of the sample size and the size of the population from which you sample. Think about the sampling designs we discussed in class and the definition of a survey weight to answer the questions below.   
+>   
+> Suppose you have a population that can be divided into different subpopulations (strata/clusters). What auxiliary information is always required to calculate survey weights for the following types of designs:
+
+#### A simple random sample? ####
+
+* total population size 
+* population size within strata 
+* population size within clusters 
+* none of the above 
+
+
+#### Stratified random sample? ####
+
+* total population size 
+* population size within strata 
+* population size within clusters 
+* none of the above 
+
+#### Cluster sample? ####
+
+* total population size 
+* population size within strata 
+* population size within clusters 
+* none of the above 
+
+
 
