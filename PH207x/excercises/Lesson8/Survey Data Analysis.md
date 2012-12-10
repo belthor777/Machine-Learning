@@ -188,4 +188,6 @@ Total    | 2346     | 1000
 	estat effects, deff
 
 
+### Stratified Cluster  ###
+
 
