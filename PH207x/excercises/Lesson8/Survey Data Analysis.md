@@ -148,6 +148,11 @@ Total    | 1000
 	svy: proportion malaria  
 	estat effects, deff
 
+> Check Oversize:
+
+	svy: proportion malaria, over(province)
+	table prov_size
+
 
 
 
