@@ -28,4 +28,10 @@ Neighborhood            | Population - 2010
 
 > *Source: Boston Redevelopment Authority Research Division (2011). Boston 2010 Census Population: Planning District Comparison: http://www.bostonredevelopmentauthority.org/PDF/ResearchPublications//PDPercentChange.pdf*
 
+#### 1. Consider the following questions ####
+> Suppose you decided to randomly sample 1,700 people from the city of Boston (call this Design 1). For any given individual in South Dorchester, what is the probability of being selected in the survey? What is this probability for an individual in Harbor Islands?  
+>  
+> South Dorchester:   
+> Harbor Islands: 
+
 
