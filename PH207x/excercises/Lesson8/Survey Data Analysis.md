@@ -63,4 +63,4 @@ Province | Population size | Number of districts
 > q= 1000/500000  
 > w= 50000/1000
 
-	gen weight_srs=N/n
+	gen weight_srs=pop_size/n
