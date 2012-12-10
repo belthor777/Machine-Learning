@@ -73,7 +73,7 @@ Province | Population size | Number of districts
 	svyset id [pweight = weight_srs], fpc(fpc)
 
 
-               |           
+     Parameter |  Value
 -------------- | ------------
       pweight: | weight_srs
           VCE: | linearized
