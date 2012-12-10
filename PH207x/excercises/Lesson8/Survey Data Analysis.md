@@ -88,14 +88,16 @@ Province | Population size | Number of districts
 
 > Without fpc, the confidence interval is changing and the proportion of svy is the same
 
-	svyset id [pweight = weight_srs]
-	svy: proportion malaria
+	svyset id [pweight = weight_srs]  
+	svy: proportion malaria  
 	proportion malaria
 
-> So, please use fpc!
+> So, please use fpc and use extract the design effect:  
+> deff= var(your current design) / var(SRS infinite large population)
 
-	svyset id [pweight = weight_srs], fpc(fpc)
-	svy: proportion malaria
+	svyset id [pweight = weight_srs], fpc(fpc)  
+	svy: proportion malaria  
+	estat effects, deff
 
 
 
