@@ -337,6 +337,13 @@ Preexisting sampling frame, developed by the National Bureau of Statistics for 2
 * **Sampling Design**  
 Multistage cluster sampling design, enumeration areas + households
 
+### Elements of Survey Design ###
+* **Modalities**  
+In person household and individual questionairres, blood samples
+* **Content**  
+Household information, knowledge of HIV, demographics, HIV status, anemia/malaria status for children
+* **Non-response**  
+Multiple levels of non-response: household, individual testing
 
 
 
