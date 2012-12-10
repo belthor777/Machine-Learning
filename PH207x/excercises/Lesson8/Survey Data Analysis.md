@@ -132,7 +132,6 @@ Total    | 1000
 	gen weight_stratified=pop_size/sample_size  
 	gen fpc_stratified=1/weight_stratified  
 	svyset id [pweight = weight_stratified], strata(province) fpc(fpc_stratified)
-	svy: proportion malaria
 
 > Result:
 
@@ -145,6 +144,9 @@ Total    | 1000
          SU 1: | id
         FPC 1: | fpc_stratified
 
+
+	svy: proportion malaria  
+	estat effects, deff
 
 
 
