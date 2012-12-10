@@ -1,4 +1,6 @@
 
+Several Sampling methods:
+
 * Stratified Sampling 
 * Cluster Sampling 
 
