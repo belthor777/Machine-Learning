@@ -128,7 +128,7 @@ Total    | 1000
 > fpc=final_pop_correction=n/N
 
 
-	use "stratified_sampling.dta
+	use "stratified_sampling.dta  
 	gen sample_size=250  
 	gen weight_stratified=pop_size/sample_size  
 	gen fpc_stratified=1/weight_stratified  
