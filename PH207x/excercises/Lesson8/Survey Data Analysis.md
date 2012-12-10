@@ -119,5 +119,6 @@ Province | Sample People
 > strata=provinces  
 > survey weights=?
 
-
+#### What's the probability of a random individual, in say,province two being selected. ####
+> For province two, it's just going to be 250 divided by the population's size of province two.
 
