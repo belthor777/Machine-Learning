@@ -132,7 +132,7 @@ Total    | 1000
 	gen sample_size=250  
 	gen weight_stratified=pop_size/sample_size  
 	gen fpc_stratified=1/weight_stratified  
-	svyset id [pweight = weight_stratified], fpc(fpc_stratified)
+	svyset id [pweight = weight_stratified], strata(province) fpc(fpc_stratified)
 
 > Result:
 
@@ -141,7 +141,7 @@ Total    | 1000
       pweight: | weight_stratified
           VCE: | linearized
   Single unit: | missing
-     Strata 1: | <one>
+     Strata 1: | province
          SU 1: | id
         FPC 1: | fpc_stratified
 
