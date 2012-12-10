@@ -33,3 +33,8 @@ Province | Population size | Number of districts
 >  
 > This is an open-ended question, without a definitive correct answer. Please discuss your answers below on the discussion boards.
 
+#### Answer (Some thoughts (this is not a comprehensive list/answer!) ####
+> Stratified sampling protects against obtaining a bad simple random sample (e.g. by chance, sample all males); and facilitates subgroup estimation (e.g. sample equal numbers from each province by design, so that you can compare estimates between provinces). Further, if your survey is well designed and you use auxillary information, stratified sampling is the most effcient survey design, beating out simple random sampling. However, to implement stratified sampling, we need auxilliary information to increase precision (variance within strata); and need to know the population-size within each stratum.  
+>  
+> Cluster sampling is typically more convenient (usually way easier to implement when doing large-scale surveys than SRS or stratified sampling). However, this convenience results in a loss of efficiency (need to sample more people to obtain same precision as an SRS). We also need auxillary information about population size within each cluster.
+
