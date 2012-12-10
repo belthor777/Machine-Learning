@@ -115,10 +115,16 @@ Province | Sample People
  2       | 250
  3       | 250
  4       | 250
+Total    | 1000
 
 > strata=provinces  
 > survey weights=?
 
 #### What's the probability of a random individual, in say,province two being selected. ####
 > For province two, it's just going to be 250 divided by the population's size of province two.
+
+> weight=250/pop_size_of_province_2
+> fpc=final_pop_correction=n/N
+
+
 
