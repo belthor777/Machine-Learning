@@ -331,7 +331,7 @@ Total    | 2346     | 1000
 Tanzania 2007-2008 Standard AIDS Indicator Survey (THMIS 2007-08)
 
 * **Objectives**  
-The objectives gives us a lot of informations: "the primary objectives of the 2007-08 THMIS were to provide up-to-date information on the *prevalence of HIV infection* among **Tanzanian adults** and the prevalence of *malaria infection and anaemia* among **young children**." - Goals: adults and young children
+The objectives gives us a lot of informations: "the primary objectives of the 2007-08 THMIS were to provide up-to-date information on the *prevalence of HIV infection* among <u>**Tanzanian adults**</u> and the prevalence of *malaria infection and anaemia* among **young children**." - Goals: adults and young children
 * **Sampling Frame**  
 Preexisting sampling frame, developed by the National Bureau of Statistics for 2002 census
 * **Sampling Design**  
