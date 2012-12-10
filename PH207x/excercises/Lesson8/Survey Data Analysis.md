@@ -298,15 +298,24 @@ Total    | 2346     | 1000
 # Tutorial: The Perils of Non-response #
 > Calculate p with people who came back to the test
 
-1. High responses - P(A)
-2. Moderate responses - P(B)
-3. Low responses - P(C)
+1. High responses - pA
+2. Moderate responses - pB
+3. Low responses - pC
 
 > 'proportion highchol highcholC highcholB highcholA' is using only the data which are not missing. That is the reason why Number of obs is only 58.
 
 	use "FraminghamNonresponseExample.dta"
 	proportion highchol highcholC highcholB highcholA
 
+
+	gen wA=1/pA
+	proportion highcholA [pweight=pA)]
+
+	gen wB=1/pB
+	proportion highcholB [pweight=pB]
+
+	gen wC=1/pC
+	proportion highcholC [pweight=pC]
 
 
 
