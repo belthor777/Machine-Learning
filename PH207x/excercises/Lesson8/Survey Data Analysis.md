@@ -183,7 +183,9 @@ Total    | 2346     | 1000
 
 	gen weight_cluster=(fpc_I*fpc_II)^-1
 	svyset district [pweight=weight_cluster], fpc(fpc_I) || id, fpc(fpc_II)
+
 	svy: proportion malaria
+	estat effects, deff
 
 
 
