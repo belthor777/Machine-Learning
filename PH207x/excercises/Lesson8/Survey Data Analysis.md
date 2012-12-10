@@ -226,7 +226,7 @@ Total    | 2346     | 1000
 > 5/ #district in P2 -> 50/#people in district 2  
 > is equal to 5/fpc_I -> 50/fpc_II  
 >  
-> weights= (fpc_I * fpc_II)^-1
+> weights= (fpc_I * fpc_II)^-1  
 > ndistrict= total number of districts
 
 	gen fpc_I=5/ndistrict
