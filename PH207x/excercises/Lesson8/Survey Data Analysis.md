@@ -72,6 +72,7 @@ Province | Population size | Number of districts
 	gen fpc=sample_size/pop_size  
 	svyset id [pweight = weight_srs], fpc(fpc)
 
+> Result:
 
      Parameter |  Value
 -------------- | ------------
@@ -81,6 +82,7 @@ Province | Population size | Number of districts
      Strata 1: | <one>
          SU 1: | id
         FPC 1: | fpc
+
 
 
 
