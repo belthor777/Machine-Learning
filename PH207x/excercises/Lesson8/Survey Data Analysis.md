@@ -1,5 +1,6 @@
 
-Cluster Sampling 
+* Stratified Sampling 
+* Cluster Sampling 
 
 
 ### Design Effect ###
