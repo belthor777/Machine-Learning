@@ -197,24 +197,30 @@ Province | District |Sample People
  1       | 3        | 2
  1       | 4        | ..
  1       | 5        | ..
+ 1       | ..       | ..
  2       | 1        | ..
  2       | 2        | ..
  2       | 3        | ..
  2       | 4        | ..
  2       | 5        | ..
+ 2       | ..       | ..
  3       | 1        | ..
  3       | 2        | ..
  3       | 3        | ..
  3       | 4        | ..
  3       | 5        | ..
+ 3       | ..       | ..
  4       | 1        | ..
  4       | 2        | ..
  4       | 3        | ..
  4       | 4        | ..
  4       | 5        | ..
+ 4       | ..       | ..
 Total    | 2346     | 1000
-
 
 	use "stratifiedcluster_sampling.dta"
 
+
+> Example: Bob lives in district 2 of province 2  
+> 5/#
 
