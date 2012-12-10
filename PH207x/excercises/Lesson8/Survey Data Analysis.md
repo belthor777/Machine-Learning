@@ -50,4 +50,11 @@ Province | Population size | Number of districts
 
 	 use "srs_sampling.dta"
 
+> Before analyzing, *svyset* your data!
+
+1. What is the design of my survey?
+2. Am I using a finite population correction? At which stage of the design?
+3. What are the survey weights used in the design?
+
+
 
