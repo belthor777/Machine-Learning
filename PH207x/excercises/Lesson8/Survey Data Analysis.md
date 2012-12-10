@@ -295,3 +295,5 @@ Total    | 2346     | 1000
 > When there is more variability within strata, you should sample more people. Ideally, we would select strata that minimize the within-strata variability to gain efficiency over SRS. The cluster or stratified-cluster surveys might be easier to implement in practice. Looking at the design effect estimates (as well as the standard error of our estimate of malaria prevalence), it is clear that we do sacrifice some efficiency by using cluster sampling. 
 
 
+# Tutorial: The Perils of Non-response #
+
