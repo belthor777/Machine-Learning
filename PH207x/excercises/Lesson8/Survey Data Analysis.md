@@ -166,7 +166,7 @@ Province | District |Sample People
  2       | ..       | ..
  3       | ..       | ..
  4       | ..       | ..
-Total    | 146      | 1000
+Total    | 2346     | 1000
 
 > We are doing:  
 > 25 districts by randomly sampling  
@@ -180,6 +180,8 @@ Total    | 146      | 1000
 	use "cluster_sampling.dta"
 	gen fpc_I=25/146
 	gen fpc_II=40/districtsize
+
+	gen weight_cluster=(fpc_I*fpc_II)^-1
 
 
 
