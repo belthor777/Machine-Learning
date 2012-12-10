@@ -330,7 +330,7 @@ Total    | 2346     | 1000
 ## Demographic Health Surveys (AIS Survey)##
 Tanzania 2007-2008 Standard AIDS Indicator Survey (THMIS 2007-08)
 
-* Objectives
+* Objectives - The objectives gives us a lot of informations: "the primary objectives of the 2007-08 THMIS were to provide up-to-date information on the *prevalence of HIV infection* among **Tanzanian adults** and the prevalence of *malaria infection and anaemia* among **young children**."
 * Sampling Frame
 * Sampling Design
 
