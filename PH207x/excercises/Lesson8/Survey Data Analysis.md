@@ -133,3 +133,16 @@ Total    | 1000
 	gen fpc_stratified=1/weight_stratified  
 	svyset id [pweight = weight_stratified], fpc(fpc_stratified)
 
+> Result:
+
+     Parameter |  Value
+-------------- | ------------
+      pweight: | weight_stratified
+          VCE: | linearized
+  Single unit: | missing
+     Strata 1: | <one>
+         SU 1: | id
+        FPC 1: | fpc_stratified
+
+
+
