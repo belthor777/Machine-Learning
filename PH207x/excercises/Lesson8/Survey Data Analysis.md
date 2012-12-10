@@ -245,7 +245,7 @@ Total    | 2346     | 1000
 
 #### A simple random sample? ####
 
-* total population size 
+* => **total population size**
 * population size within strata 
 * population size within clusters 
 * none of the above 
@@ -254,7 +254,7 @@ Total    | 2346     | 1000
 #### Stratified random sample? ####
 
 * total population size 
-* population size within strata 
+* => **population size within strata**
 * population size within clusters 
 * none of the above 
 
@@ -262,8 +262,25 @@ Total    | 2346     | 1000
 
 * total population size 
 * population size within strata 
-* population size within clusters 
+* => **population size within clusters**
 * none of the above 
+
+## Answer ##
+> A survey weight for individual is the inverse probability that the individual is included in the sample. To calculate survey weights for a simple random sample, you need to know the total population size, because the weights are defined as the total number in the sample, divided by the total population size (though everyone in the sample has the same weight, so the weights don't actually impact your analysis). For a stratified sample, the weights are defined as the sample size per strata, divided by the population size in a strata. Therefore, you need to know the population size within strata. And for a cluster sample, you need to know the population size within each cluster. 
+
+
+# Examining the Results of Stata Data Analysis #
+> The results of each of the surveys are below. 
+
+ Survey Designs     | ^p    | se(^p) | 95% CI        | DEFF 
+------------------- | ----- | ------ | ------------- | ---- 
+ Truth              | 0.131 |        |               |      
+ SRS                | 0.128 | 0.0106 | (0.107,0.149) | 1
+ Stratified         | 0.131 | 0.0120 | (0.107,0.155) | 1.28
+ Cluster            | 0.144 | 0.0142 | (0.115,0.173) | 1.63
+ Stratified Cluster | 0.155 | 0.0145 | (0.125,0.186) | 1.61
+
+
 
 
 
