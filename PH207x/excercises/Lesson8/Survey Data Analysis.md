@@ -214,3 +214,7 @@ Province | District |Sample People
  4       | 5        | ..
 Total    | 2346     | 1000
 
+
+	use "stratifiedcluster_sampling.dta"
+
+
