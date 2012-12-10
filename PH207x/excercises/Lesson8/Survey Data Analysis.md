@@ -154,5 +154,26 @@ Total    | 1000
 	table prov_size
 
 
+### Cluster Sampling ###
+> 2 Stage Design of a Cluster survey
 
+Province | District |Sample People
+-------- | -------- | --------------
+ 1       | 1        | 20
+ 1       | 2        | 10
+ 1       | 3        | 2
+ 1       | ..       | ..
+ 2       | ..       | ..
+ 3       | ..       | ..
+ 4       | ..       | ..
+Total    | 146      | 1000
+
+> We are doing:  
+> 25 districts by randomly sampling  
+> 40 people/district by randomly sampling  
+> fpc_I=25/146  
+> fpc_II=40/people_in_district
+
+> P(district 4 is sampled)= ?= fpc_I
+> P(Joe | disctrict 4 is sampled)= ?= fpc_II
 
