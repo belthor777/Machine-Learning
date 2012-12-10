@@ -50,17 +50,20 @@ Province | Population size | Number of districts
 
 	 use "srs_sampling.dta"
 
-> Before analyzing, *svyset* your data!
+> **Before analyzing, *svyset* your data!**
 
 1. What is the design of my survey?
 2. Am I using a finite population correction? At which stage of the design?
 3. What are the survey weights used in the design?
 
 > N=pop_size=500000  
-> n=1000  
+> n=sample_size=1000  
 > p=?
 
 > q= 1000/500000  
-> w= 50000/1000
+> w= 50000/1000  
+> f=1-n/N -> But Stata don't use it -> Look at fpc  
+> fpc=final_pop_correction=n/N
 
-	gen weight_srs=pop_size/n
+	gen weight_srs=pop_size/sample_size
+
