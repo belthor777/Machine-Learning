@@ -29,4 +29,7 @@ Province | Population size | Number of districts
 * Cluster Sampling - We randomly sample 25 districts from Inventia and randomly sample 40 people within each district.
 * Stratified Cluster sampling - Within each of the 4 provinces, we sample 5 districts and sample 50 people within each selected district.
 
+> **Discuss the advantages and disadvantages of these survey designs, considering ease of implementation, c ost, feasibility, and precision of your estimate. Which design would you do in practice?**  
+>  
+> This is an open-ended question, without a definitive correct answer. Please discuss your answers below on the discussion boards.
 
