@@ -235,4 +235,7 @@ Total    | 2346     | 1000
 	gen weight_stratcluster=(fpc_I*fpc_II)^-1
 	svyset district [pweight=weight_stratcluster], fpc(fpc_I) strata(province)|| id, fpc(fpc_II)
 
+	svy: proportion malaria
+	estat effects, deff
+
 
