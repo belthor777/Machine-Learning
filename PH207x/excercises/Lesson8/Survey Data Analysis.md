@@ -67,11 +67,9 @@ Province | Population size | Number of districts
 > f=1-n/N -> But Stata don't use it -> Look at fpc  
 > fpc=final_pop_correction=n/N
 
-	gen sample_size=1000
-
-	gen weight_srs=pop_size/sample_size
-	gen fpc=sample_size/pop_size
-
+	gen sample_size=1000  
+	gen weight_srs=pop_size/sample_size  
+	gen fpc=sample_size/pop_size  
 	svyset id [pweight = weight_srs], fpc(fpc)
 
 
