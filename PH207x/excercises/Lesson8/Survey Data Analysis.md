@@ -38,3 +38,14 @@ Province | Population size | Number of districts
 >  
 > Cluster sampling is typically more convenient (usually way easier to implement when doing large-scale surveys than SRS or stratified sampling). However, this convenience results in a loss of efficiency (need to sample more people to obtain same precision as an SRS). We also need auxillary information about population size within each cluster.
 
+## Tutorial: Survey Data Analysis in Stata: Simple Random Sampling ##
+> We aim to estimate p, the prevelance of malaria, in a hypothetical country, called "Inventia", with four provinces and multiple districts within provinces.
+
+> **Surveys:**
+
+* Simple Random Sampling (SRS) 
+* Stratified Sampling 
+* Cluster Sampling 
+* Stratified Cluster Sampling
+
+
