@@ -30,8 +30,21 @@ Neighborhood            | Population - 2010
 
 #### 1. Consider the following questions ####
 > Suppose you decided to randomly sample 1,700 people from the city of Boston (call this Design 1). For any given individual in South Dorchester, what is the probability of being selected in the survey? What is this probability for an individual in Harbor Islands?  
->  
-> South Dorchester:   
-> Harbor Islands: 
 
+* South Dorchester:
+* Harbor Islands: 
 
+#### 2. What is likely the main challenge of conducting this survey? ####
+* SRS is difficult to implement in practice 
+* SRS does not necessarily sample people from each neighborhood 
+
+#### 3. Now, you randomly sample 100 people within each neighborhood (Design 2). What is the probability of a random individual in South Dorchester being sampled? What is the probability of a randomly selected individual in Harbor Islands being sampled? ####
+* South Dorchester:   
+* Harbor Islands: 
+
+#### 4. What kind of survey design is Design 2? ####
+* stratified sample 
+* cluster sample 
+* simple random sample 
+
+#### 5. Consider an alternate design (Design 3). In each neighborhood the number of individuals sampled is proportional to the population size of the neighborhood. Assuming that the sample size is fixed at 1,700, would you expect Design 2 or Design 3 to provide more precise estimates of the physical activity indicators among Boston residents? ####
