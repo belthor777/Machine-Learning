@@ -345,6 +345,6 @@ Household information, knowledge of HIV, demographics, HIV status, anemia/malari
 * **Non-response**  
 Multiple levels of non-response: household, individual testing
 
-
+> Two questionaires: household and individual questionairres
 
 
