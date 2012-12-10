@@ -304,6 +304,7 @@ Total    | 2346     | 1000
 
 > 'proportion highchol highcholC highcholB highcholA' is using only the data which are not missing. That is the reason why Number of obs is only 58.
 
+
 	use "FraminghamNonresponseExample.dta"
 	proportion highchol highcholC highcholB highcholA
 
