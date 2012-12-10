@@ -58,6 +58,8 @@ Province | Population size | Number of districts
 2. Am I using a finite population correction? At which stage of the design?
 3. What are the survey weights used in the design?
 
+### Simple Random Sampling (SRS) ###
+
 > N=pop_size=500000  
 > n=sample_size=1000  
 > p=?
@@ -105,4 +107,4 @@ Province | Population size | Number of districts
 	svy, sub(if province == 4): proportion malaria
 
 
-
+### Stratified Sampling  ###
