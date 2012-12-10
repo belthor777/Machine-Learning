@@ -79,7 +79,7 @@ Province | Population size | Number of districts
       pweight: | weight_srs
           VCE: | linearized
   Single unit: | missing
-     Strata 1: | <one>
+     Strata 1: | "<one>"
          SU 1: | id
         FPC 1: | fpc
 
