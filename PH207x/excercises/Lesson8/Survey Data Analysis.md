@@ -99,7 +99,10 @@ Province | Population size | Number of districts
 	svy: proportion malaria  
 	estat effects, deff
 
-
+	svy, sub(if province == 1): proportion malaria
+	svy, sub(if province == 2): proportion malaria
+	svy, sub(if province == 3): proportion malaria
+	svy, sub(if province == 4): proportion malaria
 
 
 
