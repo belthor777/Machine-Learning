@@ -24,7 +24,7 @@ Neighborhood            | Population - 2010
  Roslindale             | 32589
  Mattapan               | 34616
  Harbor Islands         | 535
- **TOTAL (Boston)**     | **617594**
+ Boston                 | 617594
 
 > *Source: Boston Redevelopment Authority Research Division (2011). Boston 2010 Census Population: Planning District Comparison: http://www.bostonredevelopmentauthority.org/PDF/ResearchPublications//PDPercentChange.pdf*
 
