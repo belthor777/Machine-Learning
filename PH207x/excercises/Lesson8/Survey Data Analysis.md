@@ -48,4 +48,6 @@ Province | Population size | Number of districts
 * Cluster Sampling 
 * Stratified Cluster Sampling
 
+	 use "srs_sampling.dta"
+
 
