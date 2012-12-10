@@ -319,4 +319,13 @@ Total    | 2346     | 1000
 	proportion highcholC [pweight=wC]
 
 
+# Example: Big Surveys #
+> A Survey design combines many elements:
+
+* Statistics
+* Epidemiology
+* Psychology/linguistics
+* Business/management/operations
+
+
 
