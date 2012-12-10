@@ -56,5 +56,11 @@ Province | Population size | Number of districts
 2. Am I using a finite population correction? At which stage of the design?
 3. What are the survey weights used in the design?
 
+> N=pop_size=500000  
+> n=1000  
+> p=?
 
+> q= 1000/500000  
+> w= 50000/1000
 
+	gen weight_srs=N/n
