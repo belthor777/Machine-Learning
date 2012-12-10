@@ -84,5 +84,20 @@ Province | Population size | Number of districts
         FPC 1: | fpc
 
 
+	svy: proportion malaria
+
+> Without fpc, the confidence interval is changing and the proportion of svy is the same
+
+	svyset id [pweight = weight_srs]
+	svy: proportion malaria
+	proportion malaria
+
+> So, please use fpc!
+
+	svyset id [pweight = weight_srs], fpc(fpc)
+	svy: proportion malaria
+
+
+
 
 
