@@ -309,7 +309,7 @@ Total    | 2346     | 1000
 
 
 	gen wA=1/pA
-	proportion highcholA [pweight=wA)]
+	proportion highcholA [pweight=wA]
 
 	gen wB=1/pB
 	proportion highcholB [pweight=wB]
