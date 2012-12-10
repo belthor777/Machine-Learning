@@ -1,7 +1,7 @@
 ## Sampling Methods ##
 Several Sampling methods:
 
-* Simple Random Sample
+* Simple random sampling (SRS) 
 * Stratified Sampling 
 * Cluster Sampling 
 
