@@ -172,8 +172,15 @@ Total    | 146      | 1000
 > 25 districts by randomly sampling  
 > 40 people/district by randomly sampling  
 > fpc_I=25/146  
-> fpc_II=40/people_in_district
-
-> P(district 4 is sampled)= ?= fpc_I
+> fpc_II=40/people_in_district  
+>  
+> P(district 4 is sampled)= ?= fpc_I  
 > P(Joe | disctrict 4 is sampled)= ?= fpc_II
+
+	use "cluster_sampling.dta"
+	gen fpc_I=25/146
+	gen fpc_II=40/districtsize
+
+
+
 
