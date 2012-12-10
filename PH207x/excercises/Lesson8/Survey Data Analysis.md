@@ -116,4 +116,8 @@ Province | Sample People
  3       | 250
  4       | 250
 
+> strata=provinces  
+> survey weights=?
+
+
 
