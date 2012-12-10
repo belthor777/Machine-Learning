@@ -127,7 +127,6 @@ Total    | 1000
 > weight=sample_size/pop_size_of_province_2  
 > fpc=final_pop_correction=n/N
 
-
 	use "stratified_sampling.dta  
 	gen sample_size=250  
 	gen weight_stratified=pop_size/sample_size  
