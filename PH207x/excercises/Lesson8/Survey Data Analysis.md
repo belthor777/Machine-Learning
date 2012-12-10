@@ -355,4 +355,8 @@ Multiple levels of non-response: household, individual testing
 > It is completed different from the example above.  
 > CHIS is the nation's largest state health survey. CHIS is a randomdial telephone survey conducted on a contrinuous basis and covering a wide range of health topics. CHIS data gives a detailed picture of the health and health care needs of California's large and diverse population. A full CHIS data cycle takes two years to complete and surveys over 50000 Californians but continous data collection now allows CHIS to generate one-year estimates. Link: http://www.chris.ucla.edu/about.html
 
+* Stratified random sample
+* Use random digit dialing for landlines and some cell phones
+* Much lower response rates
+
 
