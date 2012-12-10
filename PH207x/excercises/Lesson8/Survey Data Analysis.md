@@ -108,3 +108,12 @@ Province | Population size | Number of districts
 
 
 ### Stratified Sampling  ###
+
+Province | Sample People
+-------- | --------------
+ 1       | 250
+ 2       | 250
+ 3       | 250
+ 4       | 250
+
+
