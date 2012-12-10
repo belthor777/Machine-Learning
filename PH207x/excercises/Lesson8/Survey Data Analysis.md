@@ -345,6 +345,11 @@ Household information, knowledge of HIV, demographics, HIV status, anemia/malari
 * **Non-response**  
 Multiple levels of non-response: household, individual testing
 
+### How are all of these elements of design interrelated? ###
+
+* Objectives - designed
+* Modalities - non-response
+
 
 
 
