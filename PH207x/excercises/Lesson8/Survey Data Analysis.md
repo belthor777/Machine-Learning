@@ -296,4 +296,16 @@ Total    | 2346     | 1000
 
 
 # Tutorial: The Perils of Non-response #
+> Calculate p with people who came back to the test
+
+1. High responses
+2. Moderate responses
+3. Low responses
+
+
+	use "FraminghamNonresponseExample.dta"
+	proportion highchol highcholC highcholB highcholA
+
+
+
 
