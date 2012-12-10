@@ -66,4 +66,4 @@ Province | Population size | Number of districts
 > fpc=final_pop_correction=n/N
 
 	gen weight_srs=pop_size/sample_size
-
+	gen fpc=sample_size/pop_size
