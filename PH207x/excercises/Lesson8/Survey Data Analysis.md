@@ -280,7 +280,18 @@ Total    | 2346     | 1000
  Cluster            | 0.144 | 0.0142 | (0.115,0.173) | 1.63
  Stratified Cluster | 0.155 | 0.0145 | (0.125,0.186) | 1.61
 
+> Summary of our estimate of p from each of the survey designs.
 
+* Examining these results, compare and contrast the survey designs again.
+* Stratified sampling can be more efficient than simple random sampling. Looking at the design effects, we see that this is not the case for our survey design. Why?
+* Relatedly, how might we design a stratified survey that is more efficient than the simple random sample?
 
+## Answer Some thoughts (this is not a comprehensive answer) ##
+> Recall that we designed our survey such that we sample the same number of people in each province. More efficient designs would exploit: 
+
+1. the total population size in each strata, and 
+2. the amount of variability in responses in each strata. 
+
+> When there is more variability within strata, you should sample more people. Ideally, we would select strata that minimize the within-strata variability to gain efficiency over SRS. The cluster or stratified-cluster surveys might be easier to implement in practice. Looking at the design effect estimates (as well as the standard error of our estimate of malaria prevalence), it is clear that we do sacrifice some efficiency by using cluster sampling. 
 
 
