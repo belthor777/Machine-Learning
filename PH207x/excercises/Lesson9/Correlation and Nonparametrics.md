@@ -25,7 +25,6 @@
 ## Spearman's Rank Correlation Coefficient ##
 > Rank the Data:
 
-
  i | x   | y    | x_r  | y_r  | d
 -- | --- | ---- | ---- | ---- | --
 1  | 1.3 | 14.3 | 2    | 2    | 0
@@ -38,6 +37,5 @@
 > d is the difference between x_r and y_r by using:
 
 	r_s= ( 1 / (n-1) ) * n sum from 1 to n ( ( x_ri - x⁻_r ) / s_x_r ) ( ( y_ri - y⁻_r ) / s_y_r  )
-
 
 
