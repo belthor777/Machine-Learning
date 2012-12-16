@@ -82,4 +82,36 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 	spearman year measles
 
+## Another Correlation Example  ##
+> In the HealthExpensesbyCountry.dta dataset, we assess temporal trends in health expenditures per capita and in number of hospital beds (per 1,000 individuals) in four countries: the United States, Great Britain, Japan, and Canada.  
+>  
+> However, in the following questions, we focus on the United States, but we encourage you to look at the other countries on your own! Health expenditures per capita in the United States are only available after 1995 and up until 2010. Please restrict your analysis to the years 1995-2010 for the questions below.  
+>  
+> Open the dataset HealthExpensesbyCountry.dta. In this question, you need to restrict to certain subsets of the data when performing your analysis. To do so, it is easiest to use "if" statements in Stata. For instance, to calculate the correlation beteen year and number of hospital beds in the United States between 1995 and 2010, you can type:
+
+	pwcorr hospitalbeds year if country == "United States" & year > 1994 
+
+> (You do not need to specify that year <= 2010 because the dataset only contains data through 2010.)
+
+### Consider the following questions: ###
+####1. Do the following relationships appear linear (use scatterplots to help answer the question)?####
+>  Health expenditures per capita and year from 1995-2010 in the United States
+* Yes
+* No
+
+> Number of hospital beds and year from 1995-2010 in the United States 
+* Yes
+* No
+
+
+####2. Calculate the Pearson correlations for:####
+> Health expenditures per capita and year from 1995-2010 in the United States  
+> ** **
+
+> Number of hospital beds and year from 1995-2010 in the United States   
+> ** **
+
+####3.Based on these results (and without doing any further calculations), would you expect annual health expenditures per capita and annual number of hospital beds in the United States between 1995 and 2010 to be positively correlated, negatively correlated, or uncorrelated?####
+
+
 
