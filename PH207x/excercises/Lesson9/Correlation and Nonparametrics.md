@@ -2,8 +2,8 @@
 > Links:
 
 1. http://istics.net/stat/correlations/
-2. data.worldbank.org
-3. www.google.com/publicdata/directory/
+2. http://data.worldbank.org
+3. http://www.google.com/publicdata/directory/
 
 
 ## Pearson's Correlation Coefficient ##
