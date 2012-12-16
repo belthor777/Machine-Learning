@@ -16,7 +16,7 @@
 > So reject J_0: rho=0
 
 
-	pwcorr diabp1 sysbp1 if _n<51 , sig
+	`pwcorr diabp1 sysbp1 if _n<51 , sig`
 
 
 ## Missconceptions ##
