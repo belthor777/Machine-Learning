@@ -1,4 +1,6 @@
 # Correlation and Nonparametrics #
+> Link: http://istics.net/stat/correlations/
+
 
 ## Pearson's Correlation Coefficient ##
 ## Inference on Rho  ##
@@ -21,3 +23,6 @@
 
 ## Missconceptions ##
 ## Spearman's Rank Correlation Coefficient ##
+
+
+
