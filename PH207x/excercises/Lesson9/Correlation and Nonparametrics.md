@@ -30,7 +30,6 @@
 > And now the other beauty of Spearman's is that this word linear doesn't appear here. This is truly a test for independence of these two characteristics.  
 > Rank the Data:
 
-
 i        | x   | y    | x_r  | y_r  | d  | d²
 -------- | --- | ---- | ---- | ---- | -- | --
  1       | 1.3 | 14.3 | 2    | 2    | 0  | 0
@@ -52,7 +51,7 @@ i        | x   | y    | x_r  | y_r  | d  | d²
 
              |     year  |    dpt | measles
 ------------ | --------- | ------ | ----------
-        year |   1.0000  |        |
+        year |   1.0000  |        | 
          dpt |   0.9476  | 1.0000 | 
      measles |   0.9387  | 0.9973 | 1.0000
 
