@@ -117,7 +117,31 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 * negative
 * no correlation 
 
+####4. Based on the scatter plots in question 1 (and without doing any further calculations), would you expect the Spearman and Pearson correlations for health expenditures per capita and year from 1995-2010 in the United States to be similar?####
+* Yes
+* No
+
+####5. Calculate the Spearman correlation for health expenditures per capita and year from 1995-2010 in the United States and compare to question 2.####
+> ** **
 
 
+####6. True or False: Using the answer from question 5, we can conclude that health expenditures per capita have increased every year since 1995.####
+* True
+* False
+
+
+####7. These data are ecological. How does this play a role in the interpretation of the data? (Please discuss on the discussion boards.)####
+
+
+####8. Examine trends in health per capita, number of hospital beds, and time in the other countries in this dataset. (Please discuss on the discussion boards.)####
+
+
+
+
+> Source: Created from: World Bank, World Development Indicators and Global Development Finance.  
+>  
+> Hospital Beds: Data after 2005 are extracted from the World Health Statistics Table 6 published by WHO. WHS data is based on PAHO basic indicators 2011. Washington, DC, Pan American Health Organization, 2011 (www.paho.org/English/SHA/coredata/tabulator/newTabulator.htm); European health for all database (HFA-DB). Copenhagen, WHO Regional Office for Europe, 2011 (http://data.euro.who.int/hfadb); Western Pacific Country Health Information Profiles 2011 Revision. Manila, WHO Regional Office for the Western Pacific, 2010 (www.wpro.who.int/countries/countries.htm); Demographic, social and health indicators for countries of the Eastern Mediterranean. Cairo, WHO Regional Office for the Eastern Mediterranean, 2011; additional data compiled as of January 2011 by the WHO Regional Office for Africa and the WHO Regional Office for South-East Asia. Some data are supplemented by country data.  
+>  
+> Health per Capita: World Health Organization National Health Account database (see http://apps.who.int/nha/database for the most recent updates).
 
 
