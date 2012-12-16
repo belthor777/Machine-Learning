@@ -45,4 +45,8 @@ i        | x   | y    | x_r  | y_r  | d  | d²
 
 	r_s= ( 1 / (n-1) ) * n sum from 1 to n ( ( x_ri - x⁻_r ) / s_x_r ) ( ( y_ri - y⁻_r ) / s_y_r  )
 
+## Tutorial: Correlation Analysis ##
+
+	use "WorldBank.dta"
+
 
