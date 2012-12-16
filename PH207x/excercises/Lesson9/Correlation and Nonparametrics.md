@@ -37,7 +37,6 @@ i        | x   | y    | x_r  | y_r  | d      | d²
  3       | 0.8 | 18.0 | 1    | 4    | -3     | 9
  4       | 1.4 | 12.1 | 3    | 1    | 2      | 4
 
-
 > x and y are Raw Data  
 > x_r and y_r are Ranks  
 > d is the difference between x_r and y_r by using:
