@@ -50,7 +50,6 @@ i        | x   | y    | x_r  | y_r  | d  | d²
 	use "WorldBank.dta"
 	pwcorr
 
-
              |     year  |    dpt | measles
 ------------ | --------- | ------ | ----------
         year |   1.0000  |        |
