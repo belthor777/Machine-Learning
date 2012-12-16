@@ -15,6 +15,6 @@
 > versus t with 18 degrees of fredom, so p<0.001.  
 > So reject J_0: rho=0
 
-
+	pwcorr diabp1 sysbp1 if _n<51 , sig
 
 
