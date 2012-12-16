@@ -64,5 +64,10 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 	twoway (scatter measles year, sort) (scatter dpt year, sort)
 
+> Remember that the **Pearson correlation coefficient** is a measure of the strength of the linear relationship between two variables. So what we're going to do is we're going to test the null hypothesis that rho is equal to zero, our correlation coefficient, against the alternative, that rho is not equal to zero.  
+> H_0: p=0  
+> H_A: p != 0
+
+
 
 
