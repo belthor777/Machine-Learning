@@ -23,6 +23,7 @@
 
 ## Missconceptions ##
 ## Spearman's Rank Correlation Coefficient ##
+> When you have any doubts about the distribution of your x's and your y's -whether they're normal or not- go with the Spearman's.  
 > Rank the Data:
 
  i | x   | y    | x_r  | y_r  | d  | d²
