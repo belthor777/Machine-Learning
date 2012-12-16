@@ -23,6 +23,23 @@
 
 ## Missconceptions ##
 ## Spearman's Rank Correlation Coefficient ##
+> Rank the Data:
+
+
+ i | x   | y    | x_r  | y_r
+-- | --- | ---- | ---- | ----
+1  | 1.3 | 14.3 | 2    | 2
+2  | 1.7 | 14.7 | 4    | 3
+3  | 0.8 | 18.0 | 1    | 4
+4  | 1.4 | 12.1 | 3    | 1
+
+> x and y are Raw Data  
+> x_r and y_r are Ranks by using:
+
+
+	r_s= ( 1 / (n-1) ) * n sum from 1 to n ( ( x_ri - x⁻_r ) / s_x_r ) ( ( y_ri - y⁻_r ) / s_y_r  )
+
+
 
 
 
