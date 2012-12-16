@@ -24,7 +24,7 @@
 ## Missconceptions ##
 ## Spearman's Rank Correlation Coefficient ##
 > When you have any doubts about the distribution of your x's and your y's -whether they're normal or not- go with the Spearman's.  
-> And now the other beauty of Spearman's is that this word linear doesn't appear here. This is truly a test for independence of these two characteristics.
+> And now the other beauty of Spearman's is that this word linear doesn't appear here. This is truly a test for independence of these two characteristics.  
 > Rank the Data:
 
 
