@@ -1,8 +1,8 @@
 # Correlation and Nonparametrics #
 > Links:  
-> 1.) http://istics.net/stat/correlations/  
-> 2.) data.worldbank.org  
-> 3.) www.google.com/publicdata/directory/
+1. http://istics.net/stat/correlations/
+2. data.worldbank.org
+3. www.google.com/publicdata/directory/
 
 
 ## Pearson's Correlation Coefficient ##
