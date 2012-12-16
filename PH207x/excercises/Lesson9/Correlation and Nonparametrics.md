@@ -68,6 +68,16 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 > H_0: p=0  
 > H_A: p != 0
 
+	pwcorr year measles, sig
 
+
+             |     year  |  measles
+------------ | --------- | --------
+        year |   1.0000  | 
+     measles |   0.9387  | 1.0000 
+             |   0.0000  | 
+             |           | 
+
+> And what that does is it gives me the correlation coefficient in this top line. And on the bottom line, that gives me a **p value**. So what I can say here is that my p value is very small. It's less than 0.001. So in this case, I would reject my null hypothesis, and conclude that there is a positive relationship between time and measles vaccination coverage.
 
 
