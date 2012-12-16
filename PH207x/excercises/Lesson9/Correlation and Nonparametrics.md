@@ -60,5 +60,9 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 	correlate
 
+> Plot correlation:
+
+	twoway (scatter measles year, sort) (scatter dpt year, sort)
+
 
 
