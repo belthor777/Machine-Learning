@@ -56,5 +56,9 @@ i        | x   | y    | x_r  | y_r  | d      | d²
          dpt |   0.9476  | 1.0000 | 
      measles |   0.9387  | 0.9973 | 1.0000
 
+> Alternative the follow can be used:
+
+	correlate
+
 
 
