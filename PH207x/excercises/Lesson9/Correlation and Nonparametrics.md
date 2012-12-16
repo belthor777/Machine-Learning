@@ -112,6 +112,11 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 > ** **
 
 ####3.Based on these results (and without doing any further calculations), would you expect annual health expenditures per capita and annual number of hospital beds in the United States between 1995 and 2010 to be positively correlated, negatively correlated, or uncorrelated?####
+* positive
+* negative
+* no correlation 
+
+
 
 
 
