@@ -254,7 +254,7 @@ the other sample. If the two samples are the same size, then these two should be
         zero | 0        |  0
    **TOTAL** | **10**   | **10**
 
-```Stata
+```stata
 One-sided tests:  
 	Ho: median of t6 - t0 = 0 vs.  
 	Ha: median of t6 - t0 > 0  
