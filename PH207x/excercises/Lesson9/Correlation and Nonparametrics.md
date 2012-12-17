@@ -342,7 +342,7 @@ Ho: t6 = t0
 * Sign test
 	* Uses the signs (+ or -) of the differences only
 	* Not used often
-	* For small n, use binomial distribution to calculate p-value for D (D is a binomial random variable with parameters n and p=1/2 under H_0) - D is not equal to positive values
+	* For small n, use binomial distribution to calculate p-value for D (D is a binomial random variable with parameters n and p=1/2 under H_0) - D is not equal to positive signs
 * Wilcoxon Signed-Rank Test
 	* Nonparametric analogue to the paried t-test
 	* Incorporates the magnitude of differences via ranks
