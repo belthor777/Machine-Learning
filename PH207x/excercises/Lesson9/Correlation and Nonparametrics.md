@@ -130,8 +130,8 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 > Results:
 
-                | year   | healthpercapita
---------------- | ------ | ----------------
+                | year   | healthpercapita 
+--------------- | ------ | ---------------- 
            year | 1.0000 | 
 healthpercapita | 0.9879 | 1.0000 
                 | 0.0000 | 
@@ -145,8 +145,8 @@ healthpercapita | 0.9879 | 1.0000
 
 > Results:
 
-             | year    | hospitalbeds
------------- | ------- | --------------
+             | year    | hospitalbeds 
+------------ | ------- | -------------- 
         year | 1.0000  | 
 hospitalbeds | -0.9802 | 1.0000 
              | 0.0000  | 
