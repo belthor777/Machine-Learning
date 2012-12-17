@@ -128,8 +128,19 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 	pwcorr year healthpercapita if country == "United States" & year > 1994, sig
 
 
+> Results:
+
+                | year   | healthpercapita
+--------------- | ------ | ----------------
+           year | 1.0000 | 
+healthpercapita | 0.9879 | 1.0000 
+                | 0.0000 | 
+
 > Number of hospital beds and year from 1995-2010 in the United States   
 > ** **
+
+
+
 
 ####3.Based on these results (and without doing any further calculations), would you expect annual health expenditures per capita and annual number of hospital beds in the United States between 1995 and 2010 to be positively correlated, negatively correlated, or uncorrelated?####
 * positive
