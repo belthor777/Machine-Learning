@@ -201,4 +201,12 @@ hospitalbeds | -0.9802 | 1.0000
 > So if we look at the signs, we've got 11 positive signs and two negative signs. And if we test the hypothesis, that this difference is just as likely to
 be positive as negative --in other words, that median is 0--then we can ask the question, how often do you do a study with 13 signs and get only two negatives?
 
+	signtest CF = Healthy
+
+
+## Wilcoxon Signed Rank Test ##
+> So that's the Wilcoxon signed-rank test, which is the same as --we could do it on one sample, the one I showed you here was on the two sample correlated or dependent situations.
+
+	signrank placebo = drug
+
 
