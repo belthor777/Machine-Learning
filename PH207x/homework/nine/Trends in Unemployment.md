@@ -5,6 +5,10 @@ In this question, we examine unemployment trends over time using a correlation a
 >  
 > Use the dataset UnemploymentbyCountry.dta to answer the following questions. 
 
+```stata
+	use "UnemploymentbyCountry.dta"
+```
+
 ### Consider the following questions: ###
 
 #### 1. Calculate the Pearson and Spearman correlations between total unemployment and year for the United States and for Japan. ####
