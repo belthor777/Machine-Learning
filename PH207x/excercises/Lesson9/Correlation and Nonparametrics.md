@@ -349,5 +349,12 @@ Ho: t6 = t0
 	* More powerful than the Sign Test and generally should be used if given a choice between the two
 
 
+## Tutorial: Nonparametrics for independent samples  ##
+> In this tutorial we will use data from the Digitalis Investigation Group.
+* The DIG Trial was a randomized, double blind, multicenter trial with more than 300 centers in the US and Canada participating.
+* The purpose of the trial was to examine the safety and efficacy of Digoxin in treating patients with congestive heart failure in sinus rhythm.
+* The main paper can be found in the New England Journal of Medicine
+
+
 
 
