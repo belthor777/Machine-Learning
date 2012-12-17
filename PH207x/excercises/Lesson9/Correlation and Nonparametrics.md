@@ -355,6 +355,9 @@ Ho: t6 = t0
 * The purpose of the trial was to examine the safety and efficacy of Digoxin in treating patients with congestive heart failure in sinus rhythm.
 * The main paper can be found in the New England Journal of Medicine
 
+> The Wilcoxon rank-sum test was used to determine if there were any differences between groups in the number of hospitalizations  
+> Examine the distribution of number of hospitalization by treatment group. Are they similar? Are they symmetric?
+
 
 
 
