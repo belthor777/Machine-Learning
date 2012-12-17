@@ -40,3 +40,13 @@ In this question, we examine unemployment trends over time using a correlation a
 
 
 ##### Which pattern best describes the trend in unemployment in the Japan between 1980 and 2010? #####
+
+#### 4. True or False: correlation analyses have the potential to mask important non-linear trends in data. ####
+* True:
+* False: 
+
+#### 5. Restricting to the United States, construct a scatterplot with year on the x-axis and with total unemployment; unemployment among women; and unemployment among men on the y-axis. Do there appear to be sex-specific differences in the unemployment trends? #### 
+* True:
+* False: 
+
+
