@@ -59,17 +59,23 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 > Alternative the follow can be used:
 
+```stata
 	correlate
+```
 
 > Plot correlation:
 
+```stata
 	twoway (scatter measles year, sort) (scatter dpt year, sort)
+```
 
 > Remember that the **Pearson correlation coefficient** is a measure of the strength of the linear relationship between two variables. So what we're going to do is we're going to test the null hypothesis that rho is equal to zero, our correlation coefficient, against the alternative, that rho is not equal to zero.  
 > H_0: p=0  
 > H_A: p != 0
 
+```stata
 	pwcorr year measles, sig
+```
 
 > Results:
 
@@ -82,7 +88,9 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 > And what that does is it gives me the correlation coefficient in this top line. And on the bottom line, that gives me a **p value**. So what I can say here is that my p value is very small. It's less than 0.001. So in this case, I would reject my null hypothesis, and conclude that there is a positive relationship between time and measles vaccination coverage. p < 0.001
 
+```stata
 	spearman year measles
+```
 
 ## Another Correlation Example  ##
 > In the HealthExpensesbyCountry.dta dataset, we assess temporal trends in health expenditures per capita and in number of hospital beds (per 1,000 individuals) in four countries: the United States, Great Britain, Japan, and Canada.  
@@ -91,9 +99,10 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 >  
 > Open the dataset HealthExpensesbyCountry.dta. In this question, you need to restrict to certain subsets of the data when performing your analysis. To do so, it is easiest to use "if" statements in Stata. For instance, to calculate the correlation beteen year and number of hospital beds in the United States between 1995 and 2010, you can type:
 
+```stata
 	use "HealthExpensesbyCountry.dta"
 	pwcorr hospitalbeds year if country == "United States" & year > 1994, sig
-
+```
 
 > Results:
 
@@ -112,21 +121,25 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 * => **Yes**
 * No
 
+```stata
 	graph matrix healthpercapita year if country == "United States" & year > 1994
-
+```
 
 > **Number of hospital beds and year from 1995-2010 in the United States**
 * => **Yes**
 * No
 
+```stata
 	graph matrix hospitalbeds year if country == "United States" & year > 1994
-
+```
 
 ####2. Calculate the Pearson correlations for:####
 > **Health expenditures per capita and year from 1995-2010 in the United States**  
 > => **0.9879**
 
+```stata
 	pwcorr year healthpercapita if country == "United States" & year > 1994, sig
+```
 
 > Results:
 
@@ -140,8 +153,9 @@ healthpercapita | 0.9879 | 1.0000
 > **Number of hospital beds and year from 1995-2010 in the United States**  
 > => **-0.9802**
 
+```stata
 	pwcorr year hospitalbeds if country == "United States" & year > 1994, sig
-
+```
 
 > Results:
 
@@ -159,8 +173,9 @@ hospitalbeds | -0.9802 | 1.0000
 
 > Plot:
 
+```stata
 	twoway (connected healthpercapita hospitalbeds if country=="United States") if year > 1994
-
+```
 
 ####4. Based on the scatter plots in question 1 (and without doing any further calculations), would you expect the Spearman and Pearson correlations for health expenditures per capita and year from 1995-2010 in the United States to be similar?####
 * => **Yes**
