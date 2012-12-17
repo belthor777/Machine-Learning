@@ -120,10 +120,11 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 
 ####2. Calculate the Pearson correlations for:####
-> Health expenditures per capita and year from 1995-2010 in the United States  
+> **Health expenditures per capita and year from 1995-2010 in the United States**  
 > ** **
 
-	pwcorr year measles, sig
+	pwcorr year healthpercapita, sig
+
 
 > Number of hospital beds and year from 1995-2010 in the United States   
 > ** **
