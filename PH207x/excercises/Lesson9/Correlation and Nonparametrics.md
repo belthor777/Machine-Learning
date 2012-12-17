@@ -359,5 +359,8 @@ Ho: t6 = t0
 > Examine the distribution of number of hospitalization by treatment group. Are they similar? Are they symmetric?
 
 
+```stata
+	signrank t6=t0
+```
 
 
