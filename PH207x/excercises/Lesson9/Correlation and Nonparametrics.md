@@ -364,6 +364,8 @@ Ho: t6 = t0
 	hist nhosp, by(trtmt)
 ```
 
+> So as you can see, the distribution of the number of hospitalizations are similar between the two groups and they're also **non-normal** and they are **right-skewed**.
+
 
 
 
