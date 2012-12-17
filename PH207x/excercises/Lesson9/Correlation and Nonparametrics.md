@@ -157,6 +157,7 @@ hospitalbeds | -0.9802 | 1.0000
 * => **negative**
 * no correlation
 
+> Plot:
 
 	twoway (connected healthpercapita hospitalbeds if country=="United States") if year > 1994
 
