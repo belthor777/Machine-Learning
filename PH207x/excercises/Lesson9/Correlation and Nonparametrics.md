@@ -243,6 +243,16 @@ the other sample. If the two samples are the same size, then these two should be
 
 
 	use "CVOS.dta"
+	signtest t6=t0
+
+> Results:
+
+        sign | observed | expected
+------------ | -------- | ---------
+    positive | 8        |  5
+    negative | 2        |  5
+        zero | 0        |  0
+   **TOTAL** | **10**   | **10**
 
 
 
