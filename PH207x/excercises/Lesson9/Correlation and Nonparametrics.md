@@ -46,8 +46,10 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 ## Tutorial: Correlation Analysis ##
 
+```stata
 	use "WorldBank.dta"
 	pwcorr
+```
 
 > Results:
 
