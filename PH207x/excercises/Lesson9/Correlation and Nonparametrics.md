@@ -397,6 +397,7 @@ Ho: nhosp(trtmt==0) = nhosp(trtmt==1)
     Prob > |z| =   0.0127
 ```
 
+> p-value=0.0127 - So it is less than 0.5 -> We reject the null hypotheses
 
 
 
