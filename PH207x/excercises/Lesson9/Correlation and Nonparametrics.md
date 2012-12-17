@@ -275,7 +275,6 @@ the other sample. If the two samples are the same size, then these two should be
 > How many positiv and how many negative signs are expected under the null hypotheses. That mean, that the median of the differences is equal to 0.  
 > The particularly that it is positiv is 1/2.
 
-> 8 positives signs
 
 
 
