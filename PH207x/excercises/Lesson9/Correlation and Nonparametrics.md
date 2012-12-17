@@ -229,6 +229,11 @@ the other sample. If the two samples are the same size, then these two should be
 
 ## Tutorial: Nonparametrics for Paired Data ##
 
+### Are the data independent or dependent? ###
+
+### What parametric and nonparametric tests are available for this type of data? ###
+
+### What type of statistical test is most appropriate for this data and why? ###
 
 
 	use "CVOS.dta"
