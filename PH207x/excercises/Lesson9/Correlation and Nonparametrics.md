@@ -258,7 +258,8 @@ the other sample. If the two samples are the same size, then these two should be
 	Ho: median of t6 - t0 = 0 vs.  
 	Ha: median of t6 - t0 > 0  
 		Pr(#positive >= 8) =  
-		Binomial(n = 10, x >= 8, p = 0.5) =  0.0547```
+		Binomial(n = 10, x >= 8, p = 0.5) =  0.0547
+```
 
 >	Ho: median of t6 - t0 = 0 vs.  
 >	Ha: median of t6 - t0 < 0  
