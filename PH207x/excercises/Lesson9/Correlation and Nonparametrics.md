@@ -213,4 +213,8 @@ be positive as negative --in other words, that median is 0--then we can ask the 
 
 ## Wilcoxon Rank Sum Test - Two Samples ##
 > Throw all samples in one list and rank them.  
+> Then look at the total ranks in the one sample, look at the total ranks in
+the other sample. If the two samples are the same size, then these two should be roughly the same. If the null hypothesis of no difference is correct. That's exactly like we did with the t.  
+> 
+The only difference is that, with the ranks, we've got much more control about the variances.
 
