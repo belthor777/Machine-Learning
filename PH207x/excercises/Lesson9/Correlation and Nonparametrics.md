@@ -252,11 +252,9 @@ the other sample. If the two samples are the same size, then these two should be
 
 
 ## Tutorial: Nonparametrics for Paired Data ##
-
-### Are the data independent or dependent? ###
-
-### What parametric and nonparametric tests are available for this type of data? ###
-### What type of statistical test is most appropriate for this data and why? ###
+> Are the data independent or dependent?  
+> What parametric and nonparametric tests are available for this type of data?  
+> What type of statistical test is most appropriate for this data and why?
 
 
 ### Sign Test ###
@@ -337,6 +335,19 @@ Ho: t6 = t0
 
 > p-value= 0.0218 (is less than 0.5)  
 > We have more power to detect the difference 
+
+
+### Summary ###
+
+* Sign test
+	* Uses the signs (+ or -) of the differences only
+	* Not used often
+	* For small n, use binomial distribution to calculate p-value for D (D is a binomial random variable with parameters n and p=1/2 under H_0) - D is not equal to positive values
+* Wilcoxon Signed-Rank Test
+	* Nonparametric analogue to the paried t-test
+	* Incorporates the magnitude of differences via ranks
+	* More powerful than the Sign Test and generally should be used if given a choice between the two
+
 
 
 
