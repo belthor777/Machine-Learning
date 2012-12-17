@@ -237,7 +237,7 @@ the other sample. If the two samples are the same size, then these two should be
 
 ### Sign Test ###
 #### What are the null and alternative hypotheses? ####
-> For the t-test we would use mean and not median.  
+> For the t-test we would use mean but we are using a Nonparametrics test which is using the median.  
 > H_0: Median of difference = 0  
 > H_A: Median is not equal to 0
 
