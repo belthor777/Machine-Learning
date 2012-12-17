@@ -376,8 +376,18 @@ Ho: t6 = t0
 ### What is the null hypothesis for the rank sum test? What is the alternative? ###
 > The shape is already the same. But we can shift it right.
 
+```stata
+	ranksum nhosp, by(trtmt)
+```
+
+ trtmt    | obs   | rank sum | expected 
+--------- | ----- | -------- | ---------
+ 0        | 3403  | 11767615 | 11571902 
+ 1        | 3397  | 11355786 | 11551499 
+ combined | 6800  | 23123400 | 23123400 
 
 
+```stata
 
 
 
