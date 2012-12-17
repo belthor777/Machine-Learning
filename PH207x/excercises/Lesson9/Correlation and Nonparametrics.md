@@ -308,6 +308,8 @@ Two-sided test:
 > It ranks the magnitude.
 
 ## State the null and alternative hypothesis for the Wilcoxon signed-rank test ##
+> H_0: Median of difference = 0  
+> H_A: Median is not equal to 0
 
 
 
