@@ -400,5 +400,20 @@ Ho: nhosp(trtmt==0) = nhosp(trtmt==1)
 > p-value=0.0127 - So it is less than 0.5 -> We reject the null hypotheses
 
 
+## Nonparametrics ##
+> Consider a clinical trial where patients are randomized to one of two treatments. We want to examine whether there is there is a difference between the two treatment groups with respect to a continuous outcome.  
+>  
+> We are considering conducting either a two-sample t-test or a Wilcoxon Rank Sum test to examine the differences between groups. True or false: these two tests have the same null hypotheses.
+* True
+* False
+
+> Suppose we somehow know that the distribution of the outcome variable within each group is normally distributed. True or false: in this case, the two sample t-test and the Wilcoxon Rank Sum test have the same null hypothesis.  
+* True
+* False
+
+
+
+
+
 
 
