@@ -205,6 +205,8 @@ be positive as negative --in other words, that median is 0--then we can ask the 
 
 
 ## Wilcoxon Signed Rank Test ##
+> We look at the difference. We could do our sign test on these differences. But Wilcoxon said, no, here's what we'll do. We'll rank the differences. So here it is, we'll just rank them, ignoring the sign.  
+> So look at all the ranks associated with negative numbers, and then look at the ranks associated with positive numbers, positive differences.  
 > So that's the Wilcoxon signed-rank test, which is the same as --we could do it on one sample, the one I showed you here was on the two sample correlated or dependent situations.
 
 	signrank placebo = drug
