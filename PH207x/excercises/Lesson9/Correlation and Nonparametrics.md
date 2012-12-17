@@ -227,5 +227,7 @@ the other sample. If the two samples are the same size, then these two should be
 > *Disadvantage:* If in fact you were justified in making your normality assumption. So if in fact you could use the t, how much do you lose? And the answer is not that much. **When in fact you have normal data, the Wilcoxon is about 95% efficient.**
 
 
+## Tutorial: Nonparametrics for Paired Data ##
+
 
 
