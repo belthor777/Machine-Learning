@@ -335,4 +335,8 @@ Ho: t6 = t0
     Prob > |z| =   0.0218
 ```
 
+> p-value= 0.0218 (is less than 0.5)  
+> We have more power to detect the difference 
+
+
 
