@@ -260,19 +260,18 @@ One-sided tests:
 	Ha: median of t6 - t0 > 0  
 		Pr(#positive >= 8) =  
 		Binomial(n = 10, x >= 8, p = 0.5) =  0.0547
+
+	Ho: median of t6 - t0 = 0 vs.  
+	Ha: median of t6 - t0 < 0  
+		Pr(#negative >= 2) =  
+		Binomial(n = 10, x >= 2, p = 0.5) =  0.9893
+
+Two-sided test:  
+	Ho: median of t6 - t0 = 0 vs.  
+	Ha: median of t6 - t0 != 0  
+		Pr(#positive >= 8 or #negative >= 8) =  
+		min(1, 2*Binomial(n = 10, x >= 8, p = 0.5)) =  0.1094
 ```
-
->	Ho: median of t6 - t0 = 0 vs.  
->	Ha: median of t6 - t0 < 0  
->		Pr(#negative >= 2) =  
->		Binomial(n = 10, x >= 2, p = 0.5) =  0.9893
-
->Two-sided test:  
->	Ho: median of t6 - t0 = 0 vs.  
->	Ha: median of t6 - t0 != 0  
->		Pr(#positive >= 8 or #negative >= 8) =  
->		min(1, 2*Binomial(n = 10, x >= 8, p = 0.5)) =  0.1094
-
 
 > How many positiv and how many negative signs are expected under the null hypotheses. That mean, that the median of the differences is equal to 0.  
 > The particularly that it is positiv is 1/2.
