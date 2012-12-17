@@ -386,8 +386,18 @@ Ho: t6 = t0
  1        | 3397  | 11355786 | 11551499 
  combined | 6800  | 23123400 | 23123400 
 
-
 ```stata
+unadjusted variance   6.552e+09
+adjustment for ties  -3.811e+08
+                     ----------
+adjusted variance     6.171e+09
+
+Ho: nhosp(trtmt==0) = nhosp(trtmt==1)
+             z =   2.491
+    Prob > |z| =   0.0127
+```
+
+
 
 
 
