@@ -127,9 +127,7 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 	pwcorr year healthpercapita if country == "United States" & year > 1994, sig
 
-
 > Results:
-
                 | year   | healthpercapita
 --------------- | ------ | ----------------
            year | 1.0000 | 
