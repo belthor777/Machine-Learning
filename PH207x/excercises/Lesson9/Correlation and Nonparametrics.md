@@ -299,7 +299,13 @@ Two-sided test:
 ```
 
 > How many positiv and how many negative signs are expected under the null hypotheses. That mean, that the median of the differences is equal to 0.  
-> The particularly that it is positiv is 1/2.
+> The particularly that it is positiv is 1/2.  
+> p-value= **0.1094**
+
+### Signed-Rank Test ###
+#### Suppose that instead of conducting the sign test we conduct the Wilcoxon signed-rank test. Which test has more power? Why? ####
+
+State the null and alternative hypothesis for the Wilcoxon signed-rank test
 
 
 
