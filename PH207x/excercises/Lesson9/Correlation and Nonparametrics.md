@@ -106,11 +106,14 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 ### Consider the following questions: ###
 ####1. Do the following relationships appear linear (use scatterplots to help answer the question)?####
 >  Health expenditures per capita and year from 1995-2010 in the United States
-* Yes
+* => **Yes**
 * No
 
+	graph matrix healthpercapita year if country == "United States" & year > 1994
+
+
 > Number of hospital beds and year from 1995-2010 in the United States 
-* Yes
+* => **Yes**
 * No
 
 
