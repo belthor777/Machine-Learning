@@ -304,8 +304,10 @@ Two-sided test:
 
 ### Signed-Rank Test ###
 #### Suppose that instead of conducting the sign test we conduct the Wilcoxon signed-rank test. Which test has more power? Why? ####
+> Signed-Rank Test is more powerful. Incorporates the magnitude of the differences via the rank  
+> It ranks the magnitude.
 
-State the null and alternative hypothesis for the Wilcoxon signed-rank test
+## State the null and alternative hypothesis for the Wilcoxon signed-rank test ##
 
 
 
