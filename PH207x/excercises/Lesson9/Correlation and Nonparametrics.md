@@ -197,4 +197,8 @@ hospitalbeds | -0.9802 | 1.0000
 >  
 > Health per Capita: World Health Organization National Health Account database (see http://apps.who.int/nha/database for the most recent updates).
 
+## Sign test ##
+> So if we look at the signs, we've got 11 positive signs and two negative signs. And if we test the hypothesis, that this difference is just as likely to
+be positive as negative --in other words, that median is 0--then we can ask the question, how often do you do a study with 13 signs and get only two negatives?
+
 
