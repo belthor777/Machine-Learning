@@ -405,10 +405,10 @@ Ho: nhosp(trtmt==0) = nhosp(trtmt==1)
 >  
 > We are considering conducting either a two-sample t-test or a Wilcoxon Rank Sum test to examine the differences between groups. True or false: these two tests have the same null hypotheses.
 * True
-* False
+* => **False**
 
 > Suppose we somehow know that the distribution of the outcome variable within each group is normally distributed. True or false: in this case, the two sample t-test and the Wilcoxon Rank Sum test have the same null hypothesis.  
-* True
+* => **True**
 * False
 
 
