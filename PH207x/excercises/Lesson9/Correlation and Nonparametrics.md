@@ -186,7 +186,9 @@ hospitalbeds | -0.9802 | 1.0000
 ####5. Calculate the Spearman correlation for health expenditures per capita and year from 1995-2010 in the United States and compare to question 2.####
 > **1.0000**
 
+```stata
 	spearman healthpercapita year if country == "United States" & year > 1994
+```
 
 > **Results:**  
 > Number of obs = 16  
