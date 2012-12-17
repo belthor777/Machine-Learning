@@ -90,6 +90,7 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 >  
 > Open the dataset HealthExpensesbyCountry.dta. In this question, you need to restrict to certain subsets of the data when performing your analysis. To do so, it is easiest to use "if" statements in Stata. For instance, to calculate the correlation beteen year and number of hospital beds in the United States between 1995 and 2010, you can type:
 
+	use "HealthExpensesbyCountry.dta"
 	pwcorr hospitalbeds year if country == "United States" & year > 1994 
 
 > (You do not need to specify that year <= 2010 because the dataset only contains data through 2010.)
