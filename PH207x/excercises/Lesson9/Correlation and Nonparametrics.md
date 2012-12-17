@@ -316,12 +316,12 @@ Two-sided test:
 	signrank t6=t0
 ```
 
-        sign | obs    | sum ranks | expected
------------- | ------ | --------------------------
-    positive | 8      | 50        | 27.5
-    negative | 2      | 5         | 27.5
-        zero | 0      | 0         | 0
-   **TOTAL** | **10** | **55**    | **55**
+ sign      | obs    | sum ranks | expected
+---------- | ------ | --------------------------
+ positive  | 8      | 50        | 27.5
+ negative  | 2      | 5         | 27.5
+ zero      | 0      | 0         | 0
+ **TOTAL** | **10** | **55**    | **55**
 
 ```stata
 unadjusted variance       96.25
@@ -334,3 +334,5 @@ Ho: t6 = t0
              z =   2.293
     Prob > |z| =   0.0218
 ```
+
+
