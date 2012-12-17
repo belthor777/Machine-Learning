@@ -360,7 +360,10 @@ Ho: t6 = t0
 
 
 ```stata
-	signrank t6=t0
+	use "dig.dta"
+	hist nhosp, by(trtmt)
 ```
+
+
 
 
