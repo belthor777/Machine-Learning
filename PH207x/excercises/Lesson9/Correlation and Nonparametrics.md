@@ -204,17 +204,19 @@ be positive as negative --in other words, that median is 0--then we can ask the 
 	signtest CF = Healthy
 
 
-## Wilcoxon Signed Rank Test - One Samples ##
+## Wilcoxon Signed Rank Test - One Sample ##
 > We look at the difference. We could do our sign test on these differences. But Wilcoxon said, no, here's what we'll do. We'll rank the differences. So here it is, we'll just rank them, ignoring the sign.  
 > So look at all the ranks associated with negative numbers, and then look at the ranks associated with positive numbers, positive differences.  
 > So that's the Wilcoxon signed-rank test, which is the same as --we could do it on one sample, the one I showed you here was on the two sample correlated or dependent situations.
 
 	signrank placebo = drug
 
-## Wilcoxon Rank Sum Test - Two Samples ##
+## Wilcoxon Rank Sum Test - Two Sample ##
 > Throw all samples in one list and rank them.  
 > Then look at the total ranks in the one sample, look at the total ranks in
 the other sample. If the two samples are the same size, then these two should be roughly the same. If the null hypothesis of no difference is correct. That's exactly like we did with the t.  
-> 
-The only difference is that, with the ranks, we've got much more control about the variances.
+> With the ranks, we've got much more control about the variances.
+
+	ranksum ment_age, by(ind)
+
 
