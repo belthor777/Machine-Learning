@@ -95,10 +95,11 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 
 > Results:
-             | hospit~s |    year
------------- | -------- | --------
-hospitalbeds |   1.0000 | 
-        year |  -0.9802 |  1.0000 
+
+              | hospit~s | year 
+------------- | -------- | --------
+ hospitalbeds |   1.0000 | 
+         year |  -0.9802 | 1.0000 
 
 > (You do not need to specify that year <= 2010 because the dataset only contains data through 2010.)
 
