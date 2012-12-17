@@ -201,15 +201,18 @@ hospitalbeds | -0.9802 | 1.0000
 > So if we look at the signs, we've got 11 positive signs and two negative signs. And if we test the hypothesis, that this difference is just as likely to
 be positive as negative --in other words, that median is 0--then we can ask the question, how often do you do a study with 13 signs and get only two negatives?
 
+```stata
 	signtest CF = Healthy
-
+```
 
 ## Wilcoxon Signed Rank Test - One Sample ##
 > We look at the difference. We could do our sign test on these differences. But Wilcoxon said, no, here's what we'll do. We'll rank the differences. So here it is, we'll just rank them, ignoring the sign.  
 > So look at all the ranks associated with negative numbers, and then look at the ranks associated with positive numbers, positive differences.  
 > So that's the Wilcoxon signed-rank test, which is the same as --we could do it on one sample, the one I showed you here was on the two sample correlated or dependent situations.
 
+```stata
 	signrank placebo = drug
+```
 
 ## Wilcoxon Rank Sum Test - Two Sample ##
 > Throw all samples in one list and rank them.  
@@ -217,7 +220,9 @@ be positive as negative --in other words, that median is 0--then we can ask the 
 the other sample. If the two samples are the same size, then these two should be roughly the same. If the null hypothesis of no difference is correct. That's exactly like we did with the t.  
 > With the ranks, we've got much more control about the variances.
 
+```stata
 	ranksum ment_age, by(ind)
+```
 
 ### In summary, when should we use the Wilcoxon, when should we use student's t? ###
 > *Advantage:* Well, the advantage of the Wilcoxon is, we don't need to assume anything about the parent or population distribution of the variable in question. So we do not need to assume normality.   
