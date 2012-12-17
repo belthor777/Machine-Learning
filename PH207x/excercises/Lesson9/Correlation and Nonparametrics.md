@@ -369,8 +369,13 @@ Ho: t6 = t0
 > => **So we're going to use the Wilcoxon rank-sum test.**
 
 ### Does the rank sum test require any assumptions? ###
+> Yes there are two assumptions:
+1. Samples must be indepenedent
+2. Distribution should have some shape. And they don't have the same shapes.
 
 ### What is the null hypothesis for the rank sum test? What is the alternative? ###
+> The shape is already the same. But we can shift it right.
+
 
 
 
