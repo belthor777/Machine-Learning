@@ -167,6 +167,12 @@ hospitalbeds | -0.9802 | 1.0000
 
 	spearman healthpercapita year if country == "United States" & year > 1994
 
+> **Results:**  
+> Number of obs = 16  
+> Spearman's rho = 1.0000  
+> Test of Ho: healthpercapita and year are independent  
+> Prob > |t| = 0.0000
+
 
 ####6. True or False: Using the answer from question 5, we can conclude that health expenditures per capita have increased every year since 1995.####
 * => **True**
