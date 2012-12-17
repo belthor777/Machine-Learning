@@ -232,8 +232,14 @@ the other sample. If the two samples are the same size, then these two should be
 ### Are the data independent or dependent? ###
 
 ### What parametric and nonparametric tests are available for this type of data? ###
-
 ### What type of statistical test is most appropriate for this data and why? ###
+
+
+### Sign Test ###
+#### What are the null and alternative hypotheses? ####
+> For the t-test we would use mean and not median.  
+> H_0: Median of difference = 0  
+> H_A: Median is not equal to 0
 
 
 	use "CVOS.dta"
