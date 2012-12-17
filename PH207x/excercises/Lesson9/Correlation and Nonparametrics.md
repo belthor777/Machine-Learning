@@ -123,7 +123,7 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 
 ####2. Calculate the Pearson correlations for:####
 > **Health expenditures per capita and year from 1995-2010 in the United States**  
-> **0.9879**
+> => **0.9879**
 
 	pwcorr year healthpercapita if country == "United States" & year > 1994, sig
 
@@ -134,8 +134,9 @@ i        | x   | y    | x_r  | y_r  | d      | d²
 healthpercapita | 0.9879 | 1.0000 
                 | 0.0000 | 
 
+
 > **Number of hospital beds and year from 1995-2010 in the United States**  
-> ** **
+> => **-0.9802**
 
 	pwcorr year hospitalbeds if country == "United States" & year > 1994, sig
 
@@ -151,7 +152,11 @@ hospitalbeds | -0.9802 | 1.0000
 ####3.Based on these results (and without doing any further calculations), would you expect annual health expenditures per capita and annual number of hospital beds in the United States between 1995 and 2010 to be positively correlated, negatively correlated, or uncorrelated?####
 * positive
 * negative
-* no correlation 
+* => **no correlation**
+
+
+	twoway (scatter healthpercapita year if country == "United States" & year > 1994, sort) (scatter hospitalbeds year if country == "United States" & year > 1994, sort)
+
 
 ####4. Based on the scatter plots in question 1 (and without doing any further calculations), would you expect the Spearman and Pearson correlations for health expenditures per capita and year from 1995-2010 in the United States to be similar?####
 * Yes
