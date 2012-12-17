@@ -219,4 +219,12 @@ the other sample. If the two samples are the same size, then these two should be
 
 	ranksum ment_age, by(ind)
 
+### In summary, when should we use the Wilcoxon, when should we use student's t? ###
+> *Advantage:* Well, the advantage of the Wilcoxon is, we don't need to assume anything about the parent or population distribution of the variable in question. So we do not need to assume normality.   
+> => **So Wilcoxon is more robust than student's t test.**  
+>  
+> *Disadvantage:* If in fact you were justified in making your normality assumption. So if in fact you could use the t, how much do you lose? And the answer is not that much. **When in fact you have normal data, the Wilcoxon is about 95% efficient.**
+
+
+
 
