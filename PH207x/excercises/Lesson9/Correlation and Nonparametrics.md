@@ -231,3 +231,8 @@ the other sample. If the two samples are the same size, then these two should be
 
 
 
+	use "CVOS.dta"
+
+
+
+
