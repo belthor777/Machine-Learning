@@ -241,9 +241,10 @@ the other sample. If the two samples are the same size, then these two should be
 > H_0: Median of difference = 0  
 > H_A: Median is not equal to 0
 
-
+```stata
 	use "CVOS.dta"
 	signtest t6=t0
+```
 
 > Results:
 
