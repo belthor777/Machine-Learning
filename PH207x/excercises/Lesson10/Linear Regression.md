@@ -91,6 +91,14 @@ i.e. μ_y|x_1, ..., x_q is constant
 
 > => **Minimize SUM from i=1 to n (y_i - a - b_1*x_1... -b_q*x_q)^2**
 
+```stata
+	regress headcirc gestage weight
+```
+
+```math
+	headcirc= 8.3 + 0.45*gestage + 0.0047*weight + e
+```
+> where standard dev of e = 1.27
 
 
 
