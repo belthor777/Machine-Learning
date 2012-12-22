@@ -15,3 +15,7 @@
 ```math
 	β= ( σ_y / σ_x ) * ρ
 ```
+
+> **which shows the relation between correlation and slope of regression**
+
+
