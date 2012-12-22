@@ -53,4 +53,16 @@
 > where standard dev of e = 1.59
 
 ## Transformations ##
+> Options for running the regression in such cases_
+
+1. Do a non-linear regression
+2. Transform the ys or the xs: i.e. look at y^p or x^p e.g.  
+	y^-2, y^-1,y^-0.5, ln(y), y^0.5, y, y^2  
+	x^-2, x^-1,x^-0.5, ln(x), x^0.5, x, x^2
+
+* going up the ladder ->
+* goin down the ladder <-
+
+
+
 
