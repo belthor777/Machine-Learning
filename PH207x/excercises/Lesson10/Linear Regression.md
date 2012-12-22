@@ -16,6 +16,14 @@
 	β= ( σ_y / σ_x ) * ρ
 ```
 
-> **which shows the relation between correlation and slope of regression**
+> **which shows the relation between correlation and slope of regression**  
+> **=> The correlation coefficient is the slope of the regression line. If we're looking at the standardized variates.**
 
+### Equivalence ###
+> So with normal data the following 3 hypotheses are equivalent:
 
+```math
+	H_0: ρ=0  
+	H_0: β=0  
+	H_0: σ_y=σ_y|x
+```
