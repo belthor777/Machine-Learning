@@ -135,4 +135,11 @@ i.e. μ_y|x_1, ..., x_q is constant
 	ttest headcirc, by(tox) unequal
 ```
 
+> So all of this is very complex. How do all of these things work together? So what we can do is we can generate a variable called gestational age times toxemia.
+
+```stata
+	gen gestox = gestage*tox
+```
+
+
 
