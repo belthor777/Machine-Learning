@@ -173,6 +173,9 @@ P-Value   | 0.001               | 0.574
 R²        | 0.653               | 0.653
 Adj. R²   | 0.646               | 0.642
 
+> **Hint:** Look at the standard error.  
+> Look at the standard error, there's a tenfold increase in the standard error, and that's usually a tip-off that you've got some **multi-collinearity** possibly.
+
 
 
 
