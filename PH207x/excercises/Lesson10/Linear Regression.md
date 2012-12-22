@@ -31,6 +31,11 @@
 ```
 
 ## Least Squares ##
+> Fitted (least squares) regression line: 
+
+```math
+	headcirc= 3.914 + 0.78*gestage + e
+```
 
 ```stata
 	regress headcirc gestage
