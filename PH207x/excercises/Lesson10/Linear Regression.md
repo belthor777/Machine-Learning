@@ -60,8 +60,9 @@
 	y^-2, y^-1,y^-0.5, ln(y), y^0.5, y, y^2  
 	x^-2, x^-1,x^-0.5, ln(x), x^0.5, x, x^2
 
-* going up the ladder ->
-* goin down the ladder <-
+* going up the ladder -> (going to the right)
+* goin down the ladder <- (going to the left)
+
 
 
 
