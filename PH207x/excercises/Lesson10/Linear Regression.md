@@ -124,4 +124,10 @@ i.e. μ_y|x_1, ..., x_q is constant
 	ŷ= 1.50 + 0.874*gestage
 ```
 
+```stata
+	regression headcirc gestage tox
+```
+
+
+
 
