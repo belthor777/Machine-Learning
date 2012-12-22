@@ -173,8 +173,11 @@ P-Value   | 0.001               | 0.574
 R²        | 0.653               | 0.653
 Adj. R²   | 0.646               | 0.642
 
-> **Hint:** Look at the standard error.  
-> Look at the standard error, there's a tenfold increase in the standard error, and that's usually a tip-off that you've got some **multi-collinearity** possibly.
+> **Hint:** Look at the Standard Error, T-Statistics and R-Squares.  
+* Look at the standard error, there's a tenfold increase in the standard error, and that's usually a tip-off that you've got some **multi-collinearity** possibly.  
+* The T statistic went from a significant to quite insignificant. By adding one term you shouldn't be seeing this big a difference, unless it's very highly related to before.  
+* And look at the P value went from 0.001 to 0.574, and the R-squared didn't change. 
+* The R-squares didn't change at all. They're basically the same thing. Tip-off that you've got multi-collinearity.
 
 
 
