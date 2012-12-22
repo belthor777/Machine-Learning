@@ -142,6 +142,8 @@ i.e. μ_y|x_1, ..., x_q is constant
 	regression headcirc gestage tox gestox
 ```
 
+## Subset Regression ##
+
 
 
 
