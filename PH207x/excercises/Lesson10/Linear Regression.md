@@ -139,7 +139,9 @@ i.e. μ_y|x_1, ..., x_q is constant
 
 ```stata
 	gen gestox = gestage*tox
+	regression headcirc gestage tox gestox
 ```
+
 
 
 
