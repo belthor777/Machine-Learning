@@ -102,5 +102,10 @@ i.e. μ_y|x_1, ..., x_q is constant
 
 
 ## Indicator Variables  ##
+> Sometimes in the literature you'll see them called dummy variables, but why inflict that on them.  
+> So for example, let's look at tomexia. 
+
+* So if the mother was toxemic at delivery, then we say 1 this variable will take on the value 1. 
+* If the mother was not, then this variable will take on the value 0.
 
 
