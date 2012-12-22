@@ -158,7 +158,7 @@ If q sizeable, 2^q huge
 
 > So there are **q** variables, then we can do all two to the q. Turns out it's two to the q model fits. Now, apart from the fact that if you've got thousands of observations and q is sizable, it's going to take you the rest of your life to do all  
 
-### Collinear Problem ###
+### Collinear Problem - Multi-Collinearity ###
 > So if you have a high correlation, you might run into interpretation problems and fitting problems. That's the collinear problem.  
 > **collinear= Variables are perfectly correlated with each other.**  
 
