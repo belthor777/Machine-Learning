@@ -143,7 +143,14 @@ i.e. μ_y|x_1, ..., x_q is constant
 ```
 
 ## Subset Regression ##
+> So what you're doing when you're investigating is making sure that you're measuring everything, but then, you know that all these things, everything under the sun is interrelated with each other. And so that's not what you're looking for, you're looking to see is there a parsimonious way of explaining what's going on in terms of the more important, most important variables, and this we can generically label or umbrella, if you will, as the subset regression problem.  
+>  
+> So you've got outcome variable here, in this case, head circumference, and then you've got a whole bunch of variables that you can use to explain this. Which ones do you use in what combinations, et cetera, that's called the subset regression problem.
 
+* All possible models  
+If q sizeable, 2^q huge
+
+* 
 
 
 
