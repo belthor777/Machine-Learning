@@ -128,6 +128,9 @@ i.e. μ_y|x_1, ..., x_q is constant
 	regression headcirc gestage tox
 ```
 
-
+> Test with T-Test
+```stata
+	ttest headcirc, by(tox) unequal
+```
 
 
