@@ -105,7 +105,23 @@ i.e. μ_y|x_1, ..., x_q is constant
 > Sometimes in the literature you'll see them called dummy variables, but why inflict that on them.  
 > So for example, let's look at tomexia. 
 
-* So if the mother was toxemic at delivery, then we say 1 this variable will take on the value 1. 
-* If the mother was not, then this variable will take on the value 0.
+* So if the mother was toxemic at delivery, then we say 1 this variable will take on the value 1.  - **yes**
+* If the mother was not, then this variable will take on the value 0. **no**
+
+### Estimated regression equation ###
+
+```math
+	ŷ= 1.50 + 0.874*gestage - 1.41*tox
+```
+
+> *For toxemics:*
+```math
+	ŷ= 0.83 + 0.874*gestage
+```
+
+> *For non-toxemics:*
+```math
+	ŷ= 1.50 + 0.874*gestage
+```
 
 
