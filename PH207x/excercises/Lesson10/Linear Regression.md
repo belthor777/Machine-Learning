@@ -1,7 +1,13 @@
 # Linear Regression #
 ρ
 
+```math
+	μ_x|y= m*x + b
+```
+
+
 ## Simple Linear Regression ##
+> m= slope
 
 ### Correlation and slope ###
 > If X & Y are jointly normal (for each fixed X(Y) then Y(X) is normal) then
