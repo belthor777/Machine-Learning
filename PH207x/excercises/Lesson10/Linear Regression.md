@@ -31,13 +31,19 @@
 ```
 
 ## Least Squares ##
+> Stata Command:
+
+```stata
+	regress headcirc gestage
+```
+
 > Fitted (least squares) regression line: 
 
 ```math
 	headcirc= 3.914 + 0.78*gestage + e
 ```
 
-```stata
-	regress headcirc gestage
-```
+> where standard dev of e = 1.59
+
+
 
