@@ -162,7 +162,16 @@ If q sizeable, 2^q huge
 > So if you have a high correlation, you might run into interpretation problems and fitting problems. That's the collinear problem.  
 > **collinear= Variables are perfectly correlated with each other.**  
 
+> Results:
 
+          | No interaction term | Interaction term 
+----------| ------------------- | ------------------
+Coeff     | -1.412              | -2.815
+Std. Err. | 0.406               | 4.985
+T-Stat    | -3.477              | -0.565
+P-Value   | 0.001               | 0.574
+R²        | 0.653               | 0.653
+Adj. R²   | 0.646               | 0.642
 
 
 
