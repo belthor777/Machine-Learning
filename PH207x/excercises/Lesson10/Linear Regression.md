@@ -63,7 +63,18 @@
 * going up the ladder -> (going to the right)
 * goin down the ladder <- (going to the left)
 
+##  More on Transformations ##
+> This applet will give you some experience with transformations and what happens to curve shapes. Remember, we are here because we know how to handle linear regression. So if we are faced with a non-linear relationship then if we can linearize it then use the tools we have for linear regression.  
+>  
+> As you learnt, we can transform the y variable or the x variable. You have that capability by pressing any one of the green arrow heads in the top left-hand corner of the plot below. Pushing the up arrow makes you climb the appropriate ladder on the right of the graph. Clicking the down arrow makes you go down the ladder. The dot on the ladder tells you where you are. You always start at x, y.  
+> When you look at the plot you will see a series of points on the graph paper. You can generate a new set of points by clicking on either the "ideal" or "realistic" data buttons near the bottom. The latter button shows noisy data more like what you'd encounter in the real world.  
+>  
+> Once you have your data, the challenge is to try and choose the y or x (or both) transform to straighten out the x y relationship. Try it first with no noise and once you get the hang of it, try it with noise added.  
+>  
+> The green dots are the original data, the blue dots are the transformed data. The straight lines are the least squares lines through the points.  
 
+> Link: https://www.edx.org/courses/HarvardX/PH207x/2012_Fall/courseware/Week_10/week10:bio10/19
 
+## Multiple Linear Regression ##
 
 
