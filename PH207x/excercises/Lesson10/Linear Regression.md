@@ -101,4 +101,6 @@ i.e. μ_y|x_1, ..., x_q is constant
 > where standard dev of e = 1.27
 
 
+## Indicator Variables  ##
+
 
