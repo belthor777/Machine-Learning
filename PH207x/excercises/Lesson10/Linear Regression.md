@@ -9,8 +9,6 @@
 ## Simple Linear Regression ##
 > m= slope
 
-|video|(http://www.youtube.com/watch?v=fFO-Y7NfqMg&feature=g-all-u)
-
 ### Correlation and slope ###
 > If X & Y are jointly normal (for each fixed X(Y) then Y(X) is normal) then
 
