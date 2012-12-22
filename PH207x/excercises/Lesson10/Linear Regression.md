@@ -30,4 +30,9 @@
 	H_0: σ_y=σ_y|x
 ```
 
+## Least Squares ##
+
+```stata
+	regress headcirc gestage
+```
 
