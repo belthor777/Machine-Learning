@@ -2,7 +2,7 @@
 ρ
 
 ```math
-	m*x + b
+	y= m*x + b
 ```
 
 
@@ -77,4 +77,7 @@
 
 ## Multiple Linear Regression ##
 
+```math
+	y= α + β_1*x_1 + β_2*x_2 ... + β_q*x_q + ε
+```
 
