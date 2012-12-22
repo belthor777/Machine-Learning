@@ -128,7 +128,9 @@ i.e. μ_y|x_1, ..., x_q is constant
 	regression headcirc gestage tox
 ```
 
-> Test with T-Test
+#### Test with T-Test  #####
+> And so here's the t-test for head circumference by toxemia. And we see that we have 79 observations who are non toxemic and 21 who are toxemic. And we see that the t-test is not significant.
+
 ```stata
 	ttest headcirc, by(tox) unequal
 ```
