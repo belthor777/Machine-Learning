@@ -80,7 +80,12 @@
 ```math
 	y= α + β_1*x_1 + β_2*x_2 ... + β_q*x_q + ε
 ```
-
-> Asume:
+> Asume:  
 
 1. For fixes x_1, ..., x_q, y is **normally** distributed with mean μ_y|x_1 ...., x_q and standard deviation σ_y|x1, ...., x_q
+2. μ_y|x_1, ...., x_q is linear in x_1, ...., x_q   
+i.e. μ_y|x_1, ...., x_q= α + β_1*x_1 + ... + β_q*x_q
+3. Homoscedasticity  
+i.e. μ_y|x_1, ..., x_q is constant
+
+
