@@ -31,6 +31,7 @@
 ```
 
 ## Least Squares ##
+> Applet: http://illuminations.nctm.org/LessonDetail.aspx?id=L455  
 > Stata Command:
 
 ```stata
