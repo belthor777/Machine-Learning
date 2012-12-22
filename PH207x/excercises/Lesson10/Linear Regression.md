@@ -147,10 +147,14 @@ i.e. μ_y|x_1, ..., x_q is constant
 >  
 > So you've got outcome variable here, in this case, head circumference, and then you've got a whole bunch of variables that you can use to explain this. Which ones do you use in what combinations, et cetera, that's called the subset regression problem.
 
-* All possible models  
+* **All possible models**  
 If q sizeable, 2^q huge
 
-* 
+* **Forward Selection**  
+(i)Choose one Variable, (ii) push this into the model and then (iii) look at the other variables
+
+* **Backward Selection**  
+(i) Fit "all", (ii) Drop least signicant and then (iii) go back to (i)
 
 > So there are q variables, then we can do all two to the q. Turns out it's two to the q model fits. Now, apart from the fact that if you've got thousands of observations and q is sizable, it's going to take you the rest of your life to do all  
 
