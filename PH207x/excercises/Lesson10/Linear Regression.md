@@ -87,5 +87,10 @@
 i.e. μ_y|x_1, ...., x_q= α + β_1*x_1 + ... + β_q*x_q
 * Homoscedasticity  
 i.e. μ_y|x_1, ..., x_q is constant
+* The y's are independent
+
+> => **Minimize SUM from i=1 to n (y_i - a - b_1*x_1... -b_q*x_q)^2**
+
+
 
 
