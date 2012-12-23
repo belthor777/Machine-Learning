@@ -262,4 +262,15 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 	ε_i ~ N(0, 7.2804^2)
 ```
 
+> **Important:** It is a very important aspect of linear regression that you always need to keep in mind that we can't extrapolate beyond the minimum value (here: 48).
+
+### Test that hypothesis β= 0 vs β !=0 ###
+> The next thing I want to do is I want to test the hypothesis that beta is equal to 0 versus the alternative the beta is not equal to 0.  
+> H_0: β= 0  
+> H_A: β != 0  
+>  
+> ^β=1.16  
+> ^σ(β)= 0.02  
+> t=52.19
+
 
