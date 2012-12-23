@@ -206,10 +206,10 @@ Adj. R²    | 0.646               | 0.642
 	pwcorr recommendyes nursealways
 ```
 
-             | recomm~s  | nursea~s
------------- | --------- | ---------
-recommendyes |   1.0000  | 
- nursealways |   0.6580  | 1.0000 
+             | recommendyes  | nursealways
+------------ | ------------- | ------------
+recommendyes |   1.0000      | 
+ nursealways |   0.6580      | 1.0000 
 
 
 > p: 0.66
