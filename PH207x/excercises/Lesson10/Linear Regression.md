@@ -217,7 +217,7 @@ recommendyes |   1.0000      |
 > Y_i= % patients in hospital i who would always recommend this hospital. | i=1,2,...,n  
 > X_i= % patients in hospital i who say that their nurse always communicated well.  
 > ε_i= residual error -> ε_i ~ N(0, T²)  
-> = α + β_1*x_i + ε_i
+> y_i= α + β_1*x_i + ε_i
 > μ_y_i|x_i= E(y_i|x_i)= α + β*x   | Y_i ~ N(μ_y_i|x_i, σ²)
 
 ### Assumptions ###
@@ -247,4 +247,10 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
        _cons |  -19.21559   1.712829   -11.22   0.000    -22.57381   -15.85737
 ------------------------------------------------------------------------------
 ```
+
+```math
+	y_i= -19.21559 + 1.159487*x_i + ε_i
+	ε_i ~ N(0, 7.2804^2)
+```
+
 
