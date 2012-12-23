@@ -259,7 +259,7 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 
 ```math
 	y_i= -19.21559 + 1.159487*x_i + ε_i
-	ε_i ~ N(0, 7.2804^2)
+	ε_i ~ N(0, 7.2804²)
 ```
 
 > **Important:** It is a very important aspect of linear regression that you always need to keep in mind that we can't extrapolate beyond the minimum value (here: 48).
