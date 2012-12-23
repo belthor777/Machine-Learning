@@ -211,6 +211,6 @@ Adj. R²    | 0.646               | 0.642
 recommendyes |   1.0000      | 
  nursealways |   0.6580      | 1.0000 
 
+> I find that the correlation between these two variables is **p=0.66**. So it does appear that they are positively correlated.
 
-> p: 0.66
 
