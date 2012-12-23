@@ -219,3 +219,10 @@ recommendyes |   1.0000      |
 > ε_i= residual error -> ε_i ~ N(0, T²)  
 > = α + β_1*x_i + ε_i
 > μ_y_i|x_i= E(y_i|x_i)= α + β*x   | Y_i ~ N(μ_y_i|x_i, σ²)
+
+### Assumptions ###
+
+* We can assume that the **hospitals are independent** of each other, and so it seems reasonable to say that we have independent observations, or independent hospitals.
+* We need to assume that there's a **linear relationship between the outcome in covariate**. And we looked at the scatter plot and this looked pretty reasonable.
+* 
+
