@@ -314,4 +314,7 @@ a hospital.
 >  
 > However, there's really typically never a definitive answer to whether your **model fit is good**.
 
+#### Predict the expected percent of patients ####
+> The next thing I want to do is I want to predict the expected percent of patients who will always recommend the hospital when the percent of nurses who always communicate well is 80%
+
 
