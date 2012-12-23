@@ -298,7 +298,7 @@ a hospital.
 > What I'm looking for here is I don't want to see any trends in these residuals.
 > * I see that they're about means 0.
 > * I don't see any weird trends going on.
-> * If I saw any U shapes or the residuals getting larger over time, these would be problems.
+> * If I saw any U shapes or the residuals getting larger over time, these would be problems.  
 > So as long as you don't see any patterns in that residual plot, that **means your model's probably doing OK**.
 
 #### Residual versus predictor plot ####
@@ -309,7 +309,7 @@ a hospital.
 > So I can look at the residuals now as a function of the covariate in the model.  
 > And again, I don't see any major trends in this residual plot. Things look OK, so I can assume that the fit of my model looks OK. 
 > * I don't see any major outliers.
-> * I don't see anywhere trends in my residuals.
+> * I don't see anywhere trends in my residuals.  
 > However, there's really typically never a definitive answer to whether your **model fit is good**.
 
 
