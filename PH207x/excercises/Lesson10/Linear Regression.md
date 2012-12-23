@@ -218,4 +218,4 @@ recommendyes |   1.0000      |
 > X_i= % patients in hospital i who say that their nurse always communicated well.  
 > ε_i= residual error -> ε_i ~ N(0, T²)  
 > = α + β_1*x_i + ε_i
-
+> μ_y_i|x_i= E(y_i|x_i)= α + β*x   | Y_i ~ N(μ_y_i|x_i, σ²)
