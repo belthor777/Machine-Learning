@@ -215,7 +215,7 @@ recommendyes |   1.0000      |
 
 ### State your model ###
 > Y_i= % patients in hospital i who would always recommend this hospital. | i=1,2,...,n  
-> X_i= x is defined as, again, the percent of patients in hospital i who say that their nurse always communicated well.  
-> ε_i= residual error
+> X_i= % patients in hospital i who say that their nurse always communicated well.  
+> ε_i= residual error -> ε_i ~ N(0, T²)  
 > = α + β_1*x_i + ε_i
 
