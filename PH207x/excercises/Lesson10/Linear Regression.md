@@ -224,5 +224,7 @@ recommendyes |   1.0000      |
 
 * We can assume that the **hospitals are independent** of each other, and so it seems reasonable to say that we have independent observations, or independent hospitals.
 * We need to assume that there's a **linear relationship between the outcome in covariate**. And we looked at the scatter plot and this looked pretty reasonable.
-* 
+* The next two assumptions are the ones that are a little bit hairier to try to interpret in practice:
+	+ The first is that **Y_i|X_i ~ N** - So the outcome given the covariate is **normally distributed**.
+	+ The next assumption we need to make is **homoskedasticity**, and this is just a very long word that means constant variance.
 
