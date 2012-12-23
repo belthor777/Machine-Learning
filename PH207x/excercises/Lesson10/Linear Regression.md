@@ -194,4 +194,14 @@ Adj. R²    | 0.646               | 0.642
 	use "hospitaldata.dta"
 ```
 
+## Tutorial: Simple Linear Regression ##
+> We examine predictors of hospital ratings using publicly available *hospital-level* survey information from https://data.medicare.gov .
+
+* **nursealways** - percent of patients in a hospital who said their nurse always communicated well (*explanatory*)
+* **recommendyes** - percent of patients who would always recommend the hospital (*outcome*)
+
+```stata
+	use "hospitaldata.dta"
+	scatter
+```
 
