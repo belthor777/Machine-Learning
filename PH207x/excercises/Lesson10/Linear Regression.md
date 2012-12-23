@@ -290,13 +290,14 @@ a hospital.
 
 ### Analyze by plot ###
 
+> Residual versus fitted plot.
 ```stata
 	rvfplot
 ```
 
+> Residual versus predictor plot.
 ```stata
 	rvpplot nursealways
 ```
-
 
 
