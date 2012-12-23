@@ -202,6 +202,6 @@ Adj. R²    | 0.646               | 0.642
 
 ```stata
 	use "hospitaldata.dta"
-	scatter
+	twoway (scatter recommendyes nursealways)
 ```
 
