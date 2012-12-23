@@ -179,6 +179,19 @@ Adj. R²   | 0.646               | 0.642
 * And look at the P value went from 0.001 to 0.574, and the R-squared didn't change. 
 * The R-squares didn't change at all. They're basically the same thing. Tip-off that you've got **multi-collinearity**.
 
+## Example: Hospital Ratings ##
+> In the tutorial sequence this week, we examine predictors of hospital ratings using publicly available hospital-level survey information from https://data.medicare.gov . The dataset contains "a list of hospital ratings for the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS). HCAHPS (http://www.hcahpsonline.org/home.aspx) is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay." To access this dataset online, go here (https://data.medicare.gov/dataset/Survey-of-Patients-Hospital-Experiences-HCAHPS-/rj76-22dk).  
+>  
+> We excluded any hospitals with missing data (complete case analysis). We aim to examine trends in hospitals, and assume that this sample is representative of hospitals in the United States. Each line in this dataset represents one hospital. The variables are continuous, representing percentages from patient respondents.  
+>  
+> Hospitals aiming to improve their ratings could use this database to find the areas that are influential for patient ratings. They could examine synergies between variables to pinpoint exactly where they should invest their improvements to provide the best patient experience. Linear regression is a tool that facilitates such analyses.  
+>  
+> On the boards below, discuss any advantages to using linear regression, rather than simple calculating correlations, in this application.  
+>  
+> (The dataset is included below, if you would like to further familiarize yourself with the data before beginning the tutorial sequence.)
 
+```stata
+	use "hospitaldata.dta"
+```
 
 
