@@ -295,6 +295,12 @@ a hospital.
 	rvfplot
 ```
 
+> What I'm looking for here is I don't want to see any trends in these residuals.
+> * I see that they're about means 0.
+> * I don't see any weird trends going on.
+> * If I saw any U shapes or the residuals getting larger over time, these would be problems.
+> So as long as you don't see any patterns in that residual plot, that means your model's probably doing OK.
+
 #### Residual versus predictor plot ####
 ```stata
 	rvpplot nursealways
