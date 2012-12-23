@@ -270,7 +270,7 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 > H_A: β != 0  
 >  
 > ^β=1.16  
-> ^σ(β)= 0.02  
-> t=52.19
+> ^σ(β)=Std. Err.= 0.02  
+> t=t-test=52.19
 
 
