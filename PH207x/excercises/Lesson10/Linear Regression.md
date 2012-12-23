@@ -300,4 +300,10 @@ a hospital.
 	rvpplot nursealways
 ```
 
+> So I can look at the residuals now as a function of the covariate in the model.  
+> And again, I don't see any major trends in this residual plot. Things look OK, so I can assume that the fit of my model looks OK. 
+> * I don't see any major outliers.
+> * I don't see anywhere trends in my residuals.
+> However, there's really typically never a definitive answer to whether your **model fit is good**.
+
 
