@@ -230,7 +230,6 @@ recommendyes |   1.0000      |
 
 ```stata
 	regress recommendyes nursealways
-	sum nursealways
 ```
 
 ```
@@ -247,6 +246,10 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
  nursealways |   1.159487   .0222169    52.19   0.000     1.115928    1.203046
        _cons |  -19.21559   1.712829   -11.22   0.000    -22.57381   -15.85737
 ------------------------------------------------------------------------------
+```
+
+```stata
+	sum nursealways
 ```
 
     Variable |       Obs   |       Mean  |    Std. Dev.  |  Min   | Max
