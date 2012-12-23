@@ -288,3 +288,15 @@ a hospital.
 > * the remaining 57% of the variability is unexplained, implying that there are other factors that contribute to whether the percent of patients
 > * the remaining 57% of the variability is unexplained, implying that there are other factors that contribute to the variability in this *recommendyes* outcome.
 
+### Analyze by plot ###
+
+```stata
+	rvfplot
+```
+
+```stata
+	rvpplot nursealways
+```
+
+
+
