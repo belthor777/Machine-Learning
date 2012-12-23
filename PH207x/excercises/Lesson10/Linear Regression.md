@@ -281,7 +281,7 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 a hospital.
 
 ### Amount of variability explained by my covariate ###
-> I can look at the **r²**. For this model my r² is equal to 0.4329.  
+> I can look at the **r²**. For this model my **r²=0.4329**.  
 > r² is known as the coefficient of determination, and in this example it tells us:
 > * that 43% of the variability among the observed values of *recommendyes*, 
 > * the outcome, 40% of that variability is explained by the linear relationship with *nursealways*.
