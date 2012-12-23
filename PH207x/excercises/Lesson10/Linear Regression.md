@@ -280,5 +280,11 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 > **Conclusion:** I would reject my null hypothesis and conclude that the percent of patients who say that a nurse always communicates well is positively correlated with a percent of patients who would always recommend
 a hospital.
 
-
+### Amount of variability explained by my covariate ###
+> I can look at the **r²**. For this model my r² is equal to 0.4329.  
+> r² is known as the coefficient of determination, and in this example it tells us:
+> * that 43% of the variability among the observed values of *recommendyes*, 
+> * the outcome, 40% of that variability is explained by the linear relationship with *nursealways*.
+> * the remaining 57% of the variability is unexplained, implying that there are other factors that contribute to whether the percent of patients
+> * the remaining 57% of the variability is unexplained, implying that there are other factors that contribute to the variability in this *recommendyes* outcome.
 
