@@ -317,4 +317,10 @@ a hospital.
 #### Predict the expected percent of patients ####
 > The next thing I want to do is I want to predict the expected percent of patients who will always recommend the hospital when the percent of nurses who always communicate well is 80%
 
+> ⁻y_i|x_i=80  
+
+> So what I want to do is I want to look at the average value of Yi when Xi is equal to 80. And the way that I can estimate that guy is I can say this is equal to alpha hat plus beta hat times, and I just plug in 80 for Xi.
+
+> y_i= α + β_1*x_i + ε_i
+
 
