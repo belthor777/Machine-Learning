@@ -203,5 +203,14 @@ Adj. R²    | 0.646               | 0.642
 ```stata
 	use "hospitaldata.dta"
 	twoway (scatter recommendyes nursealways)
+	pwcorr recommendyes nursealways
 ```
+
+             | recomm~s  | nursea~s
+------------ | --------- | ---------
+recommendyes |   1.0000  | 
+ nursealways |   0.6580  | 1.0000 
+
+
+> p: 0.66
 
