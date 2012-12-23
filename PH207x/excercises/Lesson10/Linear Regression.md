@@ -165,13 +165,13 @@ If q sizeable, 2^q huge
 > Results:
 
            | No interaction term | Interaction term 
----------- | ------------------- | ------------------
-Coeff      | -1.412              | -2.815
-Std. Err.  | 0.406               | 4.985
-T-Stat     | -3.477              | -0.565
-P-Value    | 0.001               | 0.574
-R²         | 0.653               | 0.653
-Adj. R²    | 0.646               | 0.642
+---------- | ------------------- | ------------------ 
+Coeff      | -1.412              | -2.815 
+Std. Err.  | 0.406               | 4.985 
+T-Stat     | -3.477              | -0.565 
+P-Value    | 0.001               | 0.574 
+R²         | 0.653               | 0.653 
+Adj. R²    | 0.646               | 0.642 
 
 > **Hint:** Look at the Standard Error, T-Statistics and R-Squares.  
 * Look at the standard error, there's a tenfold increase in the standard error, and that's usually a tip-off that you've got some **multi-collinearity** possibly.  
