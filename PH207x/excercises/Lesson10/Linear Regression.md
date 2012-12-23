@@ -277,5 +277,8 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 > Now I know that under my null hypothesis that my t statistic follows a t distribution with **Z=n-2** degrees of freedom. And I see up here that my number of observations is **n=3,570**, so it would be **3,568 degrees** of freedom.  
 > Z ~H_o t_3568 => p-value < 0.001
 
+> **Conclusion:** I would reject my null hypothesis and conclude that the percent of patients who say that a nurse always communicates well is positively correlated with a percent of patients who would always recommend
+a hospital.
+
 
 
