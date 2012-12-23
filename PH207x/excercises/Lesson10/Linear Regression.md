@@ -228,3 +228,23 @@ recommendyes |   1.0000      |
 	+ The first is that **Y_i|X_i ~ N** - So the outcome given the covariate is **normally distributed**.
 	+ The next assumption we need to make is **homoskedasticity**, and this is just a very long word that means constant variance.
 
+```stata
+	regress recommendyes nursealways
+```
+
+```
+      Source |       SS       df       MS              Number of obs =    3570
+-------------+------------------------------           F(  1,  3568) = 2723.72
+       Model |  144368.851     1  144368.851           Prob > F      =  0.0000
+    Residual |  189118.972  3568  53.0041962           R-squared     =  0.4329
+-------------+------------------------------           Adj R-squared =  0.4327
+       Total |  333487.823  3569  93.4401297           Root MSE      =  7.2804
+
+------------------------------------------------------------------------------
+recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+ nursealways |   1.159487   .0222169    52.19   0.000     1.115928    1.203046
+       _cons |  -19.21559   1.712829   -11.22   0.000    -22.57381   -15.85737
+------------------------------------------------------------------------------
+```
+
