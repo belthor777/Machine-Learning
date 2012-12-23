@@ -213,4 +213,9 @@ recommendyes |   1.0000      |
 
 > I find that the correlation between these two variables is **p=0.66**. So it does appear that they are positively correlated.
 
+### State your model ###
+> Y_i= % patients in hospital i who would always recommend this hospital. | i=1,2,...,n  
+> X_i= x is defined as, again, the percent of patients in hospital i who say that their nurse always communicated well.  
+> ε_i= residual error
+> = α + β_1*x_i + ε_i
 
