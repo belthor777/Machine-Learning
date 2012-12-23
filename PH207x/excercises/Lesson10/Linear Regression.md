@@ -273,5 +273,9 @@ recommendyes |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 > ^σ(β)=Std. Err.= 0.02  
 > t=t-test=52.19
 
-> Now I know that under my null hypothesis that my t statistic follows a t distribution with **n-2** degrees of freedom. And I see up here that my number of observations is **n=3,570**, so it would be **3,568 degrees** of freedom.
+
+> Now I know that under my null hypothesis that my t statistic follows a t distribution with **Z=n-2** degrees of freedom. And I see up here that my number of observations is **n=3,570**, so it would be **3,568 degrees** of freedom.  
+> Z ~H_o t_3568 => p-value < 0.001
+
+
 
