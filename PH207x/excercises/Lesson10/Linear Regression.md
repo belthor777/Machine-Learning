@@ -110,6 +110,8 @@ i.e. μ_y|x_1, ..., x_q is constant
 
 ### Estimated regression equation ###
 
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
+
 ```math
 	ŷ= 1.50 + 0.874*gestage - 1.41*tox
 ```
