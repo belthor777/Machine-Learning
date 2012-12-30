@@ -219,7 +219,7 @@ And I'm going to measure **odds ratios** in each of these tables, and use **Mant
 
 ## Results of Matching - Question ##
 Matching in a case-control study:
-* A. Results in narrower confidence intervals than would have been obtained if one did not conduct a matched study. 
+* => **A. Results in narrower confidence intervals than would have been obtained if one did not conduct a matched study.**
 * B. Provides an unbiased estimate of the association even without accounting for the matching in the analysis. 
 * C. Limits the potential for recall bias. 
 * D. Choices A and B
