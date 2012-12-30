@@ -14,6 +14,8 @@
 	* Still requires adjustment for the matching factor in the analysis
 
 ### DAG with Confounding ###
-1. **Confounder -> Exposure**: Target of Matching in Cohort Studies
+1. **Confounder -> Exposure**: Target of Matching in Cohort Studies  
+So what matching does in a cohort study, it addresses the relationship
+between the potential confounder.
 2. **Confounder -> Outcome**: Target of Matching in Case Control Studies
 3. **Exposure -> Outcome**:
