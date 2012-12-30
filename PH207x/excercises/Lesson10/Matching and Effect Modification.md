@@ -75,6 +75,7 @@ When performing matching in a case-control study:
              | **+**         | **-** | **Total** | **+**           | **-** | **Total** 
  Exposed     | 480           | 7520  | 8000      | 60              | 1940  | 2000      
  Non-Exposed | 40            | 1960  | 2000      | 80              | 7920  | 8000      
+ Risk Ratio  |               |       | 3.0       |                 |       | 3.0 
 
 
 Now, remember a confounder has to have two relationships:
