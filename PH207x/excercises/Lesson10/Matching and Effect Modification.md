@@ -197,7 +197,7 @@ Odd Ratio is less than 3.0. It's under estimating the true effect. That's the im
 
 #### Conclusion ####
 * Matching by sex alone did not avoid confounding
-* adjusted analysis is still required
+* **Adjusted analysis is still required**
 * Problem: two reasons for high prevalence of male sex among cases
 	- Sex is a risk factor
 	- Exposure a risk factor and sex associated with exposure
