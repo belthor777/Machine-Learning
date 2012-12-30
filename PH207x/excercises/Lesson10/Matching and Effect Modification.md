@@ -168,6 +168,7 @@ Now, remember a confounder has to have two relationships:
  Total   | 540 (82%) | 120 (18%)    | 660 
 
 	- **Control (Panel A for source population):**  
+  
          | Exposed   | Non-Exposed  | Total
 -------- | --------- | ------------ | ------
  Males   | 416 (80%) | 104 (20%)    | 520 
