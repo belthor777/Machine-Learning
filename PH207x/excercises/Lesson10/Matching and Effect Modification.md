@@ -34,4 +34,9 @@ The problem is there are two reasons, as I look at my cases and select their mat
 	- Builds similar distributions of any correlate of the confounder (e.g. exposure) among the cases and controls
 * Implication: Biases crude **odds ratio** towards its null value (1.0)
 
-
+## How to Perform Matching ##
+When performing matching in a case-control study:
+* Controls are selected to have a similar distribution of the matching factors as the cases. 
+* Non-exposed subjects are selected to have similar distribution of the matching factors as exposed subjects. 
+* Cases are selected to represent the exposure distribution in the general population. 
+* Controls are selected to have a similar distribution of the exposure as the cases. 
