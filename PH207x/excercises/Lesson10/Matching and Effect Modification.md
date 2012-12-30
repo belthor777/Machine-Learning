@@ -160,6 +160,7 @@ Now, remember a confounder has to have two relationships:
 
 * **B. Exposure and sex-specific risks of outcome**  
 	- **Cases (Panel C for source population):**  
+  
          | Exposed   | Non-Exposed  | Total
 -------- | --------- | ------------ | ------
  Males   | 480 (92%) | 40 (8%)      | 520 
