@@ -115,4 +115,21 @@ Now, remember a confounder has to have two relationships:
  Males   | 0.06    | 0.02
  Females | 0.03    | 0.01
 
+* **C. Expected number of outcomes**  
+  
+         | Exposed | Non-Exposed  | Total
+-------- | ------- | ------------ | ------ 
+ Males   | 48      | 16           | 
+ Females | 6       | 2            | 
+ Total   | 54      | 18           | 72 
+
+* **D. Expected sex-specific data**  
+  
+             | Males Outcome |       | *Total*   | Females Outcome |       | *Total* 
+------------ | ------------- | ----- | --------- | --------------- | ----- | --------- 
+             | **+**         | **-** |           | **+**           | **-** | 
+ Exposed     | 48            | 752   | 800       | 6               | 194   | 200      
+ Non-Exposed | 16            | 784   | 800       | 2               | 198   | 200      
+ Risk Ratio  |               |       | 3.0       |                 |       | 3.0      
+
 
