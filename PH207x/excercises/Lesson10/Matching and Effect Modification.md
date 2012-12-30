@@ -132,7 +132,7 @@ Now, remember a confounder has to have two relationships:
  Non-Exposed | 16            | 784   | 800       | 2               | 198   | 200      
  Risk Ratio  |               |       | 3.0       |                 |       | 3.0      
 
-* **D. Expected crude data**  
+* **E. Expected crude data**  
   
              | Outcome       |       | *Total*  
 ------------ | ------------- | ----- | --------- 
