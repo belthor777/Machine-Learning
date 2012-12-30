@@ -66,15 +66,15 @@ When performing matching in a case-control study:
  Males   | 480     | 40           | 
  Females | 60      | 80           | 
  Total   | 540     | 120          | 660 
-
-Now, remember a confounder has to have two relationships:
+  
+Now, remember a confounder has to have two relationships:  
 1. It has to be in balance in the two groups you're comparing.
 2. But it also has to be an independent risk factor or at least a marker or a determinant of developing the disease.
-
+  
 > So right now from these two characteristics, characteristic **A** and characteristic **B** on this slide, we can say that this particular factor of sex **should be a confounder**. It's satisfying the two criteria that confounder has to have.
-
+  
 > **The risk changes from 2% to 6%**. So what's the right answer for the effect of the exposure? The risk ratio here is **3.0**. Regardless whether you're male or female, the exposure triples your risk.
-
+  
 #### DAG with Sex - Causal Diagram ####
 1. **Sex -> Exposure**: ***80%***
 2. **Sex -> Disease**: ***Risk Ratio= 2%***
