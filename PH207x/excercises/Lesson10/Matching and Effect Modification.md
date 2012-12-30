@@ -143,7 +143,7 @@ Now, remember a confounder has to have two relationships:
 
 
 #### Conclusion for cohort study ####
-* I no longer have a relationship in my data set between sex and exposure (between sex and smoking)
+* I no longer have a relationship in my data set between sex and exposure (between sex and smoking). Therefore, **sex should not be a confounder**.
 
 
 
