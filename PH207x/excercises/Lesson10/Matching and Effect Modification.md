@@ -13,3 +13,7 @@
 * Matching alone does not necessarily avoid confounding in case-control studies
 	* Still requires adjustment for the matching factor in the analysis
 
+### DAG with Confounding ###
+1. **Confounder -> Exposure**: Target of Matching in Cohort Studies
+2. **Confounder -> Outcome**: Target of Matching in Case Control Studies
+3. **Exposure -> Outcome**:
