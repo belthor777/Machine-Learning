@@ -175,4 +175,20 @@ Now, remember a confounder has to have two relationships:
  Females | 28 (20%)  | 112 (80%)    | 140 
  Total   | 444 (67%) | 216 (33%)    | 660 
 
+* **C. Expected sex-specific data**  
+  
+             | Males Exposure |       | *Total*   | Females Exposure |       | *Total* 
+------------ | -------------- | ----- | --------- | ---------------- | ----- | --------- 
+             | **+**          | **-** |           | **+**            | **-** | 
+ Exposed     | 480            | 40    | 520       | 60               | 80    | 140 
+ Non-Exposed | 416            | 104   | 520       | 28               | 112   | 140 
+ Odd Ratio   |                |       | 3.0       |                  |       | 3.0 
 
+* **D. Expected crude data**  
+  
+             | Outcome       |       | *Total*  
+------------ | ------------- | ----- | --------- 
+             | **+**         | **-** |           
+ Exposed     | 540           | 120   | 660 
+ Non-Exposed | 444           | 216   | 660 
+ Oddd Ratio  |               |       | 2.2 
