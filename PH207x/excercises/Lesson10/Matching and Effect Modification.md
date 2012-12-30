@@ -70,7 +70,7 @@ When performing matching in a case-control study:
 
 * **D. Expected sex-specific data**  
   
-             | Males Outcome |       |           | Females Outcome |       
+             | Males Outcome |       |           | Females Outcome | 
 ------------ | ------------- | ----- | --------- | --------------- | ----- | --------- 
              | **+**         | **-** | **Total** | **+**           | **-** | **Total** 
  Exposed     | 480           | 7520  | 8000      | 60              | 1940  | 2000 
