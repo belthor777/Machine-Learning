@@ -89,11 +89,12 @@ Now, remember a confounder has to have two relationships:
  Non-Exposed | 40            | 1960  | 2000      | 80              | 7920  | 8000      
  Risk Ratio  |               |       | 3.0       |                 |       | 3.0       
 
-### Conclusion ###
+#### Conclusion ####
 * Sex appears to be a confounder
 	- Associated with the exposure in the source population
 	- Independent determinant of the outcome
 * RR_Crude=4.5 != RR_Adjusted=3.0
 
 
+### Example Matched  ###
 
