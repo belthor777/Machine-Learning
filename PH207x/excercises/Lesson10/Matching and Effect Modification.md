@@ -28,3 +28,10 @@ The problem is there are two reasons, as I look at my cases and select their mat
 	1. Old age itself influences the risk of having disease, so older people are going to be **more likely** to be your cases.
 	2. But remember, old age might also be related to whether you smoke or you don't smoke. And smoking brings with it higher risk of getting heart disease.
 
+### Summary: Case Control Studies ###
+* Matching on a confounder in a case control study:
+	- Builds similar distributions of confounder among the cases and controls
+	- Builds similar distributions of any correlate of the confounder (e.g. exposure) among the cases and controls
+* Implication: Biases crude odds ratio towards its null value (1.0)
+
+
