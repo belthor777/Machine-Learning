@@ -44,7 +44,7 @@ When performing matching in a case-control study:
 ## Example of Matching ##
 
 ### Example of confounding by sex in a large population ###
-* Sex distribution among exposed and among non-exposed subjects in the source population  
+* **Sex distribution among exposed and among non-exposed subjects in the source population**  
   
          | Exposed     | Non-Exposed
 -------- | ----------- | ------------
@@ -52,7 +52,7 @@ When performing matching in a case-control study:
  Females | 2,000 (20%) | 2,000 (20%)
  Total   | 10,000      | 10,000
 
-* Exposure and sex-specific risks of outcome  
+* **Exposure and sex-specific risks of outcome**  
   
          | Exposed | Non-Exposed
 -------- | ------- | ------------
