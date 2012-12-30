@@ -39,5 +39,6 @@ When performing matching in a case-control study:
 * => **Controls are selected to have a similar distribution of the matching factors as the cases.**
 * Non-exposed subjects are selected to have similar distribution of the matching factors as exposed subjects. 
 * Cases are selected to represent the exposure distribution in the general population.
-
 * Controls are selected to have a similar distribution of the exposure as the cases. 
+
+
