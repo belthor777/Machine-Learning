@@ -15,7 +15,9 @@
 
 ### DAG with Confounding ###
 1. **Confounder -> Exposure**: Target of Matching in Cohort Studies  
-So what matching does in a cohort study, it addresses the relationship
+-> So what matching does in a cohort study, it addresses the relationship
 between the potential confounder.
 2. **Confounder -> Outcome**: Target of Matching in Case Control Studies
+	* And I said in a cohort study, matching blocks that relationship.
+	* And it also has been independent risk factor for the outcome.
 3. **Exposure -> Outcome**:
