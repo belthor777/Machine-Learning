@@ -8,4 +8,8 @@
 	* **Cohort Study**: Non-exposed subjects selected to have similar distribution of as exposed subjects
 	* **Case Control Study**: Controls selected to have similar distribution of as cases
 
+### Motivation for Matching: Avoid Confounding ###
+* **Matching alone avoids confounding in cohort studies (probided there is a fixed matching ratio)**
+* Matching alone does not necessarily avoid confounding in case-control studies
+	* Still requires adjustment for the matching factor in the analysis
 
