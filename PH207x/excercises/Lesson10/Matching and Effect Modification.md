@@ -76,9 +76,11 @@ Now, remember a confounder has to have two relationships:
 > **The risk changes from 2% to 6%**. So what's the right answer for the effect of the exposure? The risk ratio here is **3.0**. Regardless whether you're male or female, the exposure triples your risk.
   
 **=> DAG with Sex - Causal Diagram**
+
 1. **Sex -> Exposure**: ***80%***
 2. **Sex -> Disease**: ***Risk Ratio= 2%***
 3. **Exposure -> Disease**:
+
 
 * **D. Expected sex-specific data**  
   
@@ -96,7 +98,7 @@ Now, remember a confounder has to have two relationships:
 * RR_Crude=4.5 != RR_Adjusted=3.0
 
 
-### Example Matched  ###
+### Example Matched (by sex) cohort study ###
 **Matched (by sex) cohort study** based on 1000 exposed subjects selected at random from the source population
 * **A. Sex distribution among exposed and among matched non-exposed subjects**  
   
