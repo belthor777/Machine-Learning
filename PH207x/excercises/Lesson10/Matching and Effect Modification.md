@@ -32,6 +32,6 @@ The problem is there are two reasons, as I look at my cases and select their mat
 * Matching on a confounder in a case control study:
 	- Builds **similar distributions** of confounder among the cases and controls
 	- Builds similar distributions of any correlate of the confounder (e.g. exposure) among the cases and controls
-* Implication: Biases crude odds ratio towards its null value (1.0)
+* Implication: Biases crude **odds ratio** towards its null value (1.0)
 
 
