@@ -63,3 +63,4 @@ Now, remember a confounder has to have two relationships:
 1. It has to be in balance in the two groups you're comparing.
 2. But it also has to be an independent risk factor or at least a marker or a determinant of developing the disease.
 
+> So right now from these two characteristics, characteristic A and characteristic B on this slide, we can say that this particular factor of sex should be a confounder. It's satisfying the two criteria that confounder has to have.
