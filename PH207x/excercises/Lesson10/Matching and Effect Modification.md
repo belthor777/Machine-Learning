@@ -25,6 +25,6 @@ between the potential confounder.
 #### Why I want to have old people in my study? ####
 The problem is there are two reasons, as I look at my cases and select their match controls matching by age, there are **two reasons I might see a lot of old people among my cases**. The two reasons are, 
 * that if age is my potential confounder, and CHD-- coronary heart disease-- is my outcome, there are two potential mechanisms by which old people could end up being cases in your study.
-	* Old age itself influences the risk of having disease, so older people are going to be **more likely** to be your cases.
-	*But remember, old age might also be related to whether you smoke or you don't smoke. And smoking brings with it higher risk of getting heart disease.
+	1. Old age itself influences the risk of having disease, so older people are going to be **more likely** to be your cases.
+	2. But remember, old age might also be related to whether you smoke or you don't smoke. And smoking brings with it higher risk of getting heart disease.
 
