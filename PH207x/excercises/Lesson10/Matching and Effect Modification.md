@@ -65,7 +65,7 @@ When performing matching in a case-control study:
 -------- | ------- | ------------ | ------ 
  Males   | 480     | 40           | 
  Females | 60      | 80           | 
- Total   | 540     | 120          | 660 
+ Total   | 540     | 120          | 660 Controls 
 
 Now, remember a confounder has to have two relationships:
 1. It has to be in balance in the two groups you're comparing.
