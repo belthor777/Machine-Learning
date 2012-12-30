@@ -67,17 +67,6 @@ When performing matching in a case-control study:
  Females | 60      | 80           | 
  Total   | 540     | 120          | 660 
 
-
-* **D. Expected sex-specific data**  
-  
-             | Males Outcome |       | *Total*   | Females Outcome |       | *Total* 
------------- | ------------- | ----- | --------- | --------------- | ----- | --------- 
-             | **+**         | **-** |           | **+**           | **-** | 
- Exposed     | 480           | 7520  | 8000      | 60              | 1940  | 2000      
- Non-Exposed | 40            | 1960  | 2000      | 80              | 7920  | 8000      
- Risk Ratio  |               |       | 3.0       |                 |       | 3.0       
-
-
 Now, remember a confounder has to have two relationships:
 1. It has to be in balance in the two groups you're comparing.
 2. But it also has to be an independent risk factor or at least a marker or a determinant of developing the disease.
@@ -90,3 +79,15 @@ Now, remember a confounder has to have two relationships:
 1. **Sex -> Exposure**: ***80%***
 2. **Sex -> Disease**: ***Risk Ratio= 2%***
 3. **Exposure -> Disease**:
+
+* **D. Expected sex-specific data**  
+  
+             | Males Outcome |       | *Total*   | Females Outcome |       | *Total* 
+------------ | ------------- | ----- | --------- | --------------- | ----- | --------- 
+             | **+**         | **-** |           | **+**           | **-** | 
+ Exposed     | 480           | 7520  | 8000      | 60              | 1940  | 2000      
+ Non-Exposed | 40            | 1960  | 2000      | 80              | 7920  | 8000      
+ Risk Ratio  |               |       | 3.0       |                 |       | 3.0       
+
+
+
