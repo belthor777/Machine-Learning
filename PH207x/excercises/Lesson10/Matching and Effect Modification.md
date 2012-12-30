@@ -52,8 +52,8 @@ When performing matching in a case-control study:
  Females | 2,000 (20%) | 2,000 (20%)
  Total   | 10,000      | 10,000
 
-B. Exposure and sex-specific risks of outcome
-
+* Exposure and sex-specific risks of outcome  
+  
          | Exposed | Non-Exposed
 -------- | ------- | ------------
  Males   | 0.06    | 0.02
