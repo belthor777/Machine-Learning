@@ -61,11 +61,11 @@ When performing matching in a case-control study:
 
 * **C. Expected number of outcomes**  
   
-         | Exposed | Non-Exposed
--------- | ------- | ------------
- Males   | 480     | 40
- Females | 60      | 80
- Total   | 540     | 120
+         | Exposed | Non-Exposed  | Total
+-------- | ------- | ------------ | ------ 
+ Males   | 480     | 40           | 
+ Females | 60      | 80           | 
+ Total   | 540     | 120          | 660 
 
 
 * **D. Expected sex-specific data**  
