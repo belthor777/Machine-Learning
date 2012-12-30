@@ -44,7 +44,7 @@ When performing matching in a case-control study:
 ## Example of Matching ##
 
 ### Example of confounding by sex in a large population ###
-* **Sex distribution among exposed and among non-exposed subjects in the source population**  
+* **A. Sex distribution among exposed and among non-exposed subjects in the source population**  
   
          | Exposed     | Non-Exposed
 -------- | ----------- | ------------
@@ -52,7 +52,7 @@ When performing matching in a case-control study:
  Females | 2,000 (20%) | 2,000 (20%)
  Total   | 10,000      | 10,000
 
-* **Exposure and sex-specific risks of outcome**  
+* **B. Exposure and sex-specific risks of outcome**  
   
          | Exposed | Non-Exposed
 -------- | ------- | ------------
@@ -63,4 +63,4 @@ Now, remember a confounder has to have two relationships:
 1. It has to be in balance in the two groups you're comparing.
 2. But it also has to be an independent risk factor or at least a marker or a determinant of developing the disease.
 
-> So right now from these two characteristics, characteristic A and characteristic B on this slide, we can say that this particular factor of sex should be a confounder. It's satisfying the two criteria that confounder has to have.
+> So right now from these two characteristics, characteristic **A** and characteristic **B** on this slide, we can say that this particular factor of sex should be a confounder. It's satisfying the two criteria that confounder has to have.
