@@ -142,3 +142,8 @@ Now, remember a confounder has to have two relationships:
  Risk Ratio  |               |       | 3.0 
 
 
+#### Summary ####
+* I no longer have a relationship in my data set between sex and exposure (between sex and smoking)
+
+
+
