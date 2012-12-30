@@ -69,5 +69,5 @@ Now, remember a confounder has to have two relationships:
 
 #### DAG with Sex - Causal Diagram ####
 1. **Sex -> Exposure**: ***80%***
-2. **Sex -> Disease**: Target of Matching in Case Control Studies
+2. **Sex -> Disease**: ***Risk Ratio= 2%***
 3. **Exposure -> Disease**:
