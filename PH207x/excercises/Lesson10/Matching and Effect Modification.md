@@ -213,7 +213,7 @@ In the last lecture I try to make a distinction of the implications of **matchin
 ### Matching and Efficiency in Case Control Study ###
 * Not machting on a confounder -> **varying case/control ratios across strata**
 * Matching on a confounder -> **constant case/control ratios across strata**
-* **Matched analysis tends to be more efficient than stratified analysis of unmatched data**
+* **Matched analysis tends to be more efficient than *stratified analysis* of unmatched data**
 
 
 
