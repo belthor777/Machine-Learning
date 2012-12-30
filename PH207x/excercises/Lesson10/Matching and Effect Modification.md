@@ -97,4 +97,20 @@ Now, remember a confounder has to have two relationships:
 
 
 ### Example Matched  ###
+**Matched (by sex) cohort study** based on 1000 exposed subjects selected at random from the source population
+* **A. Sex distribution among exposed and among matched non-exposed subjects**  
+  
+         | Exposed   | Non-Exposed
+-------- | --------- | ------------
+ Males   | 800 (80%) | 800 (80%)
+ Females | 200 (20%) | 200 (20%)
+ Total   | 1000      | 1000
+
+* **B. Exposure and sex-specific risks of outcome**  
+  
+         | Exposed | Non-Exposed
+-------- | ------- | ------------
+ Males   | 0.06    | 0.02
+ Females | 0.03    | 0.01
+
 
