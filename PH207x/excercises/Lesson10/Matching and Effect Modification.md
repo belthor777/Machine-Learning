@@ -195,5 +195,12 @@ Now, remember a confounder has to have two relationships:
 
 Odd Ratio is less than 3.0. It's under estimating the true effect. That's the implications of matching in this case by sex which is a strong correlate of your exposure.
 
+#### Conclusion ####
+* Matching by sex alone did not avoid confounding
+* adjusted analysis is still required
+* Problem: two reasons for high prevalence of male sex among cases
+	- Sex is a risk factor
+	- Exposure a risk factor and sex associated with exposure
+
 
 
