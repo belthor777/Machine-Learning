@@ -148,4 +148,12 @@ Now, remember a confounder has to have two relationships:
 * Matching on Sex avoids confounding
 
 
-
+### Example Matched (by sex) case control study ###
+**Matched (by sex) cohort study** based on all 660 outcome cases that developed from the source population
+* **A. Sex distribution among exposed and among matched controls**  
+  
+         | Cases     | Control
+-------- | --------- | ------------
+ Males   | 520 (79%) | 520 (79%)
+ Females | 140 (21%) | 140 (21%)
+ Total   | 660       | 660
