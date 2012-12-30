@@ -13,7 +13,7 @@
 * Matching alone does not necessarily avoid confounding in case-control studies
 	* Still requires adjustment for the matching factor in the analysis
 
-### DAG with Confounding ###
+### DAG with Confounding - Causal Diagram ###
 1. **Confounder -> Exposure**: Target of Matching in Cohort Studies  
 -> So what matching does in a cohort study, it addresses the relationship
 between the potential confounder.
@@ -67,4 +67,7 @@ Now, remember a confounder has to have two relationships:
 
 > **The risk changes from 2% to 6%**. So what's the right answer for the effect of the exposure? The risk ratio here is **3.0**. Regardless whether you're male or female, the exposure triples your risk.
 
-
+#### DAG with Sex - Causal Diagram ####
+1. **Sex -> Exposure**: ***80%***
+2. **Sex -> Disease**: Target of Matching in Case Control Studies
+3. **Exposure -> Disease**:
