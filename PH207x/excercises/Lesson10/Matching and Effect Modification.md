@@ -206,9 +206,9 @@ Odd Ratio is less than 3.0. It's under estimating the true effect. That's the im
 ## Matching - Efficiency ##
 In the last lecture I try to make a distinction of the implications of **matching in a cohort study versus matching a case control study**. I said the good news is, matching in a cohort study with equal numbers of non-exposed being matched to each exposed person **avoids confounding**.
 
-**Q: Why would people want to do a match design when you're doing a case control study?**  
-1. Because either way you have to control for the factor. If it's a true confounder and you didn't match on it, you're going to have to control for it the analysis.
-2. You get a more efficient analysis. You have more power for when you do your tests of significance, or your confidence intervals will be now narrower when you report your confidence intervals around your odds ratios.
+####Q: Why would people want to do a match design when you're doing a case control study?####
+* Because either way you have to control for the factor. If it's a true confounder and you didn't match on it, you're going to have to control for it the analysis.
+* You get a more efficient analysis. You have more power for when you do your tests of significance, or your confidence intervals will be now narrower when you report your confidence intervals around your odds ratios.
 
 
 
