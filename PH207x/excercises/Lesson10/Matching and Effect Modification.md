@@ -215,6 +215,14 @@ In the last lecture I try to make a distinction of the implications of **matchin
 * Matching on a confounder -> **constant case/control ratios across strata**
 * **Matched analysis tends to be more efficient than *stratified analysis* of unmatched data**
 
+And I'm going to measure **odds ratios** in each of these tables, and use **Mantel-Haenszel's formula** to get the adjusted value, because I'm assuming **age is a confounder**.
+
+## Results of Matching - Question ##
+Matching in a case-control study:
+1. Results in narrower confidence intervals than would have been obtained if one did not conduct a matched study. 
+2. Provides an unbiased estimate of the association even without accounting for the matching in the analysis. 
+3. Limits the potential for recall bias. 
+4. Choices A and B 
 
 
 
