@@ -192,3 +192,8 @@ Now, remember a confounder has to have two relationships:
  Exposed     | 540           | 120   | 660 
  Non-Exposed | 444           | 216   | 660 
  Oddd Ratio  |               |       | 2.2 
+
+It's under estimating the true effect. That's the implications of matching in this case by sex which is a strong correlate of your exposure.
+
+
+
