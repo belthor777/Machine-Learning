@@ -41,4 +41,6 @@ When performing matching in a case-control study:
 * Cases are selected to represent the exposure distribution in the general population.
 * Controls are selected to have a similar distribution of the exposure as the cases. 
 
+## Example of Matching ##
+
 
