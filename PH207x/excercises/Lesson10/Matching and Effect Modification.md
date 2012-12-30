@@ -59,6 +59,14 @@ When performing matching in a case-control study:
  Males   | 0.06    | 0.02
  Females | 0.03    | 0.01
 
+* **C. Expected number of outcomes**  
+  
+         | Exposed | Non-Exposed
+-------- | ------- | ------------
+ Males   | 480     | 40
+ Females | 60      | 80
+ Total   | 540     | 120
+
 Now, remember a confounder has to have two relationships:
 1. It has to be in balance in the two groups you're comparing.
 2. But it also has to be an independent risk factor or at least a marker or a determinant of developing the disease.
