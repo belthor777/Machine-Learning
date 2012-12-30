@@ -65,5 +65,6 @@ Now, remember a confounder has to have two relationships:
 
 > So right now from these two characteristics, characteristic **A** and characteristic **B** on this slide, we can say that this particular factor of sex **should be a confounder**. It's satisfying the two criteria that confounder has to have.
 
+> The risk changes from 2% to 6%. So what's the right answer for the effect of the exposure? The risk ratio here is **3.0**. Regardless whether you're male or female, the exposure triples your risk.
 
 
