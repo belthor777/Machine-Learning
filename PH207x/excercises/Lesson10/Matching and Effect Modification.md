@@ -157,3 +157,11 @@ Now, remember a confounder has to have two relationships:
  Males   | 520 (79%) | 520 (79%)
  Females | 140 (21%) | 140 (21%)
  Total   | 660       | 660
+
+* **B. Exposure and sex-specific risks of outcome**  
+  
+         | Exposed | Non-Exposed
+-------- | ------- | ------------
+ Males   | 0.06    | 0.02
+ Females | 0.03    | 0.01
+
