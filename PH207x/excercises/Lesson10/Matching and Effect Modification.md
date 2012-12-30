@@ -21,3 +21,9 @@ between the potential confounder.
 	* And I said in a cohort study, matching blocks that relationship.
 	* And it also has been independent risk factor for the outcome.
 3. **Exposure -> Outcome**:
+
+#### Why I want to have old people in my study? ####
+The problem is there are two reasons, as I look at my cases and select their match controls matching by age, there are **two reasons I might see a lot of old people among my cases**. The two reasons are, 
+* that if age is my potential confounder, and CHD-- coronary heart disease-- is my outcome, there are two potential mechanisms by which old people could end up being cases in your study.
+	* Old age itself influences the risk of having disease, so older people are going to be **more likely** to be your cases.
+
