@@ -8,6 +8,10 @@ Simple Linear Regression. In this example, we track changes in the amount of nic
 Fit a linear regression model with nickel as the outcome and month as the explanatory variable. Using indicator variables, model month as a categorical covariate (i.e. for the variable "month", it is coded numerically as May = 5, June = 6, August = 8, September = 9). Call this Model 1.   
   
 Assume the assumptions of linear regression are met for this model. You can make histograms of nickel by month to visually verify that the data does not appear to be skewed or any other evidence that would suggest a violation of the assumptions necessary to analyze this data using linear regression.  
+  
+**TODO:**
+* Fit a linear regression model with nickel as the outcome and month as the explanatory variable. 
+* model month as a categorical covariate
 
 ##### 1. Does the amount of nickel in the soil tend to increase over the four month period? #####
 * Yes
