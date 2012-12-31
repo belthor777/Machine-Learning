@@ -315,6 +315,8 @@ Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L
 	- Example: Personlized medicine
 * Detected by comparing stratum-specific estimates of the measure of effect (**sub-group analyses**)
 
+Effect modification means they are different: The effect of a drug, the effect of a treatment, the effect of an exposure is modified by the group of people you are looking at-- in that case, by the age of the people. 
+
 
 
 
