@@ -303,7 +303,9 @@ We need **8** ***two by two tables***
 ```
 
 ### Conclusion ###
-So the important piece to keep in mind is that if you have **matching in a case control study**, once you come to the analysis stage, **you still have to control for the matching factor as if it's still a confounder**. In this case, if you control using stratified analysis, you'll get the same answer you're learning using the formulas in biostatistics for doing
+So the important piece to keep in mind is that if you have **matching in a case control study**, once you come to the analysis stage, **you still have to control for the matching factor as if it's still a confounder**. In this case, if you control using stratified analysis, you'll get the same answer you're learning using the formulas in biostatistics for doing matched analysis.
+
+
 
 
 
