@@ -225,6 +225,8 @@ Matching in a case-control study:
 * D. Choices A and B
 
 ## Matching - Analysis ##
+Video: https://www.edx.org/courses/HarvardX/PH207x/2012_Fall/courseware/Week_10/week10:epi10/  
+  
 Basic prinziple: Perform analysis within each matched group and then pool to obtain a summary average  
   
 Typical format for results from a case control study involving
