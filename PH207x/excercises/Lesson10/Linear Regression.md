@@ -387,6 +387,7 @@ where ε_i ~ N(0,σ²).
 	replace highnurse = 0 if nursealways < 75
 	regress recommendyes highnurse
 	xi: regress recommendyes i.highnurse
+	ttest recommendyes, by(highnurse)
 ```
 
 Formular which we get out:
