@@ -325,11 +325,11 @@ This is what I mean by effect modification, the value that we're giving to descr
 
 ### Detection of Modification ###
 * Difficult
-* Must distinguish from other reasons for differences in stratum-specific estimates
+* Must **distinguish** from other reasons for differences in stratum-specific estimates
 	- bias
 	- Confounding by other factors
 	- Chance variation
-* Need clinical/biological argument
+* Need **clinical/biological** argument
 	- Prior justification to look for Effect Modification
 
 
