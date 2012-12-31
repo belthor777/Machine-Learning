@@ -354,6 +354,18 @@ This is what I mean by effect modification, the value that we're giving to descr
 ## Effect Modification - Standardization   ##
 Don't pull those (sex, age groups etc.) different numbers into one single average using Mantel-Haenszel's formula. But I said there is another option to get one number to describe **the average effect of that risk factor**, that exposure, **that treatment in a specific population**.
 
+### Components of (Direct) Standardization ###
+* Select a Standard Population
+* Stratifiy by confounding factor or effect modifier
+	- Example: Age categories
+* Calculate confounder specific (age-specific) outcome risks for exposed (smokers) and non-exposed (non-smokers)
+* Estimate average risk in standard population, if 
+	- Everyone was exposed
+	- Everyone was non-exposed
+	- Make comparison
+* Estimates counterfactual risks
+
+
 
 
 
