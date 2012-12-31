@@ -271,11 +271,16 @@ We need **8** ***two by two tables***
 ###### Now, remember what Mantel-Haenszel's formula does: ######
 **It says, for an odds ratio, take the value, A, and multiply it by the value, D, and divide it by the grand number, T. That goes into the formula in the numerator of the Mantel-Haenszel estimate.**  
   
+                | Exposure  + | Status of Control - 
+--------------- | ----------- | -------------------- 
+ Exposure       | + A         | **B** 
+ Status of Case | **- C**     | D 
+
 **Well, in the first case of the following table:**
 * A is 1, 
 * D is 0
 * T is 2
-* ***So it's going to be one times zero divided by two.***
+* ***So it's going to be A*D/T=1*(0)/2***
   
     | Strata D+ | Strata D- | Frequency | AD/T | BC/T 
 --- | --------- | --------- | --------- | ---- | ---- 
