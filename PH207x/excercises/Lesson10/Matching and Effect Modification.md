@@ -343,7 +343,7 @@ This is what I mean by effect modification, the value that we're giving to descr
 * Problem: All influenced by sample size (e.g. have not enough people)
 
 ### Presenting Results in the Presence of Effect Modification ###
-* Present stratum-specific results (**best option**)
+* Present stratum-specific results (**best option**) - Most information you can give the reader
 * Calculate weighted-average of stratum specific estimates (e.g. Mantel-Haenszel Estimates)
 	- Not optimal theoretically
 	- Single value cannot reflect different effects
