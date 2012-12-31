@@ -43,10 +43,12 @@ Assume the assumptions of linear regression are met for this model. You can make
 
 ##### 4. Using Model 2, it is estimated that, on average, nickel increases by ______ each month, from May to September.. #####
 Now, assume the amount of nickel increases linearly by month, and the assumptions of linear regression continue to hold. Fit a model with nickel as the outcome and month modeled as a continuous explanatory variable. Call this Model 2. 
+> **Hint1:** Read the interpretation of q4 given in Tutorial: Simple Linear Regression pdf . the ans is in the sme table 
 
 ```stata
 	histogram nickel, by(month)
 	xi: regress nickel i.month
+	regress nickel month
 ```
 
 
