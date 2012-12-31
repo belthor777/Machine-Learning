@@ -475,11 +475,18 @@ weight = 754/452 = 1/P(Smoking|Age <= 40)
 ```
 
 ###### Alternative: Propensity Scores ######
-Similarly for Non-Smoker Standard Population:  
-Young non-smokers in data are weighted by
+Similarly for Non-Smoker Standard Population: Young non-smokers in data are weighted by
 
 ```math
 weight = 1/P(Non-Smoker|Young in data)
        = 1/(1-Propensity Scope)
+
+
+### Conclusion ###
+* Standardization provides estimates of counterfactual outcomes
+	- # Deaths is everyone smoked
+	- # Deaths is no one smoked
+* Estimates causal effect of smoking if there are no other confounders
+* Standardization re-weights data by functions of the Propensity Score
 
 
