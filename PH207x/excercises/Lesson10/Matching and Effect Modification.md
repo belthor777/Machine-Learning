@@ -263,7 +263,21 @@ And in biostatistics, you learn that the way you estimate an odds ratio linking 
 	OR=22/8=2.75
 ```
 
-
+##### Stratified Analysis #####
+  
+    | Strata D+ | Strata D- | Frequency | AD/T | BC/T 
+--- | --------- | --------- | --------- | ---- | ---- 
+ E+ | 1         | 1         | 8         | 0    | 0    
+ E- | 0         | 0         |           |      |      
+    |           |           |           |      |      
+ E+ | 1         | 0         | 22        | 1/2  | 0    
+ E- | 0         | 1         |           |      |      
+    |           |           |           |      |      
+ E+ | 0         | 1         | 8         | 0    | 1/2  
+ E- | 1         | 0         |           |      |      
+    |           |           |           |      |      
+ E+ | 0         | 0         | 18        | 0    | 0    
+ E- | 1         | 1         |           |      |      
 
 
 
