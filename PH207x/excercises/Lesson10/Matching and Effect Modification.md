@@ -480,7 +480,7 @@ Similarly for Non-Smoker Standard Population: Young non-smokers in data are weig
 ```math
 weight = 1/P(Non-Smoker|Young in data)
        = 1/(1-Propensity Scope)
-
+```
 
 ### Conclusion ###
 * Standardization provides estimates of counterfactual outcomes
