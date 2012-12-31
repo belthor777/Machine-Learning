@@ -11,7 +11,17 @@ Fit a linear regression model with nickel as the outcome and with month and long
 
 1. What is the estimated coefficient? 
 
-2. 
+2. The estimated standard error of the estimated coefficient?
+
+3. The estimate of the test statistic?
+
+4. The number of degrees of freedom of the distribution of the test statistic under the null hypothesis? 
+
+5. The p-value?
+
+6. Your conclusion?
+	- We have no evidence that, for a given month, average nickel levels have a linear relationship with longitude. 
+	- We have evidence that, for a given month, average nickel levels have a linear relationship with longitude. 
 
 
 ##### 3. For each month, make a scatter plot with longitude on the x-axis and nickel on the y-axis to assess the linearity assumption. Conditional on month, does the relationship between nickel and longitude appear to be linear? (Hint: try the example problems in the lecture sequence to help with constructing the scatter plot.) #####
