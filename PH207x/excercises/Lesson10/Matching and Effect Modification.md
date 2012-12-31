@@ -279,5 +279,9 @@ And in biostatistics, you learn that the way you estimate an odds ratio linking 
  E+ | 0         | 0         | 18        | 0    | 0    
  E- | 1         | 1         |           |      |      
 
+```math
+	OR=22(1/2)/8(1/2)=2.75
+```
+
 
 
