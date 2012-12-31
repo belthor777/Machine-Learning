@@ -332,6 +332,10 @@ This is what I mean by effect modification, the value that we're giving to descr
 * Need **clinical/biological** argument
 	- Prior justification to look for Effect Modification
 
+=> **Confidence Interval** gives you a range of values suggested by the data as being reasonable estimates for the odds ratios.
+
+
+
 
 
 
