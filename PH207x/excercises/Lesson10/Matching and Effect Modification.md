@@ -454,14 +454,25 @@ There are 4434 individuals to calculate Expected # of Deaths:
 * Non-Smokers: 1314.09/4434= 0.2964
 * Standardized Risk Ratio: 0.4069/0.2964= 1.37
 
-##### Standardization and Inverse Probability Weighting (IPW)
+##### Standardization and Inverse Probability Weighting (IPW) #####
 > Example: Standardized Risk for Smokers:
 Expected # of death in youngest age group: **111.74**  
   
-111.74 = (smokers risk) x (size of standard population)
-       = (67/452) x (754)
-       = (67/452) x (452) x (754/452)
-       = (67/452) x [ (452) x (weight) ]
+111.74 = (smokers risk) x (size of standard population)  
+       = (67/452) x (754)  
+       = (67/452) x (452) x (754/452)  
+       = **(67/452) x [ (452) x (weight) ]**  
+  
+Young Smokers in data are being re-weighted to represent young part of standard population and to determine expected outcome in standard population  
+  
+weight = 754/452 = 1/P(Smoking|Age <= 40)  
+                 = 1/P(Exposure|Age <= 40)  
+                 = 1/P(Exposure|Confounder)  
+                 = 1/Propensity Scope  
+
+
+
+
 
 
 
