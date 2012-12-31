@@ -230,12 +230,12 @@ Basic prinziple: Perform analysis within each matched group and then pool to obt
 Typical format for results from a case control study involving
 * 1-1 matching on a single factor.  
   
-                | Exposure  + | Status of Control 
---------------- | ----------- | ------------------ 
+                | Exposure  + | Status of Control - 
+--------------- | ----------- | -------------------- 
  Exposure       | + A         | B 
  Status of Case | - C         | D 
 
-
+The information about whether exposure is related to being a case, being a control, is really limited to the matched groups where the case and the control are called **discordant with ** respect to exposure.
 
 
 
