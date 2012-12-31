@@ -302,7 +302,7 @@ We need **8** ***two by two tables***
 	OR=(SUM AD/T) / (SUM BC/T)= 22(1/2)/8(1/2)=2.75
 ```
 
-#### Conclusion ####
+### Conclusion ###
 So the important piece to keep in mind is that if you have **matching in a case control study**, once you come to the analysis stage, **you still have to control for the matching factor as if it's still a confounder**. In this case, if you control using stratified analysis, you'll get the same answer you're learning using the formulas in biostatistics for doing
 
 
