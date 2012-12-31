@@ -376,9 +376,14 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 * Results describe average effect of the exposure in that standard population
 * Results may change with different standard population
 
+### Standardizatoin and Causal Inference ###
+* If no residual confounding, standardization yields estimates of counterfactual outcomes
+* Standardization involves two weighted analysis (**Inverse Probability Weighting**:
+	- For each age group, exposed individuals reweighted to represent standard population
+	- For each age group, non-exposed individuals reweighted to represent standard population
 
-* So standardization is linked to this notion of counterfactuals, linked to this notion of causal inference.
-* Mathematically, I'll also show you in a coming lecture that standardization is linked to this idea of inverse probability weighting. Basically what standardization does, as you'll see this in example in a couple of lectures from now, is it reweights your data set, reweights the exposed people so they represent the entire standard population, reweights then the non-exposed people to represent the entire population.
+**So standardization is linked to this notion of counterfactuals, linked to this notion of causal inference.**
+
 
 
 
