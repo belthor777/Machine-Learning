@@ -5,6 +5,11 @@ Fit a linear regression model with nickel as the outcome and with month and long
   
 https://maps.google.com/maps/ms?msid=205190672353608758732.0004d1dab620c7540a566&msa=0&ll=29.544788,-91.384277&spn=4.758846,7.613525  
   
+..
+**TODO:**
+* Fit a linear regression model with nickel as the outcome and with month and longitude as explanatory covariates
+
+
 ##### 1. Compare the adjusted R-squared from Models 2 and 3. Does the addition of longitude improve the adjusted R-square? #####
 * Yes
 * No 
