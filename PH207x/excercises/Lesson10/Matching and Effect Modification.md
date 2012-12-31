@@ -498,6 +498,10 @@ Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L
 * Both can be detected via stratification
 * Involve different comparisons
 
+##  Effect Measure Modifier: Question  ##
+If a factor confounds the association between exposure and outcome, it cannot be an effect measure modifier.
+* True
+* => **False**
 
 
 
