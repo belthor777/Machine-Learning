@@ -474,6 +474,8 @@ weight = 754/452 = 1/P(Smoking|Age <= 40)
                  = 1/Propensity Scope  
 ```
 
+###### Alternative: Propensity Scores ######
+
 Similarly for Non-Smoker Standard Population:  
 Young non-smokers in data are weighted by
 
