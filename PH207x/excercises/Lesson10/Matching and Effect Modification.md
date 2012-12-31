@@ -311,9 +311,11 @@ Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L
 **Confounding vs. Effect modification**: These are entirely different concepts of epidemiology. But they're often confused because they both **typically involve stratified analysis**. But they use **stratified analyses in different ways** to answer entirely different questions.
 
 ### Effect Modification ###
-* Refers to an exposure having a different effect on the outcome in different groups of patients
+* Refers to an **exposure** having a **different** effect on the **outcome** in different groups of patients
 	- Example: Personlized medicine
 * Detected by comparing stratum-specific estimates of the measure of effect (**sub-group analyses**)
+
+
 
 
 
