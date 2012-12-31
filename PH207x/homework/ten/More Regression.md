@@ -14,3 +14,11 @@ As the investigator, it is important to determine the true cause of any observed
 
 ##### 3. How much does nickel increase, on average, for a one mg/kg increase in vanadium? #####
 Fit a linear regression model with nickel as the outcome and vanadium as the explanatory covariate (Model 4). Use this model to answer questions 3 and 4.
+
+```stata
+	regress nickel vanadium
+```
+
+##### 4. How much does nickel increase, on average, for a 10 mg/kg increase in vanadium? #####
+
+
