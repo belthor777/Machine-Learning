@@ -306,6 +306,8 @@ We need **8** ***two by two tables***
 So the important piece to keep in mind is that if you have **matching in a case control study**, once you come to the analysis stage, **you still have to control for the matching factor as if it's still a confounder**. In this case, if you control using stratified analysis, you'll get the same answer you're learning using the formulas in biostatistics for doing matched analysis.
 
 ## Effect Modification Example  ##
+Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-12_100.mp4  
+  
 **Confounding vs. Effect modification**: These are entirely different concepts of epidemiology. But they're often confused because they both **typically involve stratified analysis**. But they use **stratified analyses in different ways** to answer entirely different questions.
 
 
