@@ -371,7 +371,13 @@ True or false:
 Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-T10-21_100.mp4  
 
 ### State your model ###
-Y_i = % patients in hospital who always recommend the hospital
+Y_i = % patients in hospital who always recommend the hospital (i=1,...,3570)  
+D_i = 1 - Means that at least 75% of the patients in that hospital said that the nurse always communicates well  
+D_i = 0 - Means less then 75% communicate well  
 
+```math
+	Y_i = α + β*D_i + ε_i
+```
+where ε_i ~ N(0,σ²).  
 
 
