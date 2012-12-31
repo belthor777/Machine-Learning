@@ -334,6 +334,14 @@ This is what I mean by effect modification, the value that we're giving to descr
 
 => **Confidence Interval** gives you a range of values suggested by the data as being reasonable estimates for the odds ratios.
 
+### Ruling Out Chance Variation ###
+* Tests of homogeneity
+	- Breslow-Day Test compares stratum-specific odd ratio estimates
+	- Null Hypothesis: No Effect Modification
+	- Interaction terms in regression models
+* Examine stratum-specific confidence intervals
+* Problem: All influenced by sample size
+
 
 
 
