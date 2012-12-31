@@ -352,7 +352,11 @@ This is what I mean by effect modification, the value that we're giving to descr
 	- Describes average effect of the exposure **in a standard population**
 
 ## Effect Modification - Standardization   ##
-Don't pull those (sex, age groups etc.) different numbers into one single average using Mantel-Haenszel's formula.
+Don't pull those (sex, age groups etc.) different numbers into one single average using Mantel-Haenszel's formula. But I said there is another option to get one number to describe **the average effect of that risk factor**, that exposure, **that treatment in a specific population**.
+
+
+
+
 
 
 
