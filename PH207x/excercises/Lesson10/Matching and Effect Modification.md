@@ -264,6 +264,7 @@ And in biostatistics, you learn that the way you estimate an odds ratio linking 
 ```
 
 ##### Stratified Analysis #####
+We need **8** ***two by two tables***
   
     | Strata D+ | Strata D- | Frequency | AD/T | BC/T 
 --- | --------- | --------- | --------- | ---- | ---- 
