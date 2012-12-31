@@ -269,7 +269,13 @@ And in biostatistics, you learn that the way you estimate an odds ratio linking 
 We need **8** ***two by two tables***  
   
 ###### Now, remember what Mantel-Haenszel's formula does: ######
-**It says, for an odds ratio, take the value, A, and multiply it by the value, D, and divide it by the grand number, T. That goes into the formula in the numerator of the Mantel-Haenszel estimate.**
+**It says, for an odds ratio, take the value, A, and multiply it by the value, D, and divide it by the grand number, T. That goes into the formula in the numerator of the Mantel-Haenszel estimate.**  
+  
+**Well, in the first case of the following table:**
+* A is 1, 
+* D is 0
+* T is 2
+* ***So it's going to be one times zero divided by two.***
   
     | Strata D+ | Strata D- | Frequency | AD/T | BC/T 
 --- | --------- | --------- | --------- | ---- | ---- 
