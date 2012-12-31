@@ -372,9 +372,13 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 	- Full data set_backend_name
 	- Exposed individuals
 	- Non-Exposed individuals
-* External Population
+* External Population: E.g. USA, every year, publishes mortality rates that are standardized  
 * Results describe average effect of the exposure in that standard population
 * Results may change with different standard population
+
+
+* So standardization is linked to this notion of counterfactuals, linked to this notion of causal inference.
+* Mathematically, I'll also show you in a coming lecture that standardization is linked to this idea of inverse probability weighting. Basically what standardization does, as you'll see this in example in a couple of lectures from now, is it reweights your data set, reweights the exposed people so they represent the entire standard population, reweights then the non-exposed people to represent the entire population.
 
 
 
