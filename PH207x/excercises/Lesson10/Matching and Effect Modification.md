@@ -239,6 +239,7 @@ The information about whether exposure is related to being a case, being a contr
 -> So for example, capital **B** were the number of matched groups where the case was a smoker and the control was not, and capital **C** were the number of matched groups where the control was a smoker and the case was not. The relative sizes of B and D are going to tell you whether smokers are more likely to be cases than to be controls.
 
 ### Odds Ratio Estimation ###
+And in biostatistics, you learn that the way you estimate an odds ratio linking ***exposure to disease*** from case control studies that are matched of the form we were just looking at is you divide the number of matched groups where the ***case is a smoker and the control is not***, capital B. You ***divide*** that ***by capital C***, the number of matched groups where the ***control was a smoker and the case was not***. That ratio estimates the odds ratio for developing -- for being a case of disease comparing smokers to nonsmokers.
 
 ```math
 	OR=B/S
