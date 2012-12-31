@@ -436,14 +436,15 @@ Matching is based on stratification and gives you an answer to two questions:
 
 #### Standardization ####
 
- Standard Population (Age Group) | Number   | Risk if all were Exposed (Smoker) | Risk if all Non-Exposed (Non-Smoker) | Expected # of Deaths 
--------------------------------- | -------- | --------------------------------- | ------------------------------------ | ----------------------
- <= 40                           | 754      |                                   | 25/302 = 0.828                       | 
- (40, 50]                        | 1639     |                                   | 110/684 = 0.1608                     | 
- (50, 60]                        | 1379     |                                   | 312/812 = 0.3842                     | 
- > 60                            | 662      |                                   | 315/455 = 0.6923                     | 
- **Total**                       | **4434** | ** **                             | ** **                                | ** ** 
+ Standard Population (Age Group) | Number   | Risk if all were Exposed (Smoker) | Expected # of Deaths | Risk if all Non-Exposed (Non-Smoker) | Expected # of Deaths 
+-------------------------------- | -------- | --------------------------------- | -------------------- | ------------------------------------ | ----------------------
+ <= 40                           | 754      | 67/452 = 0.1482                   |                      | 25/302 = 0.828                       | 
+ (40, 50]                        | 1639     | 266/955 = 0.2785                  |                      | 110/684 = 0.1608                     | 
+ (50, 60]                        | 1379     | 286/567 = 0.5044                  |                      | 312/812 = 0.3842                     | 
+ > 60                            | 662      | 169/207 = 0.8164                  |                      | 315/455 = 0.6923                     | 
+ **Total**                       | **4434** |                                   |                      |                                      | ** ** 
 
-
+1. Fill Out Expected # Deaths for Smokers
+2. Expected # of Deaths for Non-Smokers
 
 
