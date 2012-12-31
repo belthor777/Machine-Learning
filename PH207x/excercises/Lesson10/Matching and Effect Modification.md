@@ -442,7 +442,7 @@ Matching is based on stratification and gives you an answer to two questions:
  (40, 50]                        | 1639     | 266/955 = 0.2785                  |                      | 110/684 = 0.1608                     | 
  (50, 60]                        | 1379     | 286/567 = 0.5044                  |                      | 312/812 = 0.3842                     | 
  > 60                            | 662      | 169/207 = 0.8164                  |                      | 315/455 = 0.6923                     | 
- **Total**                       | **4434** |                                   |                      |                                      | ** ** 
+ **Total**                       | **4434** |                                   | ** **                |                                      | ** ** 
 
 1. Fill Out Expected # Deaths for Smokers
 2. Expected # of Deaths for Non-Smokers
