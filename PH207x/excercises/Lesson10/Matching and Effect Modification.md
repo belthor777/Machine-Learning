@@ -323,8 +323,16 @@ This is what I mean by effect modification, the value that we're giving to descr
 * **Effect Modifier**: Factor whose levels show different effect of the exposure on the outcome
 * Conclusion about Effect Modification is dependent on the chosen measure of effect (**Effect Measure Modification**)
 
+### Detection of Modification ###
+* Difficult
+* Must distinguish from other reasons for differences in stratum-specific estimates
+	- bias
+	- Confounding by other factors
+	- Chance variation
+* Need clinical/biological argument
+	- Prior justification to look for Effect Modification
 
-  
+
 
 
 
