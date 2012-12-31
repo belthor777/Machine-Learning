@@ -367,4 +367,11 @@ True or false:
 * True
 * **=> False**
 
+## Tutorial: Indicator Variables and Regression ##
+Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-T10-21_100.mp4  
+
+### State your model ###
+Y_i = % patients in hospital who always recommend the hospital
+
+
 
