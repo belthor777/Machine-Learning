@@ -400,29 +400,41 @@ Matching is based on stratification and gives you an answer to two questions:
 	- Everyone was exposed
 	- Everyone was non-exposed
 
+#### Data ####
+
  Age <= 40   | Died | Survived | Total
 ------------ | ---  | -------- | ------
  Smokers     | 67   | 385      | 452 
  Non-Smokers | 25   | 277      | 302 
- Total       | 92   | 662      | 754 
+ Total       | 92   | 662      | **754** 
+
+* Estimated Risk (cumulative incidence)= Risk of dying if you're young= 67/452= 0.14823009
+* Estimated risk of dying (cumulative incidence of death) among young nonsmokers= 25/302= 0.08278146
+
 
  40 < Age <= 50   | Died | Survived | Total
 ----------------- | ---  | -------- | ------
  Smokers          | 266  | 689      | 955 
  Non-Smokers      | 110  | 574      | 684 
- Total            | 376  | 1263     | 1639 
+ Total            | 376  | 1263     | **1639** 
 
  50 < Age <= 60   | Died | Survived | Total
 ----------------- | ---  | -------- | ------
  Smokers          | 286  | 281      | 567 
  Non-Smokers      | 312  | 500      | 812 
- Total            | 598  | 781      | 1379 
+ Total            | 598  | 781      | **1379** 
 
  Age > 60    | Died | Survived | Total
------------- | ---  | -------- | ------
+------------ | ---- | -------- | ------
  Smokers     | 169  | 38       | 207 
  Non-Smokers | 315  | 140      | 455 
- Total       | 484  | 178      | 662 
+ Total       | 484  | 178      | **662** 
+
+### Questions ###
+* What is the estimated # Deaths of everyone smoked?
+* What is the estimated # Deaths if no one smoked?
+
+#### Standardization ####
 
 
 
