@@ -340,7 +340,7 @@ This is what I mean by effect modification, the value that we're giving to descr
 	- Null Hypothesis: No Effect Modification
 	- Interaction terms in regression models
 * Examine stratum-specific confidence intervals
-* Problem: All influenced by sample size
+* Problem: All influenced by sample size (e.g. have not enough people)
 
 
 
