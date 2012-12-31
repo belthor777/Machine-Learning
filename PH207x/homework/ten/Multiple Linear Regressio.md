@@ -9,6 +9,11 @@ https://maps.google.com/maps/ms?msid=205190672353608758732.0004d1dab620c7540a566
 **TODO:**
 * Fit a linear regression model with nickel as the outcome and with month and longitude as explanatory covariates
 
+```stata
+	regress nickel month longitude
+	regress nickel longitude
+	twoway (scatter nickel longitude)
+```
 
 ##### 1. Compare the adjusted R-squared from Models 2 and 3. Does the addition of longitude improve the adjusted R-square? #####
 * Yes
@@ -23,6 +28,7 @@ https://maps.google.com/maps/ms?msid=205190672353608758732.0004d1dab620c7540a566
 3. The estimate of the test statistic?
 
 4. The number of degrees of freedom of the distribution of the test statistic under the null hypothesis? 
+> **Hint1:** n-k-1: n is the sample size k is the number of variables 1 is 1, obviously
 
 5. The p-value?
 
