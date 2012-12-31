@@ -235,7 +235,7 @@ Typical format for results from a case control study involving
  Exposure       | + A         | **B** 
  Status of Case | **- C**     | D 
 
-The information about whether exposure is related to being a case, being a control, is really limited to the matched groups where the case and the control are called **discordant with ** respect to exposure.
+The information about whether exposure is related to being a case, being a control, is really limited to the matched groups where the case and the control are called **discordant with** respect to exposure. (-C AND B)
 
 
 
