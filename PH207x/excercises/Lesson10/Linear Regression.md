@@ -423,4 +423,13 @@ Fit three different regression models with recommendyes as your outcome and usin
 	xi: regress recommendyes i.quietcat
 ```
 
-#### 1. Think about the assumptions of linear regression. Suppose you tested whether all of the regression coefficients in model three, except for the intercept, are equal to zero. Would you expect this test to produce similar results as a one-way ANOVA model? #### 
+#### 1. Think about the assumptions of linear regression. Suppose you tested whether all of the regression coefficients in model three, except for the intercept, are equal to zero. Would you expect this test to produce similar results as a one-way ANOVA model? ####
+* Yes
+* No 
+
+#### 2. Compare the t-statistics between model 1 and model 2. Examine the scatter plot of recommendyes versus quietalways. Do these two pieces of evidence suggest that, when you categorize and the relationship between two variables is truly linear, you lose power. #### 
+* Yes
+* No 
+
+
+Consider models 1-3. On the discussion boards below, compare the three models and discuss the tradeoffs of categorizing versus leaving variables as continuous. For instance, what if the relationship between the outcome and covariate was non-linear (e.g. quadratic/U-shaped)?
