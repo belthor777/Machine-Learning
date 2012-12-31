@@ -435,6 +435,8 @@ Matching is based on stratification and gives you an answer to two questions:
 * What is the estimated # Deaths if no one smoked?
 
 #### Standardization ####
+1. Fill Out Expected # Deaths for Smokers
+2. Expected # of Deaths for Non-Smokers
 
  Standard Population (Age Group) | Number   | Risk if all were Exposed (Smoker) | Expected # of Deaths | Risk if all Non-Exposed (Non-Smoker) | Expected # of Deaths 
 -------------------------------- | -------- | --------------------------------- | -------------------- | ------------------------------------ | ----------------------
@@ -444,7 +446,6 @@ Matching is based on stratification and gives you an answer to two questions:
  > 60                            | 662      | 169/207 = 0.8164                  |                      | 315/455 = 0.6923                     | 
  **Total**                       | **4434** |                                   | ** **                |                                      | ** ** 
 
-1. Fill Out Expected # Deaths for Smokers
-2. Expected # of Deaths for Non-Smokers
+
 
 
