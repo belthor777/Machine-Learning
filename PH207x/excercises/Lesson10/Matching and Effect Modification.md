@@ -491,8 +491,9 @@ weight = 1/P(Non-Smoker|Young in data)
 
 
 ## Effect Modification - Confounding vs. Effect Modification ##
+Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-17_100.mp4
 * Independent concepts
-	- Confounding: Problem that must be corrected
+	- Confounding: Problem that must be corrected; In other words **confounding is a problem**
 	- Effect Modification: Truth
 * Both can be detected via stratification
 * Involve different comparisons
