@@ -348,23 +348,23 @@ Asume the assumptions for simple linear regression are met.
 True or false:
 
 #### 1. If β is positive, the Pearson correlation will always be positive. ####
-	* True
-	* False
+* True
+* False
 
 #### 2. If β is positive, the Spearman correlation will always be positive. ####
-	* True
-	* False
+* True
+* False
 
 #### 3. α is defined as the value of Y_i when X_i=0. ####
-	* True
-	* False
+* True
+* False
 
 #### 4. We can predict the expected value of Y_i given X_i. ####
-	* True
-	* False
+* True
+* False
 
 #### 5. The variance of Y_i is σ². ####
-	* True
-	* False
+* True
+* False
 
 
