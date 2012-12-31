@@ -490,3 +490,7 @@ weight = 1/P(Non-Smoker|Young in data)
 * Standardization **re-weights** data by functions of the Propensity Score
 
 
+## Effect Modification - Confounding vs. Effect Modification ##
+
+
+
