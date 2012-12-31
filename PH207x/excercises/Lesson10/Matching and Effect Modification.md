@@ -351,10 +351,8 @@ This is what I mean by effect modification, the value that we're giving to descr
 * Standardization
 	- Describes average effect of the exposure **in a standard population**
 
-
-
-
-
+## Effect Modification - Standardization   ##
+Don't pull those (sex, age groups etc.) different numbers into one single average using Mantel-Haenszel's formula.
 
 
 
