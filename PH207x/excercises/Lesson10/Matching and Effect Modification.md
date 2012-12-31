@@ -224,6 +224,16 @@ Matching in a case-control study:
 * C. Limits the potential for recall bias. 
 * D. Choices A and B
 
+## Matching - Analysis ##
+Basic prinziple: Perform analysis within each matched group and then pool to obtain a summary average  
+  
+Typical format for results from a case control study involving
+* 1-1 matching on a single factor.  
+  
+                | Exposure  + | Status of Control 
+--------------- | ----------- | ------------------ 
+ Exposure       | + A         | B 
+ Status of Case | - C         | D 
 
 
 
