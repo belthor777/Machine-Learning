@@ -264,7 +264,10 @@ And in biostatistics, you learn that the way you estimate an odds ratio linking 
 ```
 
 ##### Stratified Analysis #####
-We need **8** ***two by two tables***
+We need **8** ***two by two tables***  
+  
+###### Now, remember what Mantel-Haenszel's formula does: ######
+**It says, for an odds ratio, take the value, A, and multiply it by the value, D, and divide it by the grand number, T. That goes into the formula in the numerator of the Mantel-Haenszel estimate.**
   
     | Strata D+ | Strata D- | Frequency | AD/T | BC/T 
 --- | --------- | --------- | --------- | ---- | ---- 
