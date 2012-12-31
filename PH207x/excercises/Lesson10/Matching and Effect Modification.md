@@ -242,10 +242,26 @@ The information about whether exposure is related to being a case, being a contr
 And in biostatistics, you learn that the way you estimate an odds ratio linking ***exposure to disease*** from case control studies that are matched of the form we were just looking at is you divide the number of matched groups where the ***case is a smoker and the control is not***, capital B. You ***divide*** that ***by capital C***, the number of matched groups where the ***control was a smoker and the case was not***. That ratio estimates the odds ratio for developing -- for being a case of disease comparing smokers to nonsmokers.
 
 ```math
-	OR=B/S
+	OR=B/C
 ```
 > Identical to the Mantel-Haenszel estimate for the odds ratio with each matched pair as a separate stratum
 
+#### Example: Predictors of Low Birth Weight Babies ####
+* Case Control Study
+* **56 cases** (infants born with low birth weight)
+* **56 controls** matched by **age of the mother**
+* **Exposure: Maternal smoking during pregnancy**
+
+##### Matched Analysis #####
+  
+                | Exposure  + | Status of Control - 
+--------------- | ----------- | -------------------- 
+ Exposure       | + 8         | **22** 
+ Status of Case | **- 8**     | 18 
+
+```math
+	OR=22/8=2.75
+```
 
 
 
