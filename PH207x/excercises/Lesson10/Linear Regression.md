@@ -402,4 +402,25 @@ where ε_i ~ N(0,8.5402²).
 H_0: β=0  
 H_A: β!=0  
 
+## Indicator Variables and Regression ##
+Construct a categorical covariate for quietalways, defined by dividing quietalways into four quartiles. 
 
+```stata
+	xtile quietcat = quietalways, nquan(4)
+```
+
+Fit three different regression models with recommendyes as your outcome and using the following explanatory covariates:
+* quietalways 
+```stata
+	regress recommendyes quietalways
+```
+* quietcat (treat this as a continuous covariate) 
+```stata
+	regress recommendyes quietcat
+```
+* quietcat (treat this as a categorical covariate) 
+```stata
+	xi: regress recommendyes i.quietcat
+```
+
+#### 1. Think about the assumptions of linear regression. Suppose you tested whether all of the regression coefficients in model three, except for the intercept, are equal to zero. Would you expect this test to produce similar results as a one-way ANOVA model? #### 
