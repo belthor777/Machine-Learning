@@ -13,6 +13,11 @@ Assume the assumptions of linear regression are met for this model. You can make
 * Fit a linear regression model with nickel as the outcome and month as the explanatory variable. 
 * model month as a categorical covariate
 
+```stata
+	histogram nickel, by(month)
+	xi: regress nickel i.month
+```
+
 ##### 1. Does the amount of nickel in the soil tend to increase over the four month period? #####
 * Yes
 * No
