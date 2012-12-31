@@ -332,4 +332,39 @@ a hospital.
  1            | 73.54339   | 0.1399631   | 525.45  | 0.000   | 73.26897     | 73.8178
 
 
+## Simple Linear Regression ##
+Consider the following linear regression model. We have a continuous outcome and a continuous explanatory covariate for *n* different independent observations. Notation:
+* Y_i = outcome for i = 1,...,n
+* X_i = covariate for i = 1,...,n
+
+We fit the linear regression model: 
+```math
+	Y_i = α + β*X_i + ε_i
+```
+where ε_i ~ N(0,σ²).  
+  
+Asume the assumptions for simple linear regression are met.
+
+True or false:
+
+1. If β is positive, the Pearson correlation will always be positive.
+	* True
+	* False
+
+2. If β is positive, the Spearman correlation will always be positive.
+	* True
+	* False
+
+3. α is defined as the value of Y_i when X_i=0.
+	* True
+	* False
+
+4. We can predict the expected value of Y_i given X_i.
+	* True
+	* False
+
+5. The variance of Y_i is σ².
+	* True
+	* False
+
 
