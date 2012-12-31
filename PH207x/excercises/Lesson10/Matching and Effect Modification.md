@@ -317,6 +317,10 @@ Video: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L
 
 Effect modification means they are different: The effect of a drug, the effect of a treatment, the effect of an exposure is modified by the group of people you are looking at-- in that case, by the age of the people. 
 
+This is what I mean by effect modification, the value that we're giving to describe the effect of an exposure-- in in this case, the effect of a treatment, beta blocking-- differs. It depends on what type of person you are. In this case, in terms of a person's risk of having a cardiac complication.
+
+
+
 
 
 
