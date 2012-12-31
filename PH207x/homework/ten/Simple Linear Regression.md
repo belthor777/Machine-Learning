@@ -16,6 +16,11 @@ Assume the assumptions of linear regression are met for this model. You can make
 ```stata
 	histogram nickel, by(month)
 	xi: regress nickel i.month
+
+	predict r, residuals
+	qnorm r
+	swilk r
+	estat hettest
 ```
 
 ##### 1. Does the amount of nickel in the soil tend to increase over the four month period? #####
@@ -36,9 +41,13 @@ Assume the assumptions of linear regression are met for this model. You can make
 	* Yes
 	* No
 
-> Now, assume the amount of nickel increases linearly by month, and the assumptions of linear regression continue to hold. Fit a model with nickel as the outcome and month modeled as a continuous explanatory variable. Call this Model 2. 
-
 ##### 4. Using Model 2, it is estimated that, on average, nickel increases by ______ each month, from May to September.. #####
+Now, assume the amount of nickel increases linearly by month, and the assumptions of linear regression continue to hold. Fit a model with nickel as the outcome and month modeled as a continuous explanatory variable. Call this Model 2. 
+
+```stata
+	histogram nickel, by(month)
+	xi: regress nickel i.month
+```
 
 
 ##### 5. What is the 95% confidence interval for the average increase in nickel each month? #####
