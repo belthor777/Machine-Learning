@@ -386,6 +386,8 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 
 
 ## Matching - Example # 2  ##
+
+Video 2: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-16_100.mp4
 Matching is based on stratification and gives you an answer to two questions:
 * What would happen in the standard population if everyone was given the exposure 
 * What would happen in this population if no one was given the exposure
@@ -435,16 +437,17 @@ Matching is based on stratification and gives you an answer to two questions:
 * What is the estimated # Deaths if no one smoked?
 
 #### Standardization ####
+There are 4434 individuals to calculate Expected # of Deaths:
 1. Fill Out Expected # Deaths for Smokers
 2. Expected # of Deaths for Non-Smokers
 
  Standard Population (Age Group) | Number   | Risk if all were Exposed (Smoker) | Expected # of Deaths | Risk if all Non-Exposed (Non-Smoker) | Expected # of Deaths 
 -------------------------------- | -------- | --------------------------------- | -------------------- | ------------------------------------ | ----------------------
- <= 40                           | 754      | 67/452 = 0.1482                   |                      | 25/302 = 0.828                       | 
- (40, 50]                        | 1639     | 266/955 = 0.2785                  |                      | 110/684 = 0.1608                     | 
- (50, 60]                        | 1379     | 286/567 = 0.5044                  |                      | 312/812 = 0.3842                     | 
- > 60                            | 662      | 169/207 = 0.8164                  |                      | 315/455 = 0.6923                     | 
- **Total**                       | **4434** |                                   | ** **                |                                      | ** ** 
+ <= 40                           | 754      | 67/452 = 0.1482                   | 754*0.1482 = 111.74  | 25/302 = 0.828                       | 754*0.828 = 62.43 
+ (40, 50]                        | 1639     | 266/955 = 0.2785                  | 1639*0.2785 = 456.46 | 110/684 = 0.1608                     | 1639*.1608 = 263.55 
+ (50, 60]                        | 1379     | 286/567 = 0.5044                  | 1379*0.5044 = 695.57 | 312/812 = 0.3842                     | 1379*0.3842 = 529.81 
+ > 60                            | 662      | 169/207 = 0.8164                  | 662*0.8164 = 540.46  | 315/455 = 0.6923                     | 662*0.6923 = 458.30 
+ **Total**                       | **4434** |                                   | **1804.23**          |                                      | **1314.09** 
 
 
 
