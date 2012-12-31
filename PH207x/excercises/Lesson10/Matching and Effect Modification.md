@@ -392,6 +392,14 @@ Matching is based on stratification and gives you an answer to two questions:
 
 ### Example: Age-Standardized Risks of Death among Smokers and Non-Smokers in the Framingham Heart Study ###
 
+#### Components of Standardization ####
+* Standard Population: 4434 individuals attending 1956 exam of the Framingham Heart Study
+* Stratify by confounding factor (agecat)
+* Calculate confounding-specific outcome risks for exposed (smokers) and non-exposed (non-smokers)
+* Estimate average risk in standard population, if
+	- Everyone was exposed
+	- Everyone was non-exposed
+
 
 
 
