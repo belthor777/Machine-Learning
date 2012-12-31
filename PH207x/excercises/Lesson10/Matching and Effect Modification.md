@@ -386,6 +386,13 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 
 
 ## Matching - Example # 2  ##
+Matching is based on stratification and gives you an answer to two questions:
+* What would happen in the standard population if everyone was given the exposure 
+* What would happen in this population if no one was given the exposure
+
+### Example: Age-Standardized Risks of Death among Smokers and Non-Smokers in the Framingham Heart Study ###
+
+
 
 
 
