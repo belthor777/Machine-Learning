@@ -386,8 +386,9 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 
 
 ## Matching - Example # 2  ##
-
-Video 2: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-16_100.mp4
+Video 1: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-14_100.mp4  
+Video 2: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-15_100.mp4  
+Video 3: https://s3.amazonaws.com/edx-course-videos/harvard-ph270x/H-PH207X-FA12-L10-16_100.mp4  
 Matching is based on stratification and gives you an answer to two questions:
 * What would happen in the standard population if everyone was given the exposure 
 * What would happen in this population if no one was given the exposure
@@ -457,20 +458,22 @@ There are 4434 individuals to calculate Expected # of Deaths:
 ##### Standardization and Inverse Probability Weighting (IPW) #####
 > Example: Standardized Risk for Smokers:
 Expected # of death in youngest age group: **111.74**  
-  
+
+```math
 111.74 = (smokers risk) x (size of standard population)  
        = (67/452) x (754)  
        = (67/452) x (452) x (754/452)  
        = **(67/452) x [ (452) x (weight) ]**  
-  
+```
+
 Young Smokers in data are being re-weighted to represent young part of standard population and to determine expected outcome in standard population  
-  
+
+```math
 weight = 754/452 = 1/P(Smoking|Age <= 40)  
                  = 1/P(Exposure|Age <= 40)  
                  = 1/P(Exposure|Confounder)  
                  = 1/Propensity Scope  
-
-
+```
 
 
 
