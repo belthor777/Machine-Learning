@@ -342,6 +342,15 @@ This is what I mean by effect modification, the value that we're giving to descr
 * Examine stratum-specific confidence intervals
 * Problem: All influenced by sample size (e.g. have not enough people)
 
+### Presenting Results in the Presence of Effect Modification ###
+* Present stratum-specific results (**best option**)
+* Calculate weighted-average of stratum specific estimates (e.g. Mantel-Haenszel Estimates)
+	- Not optimal theoretically
+	- Single value cannot reflect different effects
+	- Description of average effect for unspecified population
+* Standardization
+	- Describes average effect of the exposure **in a standard population**
+
 
 
 
