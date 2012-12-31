@@ -385,6 +385,8 @@ Don't pull those (sex, age groups etc.) different numbers into one single averag
 **So standardization is linked to this notion of counterfactuals, linked to this notion of causal inference.**
 
 
+## Matching - Example # 2  ##
+
 
 
 
