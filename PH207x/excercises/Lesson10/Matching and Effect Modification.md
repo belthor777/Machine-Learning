@@ -393,13 +393,36 @@ Matching is based on stratification and gives you an answer to two questions:
 ### Example: Age-Standardized Risks of Death among Smokers and Non-Smokers in the Framingham Heart Study ###
 
 #### Components of Standardization ####
-* Standard Population: 4434 individuals attending 1956 exam of the Framingham Heart Study
+* Standard Population: **4434 individuals** attending 1956 exam of the Framingham Heart Study
 * Stratify by confounding factor (agecat)
-* Calculate confounding-specific outcome risks for exposed (smokers) and non-exposed (non-smokers)
+* Calculate confounding-specific **outcome risks** for exposed (**smokers**) and non-exposed (**non-smokers**)
 * Estimate average risk in standard population, if
 	- Everyone was exposed
 	- Everyone was non-exposed
 
+ Age <= 40   | Died | Survived | Total
+------------ | ---  | -------- | ------
+ Smokers     | 67   | 385      | 452 
+ Non-Smokers | 25   | 277      | 302 
+ Total       | 92   | 662      | 754 
+
+ 40 < Age <= 50   | Died | Survived | Total
+----------------- | ---  | -------- | ------
+ Smokers          | 266  | 689      | 955 
+ Non-Smokers      | 110  | 574      | 684 
+ Total            | 376  | 1263     | 1639 
+
+ 50 < Age <= 60   | Died | Survived | Total
+----------------- | ---  | -------- | ------
+ Smokers          | 286  | 281      | 567 
+ Non-Smokers      | 312  | 500      | 812 
+ Total            | 598  | 781      | 1379 
+
+ Age > 60    | Died | Survived | Total
+------------ | ---  | -------- | ------
+ Smokers     | 169  | 38       | 207 
+ Non-Smokers | 315  | 140      | 455 
+ Total       | 484  | 178      | 662 
 
 
 
