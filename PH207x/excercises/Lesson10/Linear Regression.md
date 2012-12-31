@@ -379,5 +379,26 @@ D_i = 0 - Means less then 75% communicate well
 	Y_i = α + β*D_i + ε_i
 ```
 where ε_i ~ N(0,σ²).  
+  
+
+```stata
+	gen highnurse = .
+	replace highnurse = 1 if nursealways >= 75 & nursealways < .
+	replace highnurse = 0 if nursealways < 75
+	regress recommendyes highnurse
+	xi: regress recommendyes i.highnurse
+```
+
+Formular which we get out:
+```math
+	Y_i = 62.86 + 9.98*D_i + ε_i
+```
+where ε_i ~ N(0,8.5402²).  
+  
+^E(Y_i|D_i=1) = α + β*(1)  
+^E(Y_i|D_i=0) = α + β*(0)  
+  
+H_0: β=0  
+H_A: β!=0  
 
 
