@@ -475,7 +475,6 @@ weight = 754/452 = 1/P(Smoking|Age <= 40)
 ```
 
 ###### Alternative: Propensity Scores ######
-
 Similarly for Non-Smoker Standard Population:  
 Young non-smokers in data are weighted by
 
