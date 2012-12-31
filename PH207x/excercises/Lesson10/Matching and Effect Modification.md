@@ -236,7 +236,14 @@ Typical format for results from a case control study involving
  Status of Case | **- C**     | D 
 
 The information about whether exposure is related to being a case, being a control, is really limited to the matched groups where the case and the control are called **discordant with** respect to exposure. (-C AND B)  
--> So for example, capital **B** were the number of matched groups where the case was a smoker and the control was not, and capital **C** were the number of matched groups where the control was a smoker and the case was not.
+-> So for example, capital **B** were the number of matched groups where the case was a smoker and the control was not, and capital **C** were the number of matched groups where the control was a smoker and the case was not. The relative sizes of B and D are going to tell you whether smokers are more likely to be cases than to be controls.
+
+### Odds Ratio Estimation ###
+
+```math
+	OR=B/S
+```
+> Identical to the Mantel-Haenszel estimate for the odds ratio with each matched pair as a separate stratum
 
 
 
