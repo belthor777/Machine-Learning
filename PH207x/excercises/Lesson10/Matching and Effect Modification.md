@@ -486,7 +486,7 @@ weight = 1/P(Non-Smoker|Young in data)
 * Standardization provides estimates of counterfactual outcomes
 	- # Deaths is everyone smoked
 	- # Deaths is no one smoked
-* Estimates causal effect of smoking if there are no other confounders
-* Standardization re-weights data by functions of the Propensity Score
+* Estimates **causal effect** of smoking if there are no other confounders
+* Standardization **re-weights** data by functions of the Propensity Score
 
 
