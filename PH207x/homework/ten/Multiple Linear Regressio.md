@@ -1,5 +1,5 @@
 #  Multiple Linear Regression #
-Again, we model the amount of nickel found in the sediment. Now, we model nickel as a function of both time (month) and location (longitude). The Gulf Coast in Louisiana is somewhat horizontal, so for simplicity we will ignore latitude in this problem.
+Again, we model the amount of nickel found in the sediment. Now, we model nickel as a function of both time (month) and location (longitude). The Gulf Coast in Louisiana is somewhat horizontal, so for simplicity we will ignore  longitude in this problem.
 
 Fit a linear regression model with nickel as the outcome and with month and longitude as explanatory covariates. Model month as a continuous variable, as in Model 2 from the previous question. Call this Model 3. Assume the assumptions of linear regression hold. 
 
