@@ -449,6 +449,11 @@ There are 4434 individuals to calculate Expected # of Deaths:
  > 60                            | 662      | 169/207 = 0.8164                  | 662*0.8164 = 540.46  | 315/455 = 0.6923                     | 662*0.6923 = 458.30 
  **Total**                       | **4434** |                                   | **1804.23**          |                                      | **1314.09** 
 
+##### Standardized Risks #####
+* Smokers: 1804.23/4434=0.4059
+* Non-Smokers: 1314.09/4434= 0.2964
+* Standardized Risk Ratio: 0.4069/0.2964= 1.37
+
 
 
 
