@@ -24,6 +24,10 @@ Use Stata and the NHLBI data set to create the two categories of high blood pres
 
 ##### 3. What is the incidence rate ratio (rounded to two decimal points) for the association between high blood pressure (highbp1) and the rate of stroke among women? #####
 
+```stata
+	ir stroke highbp1 timestrk, by(sex1)
+```
+
 ##### 4. Conduct a test of homogeneity to evaluate whether the association between high blood pressure (highbp1) and the rate of stroke is different by sex. Based on this test, is there evidence that the difference between the sex-specific incidence rate ratios are more than just random sampling variability? #####
 * Yes
 * No
