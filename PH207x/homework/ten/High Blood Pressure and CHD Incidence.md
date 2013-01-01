@@ -13,10 +13,14 @@ Use Stata and the NHLBI data set to create the two categories of high blood pres
 > **Hint1:** Just a hint (I had this problem) - make sure you put data for the right sex in the right field (somehow I was putting results for males into Q3 and females into Q2 :))
 
 ```stata
-	ir stroke highbp1 timestrk ir stroke highbp1 timestrk, by(sex1)
+	ir stroke highbp1 timestrk
 ```
 
 ##### 2. What is the incidence rate ratio (rounded to two decimal points) for the association between high blood pressure (highbp1) and the rate of stroke among men? Hint: Use the variable (sex1). #####
+
+```stata
+	ir stroke highbp1 timestrk, by(sex1)
+```
 
 ##### 3. What is the incidence rate ratio (rounded to two decimal points) for the association between high blood pressure (highbp1) and the rate of stroke among women? #####
 
