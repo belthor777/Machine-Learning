@@ -28,8 +28,14 @@ Fit a linear regression model with nickel as the outcome and vanadium as the exp
 ##### 5. In Models 1 and 2 we saw that nickel levels seemed to increase each month. Does adding month to the model with vanadium as an explanatory covariate substantially improve the fit? #####
 
 ```stata
+	regress nickel vanadium
 	regress nickel month vanadium
 ```
 
 ##### 6. Think about the results from the various models. Compare the adjusted R-squared for Model 2 with that from Model 5. Does it appear that vanadium is a stronger predictor of nickel levels than month?  #####
+
+```stata
+	regress nickel month
+	regress nickel month vanadium
+```
 
