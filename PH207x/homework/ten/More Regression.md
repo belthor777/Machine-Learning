@@ -36,6 +36,6 @@ Fit a linear regression model with nickel as the outcome and vanadium as the exp
 
 ```stata
 	regress nickel month
-	regress nickel month vanadium
+	regress nickel vanadium
 ```
 
