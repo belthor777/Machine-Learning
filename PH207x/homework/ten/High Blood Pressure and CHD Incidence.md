@@ -10,6 +10,11 @@ Use Stata and the NHLBI data set to create the two categories of high blood pres
 **(Note: There are no missing data on sysbp1 and diabp1. If data were missing on both sysbp1 and diabp1 then it should also be missing for highbp1. If data were missing on diabp1 only and sysbp1 >= 140 then highbp1 =1, otherwise highbp1 should be missing. Similarly, if data were missing on sysbp1 only and diabp1 >= 90 then highbp1 =1, otherwise highbp1 should be missing.)**
 
 ##### 1. What is the incidence rate ratio of stroke comparing those with high blood pressure to those without high blood pressure? Hint: The variable for stroke in the dataset is “stroke” and the number of years a person was followed for stroke is recorded in the “timestrk” variable. #####
+> **Hint1:** Just a hint (I had this problem) - make sure you put data for the right sex in the right field (somehow I was putting results for males into Q3 and females into Q2 :))
+
+```stata
+	ir stroke highbp1 timestrk ir stroke highbp1 timestrk, by(sex1)
+```
 
 ##### 2. What is the incidence rate ratio (rounded to two decimal points) for the association between high blood pressure (highbp1) and the rate of stroke among men? Hint: Use the variable (sex1). #####
 
