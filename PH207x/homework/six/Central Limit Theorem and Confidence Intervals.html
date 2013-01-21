@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Central Limit Theorem and Confidence Intervals</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>Central Limit Theorem and Confidence Intervals</h1>
+
+<p>According to the WHO Global Database on Anaemia, the mean hemoglobin levels among primary school children in Delhi were estimated at μ=108 g/L, with standard deviation σ=12.5 g/L. (Source: <a href="http://who.int/vmnis/anaemia/data/database/countries/ind_ida.pdf">http://who.int/vmnis/anaemia/data/database/countries/ind_ida.pdf</a>)</p>
+
+<p>Suppose we took a random sample of 75 primary school children in Delhi. Denote the mean hemoglobin levels in this sample as xˉ. Throughout this question, assume that the sample size is large enough that the Central Limit Theorem is applicable and that σ is known. </p>
+
+<blockquote>
+<p>μ=population= 108 g/L<br/>
+σ=standard deviation= 12.5 g/L<br/>
+n=sample size= 75<br/>
+xˉ= mean hemoglobin levels= ?</p>
+</blockquote>
+
+<ol>
+<li>According to the Central Limit Theorem, what is the expected value (mean) of xˉ?
+Hints: see <a href="https://www.edx.org/static/content-harvard-id270x/handouts/JotterWeek5.390aec581f74.pdf">https://www.edx.org/static/content-harvard-id270x/handouts/JotterWeek5.390aec581f74.pdf</a> in which it is written that as per the CLT, in the xˉdistribution μ is the mean.
+Hint2: check SAMPLING DISTRIBUTIONS 10:50</li>
+</ol>
+
+<blockquote>
+<p>x ̄ ∼ N (μ, σ/ n)<br/>
+x ̄ ~ N( 108, 1.4433757 )<br/>
+x ̄ ~ <strong>108</strong></p>
+</blockquote>
+
+<ol>
+<li>According to the Central Limit Theorem, what is the standard deviation of xˉ?
+Hints: The standard deviation of the sample mean is also known as standard error, see the hyperlink given in Q1.
+Hint2: check SAMPLING DISTRIBUTIONS 11:04</li>
+</ol>
+
+<p>sd= σ/SQRT(n)= 12.5/sqrt(75)= <strong>1.4433757</strong></p>
+
+<ol>
+<li>Suppose we take a large number of samples of size 75. What proportion of the samples would we expect to have a sample mean xˉ that lies between 106 and 110 g/L?
+Hints:  [106 &lt; xbar &lt; 110]= (110-108)/σ/sqrt(n) &gt; Z &gt; (106-108)/σ/sqrt(n)<br/>
+Then use di normal( value of(110-108)/σ/sqrt(n)) - normal(value of (106-108)/σ/sqrt(n))</li>
+</ol>
+
+<blockquote>
+<p>z= (x⁻ +- μ) / ( σ/SQRT(n) )<br/>
+(110-108) / ( σ/SQRT(n) ) &gt; z<br/>
+(106-108) / ( σ/SQRT(n) ) &lt; z</p>
+</blockquote>
+
+<pre><code>di normal( (110-108) / 1.4433757 ) - normal( (106-108) / 1.4433757 )
+</code></pre>
+
+<blockquote>
+<p>=&gt; <strong>0.83414333</strong></p>
+</blockquote>
+
+<ol>
+<li>Suppose instead we repeatedly took random samples of size 25. What proportion of the samples would we expect to have a sample mean xˉ that lies between 106 and 110 g/L?
+Hints: Q4 same as Q3 only the value of n is changed.</li>
+</ol>
+
+<blockquote>
+<p>n= 25<br/>
+sd= 12.5/sqrt(25)= 2.5<br/>
+z= (x⁻ +- μ) / ( σ/SQRT(n) )</p>
+</blockquote>
+
+<pre><code>di normal( (110-108) / 2.5 ) - normal( (106-108) / 2.5 )
+</code></pre>
+
+<blockquote>
+<p>=&gt; <strong>0.5762892</strong></p>
+</blockquote>
+
+<ol>
+<li>Again, suppose we repeatedly took samples of size 75. What proportion of the samples would we expect to have a mean less than xˉ=103?
+Hints: Xbar &lt; 103 = Z &lt; (103-108)/σ/sqrt(n), then di normal(value of (103-108)/σ/sqrt(n))
+Hint2: In (103-108)/σ/sqrt(n), σ = 12.5, n= 75 then di normal()</li>
+</ol>
+
+<blockquote>
+<p>n= 75<br/>
+xˉ &lt;= 103<br/>
+sd= 1.4433757<br/>
+z= (103-108)/1.4433757= -3.4641016</p>
+</blockquote>
+
+<pre><code>di normal( -3.4641016 )
+</code></pre>
+
+<blockquote>
+<p>=&gt; <strong>0.000266</strong></p>
+</blockquote>
+
+<ol>
+<li><p>If we repeatedly took samples of size 75, we would expect that, in 20% of the samples, xˉ would be greater than ____?
+(Hint: Use invnormal(0.8) to find the P(Z&gt;z∗)=1−0.8=0.2, where Z∼N(0,1).
+Hint2: di invnormal(0.8)= (x bar - μ)/σ/sqrt(n) and then find the value of X bar</p>
+
+<p>di invnormal(0.8)</p>
+
+<blockquote>
+<p>=&gt; <strong>0.84162123</strong></p>
+</blockquote></li>
+</ol>
+
+<blockquote>
+<p>0.84162123= (xˉ-108)/1.4433757<br/>
+=&gt; xˉ= 0.84162123<em>1.4433757+108= **109.21478</em>*</p>
+</blockquote>
+
+<ol>
+<li>After taking a sample of size 75, we found that the sample mean was xˉ=103. Construct a 95% confidence interval for μ.
+Hints: See the Confidence Interval section in <a href="https://www.edx.org/static/content-harvard-id270x/handouts/HandoutWeek5Review.2a666d8d60ca.pdf">https://www.edx.org/static/content-harvard-id270x/handouts/HandoutWeek5Review.2a666d8d60ca.pdf</a></li>
+</ol>
+
+<blockquote>
+<p>xˉ=103<br/>
+[ x⁻-1.96*σ/SQRT(n), x⁻+1.96*σ/SQRT(n), ]</p>
+</blockquote>
+
+<pre><code>di 103 - 1.96*1.4433757  
+di 103 + 1.96*1.4433757
+</code></pre>
+
+<blockquote>
+<p>Lower Bound:<br/>
+=&gt; <strong>100.17098</strong></p>
+
+<p>Upper Bound:<br/>
+=&gt; <strong>105.82902</strong></p>
+</blockquote>
+
+<ol>
+<li>Based on the above interval, we can say that the probability that xˉ lies in the interval is 0.95.</li>
+</ol>
+
+<blockquote>
+<p>True<br/>
+=&gt; False </p>
+</blockquote>
+
+<ol>
+<li>Suppose we were also interested in the mean of the highly right skewed indicator of iron absorption, ferritin. Compared to the relatively symmetrically distributed indicator hemoglobin, do you think a larger or smaller sample size would be required to apply the central limit theorem?</li>
+</ol>
+
+<blockquote>
+<p>Smaller<br/>
+=&gt; Larger </p>
+</blockquote>
+
+</body>
+
+</html>
+

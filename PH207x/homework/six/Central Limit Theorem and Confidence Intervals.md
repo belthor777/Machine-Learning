@@ -12,7 +12,7 @@ Suppose we took a random sample of 75 primary school children in Delhi. Denote t
 Hints: see https://www.edx.org/static/content-harvard-id270x/handouts/JotterWeek5.390aec581f74.pdf in which it is written that as per the CLT, in the xˉdistribution μ is the mean.
 Hint2: check SAMPLING DISTRIBUTIONS 10:50
 
-> x ̄ ∼ N (μ, σ/ n)  
+> x ̄ ∼ N (μ, σ/sqrt(n))  
 > x ̄ ~ N( 108, 1.4433757 )  
 > x ̄ ~ **108**
 
